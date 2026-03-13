@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>찍다 - AI 메뉴사진 생성 서비스</title>
+  <meta name="description" content="음식 이름만 입력하세요. 전문가급 메뉴 사진이 나옵니다. 프롬프트 몰라도 OK, 작가 스타일 프리셋 선택만 하면 끝.">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            dark: { 1: '#0A0A0A', 2: '#141414', 3: '#1E1E1E', border: '#2A2520' },
+            warm: { white: '#F5F0EB', gray: '#9A8F82', accent: '#D4A574', 'accent-hover': '#E0B88A' }
+          },
+          fontFamily: {
+            display: ['Playfair Display', 'serif'],
+            body: ['Pretendard', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" rel="stylesheet">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Pretendard', sans-serif; background: #0A0A0A; color: #F5F0EB; }
+
+    /* 필름 그레인 오버레이 */
+    .grain::after {
+      content: '';
+      position: fixed;
+      inset: 0;
+      opacity: 0.03;
+      pointer-events: none;
+      z-index: 9999;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    }
+
+    /* 갤러리 라이트박스 */
+    .lightbox { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.92); z-index: 1000; justify-content: center; align-items: center; }
+    .lightbox.active { display: flex; }
+    .lightbox img { max-width: 90vw; max-height: 85vh; border-radius: 8px; }
+
+    /* 갤러리 이미지 호버 */
+    .gallery-item { overflow: hidden; border-radius: 8px; cursor: pointer; }
+    .gallery-item img { transition: transform 0.4s ease; }
+    .gallery-item:hover img { transform: scale(1.05); }
+
+    /* 스크롤 애니메이션 */
+    .fade-up { opacity: 0; transform: translateY(30px); transition: all 0.7s ease; }
+    .fade-up.visible { opacity: 1; transform: translateY(0); }
+
+    /* 탭 버튼 */
+    .tab-btn { transition: all 0.3s; }
+    .tab-btn.active { background: #D4A574; color: #0A0A0A; }
+
+    /* CTA 버튼 글로우 */
+    .glow-btn { position: relative; overflow: hidden; }
+    .glow-btn::before {
+      content: '';
+      position: absolute;
+      inset: -2px;
+      background: linear-gradient(45deg, #D4A574, transparent, #D4A574);
+      border-radius: inherit;
+      z-index: -1;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .glow-btn:hover::before { opacity: 1; }
+
+    /* 네비게이션 스크롤 */
+    .nav-scrolled { background: rgba(10,10,10,0.95); backdrop-filter: blur(12px); border-bottom: 1px solid #2A2520; }
+
+    /* 스텝 카드 커넥터 */
+    .step-connector { position: relative; }
+    .step-connector::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: -2rem;
+      width: 2rem;
+      height: 2px;
+      background: #2A2520;
+    }
+    .step-connector:last-child::after { display: none; }
+  </style>
+</head>
+
+<body class="grain">
+
+  <!-- ========== 네비게이션 ========== -->
+  <nav id="nav" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#" class="font-display text-2xl font-bold text-warm-accent tracking-tight">찍다</a>
+      <div class="hidden md:flex items-center gap-8 text-sm text-warm-gray">
+        <a href="#gallery" class="hover:text-warm-white transition">갤러리</a>
+        <a href="#style" class="hover:text-warm-white transition">스타일</a>
+        <a href="#how" class="hover:text-warm-white transition">사용법</a>
+        <a href="#register" class="bg-warm-accent text-dark-1 px-5 py-2 rounded-full font-semibold hover:bg-warm-accent-hover transition text-sm">사전등록</a>
+      </div>
+      <!-- 모바일 메뉴 버튼 -->
+      <button id="mobileMenuBtn" class="md:hidden text-warm-white">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+    <!-- 모바일 메뉴 -->
+    <div id="mobileMenu" class="hidden md:hidden bg-dark-2 border-t border-dark-border px-6 py-4 space-y-3">
+      <a href="#gallery" class="block text-warm-gray hover:text-warm-white transition py-2">갤러리</a>
+      <a href="#style" class="block text-warm-gray hover:text-warm-white transition py-2">스타일</a>
+      <a href="#how" class="block text-warm-gray hover:text-warm-white transition py-2">사용법</a>
+      <a href="#register" class="block bg-warm-accent text-dark-1 px-5 py-2 rounded-full font-semibold text-center mt-2">사전등록</a>
+    </div>
+  </nav>
+
+  <!-- ========== 히어로 ========== -->
+  <section class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+    <!-- 배경 이미지 그리드 (흐릿하게) -->
+    <div class="absolute inset-0 grid grid-cols-3 gap-1 opacity-15">
+      <img src="landing/images/bibimbap-45.webp" alt="" class="w-full h-full object-cover">
+      <img src="landing/images/kimchi-stew-45.webp" alt="" class="w-full h-full object-cover">
+      <img src="landing/images/tonkatsu-45.webp" alt="" class="w-full h-full object-cover">
+    </div>
+    <div class="absolute inset-0 bg-gradient-to-b from-dark-1/80 via-dark-1/60 to-dark-1"></div>
+
+    <div class="relative z-10 text-center px-6 max-w-3xl mx-auto">
+      <p class="text-warm-accent text-sm font-semibold tracking-widest uppercase mb-4 fade-up">AI Food Photography</p>
+      <h1 class="font-display text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 fade-up">
+        음식 이름만<br>입력하세요
+      </h1>
+      <p class="text-warm-gray text-lg md:text-xl mb-4 fade-up">
+        전문가급 메뉴 사진이 나옵니다
+      </p>
+      <p class="text-warm-gray/60 text-sm md:text-base mb-10 fade-up">
+        프롬프트를 몰라도 OK. 작가 스타일을 선택하면 끝.
+      </p>
+      <a href="#gallery" class="glow-btn inline-block bg-warm-accent text-dark-1 px-8 py-4 rounded-full font-bold text-lg hover:bg-warm-accent-hover transition fade-up">
+        결과물 보기
+      </a>
+    </div>
+
+    <!-- 스크롤 인디케이터 -->
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+      <svg class="w-6 h-6 text-warm-gray/40" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg>
+    </div>
+  </section>
+
+  <!-- ========== 핵심 가치 (한 줄 요약) ========== -->
+  <section class="py-16 bg-dark-2 border-y border-dark-border">
+    <div class="max-w-5xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+      <div class="fade-up">
+        <div class="text-3xl mb-3">50만원+</div>
+        <p class="text-warm-gray text-sm">전문 촬영 비용을<br><span class="text-warm-accent font-semibold">1/100로 절감</span></p>
+      </div>
+      <div class="fade-up">
+        <div class="text-3xl mb-3">30초</div>
+        <p class="text-warm-gray text-sm">음식 이름 입력부터<br><span class="text-warm-accent font-semibold">사진 완성까지</span></p>
+      </div>
+      <div class="fade-up">
+        <div class="text-3xl mb-3">75장 분석</div>
+        <p class="text-warm-gray text-sm">전문 작가 사진을 AI가 학습<br><span class="text-warm-accent font-semibold">일관된 퀄리티 보장</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 작가 스타일 소개 ========== -->
+  <section id="style" class="py-24 bg-dark-1">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center mb-16 fade-up">
+        <p class="text-warm-accent text-sm font-semibold tracking-widest uppercase mb-3">Style Presets</p>
+        <h2 class="font-display text-3xl md:text-5xl font-bold">작가 스타일을 선택하세요</h2>
+        <p class="text-warm-gray mt-4">전문 사진작가의 스타일을 AI가 그대로 재현합니다</p>
+      </div>
+
+      <!-- 김현경 스타일 카드 -->
+      <div class="max-w-4xl mx-auto bg-dark-2 rounded-2xl overflow-hidden border border-dark-border fade-up">
+        <div class="grid md:grid-cols-2">
+          <!-- 대표 이미지 -->
+          <div class="relative aspect-square md:aspect-auto">
+            <img src="landing/images/bibimbap-45.webp" alt="김현경 스타일 비빔밥" class="w-full h-full object-cover">
+            <div class="absolute top-4 left-4 bg-warm-accent text-dark-1 px-3 py-1 rounded-full text-xs font-bold">인기 스타일</div>
+          </div>
+          <!-- 스타일 정보 -->
+          <div class="p-8 md:p-10 flex flex-col justify-center">
+            <h3 class="font-display text-2xl md:text-3xl font-bold mb-2">김현경 스타일</h3>
+            <p class="text-warm-gray text-sm mb-6">따뜻하고 정갈한 한국 음식 전문 사진</p>
+
+            <div class="space-y-3 mb-6">
+              <div class="flex items-center gap-3 text-sm">
+                <span class="text-warm-accent">&#9679;</span>
+                <span class="text-warm-gray">Kodak Portra 400 필름감</span>
+              </div>
+              <div class="flex items-center gap-3 text-sm">
+                <span class="text-warm-accent">&#9679;</span>
+                <span class="text-warm-gray">4600K 따뜻한 색온도</span>
+              </div>
+              <div class="flex items-center gap-3 text-sm">
+                <span class="text-warm-accent">&#9679;</span>
+                <span class="text-warm-gray">소프트 측후광 조명</span>
+              </div>
+              <div class="flex items-center gap-3 text-sm">
+                <span class="text-warm-accent">&#9679;</span>
+                <span class="text-warm-gray">얕은 심도 + 높은 선명도</span>
+              </div>
+            </div>
+
+            <div class="flex flex-wrap gap-2 mb-6">
+              <span class="text-xs bg-dark-3 text-warm-gray px-3 py-1 rounded-full border border-dark-border">#따뜻한조명</span>
+              <span class="text-xs bg-dark-3 text-warm-gray px-3 py-1 rounded-full border border-dark-border">#필름감성</span>
+              <span class="text-xs bg-dark-3 text-warm-gray px-3 py-1 rounded-full border border-dark-border">#정갈한구도</span>
+              <span class="text-xs bg-dark-3 text-warm-gray px-3 py-1 rounded-full border border-dark-border">#미니멀</span>
+            </div>
+
+            <p class="text-xs text-warm-gray/50">75장의 작가 사진을 AI가 분석하여 추출한 프리셋</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 추가 스타일 예고 -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8 max-w-4xl mx-auto">
+        <div class="bg-dark-2 rounded-xl border border-dark-border p-6 text-center opacity-50 fade-up">
+          <div class="text-2xl mb-2 text-warm-gray/30">?</div>
+          <p class="text-xs text-warm-gray/40">차민규 스타일<br><span class="text-warm-accent/50">준비 중</span></p>
+        </div>
+        <div class="bg-dark-2 rounded-xl border border-dark-border p-6 text-center opacity-50 fade-up">
+          <div class="text-2xl mb-2 text-warm-gray/30">?</div>
+          <p class="text-xs text-warm-gray/40">김범수 스타일<br><span class="text-warm-accent/50">준비 중</span></p>
+        </div>
+        <div class="bg-dark-2 rounded-xl border border-dark-border p-6 text-center opacity-50 fade-up">
+          <div class="text-2xl mb-2 text-warm-gray/30">?</div>
+          <p class="text-xs text-warm-gray/40">모던 스타일<br><span class="text-warm-accent/50">준비 중</span></p>
+        </div>
+        <div class="bg-dark-2 rounded-xl border border-dark-border p-6 text-center opacity-50 fade-up">
+          <div class="text-2xl mb-2 text-warm-gray/30">?</div>
+          <p class="text-xs text-warm-gray/40">내추럴 스타일<br><span class="text-warm-accent/50">준비 중</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 샘플 갤러리 ========== -->
+  <section id="gallery" class="py-24 bg-dark-2">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center mb-12 fade-up">
+        <p class="text-warm-accent text-sm font-semibold tracking-widest uppercase mb-3">Gallery</p>
+        <h2 class="font-display text-3xl md:text-5xl font-bold">이런 사진이 만들어집니다</h2>
+        <p class="text-warm-gray mt-4">모두 AI가 생성한 사진입니다. 실제 촬영 아닙니다.</p>
+      </div>
+
+      <!-- 탭 필터 -->
+      <div class="flex flex-wrap justify-center gap-2 mb-10 fade-up">
+        <button class="tab-btn active px-5 py-2 rounded-full text-sm border border-dark-border" data-filter="all">전체</button>
+        <button class="tab-btn px-5 py-2 rounded-full text-sm border border-dark-border text-warm-gray" data-filter="korean">한식</button>
+        <button class="tab-btn px-5 py-2 rounded-full text-sm border border-dark-border text-warm-gray" data-filter="western">양식</button>
+        <button class="tab-btn px-5 py-2 rounded-full text-sm border border-dark-border text-warm-gray" data-filter="cafe">카페</button>
+        <button class="tab-btn px-5 py-2 rounded-full text-sm border border-dark-border text-warm-gray" data-filter="snack">분식/치킨</button>
+      </div>
+
+      <!-- 갤러리 그리드 -->
+      <div id="galleryGrid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+        <!-- 한식 -->
+        <div class="gallery-item fade-up" data-category="korean"><img src="landing/images/bibimbap-45.webp" alt="비빔밥 45도" class="w-full aspect-square object-cover" loading="lazy"><div class="p-2 text-xs text-warm-gray">비빔밥 | 45도</div></div>
+        <div class="gallery-item fade-up" data-category="korean"><img src="landing/images/kimchi-stew-45.webp" alt="김치찌개 45도" class="w-full aspect-square object-cover" loading="lazy"><div class="p-2 text-xs text-warm-gray">김치찌개 | 45도</div></div>
+        <div class="gallery-item fade-up" data-category="korean"><img src="landing/images/kimchi-stew-topview.webp" alt="김치찌개 탑뷰" class="w-full aspect-square object-cover" loading="lazy"><div class="p-2 text-xs text-warm-gray">김치찌개 | 탑뷰</div></div>
+        <div class="gallery-item fade-up" data-category="korean"><img src="landing/images/kimchi-stew-eyelevel.webp" alt="김치찌개 아이레벨" class="w-full aspect-square object-cover" loading="lazy"><div class="p-2 text-xs text-warm-gray">김치찌개 | 아이레벨</div></div>
+        <div class="gallery-item fade-up" data-category="korean"><img src="landing/images/jeyuk-45.webp" alt="제육볶음 45도" class="w-full aspect-square object-cover" loading="lazy"><div class="p-2 text-xs text-warm-gray">제육볶음 | 45도</div></div>
+
+        <!-- 양식 -->
+        <div class="gallery-item fade-up" data-category="western"><img src="landing/images/ciabatta-45.webp" alt="치아바타 45도" class="w-full aspect-square object-cover" loading="lazy"><div class="p-2 text-xs text-warm-gray">치아바타 | 45도</div></div>
+        <div class="gallery-item fade-up" data-category="western"><img src="landing/images/ciabatta-topview.webp" alt="치아바타 탑뷰" class="w-full aspect-square object-cover" loading="lazy"><div class="p-2 text-xs text-warm-gray">치아바타 | 탑뷰</div></div>
+        <div class="gallery-item fade-up" data-category="western"><img src="landing/images/ciabatta-eyelevel.webp" alt="치아바타 아이레벨" class="w-full aspect-square object-cover" loading="lazy"><div class="p-2 text-xs text-warm-gray">치아바타 | 아이레벨</div></div>
+        <div class="gallery-item fade-up" data-category="western"><img src="landing/images/tonkatsu-45.webp" alt="돈카츠 45도" class="w-full aspect-square object-cover" loading="lazy"><div class="p-2 text-xs text-warm-gray">돈카츠 | 45도</div></div>
+        <div class="gallery-item fade-up" data-category="western"><img src="landing/images/tonkatsu-topview.webp" alt="돈카츠 탑뷰" class="w-full aspect-square object-cover" loading="lazy"><div class="p-2 text-xs text-warm-gray">돈카츠 | 탑뷰</div></div>
+        <div class="gallery-item fade-up" data-category="western"><img src="landing/images/tonkatsu-eyelevel.webp" alt="돈카츠 아이레벨" class="w-full aspect-square object-cover" loading="lazy"><div class="p-2 text-xs text-warm-gray">돈카츠 | 아이레벨</div></div>
+
+        <!-- 카페 -->
+        <div class="gallery-item fade-up" data-category="cafe"><img src="landing/images/cafe-45.webp" alt="카페 45도" class="w-full aspect-square object-cover" loading="lazy"><div class="p-2 text-xs text-warm-gray">아메리카노+크루아상 | 45도</div></div>
+        <div class="gallery-item fade-up" data-category="cafe"><img src="landing/images/cafe-topview.webp" alt="카페 탑뷰" class="w-full aspect-square object-cover" loading="lazy"><div class="p-2 text-xs text-warm-gray">아메리카노+크루아상 | 탑뷰</div></div>
+        <div class="gallery-item fade-up" data-category="cafe"><img src="landing/images/cafe-eyelevel.webp" alt="카페 아이레벨" class="w-full aspect-square object-cover" loading="lazy"><div class="p-2 text-xs text-warm-gray">아메리카노+크루아상 | 아이레벨</div></div>
+
+        <!-- 분식/치킨 -->
+        <div class="gallery-item fade-up" data-category="snack"><img src="landing/images/tteokbokki-45.webp" alt="떡볶이 45도" class="w-full aspect-square object-cover" loading="lazy"><div class="p-2 text-xs text-warm-gray">떡볶이 | 45도</div></div>
+        <div class="gallery-item fade-up" data-category="snack"><img src="landing/images/tteokbokki-topview.webp" alt="떡볶이 탑뷰" class="w-full aspect-square object-cover" loading="lazy"><div class="p-2 text-xs text-warm-gray">떡볶이 | 탑뷰</div></div>
+        <div class="gallery-item fade-up" data-category="snack"><img src="landing/images/tteokbokki-eyelevel.webp" alt="떡볶이 아이레벨" class="w-full aspect-square object-cover" loading="lazy"><div class="p-2 text-xs text-warm-gray">떡볶이 | 아이레벨</div></div>
+        <div class="gallery-item fade-up" data-category="snack"><img src="landing/images/chicken-45.webp" alt="양념치킨 45도" class="w-full aspect-square object-cover" loading="lazy"><div class="p-2 text-xs text-warm-gray">양념치킨 | 45도</div></div>
+        <div class="gallery-item fade-up" data-category="snack"><img src="landing/images/chicken-topview.webp" alt="양념치킨 탑뷰" class="w-full aspect-square object-cover" loading="lazy"><div class="p-2 text-xs text-warm-gray">양념치킨 | 탑뷰</div></div>
+        <div class="gallery-item fade-up" data-category="snack"><img src="landing/images/chicken-eyelevel.webp" alt="양념치킨 아이레벨" class="w-full aspect-square object-cover" loading="lazy"><div class="p-2 text-xs text-warm-gray">양념치킨 | 아이레벨</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 사용 방법 ========== -->
+  <section id="how" class="py-24 bg-dark-1">
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="text-center mb-16 fade-up">
+        <p class="text-warm-accent text-sm font-semibold tracking-widest uppercase mb-3">How It Works</p>
+        <h2 class="font-display text-3xl md:text-5xl font-bold">3단계면 끝</h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- 스텝 1 -->
+        <div class="text-center fade-up">
+          <div class="w-16 h-16 mx-auto mb-6 rounded-2xl bg-dark-2 border border-dark-border flex items-center justify-center">
+            <span class="font-display text-2xl font-bold text-warm-accent">1</span>
+          </div>
+          <h3 class="text-lg font-bold mb-2">스타일 선택</h3>
+          <p class="text-warm-gray text-sm">원하는 작가의 사진 스타일을<br>프리셋에서 골라주세요</p>
+        </div>
+        <!-- 스텝 2 -->
+        <div class="text-center fade-up">
+          <div class="w-16 h-16 mx-auto mb-6 rounded-2xl bg-dark-2 border border-dark-border flex items-center justify-center">
+            <span class="font-display text-2xl font-bold text-warm-accent">2</span>
+          </div>
+          <h3 class="text-lg font-bold mb-2">음식 입력</h3>
+          <p class="text-warm-gray text-sm">"김치찌개", "양념치킨" 처럼<br>메뉴 이름만 입력하세요</p>
+        </div>
+        <!-- 스텝 3 -->
+        <div class="text-center fade-up">
+          <div class="w-16 h-16 mx-auto mb-6 rounded-2xl bg-dark-2 border border-dark-border flex items-center justify-center">
+            <span class="font-display text-2xl font-bold text-warm-accent">3</span>
+          </div>
+          <h3 class="text-lg font-bold mb-2">사진 완성</h3>
+          <p class="text-warm-gray text-sm">30초 안에 전문가급<br>메뉴 사진이 완성됩니다</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 사전등록 ========== -->
+  <section id="register" class="py-24 bg-dark-2 border-t border-dark-border">
+    <div class="max-w-xl mx-auto px-6 text-center">
+      <div class="fade-up">
+        <p class="text-warm-accent text-sm font-semibold tracking-widest uppercase mb-3">Early Access</p>
+        <h2 class="font-display text-3xl md:text-4xl font-bold mb-4">사전등록하고<br>무료 10장 받으세요</h2>
+        <p class="text-warm-gray mb-10">출시 알림과 함께 무료 이미지 10장 생성권을 드립니다</p>
+      </div>
+
+      <form id="registerForm" class="space-y-4 fade-up" onsubmit="return handleSubmit(event)">
+        <input type="text" name="store" placeholder="상호명 (예: 맛있는 김밥천국)" required
+          class="w-full bg-dark-1 border border-dark-border rounded-xl px-5 py-3.5 text-warm-white placeholder-warm-gray/40 focus:outline-none focus:border-warm-accent transition text-sm">
+
+        <select name="business" required
+          class="w-full bg-dark-1 border border-dark-border rounded-xl px-5 py-3.5 text-warm-gray focus:outline-none focus:border-warm-accent transition text-sm appearance-none">
+          <option value="" disabled selected>업종 선택</option>
+          <option value="korean">한식</option>
+          <option value="western">양식/일식</option>
+          <option value="cafe">카페/디저트</option>
+          <option value="chicken">치킨/피자</option>
+          <option value="snack">분식</option>
+          <option value="other">기타</option>
+        </select>
+
+        <input type="email" name="email" placeholder="이메일 주소" required
+          class="w-full bg-dark-1 border border-dark-border rounded-xl px-5 py-3.5 text-warm-white placeholder-warm-gray/40 focus:outline-none focus:border-warm-accent transition text-sm">
+
+        <button type="submit"
+          class="w-full bg-warm-accent text-dark-1 py-4 rounded-xl font-bold text-lg hover:bg-warm-accent-hover transition">
+          무료 사전등록
+        </button>
+
+        <p class="text-warm-gray/40 text-xs mt-2">스팸 없습니다. 출시 알림만 보내드려요.</p>
+      </form>
+
+      <!-- 성공 메시지 -->
+      <div id="successMsg" class="hidden text-center py-8">
+        <div class="text-4xl mb-4">&#10003;</div>
+        <h3 class="text-xl font-bold mb-2">등록 완료!</h3>
+        <p class="text-warm-gray">출시되면 가장 먼저 알려드리겠습니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 푸터 ========== -->
+  <footer class="py-12 bg-dark-1 border-t border-dark-border">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <p class="font-display text-xl font-bold text-warm-accent mb-2">찍다</p>
+      <p class="text-warm-gray/40 text-xs mb-4">AI 메뉴사진 생성 서비스</p>
+      <p class="text-warm-gray/30 text-xs">&copy; 2026 찍다. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ========== 라이트박스 ========== -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <button class="absolute top-6 right-6 text-warm-white text-3xl z-10" onclick="closeLightbox()">&times;</button>
+    <img id="lightboxImg" src="" alt="확대 보기">
+  </div>
+
+  <!-- ========== JavaScript ========== -->
+  <script>
+    // 네비게이션 스크롤 효과
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('nav-scrolled', window.scrollY > 50);
+    });
+
+    // 모바일 메뉴 토글
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+    // 모바일 메뉴 링크 클릭 시 닫기
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+    });
+
+    // 스크롤 애니메이션 (Intersection Observer)
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+    // 갤러리 탭 필터
+    const tabBtns = document.querySelectorAll('.tab-btn');
+    const galleryItems = document.querySelectorAll('.gallery-item');
+
+    tabBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        // 탭 활성화
+        tabBtns.forEach(b => { b.classList.remove('active'); b.classList.add('text-warm-gray'); });
+        btn.classList.add('active');
+        btn.classList.remove('text-warm-gray');
+
+        const filter = btn.dataset.filter;
+        galleryItems.forEach(item => {
+          if (filter === 'all' || item.dataset.category === filter) {
+            item.style.display = '';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // 라이트박스
+    document.querySelectorAll('.gallery-item').forEach(item => {
+      item.addEventListener('click', () => {
+        const img = item.querySelector('img');
+        document.getElementById('lightboxImg').src = img.src;
+        document.getElementById('lightbox').classList.add('active');
+        document.body.style.overflow = 'hidden';
+      });
+    });
+
+    function closeLightbox() {
+      document.getElementById('lightbox').classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    // ESC 키로 라이트박스 닫기
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeLightbox();
+    });
+
+    // 사전등록 폼
+    function handleSubmit(e) {
+      e.preventDefault();
+      const form = document.getElementById('registerForm');
+      const data = new FormData(form);
+
+      // localStorage에 임시 저장 (추후 Supabase/Google Forms 연동)
+      const registration = {
+        store: data.get('store'),
+        business: data.get('business'),
+        email: data.get('email'),
+        date: new Date().toISOString()
+      };
+
+      const registrations = JSON.parse(localStorage.getItem('zzikda_registrations') || '[]');
+      registrations.push(registration);
+      localStorage.setItem('zzikda_registrations', JSON.stringify(registrations));
+
+      // 폼 숨기고 성공 메시지 표시
+      form.style.display = 'none';
+      document.getElementById('successMsg').classList.remove('hidden');
+
+      return false;
+    }
+  </script>
+
+</body>
+</html>
