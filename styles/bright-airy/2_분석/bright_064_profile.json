@@ -1,0 +1,52 @@
+{
+  "file": "bright_064.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "피사체의 좌측 상단 (10-11시 방향)",
+    "quality": "soft",
+    "shadow_character": "매우 옅고 부드러운 그림자, 하이키(High-key) 조명 스타일",
+    "highlight_shadow_ratio": "9:1",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5800,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "White"
+    ],
+    "secondary_colors": [
+      "Pink",
+      "Green",
+      "Brown",
+      "Black"
+    ],
+    "saturation": "low",
+    "grading_style": "Lifted Blacks, 부드러운 S-커브 톤",
+    "similar_film_stock": "Fuji Pro 400H"
+  },
+  "composition": {
+    "angle": "탑다운 뷰 (Top-down View) / 플랫레이 (Flat-lay)",
+    "distance": "wide",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "타코의 중앙부 (피클 양파와 고수)",
+    "composition_rule": "삼분할 법칙 (Rule of Thirds), 네거티브 스페이스 (Negative Space)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "고수 잎, 치즈 입자, 또띠아의 질감이 생생하게 표현됨",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "미니멀, 모던, 깨끗함, 신선함, 여유로움",
+    "target_use": "sns",
+    "keywords": [
+      "미니멀리즘",
+      "신선함",
+      "에어리"
+    ]
+  },
+  "improvement_notes": "하드 라이트를 추가하여 질감을 극적으로 표현하거나, 의도적인 컬러 캐스트를 추가하여 특정 무드를 강조할 수 있음. 또한, 과감하게 크롭하거나 사람 요소를 추가하여 다른 느낌의 컷을 연출하는 것도 좋은 방법임.",
+  "nano_banana_prompt": "professional food photography of [Your Dish] on a simple white ceramic plate, top-down flat lay angle, minimalist composition against a bright white marble background, ample negative space with the subject placed on the lower right following the rule of thirds, bright and airy high-key lighting, illuminated by a large, diffuse soft light from the top-left creating very soft and subtle shadows, clean and fresh color palette with neutral whites and selective vibrant pops of color from the ingredients, overall style is slightly desaturated and filmic, reminiscent of Fuji Pro 400H film stock, shot with an 85mm lens, shallow depth of field, tack sharp focus on the main food texture --ar 4:5 --style raw"
+}

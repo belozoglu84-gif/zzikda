@@ -1,0 +1,50 @@
+{
+  "file": "bright_010.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단, 10시 방향",
+    "quality": "hard",
+    "shadow_character": "짙고 콘트라스트가 강함",
+    "highlight_shadow_ratio": "High Contrast",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 6200,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Vibrant Yellow"
+    ],
+    "secondary_colors": [
+      "Cobalt Blue",
+      "Amber/Orange"
+    ],
+    "saturation": "boosted",
+    "grading_style": "Film Look",
+    "similar_film_stock": "Kodak Gold 200"
+  },
+  "composition": {
+    "angle": "Top-down Angle (Flat Lay)",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "deep",
+    "focus_point": "화면 중앙의 레몬 무더기와 유리잔",
+    "composition_rule": "패턴과 반복, 대각선 구도 혼합"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "경광을 통해 모든 피사체의 질감이 극대화됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "활기차고, 자연스러우며, 소박한(Rustic) 감성",
+    "target_use": "magazine",
+    "keywords": [
+      "지중해의여름",
+      "활기찬",
+      "자연광"
+    ]
+  },
+  "improvement_notes": "조명: 얇은 실크 디퓨저를 사용하여 하이라이트를 부드럽게 조절하면 클리핑을 방지하고 질감을 향상시킬 수 있음.\n색감: 노란색 채도를 약간 낮추고 암부에 청록색을 추가하는 스플릿 토닝을 적용하면 더 깊이 있고 세련된 색감을 만들 수 있음.\n구도: 시선을 분산시키는 일부 요소를 제거하여 주제에 더 집중시키면 임팩트를 강화할 수 있음.",
+  "nano_banana_prompt": "Editorial food photography, a vibrant and rustic tablescape featuring [음식 이름], shot from a top-down flat lay perspective. The scene is illuminated by harsh, direct natural sunlight coming from the top-left, creating long, crisp, high-contrast shadows. A Mediterranean color palette with dominant warm yellows, deep blues, and rich oranges. The overall mood is warm, energetic, and authentic. Hyper-detailed textures on the food and ceramic tableware. Cinematic color grading with a subtle golden hour glow, crushed blacks, and a fine layer of film grain. Shot on Kodak Gold 200 film, 85mm lens, deep depth of field."
+}

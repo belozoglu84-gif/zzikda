@@ -1,0 +1,51 @@
+{
+  "file": "bright_053.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10시 방향)",
+    "quality": "soft",
+    "shadow_character": "부드럽고 옅은 그림자, 하이키(High-key) 스타일에 가까움",
+    "highlight_shadow_ratio": "1:2 ~ 1:3",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5350,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Mustard Yellow"
+    ],
+    "secondary_colors": [
+      "Dusty Blue",
+      "Pastel Pink",
+      "Mint Green"
+    ],
+    "saturation": "high",
+    "grading_style": "모던 클린 스타일 with 필름룩 (lifted blacks)",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "하이앵글 (30-45도)",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "커피잔을 잡고 있는 손과 잔의 경계",
+    "composition_rule": "대각선 구도와 레이어링(Layering)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "리넨, 무광 세라믹, 과일 단면 등 다양한 질감의 대비를 통해 시각적 풍부함을 더함",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "밝고, 경쾌하며, 감각적이고, 모던함",
+    "target_use": "sns",
+    "keywords": [
+      "화사한",
+      "감각적인",
+      "일상의행복"
+    ]
+  },
+  "improvement_notes": "더 강한 드라마를 위해 경광(Hard light)을 사용한 로우키(Low-key) 연출, 톤온톤(Tone-on-Tone) 컬러 매칭으로 미니멀한 무드 연출, 혹은 탑뷰(Top-view) 앵글로 기하학적 구도 강조 가능.",
+  "nano_banana_prompt": "A vibrant and cheerful lifestyle food photography, a breakfast scene on a white linen tablecloth. The main subject is [Your Food/Drink Here]. The scene is styled with minimalist pastel ceramic tableware, fresh flowers in a small vase, and sliced fruits. The background is a mustard yellow tiled wall with a soft blue curtain on the side. The lighting is bright, airy, and diffused studio light, creating soft and gentle shadows, high-key aesthetic. The color palette is dominated by mustard yellow, pastel pink, mint green, and dusty blue. Shot with an 85mm lens at a 45-degree angle, shallow depth of field. The overall mood is modern, clean, and joyful. Photorealistic, high detail, Kodak Portra 400 film look."
+}

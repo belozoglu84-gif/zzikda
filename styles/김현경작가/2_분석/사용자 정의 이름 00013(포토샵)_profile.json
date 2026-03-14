@@ -1,0 +1,52 @@
+{
+  "file": "사용자 정의 이름 00013(포토샵).jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "측후광(Side-Backlight), 피사체의 왼쪽 뒤, 약 10시 방향",
+    "quality": "soft",
+    "shadow_character": "부드럽고 긴 그림자, 짙지 않고 디테일이 살아있음",
+    "highlight_shadow_ratio": "로우 콘트라스트(Low Contrast)",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 4000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Warm Beige"
+    ],
+    "secondary_colors": [
+      "Brown",
+      "Orange",
+      "Deep Brown",
+      "Vivid Green"
+    ],
+    "saturation": "low",
+    "grading_style": "블랙 포인트를 들어 올린 매트한 질감(Lifted Blacks), 섀도우에 마젠타/핑크 틴트 가미",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "45도 앵글",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "함박스테이크 덮밥의 앞부분",
+    "composition_rule": "삼분할 법칙, 삼각 구도"
+  },
+  "texture": {
+    "sharpness": "medium",
+    "noise": "intentional-grain",
+    "detail_rendering": "함박스테이크 소스의 윤기, 밥알의 고슬고슬함, 나무 도마의 결, 리넨 테이블보의 직조감까지 섬세하게 표현",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "미니멀, 내추럴, 웜 앤 코지(Warm & Cozy)",
+    "target_use": "magazine",
+    "keywords": [
+      "편안한",
+      "정갈한",
+      "따뜻한"
+    ]
+  },
+  "improvement_notes": "조명: 스팟성 조명을 추가하여 스페큘러 하이라이트 생성. 색감: 음식 자체의 채도를 선택적으로 높여 주목도 극대화. 구도: 앵글을 낮추고 와이드하게 촬영하거나, 핸드 모델링을 활용하여 역동성 추가.",
+  "nano_banana_prompt": "A professional food photograph of a Japanese hamburg steak rice bowl (hambagu donburi) with chopped green onions, placed on a round wooden board. A small ceramic bowl of carrot soup and a glass of water are arranged in a minimalist composition. The scene is set on a warm beige linen tablecloth against a plain, warm beige wall.\n\n**Photography Style:** Shot with an 85mm f/2.8 lens, 45-degree angle, medium shot, shallow depth of field with focus on the main dish.\n\n**Lighting:** Soft, diffused side-backlight from the left, creating gentle, long shadows to the right. Low contrast, warm ambient light, studio setting.\n\n**Color & Mood:** Muted and desaturated color palette, warm tone, overall warm beige and brown tones with a pop of green. Analog film look, fine grain, matte finish with slightly lifted blacks. Style of Kinfolk magazine, Japanese minimalism. --ar 4:3"
+}

@@ -1,0 +1,53 @@
+{
+  "file": "사용자 정의 이름 00023(포토샵).jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Top Lighting",
+    "quality": "soft",
+    "shadow_character": "Shadowless",
+    "highlight_shadow_ratio": "Low Contrast",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 3800,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "베이지",
+      "웜 브라운"
+    ],
+    "secondary_colors": [
+      "딥 레드",
+      "크리미 화이트",
+      "카라멜 브라운",
+      "그린"
+    ],
+    "saturation": "low",
+    "grading_style": "Film Look",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "Top-down View / Flat Lay",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "Entire frame",
+    "composition_rule": "Centralized composition"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "Excellent, textures of linen, wood, and sauces are rendered realistically without exaggeration.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Rustic, Organic, Warm, Calm",
+    "target_use": "sns",
+    "keywords": [
+      "홈메이드",
+      "자연주의",
+      "편안함"
+    ]
+  },
+  "improvement_notes": "조명: 사이드 라이팅을 사용하여 입체감과 깊이를 더할 수 있음. 색감: 화이트밸런스를 중성적으로 조정하고 특정 색의 채도를 높여 신선함을 강조할 수 있음. 구도: 삼분할 법칙이나 리딩 라인을 활용하여 더 역동적인 구성을 만들 수 있음.",
+  "nano_banana_prompt": "A top-down flat lay food photography of [Your Food Subject] arranged on a rustic wooden board. The board is placed on a textured beige linen tablecloth. The lighting is bright, airy, and extremely soft, creating a nearly shadowless effect, reminiscent of overcast natural light from a large window. The color palette is warm and earthy, with muted saturation. Color graded in the style of Kodak Portra 400 film, featuring lifted blacks for a slightly faded, matte look. Shot with a 50mm lens at f/8 for sharp, deep focus across the entire frame. A subtle, fine film grain is added for an organic, analog feel. --ar 4:3 --style raw --stylize 250"
+}

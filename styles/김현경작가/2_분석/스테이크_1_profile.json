@@ -1,0 +1,51 @@
+{
+  "file": "스테이크_1.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10시 방향)",
+    "quality": "soft",
+    "shadow_character": "부드럽고 디테일이 살아있는 그림자 (반사판/필라이트 사용 추정)",
+    "highlight_shadow_ratio": "부드러운 톤 (Low Contrast)",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Brown",
+      "Beige"
+    ],
+    "secondary_colors": [
+      "Green",
+      "Red"
+    ],
+    "saturation": "medium",
+    "grading_style": "Light & Airy 스타일에 따뜻한 톤을 가미한 스타일",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "Top-down View / Flat Lay",
+    "distance": "close-up",
+    "estimated_lens_mm": 90,
+    "dof": "shallow",
+    "focus_point": "중앙의 부추와 고추 고명",
+    "composition_rule": "Framing"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "최상급, 각 재료의 질감을 극대화함",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "따뜻하고 정갈하며 소박하지만 고급스러운 (Rustic-Luxe)",
+    "target_use": "magazine",
+    "keywords": [
+      "따뜻한",
+      "정갈한",
+      "먹음직스러운"
+    ]
+  },
+  "improvement_notes": "드라마틱한 연출을 위해 그리드를 사용한 강한 조명 사용, 하이엔드 파인다이닝 스타일을 위한 뉴트럴 톤 보정, 또는 역동성을 더하기 위한 45도 앵글 촬영 및 스토리텔링 요소 추가 제안.",
+  "nano_banana_prompt": "A top-down flat lay professional food photograph of [Your Dish] in a rustic dark wooden bowl, set on a warm beige linen tablecloth. The scene is illuminated by a large, diffused soft light from the top-left, creating gentle, soft shadows to the bottom-right. The image has a warm and inviting color temperature, approximately 5000K. The color palette is natural, with rich browns and vibrant green and red accents from the garnish. Shot with a 100mm macro lens, resulting in extremely high detail and sharp focus on the food, with a shallow depth of field (f/4) that softly blurs the background. The overall mood is cozy, clean, and appetizing. Color grading reminiscent of Kodak Portra 400 film. --ar 2:3 --style raw --q 2"
+}

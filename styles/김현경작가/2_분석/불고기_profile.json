@@ -1,0 +1,52 @@
+{
+  "file": "불고기.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 후방 (10시 방향)",
+    "quality": "soft",
+    "shadow_character": "열린 그림자 (Open Shadow)",
+    "highlight_shadow_ratio": "3:1",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5350,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Brown",
+      "Off-White"
+    ],
+    "secondary_colors": [
+      "Matte Black",
+      "Orange-Yellow",
+      "Fresh Green"
+    ],
+    "saturation": "medium",
+    "grading_style": "클린 앤 에어리(Clean & Airy) 스타일에 아날로그 감성을 더함",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "45도 앵글",
+    "distance": "medium",
+    "estimated_lens_mm": 70,
+    "dof": "shallow",
+    "focus_point": "계란 노른자와 그 주변의 불고기",
+    "composition_rule": "삼각형 구도 및 수평선 구도"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "무쇠 그릇의 거친 질감, 나무 도마의 결, 천의 올 등 각 소재의 질감이 훌륭하게 표현됨",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "정갈함, 미니멀리즘, 따뜻함",
+    "target_use": "menu",
+    "keywords": [
+      "정갈한",
+      "따뜻한",
+      "미니멀"
+    ]
+  },
+  "improvement_notes": "드라마틱한 연출을 위해 그리드나 림 라이트 추가, 개성있는 색감을 위해 스플릿 토닝 적용, 역동성을 위해 과감한 클로즈업이나 핸드 모델링 시도 가능.",
+  "nano_banana_prompt": "A professional food photograph of [음식 이름], 45-degree angle shot, minimalist composition on a rustic dark wood board against a clean off-white background. Lit with large, diffused softbox studio lighting from the left, creating soft shadows and a bright, airy mood. The color palette is muted and warm, with selectively saturated fresh ingredients. Color graded to emulate the look of Kodak Portra 400 film stock. Shot with a 70mm lens at f/5.6 for a shallow depth of field, with sharp focus on the main food element. Hyper-realistic details, ultra-detailed food texture, sophisticated and clean aesthetic."
+}

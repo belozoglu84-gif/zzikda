@@ -1,0 +1,52 @@
+{
+  "file": "bright_060.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "정면 좌측 상단 (10시 방향)",
+    "quality": "soft",
+    "shadow_character": "깊지 않고 부드럽게 퍼짐",
+    "highlight_shadow_ratio": "낮은 대비 (Low Contrast)",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5350,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Yellow",
+      "Orange"
+    ],
+    "secondary_colors": [
+      "Blue",
+      "Cyan",
+      "Magenta"
+    ],
+    "saturation": "high",
+    "grading_style": "Clean & Vivid",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "Eye-level Angle",
+    "distance": "close-up",
+    "estimated_lens_mm": 50,
+    "dof": "very-shallow",
+    "focus_point": "캔의 'SANPELLEGRINO' 로고",
+    "composition_rule": "Rule of Thirds, Leading Line"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "캔 표면의 물방울과 알루미늄 질감이 선명하게 표현됨",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "밝고, 경쾌하며, 긍정적인 에너지",
+    "target_use": "sns",
+    "keywords": [
+      "Vibrant",
+      "Refreshing",
+      "Urban Summer"
+    ]
+  },
+  "improvement_notes": "조명: 키커 라이트(림 라이트)를 추가하여 피사체 분리감과 입체감을 향상시키고, 스페큘러 하이라이트로 제품의 생동감을 더할 수 있음. 색감: 배경의 파란색 채도를 미세하게 낮춰 주제를 부각시키고, 피부톤을 골드/브론즈 톤으로 조정하여 계절감을 강조할 수 있음. 구도: 정적인 포즈보다 역동적인 제스처를 통해 스토리텔링을 강화할 수 있음.",
+  "nano_banana_prompt": "/imagine prompt: A vibrant lifestyle food photograph of [음식/음료 이름] held by a cheerful woman towards the camera. **Style:** Shot in the style of a high-end commercial campaign for social media. Clean, bright, and energetic mood. **Composition:** Eye-level medium close-up shot, focusing sharply on the [음식/음료 이름]. The product is positioned on the left third of the frame, held by the model whose smiling face is softly blurred in the background on the right third. Her arm creates a leading line to the product. **Background:** A colorful, abstract urban mural with dominant yellow and blue tones, beautifully out of focus with creamy bokeh. **Lighting:** Bright, diffused natural daylight from the front-left. Soft, gentle shadows creating a low-contrast, flattering look. No harshness. **Color Palette:** A vibrant and saturated color scheme. Dominant colors are sunny yellow and orange, with complementary cyan and blue accents. Clean whites and neutral grays. The overall aesthetic feels like Kodak Portra 400 film stock. **Camera & Lens:** Shot with a 50mm f/1.8 prime lens, creating an extremely shallow depth of field. --ar 4:5 --style raw --v 6.0"
+}

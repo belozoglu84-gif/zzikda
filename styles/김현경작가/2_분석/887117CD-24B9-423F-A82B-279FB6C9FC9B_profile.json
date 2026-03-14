@@ -1,0 +1,52 @@
+{
+  "file": "887117CD-24B9-423F-A82B-279FB6C9FC9B.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "Left Backlight",
+    "quality": "soft",
+    "shadow_character": "Soft shadows with preserved details, suggesting the use of a reflector or fill light to lift the dark areas.",
+    "highlight_shadow_ratio": "Low contrast",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Brown"
+    ],
+    "secondary_colors": [
+      "Off-white",
+      "Green",
+      "Black",
+      "Red-Brown"
+    ],
+    "saturation": "low",
+    "grading_style": "Film look with a matte finish (lifted blacks), with a subtle Teal and Orange grading.",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "45-degree angle",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "The front part of the topping, where meat, green onions, and seaweed are gathered.",
+    "composition_rule": "Rule of Thirds and Diagonal lines"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "Excellent. Soft light effectively renders the three-dimensional textures of the glossy meat, rough ceramic bowl, and wood grain.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Warm, rustic, and neat Japanese home-style meal with a 'Kinfolk' style aesthetic.",
+    "target_use": "magazine",
+    "keywords": [
+      "Rustic",
+      "Warmth",
+      "Authentic"
+    ]
+  },
+  "improvement_notes": "For high-end advertising, add a small kicker light to create specular highlights on the food, enhancing its glossiness. To increase appetite appeal for a broader audience, selectively boost the saturation of reds and greens and deepen the shadows for more contrast. To add dynamism, introduce an action element like chopsticks lifting a piece of meat or capturing visible steam.",
+  "nano_banana_prompt": "A professional food photograph of [FOOD NAME], styled in a rustic, handmade ceramic bowl, placed on a dark, textured wooden table.\n\n**Composition:** Medium close-up shot from a 45-degree angle, rule of thirds applied, creating a natural and inviting diner's perspective.\n\n**Lighting:** Moody and cinematic lighting. A large, diffused soft light source from the back-left creates soft, gentle shadows and beautifully highlights the food's texture.\n\n**Color & Tone:** Warm color temperature with a muted, earthy color palette. Dominant rich browns and creamy off-whites, with pops of natural color from the ingredients. Matte finish with slightly lifted blacks, giving it a sophisticated feel.\n\n**Style:** Shot on Kodak Portra 400 film, shallow depth of field, tack sharp focus on the main subject, fine film grain visible. Authentic, warm, and rustic atmosphere. 85mm lens, f/2.8."
+}

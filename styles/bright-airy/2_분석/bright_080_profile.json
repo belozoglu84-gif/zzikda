@@ -1,0 +1,51 @@
+{
+  "file": "bright_080.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Top-Right",
+    "quality": "soft",
+    "shadow_character": "Clear form with soft edges",
+    "highlight_shadow_ratio": "Approx. 3:1",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 4800,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Yellow",
+      "Blue"
+    ],
+    "secondary_colors": [
+      "Pink",
+      "Green"
+    ],
+    "saturation": "low",
+    "grading_style": "Warm Tones & Cool Shadows",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "Eye-Level to slight High-Angle",
+    "distance": "close-up",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "The sliced lemon in the center and surrounding lemons",
+    "composition_rule": "Triangle Composition, Leading Lines"
+  },
+  "texture": {
+    "sharpness": "low",
+    "noise": "none",
+    "detail_rendering": "Simplified forms focusing on color and shape, impressionistic style with visible brushstrokes",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Warm, peaceful, nostalgic, and analog",
+    "target_use": "art",
+    "keywords": [
+      "평온한",
+      "아날로그",
+      "여름날의오후"
+    ]
+  },
+  "improvement_notes": "For commercial food photography: Use harder light to enhance texture, selectively boost saturation of yellow/green for freshness, and use more dynamic compositions like macro shots or adding storytelling elements.",
+  "nano_banana_prompt": "A vibrant and stylized gouache painting of [a slice of chocolate cake on a plate]. The style is inspired by impressionist still life, with simplified forms and visible brushstrokes. The scene is set on a table with a blue and white striped tablecloth. The lighting is soft, warm, natural light coming from the top right, creating gentle, cool-toned blue shadows. The color palette is dominated by [rich brown], [lemon yellow], ultramarine blue, and a soft blush pink background. The overall mood is serene, calm, and reminiscent of a lazy Mediterranean afternoon. --style raw --ar 2:3 --no photorealistic, 3d render, hyper-detailed"
+}

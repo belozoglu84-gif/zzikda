@@ -1,0 +1,52 @@
+{
+  "file": "bright_018.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Top-down",
+    "quality": "soft",
+    "shadow_character": "Short, soft shadows with detailed fill, suggesting the use of a reflector or fill light.",
+    "highlight_shadow_ratio": "3:1",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5350,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Deep Green",
+      "Vivid Red",
+      "Yellow/Orange"
+    ],
+    "secondary_colors": [
+      "Deep Purple",
+      "Dark Slate"
+    ],
+    "saturation": "high",
+    "grading_style": "Clean & Punchy",
+    "similar_film_stock": "Kodak Ektar 100"
+  },
+  "composition": {
+    "angle": "Top-view / Flat Lay",
+    "distance": "close-up",
+    "estimated_lens_mm": 85,
+    "dof": "deep",
+    "focus_point": "Center of the frame, near the cucumber and orange tomato.",
+    "composition_rule": "Fill the Frame, using color and shape balance and rhythm."
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "Excellent. The distinct textures of each vegetable are maximized and highlighted by fine water droplets.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Fresh, Healthy, Abundant, Premium",
+    "target_use": "advertisement",
+    "keywords": [
+      "Freshness",
+      "Abundance",
+      "Vibrant"
+    ]
+  },
+  "improvement_notes": "To elevate the image, consider adding a soft kicker light to enhance three-dimensionality. A subtle 'Teal and Orange' color grade could introduce a more cinematic mood. Compositionally, creating leading lines or using negative space could provide a more dynamic visual flow.",
+  "nano_banana_prompt": "a top-down flat lay photo of [음식 이름], glistening with fine water droplets, on a dark slate background. Photographed with soft, diffused overhead studio lighting creating subtle shadows. Hyper-detailed, razor-sharp focus, vibrant and rich colors. Commercial food photography style, shot on a DSLR with an 85mm macro lens, cinematic color grading, clean and punchy aesthetic. --ar 9:16 --style raw"
+}

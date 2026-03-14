@@ -1,0 +1,50 @@
+{
+  "file": "돼지갈비이미지샷.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10시 방향)의 주광원과 우측 하단 (4시 방향)의 반사판/필라이트",
+    "quality": "soft",
+    "shadow_character": "그림자의 경계가 부드럽고 깊지 않으며, 디테일이 살아있음",
+    "highlight_shadow_ratio": "콘트라스트가 강하지 않은 부드러운 톤",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 4000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Brown"
+    ],
+    "secondary_colors": [
+      "Dark Gray",
+      "Ivory"
+    ],
+    "saturation": "high",
+    "grading_style": "필름룩(Film Look) 또는 시네마틱(Cinematic) 스타일, 암부에 청록색(Teal) 추가",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "탑다운 뷰 (Top-down View) / 플랫레이 (Flat Lay)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "shallow",
+    "focus_point": "계란 노른자와 그 주변 고기",
+    "composition_rule": "삼분할 법칙 (Rule of Thirds)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "최상급. 소스의 윤기, 고기의 질감, 그릇의 매트함, 나무 테이블의 결 등 각기 다른 질감이 생생하게 표현됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "따뜻하고(Warm), 러스틱하며(Rustic), 정갈한(Authentic)",
+    "target_use": "magazine",
+    "keywords": [
+      "온기",
+      "정성",
+      "깊은맛"
+    ]
+  },
+  "improvement_notes": "조명: 우측 후방에 킥커 라이트(Kicker Light)를 추가하여 입체감 향상. 색감: 파와 양파의 그린/퍼플 색상 채도를 국소적으로 올려 시각적 재미 추가. 구도: 젓가락으로 고기를 집는 손 등 인간적인 요소(Human Element)를 추가하여 생동감과 스토리 부여.",
+  "nano_banana_prompt": "A top-down flat lay food photograph of [음식 이름], presented in a dark matte ceramic bowl on a rustic dark wood table. The scene is illuminated by a single large, diffused soft light from the top-left, creating gentle, soft shadows. Moody and warm cinematic color grading, reminiscent of Kodak Portra 400 film stock. The color palette is dominated by rich browns and warm tones, with a vibrant accent color from the main ingredient. Shot with a 50mm lens at f/3.5 for a shallow depth of field, with sharp focus on the food's most appetizing detail. Subtle film grain texture, lifted blacks, highly detailed, appetizing, authentic."
+}

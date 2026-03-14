@@ -1,0 +1,51 @@
+{
+  "file": "bright_057.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "사이드-백라이팅(Side-Backlighting)",
+    "quality": "hard",
+    "shadow_character": "길고 어두운 그림자, 좌측 전면에 약한 필 라이트로 디테일 보존",
+    "highlight_shadow_ratio": "하이 콘트라스트(High Contrast)",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5600,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Vibrant Orange",
+      "Lively Green"
+    ],
+    "secondary_colors": [
+      "Neutral White/Gray",
+      "Transparent Mint"
+    ],
+    "saturation": "boosted",
+    "grading_style": "S-Curve를 적용하고 HSL을 개별 조정하는 현대적인 디지털 컬러 그레이딩",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "하이 앵글(High Angle) 약 45~60도",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "전경의 유리잔과 도마 위 라임",
+    "composition_rule": "대각선 구도(Diagonal Composition)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "경광을 활용하여 과일 껍질과 과육, 물방울 등의 질감을 극대화",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "밝고, 활기차며, 긍정적인 에너지. 신선함과 즐거움 전달",
+    "target_use": "advertisement",
+    "keywords": [
+      "상쾌함",
+      "생동감",
+      "여름날의오후"
+    ]
+  },
+  "improvement_notes": "부드러운 연광(Soft Light) 사용으로 고급스러운 무드 연출, 채도를 낮추고 골든 아워 톤으로 조정하여 감성적 분위기 추가, 피사체 수를 줄인 미니멀한 구도로 모던함 강조",
+  "nano_banana_prompt": "commercial food photography of [음식 이름], high-angle shot at 45 degrees, medium close-up, shot on a 85mm lens with shallow depth of field (f/2.8), dynamic and scattered composition. Lighting: dramatic hard light from the top-right side creating long, crisp, dark shadows, high contrast, bright specular highlights on wet surfaces, shot in a professional studio. Color: vibrant and saturated colors, Kodak Portra 400 film aesthetic, clean white background, warm and sunny color temperature (5500K). Details: hyper-detailed, extremely sharp focus, crisp texture, visible condensation and bubbles. Mood: refreshing, energetic, summery, lively."
+}

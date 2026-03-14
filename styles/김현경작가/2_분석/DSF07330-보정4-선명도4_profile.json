@@ -1,0 +1,53 @@
+{
+  "file": "DSF07330-보정4-선명도4.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 후방 (10-11시 방향)",
+    "quality": "soft",
+    "shadow_character": "부드럽고 디테일이 살아있는 그림자 (반사판/필라이트 사용)",
+    "highlight_shadow_ratio": "낮은 대비 (하이키 스타일)",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 4750,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "크림색",
+      "아이보리"
+    ],
+    "secondary_colors": [
+      "우드 톤",
+      "연두색",
+      "붉은색",
+      "주황색"
+    ],
+    "saturation": "medium",
+    "grading_style": "Lifted Blacks, 하이라이트에 옐로우/오렌지 톤, 섀도우에 그린/시안 톤 추가",
+    "similar_film_stock": "코닥 포트라 400 (Kodak Portra 400)"
+  },
+  "composition": {
+    "angle": "45도 앵글",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "음식의 가장 핵심적인 부분, 즉 고기와 밥 위의 토핑",
+    "composition_rule": "삼분할 법칙, 리딩 라인"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "도자기 그릇, 나무 도마, 리넨 테이블보 등 각 소품의 재질감이 훌륭하게 표현됨",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "따뜻하고, 자연스러우며, 정갈한 미니멀리즘",
+    "target_use": "menu",
+    "keywords": [
+      "온기",
+      "미니멀",
+      "정갈함"
+    ]
+  },
+  "improvement_notes": "조명: 더 드라마틱한 엣지 라이트와 네거티브 필 사용으로 입체감 강조. 색감: 색상 대비(그린/시안 강조) 또는 스플릿 토닝으로 깊이감 추가. 구도: 과감한 소품 배치로 역동성 부여 (예: 과즙 연출).",
+  "nano_banana_prompt": "A bright and airy food photography, minimalist aesthetic, shot at a 45-degree angle. The main dish is placed slightly off-center following the rule of thirds. Use a shallow depth of field (f/3.2) with a 85mm lens to make the main food tack sharp while the foreground and background are softly blurred. The lighting is soft, diffused side-light coming from the left, creating gentle shadows on the right, mimicking natural morning window light. The color palette is warm and natural, dominated by creamy beige, ivory, and natural wood tones, with fresh green and orange as accent colors. The overall color grading is inspired by **Kodak Portra 400 film**, featuring a warm temperature, low contrast, and slightly lifted blacks for a clean, organic, and appetizing mood. Styled with natural texture elements like ceramic, wood, and linen. --ar 4:3 --style raw --v 6.0"
+}

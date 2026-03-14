@@ -1,0 +1,52 @@
+{
+  "file": "bright_070.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단(10~11시 방향)의 단일 광원",
+    "quality": "hard",
+    "shadow_character": "우측 하단으로 길고 뚜렷하며 진하게 뻗어있어 입체감과 질감을 극대화함",
+    "highlight_shadow_ratio": "명암 대비가 매우 높으며, 필라이트는 거의 사용되지 않음",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 4700,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Golden Brown",
+      "Cream/Beige"
+    ],
+    "secondary_colors": [
+      "Dark Brown/Black",
+      "White",
+      "Vibrant Yellow"
+    ],
+    "saturation": "high",
+    "grading_style": "미묘한 틸 앤 오렌지(Teal and Orange) 스타일 적용",
+    "similar_film_stock": "코닥 포트라 400 (Kodak Portra 400) 또는 코닥 골드 200 (Kodak Gold 200)"
+  },
+  "composition": {
+    "angle": "탑다운 뷰(Top-down View) / 플랫레이(Flat-lay)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "중앙의 크루아상을 기준으로 전체 프레임에 초점이 맞도록 설정",
+    "composition_rule": "균형 잡힌 혼돈(Organized Chaos) 스타일, S자 형태로 시선 유도"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "경광을 활용하여 크루아상의 결, 나뭇결, 커피 거품의 기포 등 텍스처 표현이 뛰어남",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "따뜻하고, 활기차며, 세련되고, 자연스러우면서 편안한 분위기",
+    "target_use": "advertisement",
+    "keywords": [
+      "햇살가득한",
+      "여유로운아침",
+      "먹음직스러운"
+    ]
+  },
+  "improvement_notes": "이 사진은 이미 프로페셔널 수준의 훌륭한 결과물이지만, 다른 스타일을 연출하기 위한 '변주'의 관점에서 제안 드립니다.\n조명: 더 부드러운 무드를 위해 대형 소프트박스 사용 또는 더 드라마틱한 연출을 위해 고보(Gobo)를 활용한 그림자 생성.\n색감: 채도와 콘트라스트를 조절하여 빈티지 무드를 강조하거나, 색온도를 중립적으로 맞춰 청량한 느낌을 줄 수 있음.\n구도: 피사체 수를 줄이고 여백을 확보하여 미니멀한 느낌을 연출할 수 있음.",
+  "nano_banana_prompt": "A top-down flat-lay food photograph of [음식 이름], professionally styled on a rustic yet modern table setting. The scene is illuminated by a single source of hard, direct morning sunlight coming from the top-left, creating long, crisp, well-defined shadows that add depth and texture. The color palette is warm and inviting, dominated by golden browns, cream, and beige, with a vibrant accent color. High contrast and rich saturation. The image is hyper-detailed, sharp, and clean, capturing the appetizing texture of the food. The overall mood is leisurely, sun-drenched, and sophisticated. Shot in the style of a high-end cafe's editorial advertisement, reminiscent of Kodak Portra 400 film."
+}

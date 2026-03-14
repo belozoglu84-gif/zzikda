@@ -1,0 +1,51 @@
+{
+  "file": "bright_077.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Top-left (10-11 o'clock)",
+    "quality": "soft",
+    "shadow_character": "Open Shadow with soft edges",
+    "highlight_shadow_ratio": "Low (approx. 1:2 to 1:3)",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 6250,
+    "white_balance": "cool-shifted",
+    "primary_colors": [
+      "Vivid Green"
+    ],
+    "secondary_colors": [
+      "Calm Blue",
+      "Pale Yellow",
+      "Beige"
+    ],
+    "saturation": "medium",
+    "grading_style": "Light & Airy with a modern cool-toned cinematic feel",
+    "similar_film_stock": "Fuji Pro 400H"
+  },
+  "composition": {
+    "angle": "Top-down (Flat Lay)",
+    "distance": "medium",
+    "estimated_lens_mm": 90,
+    "dof": "deep",
+    "focus_point": "Entire dish",
+    "composition_rule": "Diagonal composition and use of negative space"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "Excellent and realistic texture rendering without exaggeration",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "Fresh, healthy, calm, and sophisticated",
+    "target_use": "magazine",
+    "keywords": [
+      "신선함",
+      "차분함",
+      "모던함"
+    ]
+  },
+  "improvement_notes": "To enhance drama, use more directional side lighting with negative fill. Selectively add warmth to the pasta to increase appetite appeal. For a more dynamic composition, place the dish on a rule-of-thirds intersection and add storytelling elements (e.g., herbs, fork) in the negative space.",
+  "nano_banana_prompt": "commercial food photography of [음식 이름], top-down flat lay view on a rustic beige ceramic plate, set against a textured light-blue painted background, illuminated by a large, diffused softbox from the top-left creating ultra-soft and gentle shadows, clean and airy mood, color graded with a Fuji Pro 400H film aesthetic, desaturated tones with selectively vibrant greens, subtle cyan tint in the shadows, hyper-detailed, tack sharp focus, professional food styling --ar 4:5 --style raw"
+}

@@ -1,0 +1,51 @@
+{
+  "file": "bright_098.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10-11시 방향)",
+    "quality": "hard",
+    "shadow_character": "콘트라스트가 매우 강하며, 어두운 부분의 디테일이 일부 손실될 정도로 깊음",
+    "highlight_shadow_ratio": "하이라이트와 섀도우의 대비가 매우 높은 편",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 6000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Warm Yellow"
+    ],
+    "secondary_colors": [
+      "Vibrant Orange",
+      "Deep Red",
+      "Cool Green"
+    ],
+    "saturation": "high",
+    "grading_style": "콘트라스트가 강하고 옐로우/오렌지 톤을 강조한 필름룩 스타일의 디지털 그레이딩",
+    "similar_film_stock": "Kodak Portra 400 or Kodak Gold 200"
+  },
+  "composition": {
+    "angle": "하이 앵글 (약 45~60도)",
+    "distance": "medium",
+    "estimated_lens_mm": 70,
+    "dof": "shallow",
+    "focus_point": "중앙 요거트 볼의 토핑 (오렌지, 그래놀라, 민트 잎)",
+    "composition_rule": "대각선 구도와 삼각 구도의 복합적 사용"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "경광을 활용하여 그래놀라, 과육, 요거트 광택 등 각 재료의 질감을 극대화함",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "활기차고, 건강하며, 따스하고 긍정적인 느낌. 지중해의 아침 식사를 연상시키는 이국적인 무드.",
+    "target_use": "advertisement",
+    "keywords": [
+      "햇살가득",
+      "활기찬아침",
+      "신선함"
+    ]
+  },
+  "improvement_notes": "조명: 부드러운 필 라이트를 추가하여 그림자 디테일을 살리고 고급스러운 느낌을 더할 수 있음. 색감: 요거트 하이라이트의 노란기를 미세 조정하여 신선함을 강조할 수 있음. 구도: 주변 요소를 정리하여 더 미니멀하고 정제된 느낌을 연출할 수 있음.",
+  "nano_banana_prompt": "A vibrant, professional food photograph of [YOUR FOOD HERE], captured from a 45-degree overhead angle. The scene is illuminated by direct, hard morning sunlight coming from the top-left, creating long, sharp, dramatic shadows across a rustic yellow tiled surface. The color palette is warm and energetic, with highly saturated oranges, reds, and a pop of complementary green. The overall mood is sun-drenched, cheerful, and full of life. Shot with a shallow depth of field, focusing sharply on the food's texture. The style is reminiscent of overexposed Kodak Portra 400 film, with high contrast and rich, warm tones. --ar 4:5 --style raw --q 2 --s 750"
+}

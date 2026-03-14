@@ -1,0 +1,53 @@
+{
+  "file": "스테이크앤밥풀샷1.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 후방, 10시 방향 (사이드-백라이트)",
+    "quality": "soft",
+    "shadow_character": "짙지 않고 디테일이 살아있음. 보조광(Fill Light) 사용으로 부드럽게 조절됨.",
+    "highlight_shadow_ratio": "낮은 콘트라스트. 하이라이트가 과하게 날아가지 않고 섀도우가 완전히 묻히지 않음.",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5400,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "아이보리/크림 화이트"
+    ],
+    "secondary_colors": [
+      "브라운",
+      "블랙/그레이",
+      "그린",
+      "오렌지",
+      "레드"
+    ],
+    "saturation": "medium",
+    "grading_style": "클린 커머셜(Clean Commercial)",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "45도 앵글",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "moderate",
+    "focus_point": "중앙의 계란 노른자가 올라간 덮밥",
+    "composition_rule": "삼각 구도(Triangular Composition) 및 리딩 라인(Leading Line)"
+  },
+  "texture": {
+    "sharpness": "high",
+    "noise": "minimal",
+    "detail_rendering": "사이드 조명으로 인해 그릇, 도마, 천 등 다양한 재질의 질감이 훌륭하게 표현됨.",
+    "post_processing": "minimal"
+  },
+  "mood": {
+    "tone": "정갈하고, 깔끔하며, 따뜻함",
+    "target_use": "menu",
+    "keywords": [
+      "정갈함",
+      "건강한",
+      "맛깔스러운"
+    ]
+  },
+  "improvement_notes": "조명: 보조광을 줄여 그림자를 깊게 만들고, 킥커 라이트를 추가하여 드라마틱한 무드 연출. 색감: 'Teal & Orange' 스타일이나 필름 그레인을 추가하여 감성적인 컬러 팔레트 구축. 구도: 하나의 메뉴에 집중하는 'Hero Shot'을 시도하고, 손과 같은 인간적인 요소를 포함하여 역동성 부여.",
+  "nano_banana_prompt": "/imagine prompt: A professional food photography of various Korean rice bowls (deopbap), meticulously arranged on a rustic wooden board and a light cream linen tablecloth. Shot from a 45-degree angle, medium shot. Lighting is key: bright, airy, and clean, using a large, diffused soft light from the left-back side (10 o'clock), creating soft, gentle shadows on the right. A subtle fill light prevents deep blacks. The color palette is natural and warm, with a color temperature around 5500K, featuring earthy browns, vibrant greens, and rich reds against a neutral background. Shot with an 85mm lens at f/5.6 for a moderately shallow depth of field, with the central bowl in hyper-sharp focus. The style is clean and commercial, with a touch of warmth, reminiscent of Kodak Portra 400 film. --ar 4:3 --style raw --v 6.0"
+}

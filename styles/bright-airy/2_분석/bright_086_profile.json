@@ -1,0 +1,51 @@
+{
+  "file": "bright_086.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10-11시 방향)",
+    "quality": "hard",
+    "shadow_character": "짙고 길며 드라마틱한 그림자",
+    "highlight_shadow_ratio": "매우 높은 콘트라스트, 강한 하이라이트와 깊은 섀도우",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 6000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Sunny Yellow",
+      "Warm White"
+    ],
+    "secondary_colors": [
+      "Cobalt Blue",
+      "Terracotta/Orange"
+    ],
+    "saturation": "high",
+    "grading_style": "강한 S-커브 콘트라스트, 웜톤 강조, 암부 띄움(lifted shadows)",
+    "similar_film_stock": "Kodak Portra 400 / Kodak Gold 200"
+  },
+  "composition": {
+    "angle": "탑다운 앵글 (플랫레이), 약 85도",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "중앙부 (레몬과 음료 잔)",
+    "composition_rule": "계획된 혼돈 (Controlled Chaos), 대각선 흐름"
+  },
+  "texture": {
+    "sharpness": "high",
+    "noise": "intentional-grain",
+    "detail_rendering": "최상급, 경광을 활용하여 모든 질감을 생생하게 표현",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "활기차고 자연스러운 Rustic & Chic",
+    "target_use": "magazine",
+    "keywords": [
+      "여름날의오후",
+      "지중해의활기",
+      "자연스러운멋"
+    ]
+  },
+  "improvement_notes": "부드러운 상업 광고용으로 조명 변경(소프트박스, 반사판 사용), 미니멀 스타일을 위해 화이트밸런스 조정 및 채도 감소, 제품 집중형 광고를 위해 구도 단순화 및 여백 확보 제안.",
+  "nano_banana_prompt": "An editorial food photography, vibrant tablescape of [음식 이름], captured in a top-down flat lay angle, slightly off-axis. The scene is bathed in harsh, direct Mediterranean afternoon sunlight coming from the upper left, casting long, sharp, dramatic shadows across a white tiled surface. Hyper-realistic textures: [음식의 질감 묘사]. A dynamic, cluttered, 'in the moment' composition. The color palette is rich and high-contrast, featuring sunny yellows, deep blues, and warm terracotta oranges. The overall mood is warm, energetic, and rustic. Shot on Kodak Portra 400 film, noticeable fine grain, high clarity. --ar 4:5 --style raw"
+}

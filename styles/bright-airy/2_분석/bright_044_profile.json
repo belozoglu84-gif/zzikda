@@ -1,0 +1,51 @@
+{
+  "file": "bright_044.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "피사체의 좌측 상단, 약 10시 방향에서 들어오는 주 광원",
+    "quality": "hard",
+    "shadow_character": "그림자의 경계가 뚜렷하고 진하며, 피사체의 형태와 공간감을 극대화함. 우측에 반사판이나 약한 필 라이트로 암부 디테일을 살림.",
+    "highlight_shadow_ratio": "명부와 암부의 대비(Contrast)가 강렬하여 선명하고 강한 인상을 줌",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5800,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Blue"
+    ],
+    "secondary_colors": [
+      "Mint Green",
+      "Beige",
+      "Magenta"
+    ],
+    "saturation": "high",
+    "grading_style": "클린 커머셜(Clean Commercial) 스타일. 채도와 대비를 높여 주목성을 끌어올리고, 암부에 미세한 시안(Cyan) 톤을 추가했을 가능성이 있음.",
+    "similar_film_stock": "Kodak Ektar 100"
+  },
+  "composition": {
+    "angle": "아이 레벨(Eye-level)에 가까운 하이 앵글",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "deep",
+    "focus_point": "중앙의 접시 위 래디쉬",
+    "composition_rule": "대각선 구도와 삼각 구도"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "매끈한 도자기 질감과 거친 페인트 질감이 대비를 이루며 잘 표현됨.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "모던, 청량, 초현실적(Surreal), 그래픽적(Graphic)",
+    "target_use": "advertisement",
+    "keywords": [
+      "청량한",
+      "모던한",
+      "플레이풀"
+    ]
+  },
+  "improvement_notes": "더 부드러운 분위기를 위해 연광(Soft Light) 사용을 제안. 따뜻한 느낌을 위해 배경색을 파스텔 톤의 옐로우나 피치 색상으로 변경 제안. 생동감을 더하기 위해 손과 같은 '이야기' 요소를 추가하여 라이프스타일 샷으로 전환 제안.",
+  "nano_banana_prompt": "A vibrant and hyper-realistic commercial food photograph of [Your Food Here] arranged on a minimalist set. The scene is illuminated by a single, direct hard light source from the upper left, creating sharp, crisp, and dramatic dark shadows on a textured cerulean blue surface. The background is a clean, bright sky with a few soft white clouds, creating a surreal and modern atmosphere. The color palette is highly saturated, featuring bold blues, mint greens, and pops of complementary colors. Shot with an 85mm lens at eye-level, deep depth of field with everything in sharp focus. The overall mood is clean, graphic, and playful, in the style of high-end product advertising for a brand like Le Creuset. --ar 2:3 --style raw --v 6.0"
+}

@@ -1,0 +1,51 @@
+{
+  "file": "bright_100.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Top-right, Back-light",
+    "quality": "soft",
+    "shadow_character": "Directional soft shadows that add depth, with moderate contrast.",
+    "highlight_shadow_ratio": "6:4",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5400,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Yellow",
+      "Blue"
+    ],
+    "secondary_colors": [
+      "Pink",
+      "Green"
+    ],
+    "saturation": "high",
+    "grading_style": "Analog film simulation with faded blacks and a subtle pink/yellow tint.",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "Between eye-level and high-angle",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "Center-cut lemon and surrounding lemons",
+    "composition_rule": "Triangle Composition and Leading Lines"
+  },
+  "texture": {
+    "sharpness": "low",
+    "noise": "none",
+    "detail_rendering": "Stylized and simplified texture, not photorealistic.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Bright & Cheerful",
+    "target_use": "magazine",
+    "keywords": [
+      "지중해의오후",
+      "싱그러움",
+      "아날로그감성"
+    ]
+  },
+  "improvement_notes": "For photorealism: use harder light for specular highlights, increase contrast, selectively boost yellow/green saturation, and use a shallower depth of field or a close-up shot for impact.",
+  "nano_banana_prompt": "A freshly baked croissant food photography, in a painterly illustration style with bold, simple shapes and flat color blocking. Bright natural light from the side creates soft yet directional shadows. A vibrant and cheerful Mediterranean color palette dominated by yellow, blue, and pastel pink. Eye-level still life composition. Relaxed, sunny afternoon mood. Style of modern impressionism."
+}

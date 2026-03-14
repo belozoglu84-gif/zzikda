@@ -1,0 +1,51 @@
+{
+  "file": "bright_028.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Top-right, slightly behind the subject (1 o'clock)",
+    "quality": "hard",
+    "shadow_character": "Long, sharp, and dramatic shadows are used as a key graphic element, creating a strong diagonal line. The shadow density is deep black.",
+    "highlight_shadow_ratio": "High contrast between bright highlights and deep shadows.",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5600,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "orange"
+    ],
+    "secondary_colors": [
+      "white",
+      "yellow",
+      "black"
+    ],
+    "saturation": "high",
+    "grading_style": "Modern digital style with crushed blacks, enhanced contrast, and selective adjustments to color saturation and luminance for high visual impact.",
+    "similar_film_stock": "Kodak Ektachrome E100 or contrast-boosted Kodak Gold 200"
+  },
+  "composition": {
+    "angle": "Top-down view / Flat lay",
+    "distance": "close-up",
+    "estimated_lens_mm": 85,
+    "dof": "deep",
+    "focus_point": "The small food item on the plate",
+    "composition_rule": "Centered composition, utilizing strong diagonal lines created by shadows as leading lines."
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "Excellent rendering of the matte ceramic texture of the plate and the smooth surface of the food, with razor-sharp edges.",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "Modern, Minimal, Graphic, Bold, Witty",
+    "target_use": "sns",
+    "keywords": [
+      "minimalism",
+      "graphic",
+      "vibrancy"
+    ]
+  },
+  "improvement_notes": "The photo is highly complete as a style cut. For a more 'appetizing' look, a fill light could be added to soften shadows and reveal more food texture. To increase focus on the food, the background saturation could be slightly reduced. For a more dynamic feel, applying the rule of thirds could be an alternative to the centered composition.",
+  "nano_banana_prompt": "/imagine prompt: A single, minimalist piece of [a golden-brown empanada] on a matte white ceramic plate, top-down flat lay perspective, centered composition. The background is a solid, vibrant, saturated orange paper. The scene is lit by a single, hard light source from the top-right, creating long, sharp, dramatic dark shadows that cut diagonally across the frame. The shadows are intentionally shaped like a stylized hand reaching for the food, adding a graphic and artistic element. The color palette is high-contrast and warm. The overall mood is modern, minimalist, and graphic. Photographed with an 85mm lens, deep depth of field (f/11), everything in sharp focus. The image is ultra-high resolution, clean, with no visible grain. Color grading inspired by Kodak Ektachrome slide film, featuring punchy colors and deep, crushed blacks. --ar 1:1 --style raw --v 6.0"
+}

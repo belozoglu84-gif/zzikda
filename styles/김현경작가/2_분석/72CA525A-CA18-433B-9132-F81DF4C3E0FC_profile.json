@@ -1,0 +1,51 @@
+{
+  "file": "72CA525A-CA18-433B-9132-F81DF4C3E0FC.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 후방, 10시 방향 (사이드-백라이트)",
+    "quality": "soft",
+    "shadow_character": "부드럽고 차분하며 디테일이 살아있는 그림자",
+    "highlight_shadow_ratio": "Low Contrast",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 4600,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Brown"
+    ],
+    "secondary_colors": [
+      "Ivory/White",
+      "Green",
+      "Black"
+    ],
+    "saturation": "low",
+    "grading_style": "Matte Film Look / Faded Look",
+    "similar_film_stock": "Kodak Portra 400 / Fujifilm Pro 400H"
+  },
+  "composition": {
+    "angle": "약 45도",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "shallow",
+    "focus_point": "닭고기와 파, 깨가 뿌려진 부분",
+    "composition_rule": "삼분할 법칙 (Rule of Thirds)"
+  },
+  "texture": {
+    "sharpness": "medium",
+    "noise": "intentional-grain",
+    "detail_rendering": "질감이 과장 없이 사실적으로 표현됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "따뜻하고, 소박하며, 정갈한 느낌",
+    "target_use": "sns",
+    "keywords": [
+      "따뜻한",
+      "소박한",
+      "자연스러운"
+    ]
+  },
+  "improvement_notes": "조명: 스팟성 하이라이트와 림라이트 추가로 입체감 강화. 색감: 블랙 포인트를 내려 콘트라스트를 높이고, 음식 부분의 채도를 국소적으로 올려 식욕 자극. 구도: 젓가락이나 손 모델을 활용하여 역동성과 스토리 추가.",
+  "nano_banana_prompt": "/imagine prompt: A high-quality food photograph of [FOOD NAME], rustic plating in a handmade ceramic bowl on a dark wooden table. Shot at a 45-degree angle, medium close-up. Lighting is soft, diffused side-backlight from a large window, creating gentle shadows and highlighting textures. The color palette is warm and cozy with muted tones. Shallow depth of field with the main food in sharp focus. The overall mood is natural, warm, and slightly rustic. Kodak Portra 400 film aesthetic, matte look with lifted blacks, fine film grain. --ar 2:3 --style raw --stylize 250"
+}

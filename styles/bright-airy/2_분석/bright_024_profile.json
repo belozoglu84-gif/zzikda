@@ -1,0 +1,51 @@
+{
+  "file": "bright_024.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "측후광(Side-Back Light)",
+    "quality": "mixed",
+    "shadow_character": "짙고 푸른색을 띰",
+    "highlight_shadow_ratio": "5:1 이상",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5400,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "선명한 노란색(Vibrant Yellow)",
+      "짙은 파란색(Deep Blue)"
+    ],
+    "secondary_colors": [
+      "부드러운 분홍색(Dusty Pink)",
+      "녹색(Green)"
+    ],
+    "saturation": "high",
+    "grading_style": "웜 하이라이트 & 쿨 섀도우(Warm Highlight & Cool Shadow)",
+    "similar_film_stock": "코닥 포트라 400 (Kodak Portra 400)"
+  },
+  "composition": {
+    "angle": "하이 앵글(약 45도)",
+    "distance": "close-up",
+    "estimated_lens_mm": 85,
+    "dof": "deep",
+    "focus_point": "가운데 반으로 잘린 레몬 단면",
+    "composition_rule": "삼각형 구도, 삼분할 법칙"
+  },
+  "texture": {
+    "sharpness": "high",
+    "noise": "none",
+    "detail_rendering": "인상주의적 표현 (디테일보다 전체적인 형태와 색감에 집중)",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "밝고 청량하며 여유로운",
+    "target_use": "magazine",
+    "keywords": [
+      "여유로운",
+      "생기있는",
+      "화사한"
+    ]
+  },
+  "improvement_notes": "조명: 그림자의 푸른 톤이 비현실적일 수 있으므로, 소프트한 필라이트나 반사판을 추가하여 그림자를 밝히고 톤을 중성적으로 만든다. 레몬에 물방울을 묻히고 스팟 조명으로 하이라이트를 추가하여 신선함을 극대화한다. 색감: 맛을 강조하기 위해 레몬의 노란색 채도와 명도를 국소적으로 높인다. 구도: 레몬즙을 짜는 손이나 레모네이드 잔 같은 스토리텔링 요소를 추가하여 역동성을 높인다.",
+  "nano_banana_prompt": "A vibrant and painterly food photograph of [YOUR FOOD SUBJECT], styled in a Mediterranean still life setting. The scene is illuminated by bright, directional sunlight from a high-side angle, creating deep, cool-toned blue shadows and a strong sense of dimension. The composition is a 45-degree angle close-up, following the rule of thirds. The color palette is rich and saturated, dominated by the food's natural colors against a complementary background. The overall mood is cheerful, relaxed, and artistic, reminiscent of a Henri Matisse painting. The style should feel like a photo shot on Kodak Portra 400 film, with warm highlights, high contrast, and an impressionistic approach to texture over photorealistic detail."
+}

@@ -1,0 +1,53 @@
+{
+  "file": "F592E7D0-0477-4CD5-B4B8-97ECCE5A0376.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 후방광 (Side-Backlight, 10시 방향)",
+    "quality": "soft",
+    "shadow_character": "깊고 풍부하며, 우측 전방에 반사판이나 필 라이트를 사용해 암부 디테일을 살림",
+    "highlight_shadow_ratio": "다소 높은 콘트라스트, 드라마틱한 연출",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Brown",
+      "Black"
+    ],
+    "secondary_colors": [
+      "White",
+      "Green",
+      "Purple",
+      "Orange"
+    ],
+    "saturation": "low",
+    "grading_style": "필름룩 스타일, 암부를 띄우고(Crushed Blacks) 하이라이트를 부드럽게 롤오프(Roll-off) 처리",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "다이너스 뷰 (Diner's View, 약 45도)",
+    "distance": "medium",
+    "estimated_lens_mm": 90,
+    "dof": "shallow",
+    "focus_point": "노른자와 그 주변의 고기, 밥알",
+    "composition_rule": "중앙 집중 구도를 기반으로 하며, 젓가락이 리딩 라인(Leading Line) 역할을 함"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "최상급. 밥알, 고기, 나무, 그릇의 질감이 사실적이면서도 감성적으로 표현됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "차분하고, 정갈하며, 고급스럽고, 묵직하고 깊이 있는 무드",
+    "target_use": "magazine",
+    "keywords": [
+      "정갈한",
+      "차분한",
+      "깊이감"
+    ]
+  },
+  "improvement_notes": "조명: 키커/림 라이트 추가로 입체감 강화. 색감: 보색 대비(붉은색 고명)로 시각적 임팩트 추가. 구도: 삼분할 법칙을 적용하여 역동성 부여 및 배경 요소 정리.",
+  "nano_banana_prompt": "/imagine prompt: A professional food photograph of [YOUR FOOD HERE], styled in a minimalist and rustic manner.\n\n**Composition**: Shot from a 45-degree diner's view angle, medium close-up. The main dish is served in a matte black ceramic bowl, placed on a dark, weathered wooden board. Minimalist side dishes and brass chopsticks are subtly placed in the scene.\n\n**Lighting**: Moody and dramatic Rembrandt lighting. A single, large, diffused soft light source from the back-left (10 o'clock position) creates rich, soft shadows and highlights the food's texture. A faint fill light from the front-right prevents the shadows from being completely black.\n\n**Color & Mood**: Cinematic and desaturated color palette with an overall warm tone (around 5000K). Dominated by earthy tones, deep browns, and off-whites. Colors are graded to emulate the look of Kodak Portra 400 film, featuring slightly crushed blacks, soft-rolled highlights, and a very fine film grain.\n\n**Details**: Photorealistic details, extremely sharp focus on the main ingredients, shot with an 85mm lens at f/3.2 for a shallow depth of field, creating a beautiful bokeh in the background. --ar 2:3 --style raw --v 6.0"
+}

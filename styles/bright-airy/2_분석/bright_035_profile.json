@@ -1,0 +1,50 @@
+{
+  "file": "bright_035.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Upper left (10-11 o'clock)",
+    "quality": "hard",
+    "shadow_character": "Deep, dark shadows with very high contrast and visible caustics patterns.",
+    "highlight_shadow_ratio": "Extremely high contrast",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5600,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Cyan Blue"
+    ],
+    "secondary_colors": [
+      "Orange/Yellow",
+      "Magenta/Purple"
+    ],
+    "saturation": "high",
+    "grading_style": "Blockbuster style with cyan/blue tones added to shadows to unify the overall tone.",
+    "similar_film_stock": "Kodak Ektar 100"
+  },
+  "composition": {
+    "angle": "Top-down / Flat-lay",
+    "distance": "close-up",
+    "estimated_lens_mm": 85,
+    "dof": "deep",
+    "focus_point": "Granola on papaya and passion fruit seeds",
+    "composition_rule": "Diagonal composition and Leading Line"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "Hard light is used to maximize texture, effectively emphasizing the fine details and surface irregularities of the food.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Vibrant, Modern, Graphic",
+    "target_use": "advertisement",
+    "keywords": [
+      "청량함",
+      "에너제틱",
+      "트로피컬"
+    ]
+  },
+  "improvement_notes": "For high-end commercial use: 1. Use a faint reflector to slightly lift deep shadows for more detail. 2. Slightly reduce the background's blue saturation to make the food stand out more. 3. Refine the placement of the passion fruit for a cleaner, more intentional composition.",
+  "nano_banana_prompt": "A vibrant and graphic food photograph of [Your Dish], captured from a top-down flat-lay perspective. The scene is illuminated by a single source of hard, direct light from the upper left, creating sharp, dramatic, high-contrast shadows. The background is a solid, bold cyan blue color paper. The color palette is a striking complementary scheme of cyan, orange, and magenta, with highly saturated colors. The image is hyper-detailed and tack-sharp, emphasizing the textures of the food. Styled with a minimalist aesthetic, reminiscent of a Kodak Ektar 100 film. --style raw --ar 4:5"
+}

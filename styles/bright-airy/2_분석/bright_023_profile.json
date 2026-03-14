@@ -1,0 +1,52 @@
+{
+  "file": "bright_023.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Top-right",
+    "quality": "soft",
+    "shadow_character": "Very soft and light, almost imperceptible",
+    "highlight_shadow_ratio": "Low-Contrast",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5600,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Red",
+      "Yellow",
+      "Blue",
+      "Green"
+    ],
+    "secondary_colors": [
+      "White"
+    ],
+    "saturation": "high",
+    "grading_style": "Commercial Clean",
+    "similar_film_stock": "Kodak Ektar 100"
+  },
+  "composition": {
+    "angle": "Top-down View / Flat Lay",
+    "distance": "close-up",
+    "estimated_lens_mm": 90,
+    "dof": "deep",
+    "focus_point": "Center of the image, where the four frames meet",
+    "composition_rule": "Rule of Quarters and Leading Lines"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "Excellent rendering of the matte and slightly glossy textures of the frames.",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "Bright, cheerful, modern, and graphic",
+    "target_use": "catalog",
+    "keywords": [
+      "생동감있는",
+      "그래픽디자인",
+      "미니멀리즘"
+    ]
+  },
+  "improvement_notes": "To add more emotion, use a single light source for more dramatic shadows, apply a specific color grade (e.g., warm tones) instead of the clean commercial look, and shoot from a 45-degree angle with props to add storytelling.",
+  "nano_banana_prompt": "A minimalist flat lay photo of a vibrant strawberry tart on a clean white surface, geometric composition, top-down view. Shot with bright, even, commercial soft studio lighting, creating minimal soft shadows. The colors are highly saturated and crisp, featuring bold primary colors. Modern and graphic style, highly detailed, sharp focus, commercial food photography aesthetic, inspired by Kodak Ektar 100 film."
+}

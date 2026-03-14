@@ -1,0 +1,49 @@
+{
+  "file": "bright_014.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Key light from top-left (10 o'clock position)",
+    "quality": "mixed",
+    "shadow_character": "Deep, rich shadows enhancing volume and texture, with details preserved in dark areas by a fill light.",
+    "highlight_shadow_ratio": "5:1",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5200,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Teal Green"
+    ],
+    "secondary_colors": [
+      "Orange Brown"
+    ],
+    "saturation": "boosted",
+    "grading_style": "Teal & Orange",
+    "similar_film_stock": "Kodak Vision3 500T"
+  },
+  "composition": {
+    "angle": "Eye-level (Hero Shot)",
+    "distance": "medium",
+    "estimated_lens_mm": 90,
+    "dof": "shallow",
+    "focus_point": "The point where the sauce drops and the surrounding fried chicken.",
+    "composition_rule": "Centered Composition, Natural Framing"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "Dramatic contrast between the rough texture of the batter and the smooth texture of the sauce, achieved with side lighting.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Luxurious, Dramatic, Indulgent",
+    "target_use": "advertisement",
+    "keywords": [
+      "프리미엄",
+      "역동성",
+      "홀리데이"
+    ]
+  },
+  "improvement_notes": "For a friendlier mood, soften the lighting and reduce contrast. For a more natural feel, change the background to a neutral tone like dark brown or grey. To add dynamism, shift the subject according to the rule of thirds and consider showing a hand pouring the sauce.",
+  "nano_banana_prompt": "A cinematic, eye-level medium shot of [Your Food Here], professionally styled and centrally composed. The scene is illuminated with dramatic studio lighting, featuring a strong key light from the 10 o'clock position that sculpts the food's texture with defined, soft-edged shadows. The color palette is a sophisticated teal and orange scheme; the background is a deep, desaturated teal-green, while the food glows with warm, vibrant, and appetizing orange and brown tones. Shot on a 90mm macro lens with a shallow depth of field (f/5.6), the image is exceptionally sharp and detailed, capturing glossy highlights on sauces and crispy textures. The overall mood is luxurious, dynamic, and indulgent. --ar 4:5 --style raw --v 6.0"
+}

@@ -1,0 +1,50 @@
+{
+  "file": "bright_071.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Top-Side Backlight",
+    "quality": "hard",
+    "shadow_character": "Deep, high-contrast shadows with sharp edges (Chiaroscuro)",
+    "highlight_shadow_ratio": "10:1 or higher",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5400,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Red"
+    ],
+    "secondary_colors": [
+      "Off-white",
+      "Deep Black"
+    ],
+    "saturation": "medium",
+    "grading_style": "High-contrast S-curve with crushed blacks, film look",
+    "similar_film_stock": "Kodak Portra 400 (pushed 1-stop) or Fujifilm Classic Chrome"
+  },
+  "composition": {
+    "angle": "High Angle",
+    "distance": "close-up",
+    "estimated_lens_mm": 70,
+    "dof": "shallow",
+    "focus_point": "Raspberries in the center of the bowl",
+    "composition_rule": "Diagonal Composition"
+  },
+  "texture": {
+    "sharpness": "medium",
+    "noise": "intentional-grain",
+    "detail_rendering": "Effectively emphasizes the texture of raspberries and the bowl's surface through hard light and shadow.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Minimal, Dramatic, Static, Analog",
+    "target_use": "magazine",
+    "keywords": [
+      "고요함",
+      "대비",
+      "절제미"
+    ]
+  },
+  "improvement_notes": "For commercial use, consider adding a fill light (bounce card) to soften shadows, locally increasing the luminance of the red channel for a more appetizing look, and pulling back the camera to create more negative space for text layouts.",
+  "nano_banana_prompt": "/imagine prompt: [Subject: A minimalist shot of a rustic ceramic bowl filled with fresh blueberries on a plain off-white surface], [Style: Moody and atmospheric food photography, cinematic, fine art], [Lighting: Dramatic chiaroscuro lighting, single hard light source from top-left creating long, deep, and sharp shadows across the frame], [Color: A high-contrast color palette with rich, saturated blues of the blueberries against desaturated neutrals, deep crushed blacks, warm highlights, shot on Kodak Portra 400 pushed one-stop], [Composition: High-angle close-up shot, strong diagonal composition created by light and shadow, minimalist and clean], [Details: Visible fine film grain, sharp focus on the blueberries, texture of the ceramic is visible], [Camera: Shot with an 85mm lens at f/4, shallow depth of field] --ar 4:5 --style raw"
+}

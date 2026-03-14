@@ -1,0 +1,51 @@
+{
+  "file": "bright_087.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "피사체의 좌측 상단, 약 10시 방향",
+    "quality": "hard",
+    "shadow_character": "길고 콘트라스트가 강하며, 피사체의 입체감과 질감을 극적으로 강조하는 선명한 그림자",
+    "highlight_shadow_ratio": "콘트라스트가 매우 높은 하이키(High-key) 조명",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 6000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Warm Yellow"
+    ],
+    "secondary_colors": [
+      "Deep Red",
+      "Vibrant Orange",
+      "Cool Green"
+    ],
+    "saturation": "high",
+    "grading_style": "현대적인 상업 광고 스타일. 암부를 살짝 띄우고(Lifted Blacks) 높은 채도와 따뜻한 톤을 유지하며 HSL을 적극적으로 조정.",
+    "similar_film_stock": "Kodak Portra 400, Kodak Gold 200"
+  },
+  "composition": {
+    "angle": "하이 앵글(High Angle) / 탑다운(Top-down) 뷰",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "shallow",
+    "focus_point": "중앙 요거트 볼 위의 그래놀라와 민트 잎",
+    "composition_rule": "자연스러운 배치(Organic Composition) 속 대각선 구도(Diagonal Composition)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "경광을 사용하여 피사체 표면의 미세한 굴곡과 질감을 극대화함",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "활기차고, 건강하며, 신선하고, 긍정적인 에너지",
+    "target_use": "advertisement",
+    "keywords": [
+      "활기찬아침",
+      "상큼함",
+      "따스한햇살"
+    ]
+  },
+  "improvement_notes": "더 차분하고 고급스러운 무드를 위해 대형 소프트박스를 이용한 부드러운 연광으로 변경. 그림자 영역에 미세한 청록색 톤을 추가하는 스플릿 토닝으로 색의 깊이를 더함. 주변 소품을 줄이고 여백을 확보하여 미니멀한 구도로 변주 가능.",
+  "nano_banana_prompt": "A vibrant bowl of [FOOD NAME], high-angle shot, dynamic diagonal composition, set on a rustic sunny yellow tiled surface. Bathed in bright, direct, hard sunlight from the top-left, casting long, crisp, defined shadows. Energetic and appetizing mood with a warm color palette dominated by yellows, reds, and oranges. Shot with a 50mm lens, shallow depth of field (f/4). Hyper-detailed, sharp focus, professional food photography. Color graded with the warmth and rich tones of Kodak Portra 400 film. --ar 4:5 --style raw --q 2"
+}

@@ -1,0 +1,53 @@
+{
+  "file": "bright_084.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10-11시 방향)",
+    "quality": "soft",
+    "shadow_character": "깊지 않고 농도가 옅은 그림자, 필라이트나 반사판 사용 추정",
+    "highlight_shadow_ratio": "Low Contrast",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 6000,
+    "white_balance": "cool-shifted",
+    "primary_colors": [
+      "Turquoise",
+      "Cyan"
+    ],
+    "secondary_colors": [
+      "Magenta",
+      "Red",
+      "Yellow",
+      "Orange"
+    ],
+    "saturation": "high",
+    "grading_style": "현대적인 상업 사진 스타일, 섀도우에 시안(Cyan) 톤 추가",
+    "similar_film_stock": "Fuji Pro 400H"
+  },
+  "composition": {
+    "angle": "Top-down View / Flat Lay",
+    "distance": "wide",
+    "estimated_lens_mm": 85,
+    "dof": "deep",
+    "focus_point": "화면 중앙의 디저트 플레이트",
+    "composition_rule": "의도된 혼돈 (Controlled Chaos)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "얼음 결정, 허니콤 단면, 씨앗 등 다양한 질감이 생생하게 표현됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "청량함, 생동감, 신선함, 경쾌함",
+    "target_use": "magazine",
+    "keywords": [
+      "청량한",
+      "생기있는",
+      "여름의맛"
+    ]
+  },
+  "improvement_notes": "드라마틱한 느낌을 위해 그리드를 사용한 조명으로 그림자를 더 명확하게 만들거나, 음식에 집중시키기 위해 배경 채도를 낮출 수 있음. 역동성을 위해 45도 앵글과 얕은 피사계심도를 시도해볼 수 있음.",
+  "nano_banana_prompt": "A vibrant and refreshing flat lay food photography of [음식 이름], meticulously styled on artisanal ceramic plates. The scene is set on a background of glossy turquoise blue ceramic tiles, creating a strong color contrast. The lighting is bright, airy, and soft, mimicking diffused daylight from a large window on the left, casting gentle, soft shadows to the right. The color palette is dominated by cyan and turquoise, with complementary pops of red, pink, and yellow from the food and garnishes. Shot from a top-down perspective with a 85mm lens, deep depth of field (f/11), ensuring everything is in sharp focus. The image is ultra-detailed, clean, and sharp, with a color grade reminiscent of Fuji Pro 400H film stock. The overall mood is summery, energetic, and chic. --ar 4:5 --style raw"
+}

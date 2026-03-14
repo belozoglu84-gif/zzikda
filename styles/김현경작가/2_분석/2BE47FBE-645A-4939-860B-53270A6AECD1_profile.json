@@ -1,0 +1,54 @@
+{
+  "file": "2BE47FBE-645A-4939-860B-53270A6AECD1.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단, 10시 방향",
+    "quality": "soft",
+    "shadow_character": "깊지만 디테일이 살아있는 그림자. 우측에 반사판이나 약한 필 라이트 사용 추정.",
+    "highlight_shadow_ratio": "로우키에 가까운 미드-콘트라스트",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Dark Brown",
+      "Charcoal Black"
+    ],
+    "secondary_colors": [
+      "Off-White",
+      "Muted Brass",
+      "Saturated Orange",
+      "Fresh Green",
+      "Magenta"
+    ],
+    "saturation": "low",
+    "grading_style": "필름 에뮬레이션 스타일, 암부를 살짝 띄운(Lifted Blacks) 부드러운 톤",
+    "similar_film_stock": "Kodak Portra 400 또는 Fujifilm Pro 400H"
+  },
+  "composition": {
+    "angle": "탑다운 뷰 (Top-down View) / 플랫레이 (Flat Lay)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "메인 그릇 중앙의 계란 노른자와 고기",
+    "composition_rule": "시각적 균형 (Visual Balance)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "최상급. 나무 결, 린넨, 그릇 유약, 음식 등 각 재료의 질감을 생생하게 표현.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "차분하고(Calm), 소박하며(Rustic), 정성이 담긴(Authentic)",
+    "target_use": "magazine",
+    "keywords": [
+      "정갈함",
+      "깊이감",
+      "온기"
+    ]
+  },
+  "improvement_notes": "드라마틱한 효과를 위해 스팟성 하이라이트를 추가하고, 계란 노른자와 쪽파의 채도를 미세하게 올려 상업적 소구력을 높일 수 있음. 네거티브 스페이스를 더 과감하게 활용하여 역동성을 더하는 것도 좋은 시도임.",
+  "nano_banana_prompt": "A top-down flat lay food photography of [음식 이름], professionally styled on a dark rustic wood table. Moody and atmospheric lighting from a large, diffused soft light source from the top-left, creating deep soft shadows. The color palette is desaturated and cinematic, with deep browns and muted tones, reminiscent of Kodak Portra 400 film. The image has a subtle film grain texture and a slightly lifted black point for a faded, matte look. Tack sharp focus on the main dish, every detail is crisp and clear. --ar 4:3 --style raw"
+}

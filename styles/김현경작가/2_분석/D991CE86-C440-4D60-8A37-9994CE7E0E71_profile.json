@@ -1,0 +1,53 @@
+{
+  "file": "D991CE86-C440-4D60-8A37-9994CE7E0E71.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 후방 (10시 방향)",
+    "quality": "soft",
+    "shadow_character": "우측 전방에서 반사판으로 부드럽게 채워진 그림자 (Fill-in)",
+    "highlight_shadow_ratio": "로우키(Low-key)에 가까운 낮은 콘트라스트",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 4000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Brown",
+      "Black",
+      "Ivory"
+    ],
+    "secondary_colors": [
+      "Orange",
+      "Purple",
+      "Green"
+    ],
+    "saturation": "low",
+    "grading_style": "필름룩 (Film Look) 스타일, 암부에 Teal 톤이 가미됨",
+    "similar_film_stock": "Fujifilm Pro 400H"
+  },
+  "composition": {
+    "angle": "약 45도 하이앵글",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "계란 노른자와 주변 고기",
+    "composition_rule": "삼분할 법칙 및 리딩 라인 활용"
+  },
+  "texture": {
+    "sharpness": "high",
+    "noise": "intentional-grain",
+    "detail_rendering": "최상급. 고기, 밥알, 노른자의 질감이 선명하게 표현됨",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "차분하고, 정갈하며, 고급스러움",
+    "target_use": "magazine",
+    "keywords": [
+      "정갈한",
+      "따뜻한",
+      "아날로그"
+    ]
+  },
+  "improvement_notes": "상업 광고용으로는 스팟 조명으로 하이라이트를 추가하고 채도를 높이는 것을 제안. SNS용으로는 더 타이트한 클로즈업 구도가 효과적일 수 있음.",
+  "nano_banana_prompt": "food photography of a delicious rice bowl, 45-degree angle shot, medium close-up, shot on 85mm lens with f/2.8, shallow depth of field, moody and atmospheric lighting, main light is a large diffused soft light from the back-left, creating soft long shadows towards the front-right, low contrast, rich textures, sharp focus on the main ingredient. Color graded in the style of Fujifilm Pro 400H film stock, desaturated color palette with warm tones (4000K), lifted matte blacks with a hint of teal in the shadows, subtle film grain. Setting: on a dark rustic wooden table with minimalist dark ceramic props, calm and sophisticated mood."
+}

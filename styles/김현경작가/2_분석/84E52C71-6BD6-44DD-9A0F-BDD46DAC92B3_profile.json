@@ -1,0 +1,52 @@
+{
+  "file": "84E52C71-6BD6-44DD-9A0F-BDD46DAC92B3.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "Left-side light",
+    "quality": "soft",
+    "shadow_character": "Soft and not deep, with details preserved in the shadows.",
+    "highlight_shadow_ratio": "Low contrast, soft tone.",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Brown",
+      "Black",
+      "Beige"
+    ],
+    "secondary_colors": [
+      "Orange",
+      "Green"
+    ],
+    "saturation": "low",
+    "grading_style": "Fade/Matte style with lifted blacks.",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "45-degree angle",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "Egg yolk and surrounding meat and rice.",
+    "composition_rule": "Focused on overall balance and harmony rather than a strict rule of thirds."
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "Realistic and natural rendering of textures like wood grain, linen, and food surfaces.",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "Calm and neat home-cooked meal.",
+    "target_use": "magazine",
+    "keywords": [
+      "정갈한",
+      "따스한",
+      "자연스러운"
+    ]
+  },
+  "improvement_notes": "To enhance the 'delicious' look, add a specular highlight (kick light) on the food. For more commercial use, slightly increase saturation, especially in orange and brown tones. For a more dynamic feel, try a tighter close-up or an action shot like picking up food with chopsticks.",
+  "nano_banana_prompt": "professional food photography of [food name], 45-degree angle shot, styled on a dark rustic wooden table with a linen napkin and ceramic bowl, soft and diffused natural side lighting creating gentle shadows, shallow depth of field with focus on the main ingredients, muted earthy color palette, desaturated tones, calm and cozy atmosphere, analog film look similar to Kodak Portra 400, sharp details showcasing the texture of the food --ar 4:5 --style raw"
+}

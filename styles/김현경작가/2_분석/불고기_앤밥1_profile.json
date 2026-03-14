@@ -1,0 +1,53 @@
+{
+  "file": "불고기_앤밥1.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Side-Backlight from left-rear (approx. 10 o'clock)",
+    "quality": "soft",
+    "shadow_character": "Shadows are gently filled with a reflector or a weak fill light to retain detail.",
+    "highlight_shadow_ratio": "Approx. 3:1",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5100,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Brown",
+      "Orange"
+    ],
+    "secondary_colors": [
+      "Black",
+      "White/Ivory",
+      "Green",
+      "Gold"
+    ],
+    "saturation": "medium",
+    "grading_style": "Film look with slightly lifted blacks and a subtle teal tone in the shadows.",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "Approx. 45-degree angle, looking slightly down",
+    "distance": "medium",
+    "estimated_lens_mm": 90,
+    "dof": "shallow",
+    "focus_point": "Egg yolk and the surrounding green onions and sesame seeds",
+    "composition_rule": "Rule of Thirds and Leading Lines"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "Excellent rendering of textures: the rough cast iron bowl, the wood grain of the board, the smooth and glossy egg yolk, and the texture of the rice grains.",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "Neat, warm, and modernly luxurious.",
+    "target_use": "menu",
+    "keywords": [
+      "정갈한",
+      "따뜻한",
+      "먹음직스러운"
+    ]
+  },
+  "improvement_notes": "For a more dramatic look, use a grid or rim light. For a trendier feel, maximize complementary color contrast. To add dynamism, include a human element (e.g., a hand with chopsticks) or visible steam.",
+  "nano_banana_prompt": "professional food photography of [YOUR FOOD], in a rustic ceramic bowl, placed on a natural dark wood surface with a simple linen napkin. Shot at a 45-degree angle, medium close-up. Lighting is soft and diffused side-backlight from the left, creating gentle, dimensional shadows, with a subtle fill light from the right. Shot with a 100mm macro lens at f/3.2, shallow depth of field, focus is tack-sharp on the main ingredient. The color palette is warm and natural, with rich browns and vibrant accent colors. Color graded in the style of Kodak Portra 400 film, featuring slightly lifted blacks and a clean, appetizing, minimalist, and elegant mood. --ar 2:3 --style raw"
+}

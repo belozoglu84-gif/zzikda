@@ -1,0 +1,51 @@
+{
+  "file": "bright_005.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (Top-left, 10시 방향)",
+    "quality": "hard",
+    "shadow_character": "닫힌 그림자 (Closed Shadow)와 강한 콘트라스트",
+    "highlight_shadow_ratio": "10:1 이상",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5700,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Deep Red",
+      "Magenta Pink"
+    ],
+    "secondary_colors": [
+      "Neutral White",
+      "Deep Black"
+    ],
+    "saturation": "boosted",
+    "grading_style": "하이 콘트라스트, 하이 새츄레이션 (High Contrast, High Saturation)",
+    "similar_film_stock": "코닥 엑타 100 (Kodak Ektar 100)"
+  },
+  "composition": {
+    "angle": "45도 앵글 (Three-Quarters View)",
+    "distance": "close-up",
+    "estimated_lens_mm": 90,
+    "dof": "shallow",
+    "focus_point": "전경의 작은 흰색 그릇에 담긴 물방울 맺힌 체리들",
+    "composition_rule": "삼분할 법칙 (Rule of Thirds) 및 대각선 구도 (Diagonal Lines)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "경광을 통해 체리의 매끈함, 배경의 거친 질감, 천 냅킨의 직조감 등 피사체의 질감이 극대화됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "생동감 넘치고, 강렬하며, 신선한",
+    "target_use": "sns",
+    "keywords": [
+      "여름의맛",
+      "생기",
+      "강렬한순간"
+    ]
+  },
+  "improvement_notes": "주광원을 대형 소프트박스 등으로 부드럽게 만들고 반사판으로 그림자를 채워 고급스러운 톤 연출. 배경 채도를 미세하게 낮춰 주제를 강조하고 색의 깊이감 추가. 불필요한 요소를 정리하고 리딩 라인을 강화하여 구도를 정돈.",
+  "nano_banana_prompt": "food photography of [a slice of chocolate cake], editorial style, shot from a 45-degree angle. Dramatic hard lighting from the top-left creating crisp, long, dark shadows on a textured magenta pink surface. The subject is tack sharp and hyper-detailed, with strong specular highlights. Vibrant, high-saturation color palette, dominated by deep reds and rich browns. Shallow depth of field with a creamy bokeh background. Composition follows the rule of thirds. Moody yet energetic atmosphere, reminiscent of Kodak Ektar 100 film. --ar 4:5 --style raw --stylize 250"
+}

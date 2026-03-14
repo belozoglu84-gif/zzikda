@@ -1,0 +1,54 @@
+{
+  "file": "사용자 정의 이름 00010(포토샵).jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Side-Backlight from the rear-left (10 o'clock)",
+    "quality": "soft",
+    "shadow_character": "Short, soft shadows with preserved detail in the dark areas, achieved by using a white bounce card or a weak fill light from the front-right.",
+    "highlight_shadow_ratio": "Low Contrast",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 4000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "beige",
+      "cream",
+      "light brown"
+    ],
+    "secondary_colors": [
+      "deep brown",
+      "orange",
+      "green",
+      "red"
+    ],
+    "saturation": "low",
+    "grading_style": "Matte film look with lifted blacks and a slight brown/magenta tint in the shadows.",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "45-degree angle, looking slightly down at the subject.",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "The front part of the food, where the meat topping and rice meet.",
+    "composition_rule": "Rule of Thirds, with the main dish placed slightly to the lower-left of center."
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "Excellent rendering of textures, including the rough bowl, linen tablecloth weave, wood grain, and the moistness of the food.",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "Minimal, neat, warm, and cozy, reminiscent of MUJI or Kinfolk magazine style.",
+    "target_use": "menu",
+    "keywords": [
+      "편안한",
+      "자연스러운",
+      "정갈한"
+    ]
+  },
+  "improvement_notes": "For a more dramatic look, emphasize the rim light and deepen the shadows. For a more commercial feel, selectively boost saturation and clarity on the food. For a more dynamic composition, try a close-up shot or include a human element.",
+  "nano_banana_prompt": "/imagine prompt: a professional commercial food photograph of [YOUR FOOD HERE], minimalist kinfolk style, shot on a full-frame camera with an 85mm f/2.8 lens, the main dish is placed slightly off-center on a linen tablecloth, soft and warm side-backlight coming from the left creating gentle shadows, filled with a reflector from the right, shallow depth of field, focus on the texture of the food, color graded with a warm and muted palette, dominant colors are beige and cream, subtle film grain, looks like a photo from a high-end cookbook, kodak portra 400 film aesthetic, clean, natural, and inviting mood --ar 4:3 --style raw --q 2 --s 250"
+}

@@ -1,0 +1,51 @@
+{
+  "file": "bright_027.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10-11시 방향)",
+    "quality": "hard",
+    "shadow_character": "길고 짙으며, 피사체의 형태를 복제하는 그림자. 유리잔을 통과한 빛이 만드는 코스틱 패턴이 특징.",
+    "highlight_shadow_ratio": "명암 대비가 매우 강함",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 6000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Coral Pink"
+    ],
+    "secondary_colors": [
+      "Vivid Orange",
+      "Yellow",
+      "Deep Green"
+    ],
+    "saturation": "high",
+    "grading_style": "'캘리포니아 여름' 스타일. 따뜻한 하이라이트와 암부의 미세한 마젠타/레드 톤, 강한 콘트라스트.",
+    "similar_film_stock": "Kodak Ektar 100"
+  },
+  "composition": {
+    "angle": "탑다운 / 플랫레이",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "화면 중앙부 (레몬과 냅킨 주변)",
+    "composition_rule": "패턴 / 의도된 무질서, 그림자를 이용한 리딩라인"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "경광을 통해 피사체 표면의 미세한 굴곡과 질감이 극대화됨.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "활기차고, 상쾌하며, 그래픽적인",
+    "target_use": "sns",
+    "keywords": [
+      "여름날의오후",
+      "생기발랄",
+      "시트러스펀치"
+    ]
+  },
+  "improvement_notes": "더 고급스러운 느낌을 위해, 반사판을 사용하여 그림자를 약간 부드럽게 하고 암부 디테일을 살린다. 전체적인 채도를 낮추고, 특히 배경 핑크를 파스텔 톤으로 조절하여 피사체에 시선을 집중시킨다. 피사체를 'S자 곡선' 형태로 재배치하여 시선의 흐름을 유도하고 여백의 미를 강조한다.",
+  "nano_banana_prompt": "A vibrant and energetic flat lay food photograph featuring an artful arrangement of [FOOD SUBJECT], along with minimalist ceramic bowls and sparkling glassware. The scene is set on a solid coral pink surface.\n\nThe lighting is key: harsh, direct sunlight streams from the top-left, casting long, sharp, and dramatic shadows across the frame.\n\nThe color palette is highly saturated and warm, dominated by pink, orange, and yellow. The image has a deep depth of field with everything in crisp focus, and a subtle, fine film grain is visible throughout.\n\nThe overall mood is summery, refreshing, and graphic. Photographed in the style of modern editorial food photography, reminiscent of Kodak Ektar 100 film."
+}

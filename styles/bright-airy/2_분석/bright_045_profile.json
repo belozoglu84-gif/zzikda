@@ -1,0 +1,52 @@
+{
+  "file": "bright_045.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10~11시 방향)",
+    "quality": "soft",
+    "shadow_character": "부드러운 그림자와 우측의 필라이트(반사판)로 밝은 톤 유지",
+    "highlight_shadow_ratio": "Low Contrast",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5300,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "yellow",
+      "beige"
+    ],
+    "secondary_colors": [
+      "green",
+      "red",
+      "teal"
+    ],
+    "saturation": "high",
+    "grading_style": "Light & Airy 기반의 필름룩 그레이딩",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "탑다운 뷰 (플랫레이)",
+    "distance": "wide",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "프레임 중앙부 (오트밀 그릇)",
+    "composition_rule": "패턴 및 균형, S자 시선 유도"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "부드러운 광원을 통해 음식의 거친 질감과 부드러운 질감을 사실적으로 묘사",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "밝고, 건강하며, 활기찬 아침의 분위기",
+    "target_use": "sns",
+    "keywords": [
+      "활기찬",
+      "건강한",
+      "아늑한"
+    ]
+  },
+  "improvement_notes": "더 드라마틱한 연출을 위해 낮은 각도의 사이드 조명으로 그림자를 길게 만들거나, 얕은 심도를 활용해 하나의 메인 디쉬에 집중하여 고급스러운 분위기를 연출할 수 있음.",
+  "nano_banana_prompt": "A vibrant and abundant breakfast food flat lay, top-down view. The scene features oatmeal with berries, avocado toast with seeds, and scrambled eggs, beautifully arranged on a cheerful yellow and green gingham tablecloth. The lighting is bright, airy, and soft, mimicking natural morning light coming from the top-left, creating gentle, diffused shadows. The color palette is warm and inviting with high saturation, emphasizing fresh reds and greens. The overall aesthetic is clean, wholesome, and cozy, with the distinct look of Kodak Portra 400 film. Shot with a 50mm lens, deep depth of field with everything in sharp focus, showcasing crisp, delicious textures. --ar 4:5 --style raw"
+}

@@ -1,0 +1,1461 @@
+{
+  "meta": {
+    "total_profiles": 75,
+    "excluded": [],
+    "generator": "unify_profiles.py"
+  },
+  "category": {
+    "most_common": "food",
+    "distribution": [
+      {
+        "value": "food",
+        "count": 75,
+        "percent": 100.0
+      }
+    ]
+  },
+  "lighting": {
+    "direction": {
+      "most_common": "back / 후방",
+      "distribution": [
+        {
+          "value": "back / 후방",
+          "count": 43,
+          "percent": 57.3
+        },
+        {
+          "value": "left / 좌측",
+          "count": 31,
+          "percent": 41.3
+        },
+        {
+          "value": "top / 상단",
+          "count": 1,
+          "percent": 1.3
+        }
+      ]
+    },
+    "quality": {
+      "most_common": "soft",
+      "distribution": [
+        {
+          "value": "soft",
+          "count": 74,
+          "percent": 98.7
+        },
+        {
+          "value": "mixed",
+          "count": 1,
+          "percent": 1.3
+        }
+      ]
+    },
+    "equipment": {
+      "most_common": "studio-strobe",
+      "distribution": [
+        {
+          "value": "studio-strobe",
+          "count": 45,
+          "percent": 60.0
+        },
+        {
+          "value": "natural",
+          "count": 29,
+          "percent": 38.7
+        },
+        {
+          "value": "mixed",
+          "count": 1,
+          "percent": 1.3
+        }
+      ]
+    },
+    "highlight_shadow_ratio": {
+      "samples": [
+        "저-대비 (Low-Contrast)",
+        "Low contrast ratio, approximately 3:1 to 4:1",
+        "낮은 대비 (하이키 스타일)",
+        "Low contrast",
+        "Low-contrast",
+        "부드러운 톤 (Low Contrast)",
+        "낮은 대비 (Low Contrast)",
+        "로우 컨트라스트 (Low Contrast)"
+      ]
+    }
+  },
+  "color": {
+    "temperature_k": {
+      "min": 3800,
+      "max": 6000,
+      "mean": 4599.3,
+      "count": 75,
+      "range_str": "3800~6000K, 평균 4599K"
+    },
+    "white_balance": {
+      "most_common": "warm-shifted",
+      "distribution": [
+        {
+          "value": "warm-shifted",
+          "count": 58,
+          "percent": 77.3
+        },
+        {
+          "value": "accurate",
+          "count": 14,
+          "percent": 18.7
+        },
+        {
+          "value": "cool-shifted",
+          "count": 3,
+          "percent": 4.0
+        }
+      ]
+    },
+    "saturation": {
+      "most_common": "low",
+      "distribution": [
+        {
+          "value": "low",
+          "count": 57,
+          "percent": 76.0
+        },
+        {
+          "value": "medium",
+          "count": 15,
+          "percent": 20.0
+        },
+        {
+          "value": "high",
+          "count": 3,
+          "percent": 4.0
+        }
+      ]
+    },
+    "film_stock": {
+      "most_common": "Kodak Portra 400",
+      "distribution": [
+        {
+          "value": "Kodak Portra 400",
+          "count": 71,
+          "percent": 94.7
+        },
+        {
+          "value": "Fuji Velvia",
+          "count": 3,
+          "percent": 4.0
+        },
+        {
+          "value": "Kodak Portra 800",
+          "count": 1,
+          "percent": 1.3
+        }
+      ]
+    },
+    "primary_colors": {
+      "most_common": "Brown",
+      "distribution": [
+        {
+          "value": "Brown",
+          "count": 39,
+          "percent": 26.0
+        },
+        {
+          "value": "Beige",
+          "count": 12,
+          "percent": 8.0
+        },
+        {
+          "value": "beige",
+          "count": 10,
+          "percent": 6.7
+        },
+        {
+          "value": "Ivory",
+          "count": 9,
+          "percent": 6.0
+        },
+        {
+          "value": "brown",
+          "count": 6,
+          "percent": 4.0
+        },
+        {
+          "value": "Black",
+          "count": 6,
+          "percent": 4.0
+        },
+        {
+          "value": "Warm Brown",
+          "count": 4,
+          "percent": 2.7
+        },
+        {
+          "value": "ivory",
+          "count": 4,
+          "percent": 2.7
+        },
+        {
+          "value": "Ivory/Cream",
+          "count": 3,
+          "percent": 2.0
+        },
+        {
+          "value": "Orange",
+          "count": 3,
+          "percent": 2.0
+        },
+        {
+          "value": "Cream",
+          "count": 3,
+          "percent": 2.0
+        },
+        {
+          "value": "cream",
+          "count": 3,
+          "percent": 2.0
+        },
+        {
+          "value": "Dark Brown",
+          "count": 2,
+          "percent": 1.3
+        },
+        {
+          "value": "짙은 갈색",
+          "count": 2,
+          "percent": 1.3
+        },
+        {
+          "value": "검은색",
+          "count": 2,
+          "percent": 1.3
+        },
+        {
+          "value": "dark brown",
+          "count": 2,
+          "percent": 1.3
+        },
+        {
+          "value": "Reddish Brown",
+          "count": 2,
+          "percent": 1.3
+        },
+        {
+          "value": "아이보리",
+          "count": 2,
+          "percent": 1.3
+        },
+        {
+          "value": "베이지",
+          "count": 2,
+          "percent": 1.3
+        },
+        {
+          "value": "Off-White",
+          "count": 2,
+          "percent": 1.3
+        },
+        {
+          "value": "warm brown",
+          "count": 2,
+          "percent": 1.3
+        },
+        {
+          "value": "Warm Beige",
+          "count": 2,
+          "percent": 1.3
+        },
+        {
+          "value": "Light Brown",
+          "count": 2,
+          "percent": 1.3
+        },
+        {
+          "value": "Red",
+          "count": 2,
+          "percent": 1.3
+        },
+        {
+          "value": "orange",
+          "count": 1,
+          "percent": 0.7
+        },
+        {
+          "value": "Charcoal Black",
+          "count": 1,
+          "percent": 0.7
+        },
+        {
+          "value": "matte black",
+          "count": 1,
+          "percent": 0.7
+        },
+        {
+          "value": "neutral gray/white",
+          "count": 1,
+          "percent": 0.7
+        },
+        {
+          "value": "Warm Gray",
+          "count": 1,
+          "percent": 0.7
+        },
+        {
+          "value": "Neutral Gray",
+          "count": 1,
+          "percent": 0.7
+        },
+        {
+          "value": "크림색",
+          "count": 1,
+          "percent": 0.7
+        },
+        {
+          "value": "Deep Brown",
+          "count": 1,
+          "percent": 0.7
+        },
+        {
+          "value": "Red-Brown",
+          "count": 1,
+          "percent": 0.7
+        },
+        {
+          "value": "Ivory/White",
+          "count": 1,
+          "percent": 0.7
+        },
+        {
+          "value": "golden yellow",
+          "count": 1,
+          "percent": 0.7
+        },
+        {
+          "value": "Earthy Tone",
+          "count": 1,
+          "percent": 0.7
+        },
+        {
+          "value": "Dark Gray",
+          "count": 1,
+          "percent": 0.7
+        },
+        {
+          "value": "light brown",
+          "count": 1,
+          "percent": 0.7
+        },
+        {
+          "value": "Olive Green",
+          "count": 1,
+          "percent": 0.7
+        },
+        {
+          "value": "Teal Green",
+          "count": 1,
+          "percent": 0.7
+        },
+        {
+          "value": "Warm Orange",
+          "count": 1,
+          "percent": 0.7
+        },
+        {
+          "value": "Yellow-Brown",
+          "count": 1,
+          "percent": 0.7
+        },
+        {
+          "value": "Earthy Tones",
+          "count": 1,
+          "percent": 0.7
+        },
+        {
+          "value": "웜 브라운",
+          "count": 1,
+          "percent": 0.7
+        },
+        {
+          "value": "Charcoal",
+          "count": 1,
+          "percent": 0.7
+        },
+        {
+          "value": "black",
+          "count": 1,
+          "percent": 0.7
+        },
+        {
+          "value": "아이보리/크림 화이트",
+          "count": 1,
+          "percent": 0.7
+        },
+        {
+          "value": "White",
+          "count": 1,
+          "percent": 0.7
+        }
+      ]
+    },
+    "secondary_colors": {
+      "most_common": "Green",
+      "distribution": [
+        {
+          "value": "Green",
+          "count": 38,
+          "percent": 15.6
+        },
+        {
+          "value": "Orange",
+          "count": 15,
+          "percent": 6.2
+        },
+        {
+          "value": "green",
+          "count": 12,
+          "percent": 4.9
+        },
+        {
+          "value": "Black",
+          "count": 11,
+          "percent": 4.5
+        },
+        {
+          "value": "Purple",
+          "count": 10,
+          "percent": 4.1
+        },
+        {
+          "value": "Red",
+          "count": 10,
+          "percent": 4.1
+        },
+        {
+          "value": "orange",
+          "count": 7,
+          "percent": 2.9
+        },
+        {
+          "value": "White",
+          "count": 7,
+          "percent": 2.9
+        },
+        {
+          "value": "Dark Brown",
+          "count": 7,
+          "percent": 2.9
+        },
+        {
+          "value": "Fresh Green",
+          "count": 5,
+          "percent": 2.1
+        },
+        {
+          "value": "Ivory",
+          "count": 5,
+          "percent": 2.1
+        },
+        {
+          "value": "Vivid Green",
+          "count": 5,
+          "percent": 2.1
+        },
+        {
+          "value": "red",
+          "count": 4,
+          "percent": 1.6
+        },
+        {
+          "value": "Matte Black",
+          "count": 4,
+          "percent": 1.6
+        },
+        {
+          "value": "Brown",
+          "count": 4,
+          "percent": 1.6
+        },
+        {
+          "value": "purple",
+          "count": 3,
+          "percent": 1.2
+        },
+        {
+          "value": "brown",
+          "count": 3,
+          "percent": 1.2
+        },
+        {
+          "value": "Off-White",
+          "count": 3,
+          "percent": 1.2
+        },
+        {
+          "value": "Off-white",
+          "count": 3,
+          "percent": 1.2
+        },
+        {
+          "value": "주황색",
+          "count": 3,
+          "percent": 1.2
+        },
+        {
+          "value": "그린",
+          "count": 3,
+          "percent": 1.2
+        },
+        {
+          "value": "yellow",
+          "count": 2,
+          "percent": 0.8
+        },
+        {
+          "value": "흰색",
+          "count": 2,
+          "percent": 0.8
+        },
+        {
+          "value": "Red-Brown",
+          "count": 2,
+          "percent": 0.8
+        },
+        {
+          "value": "Gold",
+          "count": 2,
+          "percent": 0.8
+        },
+        {
+          "value": "Ivory/Beige",
+          "count": 2,
+          "percent": 0.8
+        },
+        {
+          "value": "브라운",
+          "count": 2,
+          "percent": 0.8
+        },
+        {
+          "value": "오렌지",
+          "count": 2,
+          "percent": 0.8
+        },
+        {
+          "value": "Dark Gray",
+          "count": 2,
+          "percent": 0.8
+        },
+        {
+          "value": "Orange-Yellow",
+          "count": 2,
+          "percent": 0.8
+        },
+        {
+          "value": "deep brown",
+          "count": 2,
+          "percent": 0.8
+        },
+        {
+          "value": "Deep Brown",
+          "count": 2,
+          "percent": 0.8
+        },
+        {
+          "value": "white",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Charcoal",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Cream White",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "wood-tone",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Muted Brass",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Saturated Orange",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Magenta",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Savory Brown",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Deep Green",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Neutral Gray",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "초록색",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "자주색",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Orange-Brown",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Ivory/White",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Cream",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "아이보리",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "녹색",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "보라색",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Charcoal/Black",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Orange/Brown",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "wood tone",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "우드톤",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "레드/핑크",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "우드 톤",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "연두색",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "붉은색",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Teriyaki Brown",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Dark Navy/Black",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Beige",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Charcoal Gray",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "black",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Vibrant Green",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Reddish Brown",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "White/Ivory",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Cyan",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Teal Blue",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Sky Blue",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "deep orange",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "light brown",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "vivid green",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Neutral White",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "amber",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Teal/Mint",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Golden Brown",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Creamy Beige",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Teal Green",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Light Green",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Vibrant Yellow",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "딥 레드",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "크리미 화이트",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "카라멜 브라운",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Monotone",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Brass Gold",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Warm White",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "블랙/그레이",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "레드",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Clean White",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Appetizing Red",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Celadon Green",
+          "count": 1,
+          "percent": 0.4
+        }
+      ]
+    }
+  },
+  "composition": {
+    "angle": {
+      "most_common": "45도 하이앵글",
+      "distribution": [
+        {
+          "value": "45도 하이앵글",
+          "count": 45,
+          "percent": 60.0
+        },
+        {
+          "value": "탑다운 / 플랫레이",
+          "count": 22,
+          "percent": 29.3
+        },
+        {
+          "value": "아이레벨",
+          "count": 4,
+          "percent": 5.3
+        },
+        {
+          "value": "아이 레벨에 가까운 낮은 앵글 (약 15도)",
+          "count": 1,
+          "percent": 1.3
+        },
+        {
+          "value": "로우앵글",
+          "count": 1,
+          "percent": 1.3
+        },
+        {
+          "value": "아이 레벨에서 약간 내려다보는 앵글 (약 10도)",
+          "count": 1,
+          "percent": 1.3
+        },
+        {
+          "value": "약 15-20도의 약간 높은 앵글",
+          "count": 1,
+          "percent": 1.3
+        }
+      ]
+    },
+    "distance": {
+      "most_common": "medium",
+      "distribution": [
+        {
+          "value": "medium",
+          "count": 64,
+          "percent": 85.3
+        },
+        {
+          "value": "close-up",
+          "count": 10,
+          "percent": 13.3
+        },
+        {
+          "value": "wide",
+          "count": 1,
+          "percent": 1.3
+        }
+      ]
+    },
+    "estimated_lens_mm": {
+      "min": 50,
+      "max": 100,
+      "mean": 76.6,
+      "count": 75,
+      "range_str": "50~100mm, 평균 77mm"
+    },
+    "dof": {
+      "most_common": "shallow",
+      "distribution": [
+        {
+          "value": "shallow",
+          "count": 60,
+          "percent": 80.0
+        },
+        {
+          "value": "deep",
+          "count": 7,
+          "percent": 9.3
+        },
+        {
+          "value": "very-shallow",
+          "count": 7,
+          "percent": 9.3
+        },
+        {
+          "value": "moderate",
+          "count": 1,
+          "percent": 1.3
+        }
+      ]
+    }
+  },
+  "texture": {
+    "sharpness": {
+      "most_common": "very-high",
+      "distribution": [
+        {
+          "value": "very-high",
+          "count": 55,
+          "percent": 73.3
+        },
+        {
+          "value": "medium",
+          "count": 11,
+          "percent": 14.7
+        },
+        {
+          "value": "high",
+          "count": 9,
+          "percent": 12.0
+        }
+      ]
+    },
+    "noise": {
+      "most_common": "intentional-grain",
+      "distribution": [
+        {
+          "value": "intentional-grain",
+          "count": 47,
+          "percent": 62.7
+        },
+        {
+          "value": "minimal",
+          "count": 14,
+          "percent": 18.7
+        },
+        {
+          "value": "none",
+          "count": 14,
+          "percent": 18.7
+        }
+      ]
+    },
+    "post_processing": {
+      "most_common": "heavy",
+      "distribution": [
+        {
+          "value": "heavy",
+          "count": 36,
+          "percent": 48.0
+        },
+        {
+          "value": "moderate",
+          "count": 28,
+          "percent": 37.3
+        },
+        {
+          "value": "minimal",
+          "count": 11,
+          "percent": 14.7
+        }
+      ]
+    }
+  },
+  "mood": {
+    "tone": {
+      "most_common": "warm & cozy",
+      "distribution": [
+        {
+          "value": "warm & cozy",
+          "count": 56,
+          "percent": 74.7
+        },
+        {
+          "value": "dark moody",
+          "count": 4,
+          "percent": 5.3
+        },
+        {
+          "value": "minimal & clean",
+          "count": 3,
+          "percent": 4.0
+        },
+        {
+          "value": "차분하고, 고급스러우며, 감성적임",
+          "count": 1,
+          "percent": 1.3
+        },
+        {
+          "value": "차분하고(Calm), 소박하며(Rustic), 정성이 ",
+          "count": 1,
+          "percent": 1.3
+        },
+        {
+          "value": "차분하고, 정갈하며, 소박한 가운데 고급스러움이 느껴지",
+          "count": 1,
+          "percent": 1.3
+        },
+        {
+          "value": "정갈하고, 차분하며, 소박한 미(美)",
+          "count": 1,
+          "percent": 1.3
+        },
+        {
+          "value": "소박하지만 정성이 담긴, 차분하고 고급스러운 (Rust",
+          "count": 1,
+          "percent": 1.3
+        },
+        {
+          "value": "Calm, neat, and luxurious",
+          "count": 1,
+          "percent": 1.3
+        },
+        {
+          "value": "Calm and neat home-cooked meal",
+          "count": 1,
+          "percent": 1.3
+        },
+        {
+          "value": "차분하고 고급스러우며 정갈함",
+          "count": 1,
+          "percent": 1.3
+        },
+        {
+          "value": "소박하지만 정성이 담긴, 차분하고 고급스러운 톤앤매너",
+          "count": 1,
+          "percent": 1.3
+        },
+        {
+          "value": "Calm, neat, and luxurious, giv",
+          "count": 1,
+          "percent": 1.3
+        },
+        {
+          "value": "차분하고, 정갈하며, 고급스러움",
+          "count": 1,
+          "percent": 1.3
+        },
+        {
+          "value": "차분하고, 정갈하며, 고급스럽고, 묵직하고 깊이 있는 ",
+          "count": 1,
+          "percent": 1.3
+        }
+      ]
+    },
+    "target_use": {
+      "most_common": "magazine",
+      "distribution": [
+        {
+          "value": "magazine",
+          "count": 38,
+          "percent": 50.7
+        },
+        {
+          "value": "menu",
+          "count": 19,
+          "percent": 25.3
+        },
+        {
+          "value": "sns",
+          "count": 18,
+          "percent": 24.0
+        }
+      ]
+    },
+    "keywords": {
+      "most_common": "정갈한",
+      "distribution": [
+        {
+          "value": "정갈한",
+          "count": 40,
+          "percent": 17.8
+        },
+        {
+          "value": "따뜻한",
+          "count": 30,
+          "percent": 13.3
+        },
+        {
+          "value": "미니멀",
+          "count": 14,
+          "percent": 6.2
+        },
+        {
+          "value": "정갈함",
+          "count": 13,
+          "percent": 5.8
+        },
+        {
+          "value": "온기",
+          "count": 11,
+          "percent": 4.9
+        },
+        {
+          "value": "Rustic",
+          "count": 7,
+          "percent": 3.1
+        },
+        {
+          "value": "정성",
+          "count": 5,
+          "percent": 2.2
+        },
+        {
+          "value": "소박한",
+          "count": 5,
+          "percent": 2.2
+        },
+        {
+          "value": "따스함",
+          "count": 5,
+          "percent": 2.2
+        },
+        {
+          "value": "자연스러운",
+          "count": 4,
+          "percent": 1.8
+        },
+        {
+          "value": "Authentic",
+          "count": 4,
+          "percent": 1.8
+        },
+        {
+          "value": "자연주의",
+          "count": 4,
+          "percent": 1.8
+        },
+        {
+          "value": "먹음직스러운",
+          "count": 4,
+          "percent": 1.8
+        },
+        {
+          "value": "담백한",
+          "count": 4,
+          "percent": 1.8
+        },
+        {
+          "value": "소박함",
+          "count": 3,
+          "percent": 1.3
+        },
+        {
+          "value": "깊이감",
+          "count": 3,
+          "percent": 1.3
+        },
+        {
+          "value": "Warm",
+          "count": 3,
+          "percent": 1.3
+        },
+        {
+          "value": "아늑함",
+          "count": 3,
+          "percent": 1.3
+        },
+        {
+          "value": "필름감성",
+          "count": 3,
+          "percent": 1.3
+        },
+        {
+          "value": "편안한",
+          "count": 3,
+          "percent": 1.3
+        },
+        {
+          "value": "미니멀리즘",
+          "count": 3,
+          "percent": 1.3
+        },
+        {
+          "value": "Cozy",
+          "count": 2,
+          "percent": 0.9
+        },
+        {
+          "value": "킨포크스타일",
+          "count": 2,
+          "percent": 0.9
+        },
+        {
+          "value": "Warmth",
+          "count": 2,
+          "percent": 0.9
+        },
+        {
+          "value": "킨포크",
+          "count": 2,
+          "percent": 0.9
+        },
+        {
+          "value": "차분한",
+          "count": 2,
+          "percent": 0.9
+        },
+        {
+          "value": "아날로그",
+          "count": 2,
+          "percent": 0.9
+        },
+        {
+          "value": "자연스러움",
+          "count": 2,
+          "percent": 0.9
+        },
+        {
+          "value": "편안함",
+          "count": 2,
+          "percent": 0.9
+        },
+        {
+          "value": "아늑한",
+          "count": 2,
+          "percent": 0.9
+        },
+        {
+          "value": "Moody",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "아날로그감성",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "정갈한한끼",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "담백함",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "소박한_따뜻함",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "아날로그_감성",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Neat",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "감성적",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "따스한",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "따뜻한일상",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "소박한_따스함",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "깊이감있는",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "감성적인",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "진정성",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "러스틱",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "sizzle",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "artisanal",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "moody",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "깊은맛",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "맛의조화",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "따뜻함",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "입맛돋우는",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "정갈한일상",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "미니멀한식",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "따스한온기",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Homemade",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Comfort",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Natural",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Comfortable",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "소박한_정찬",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "홈메이드",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "고급스러운",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "건강한",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "맛깔스러운",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "정성스러운",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "소박한 아름다움",
+          "count": 1,
+          "percent": 0.4
+        }
+      ]
+    }
+  },
+  "unified_nano_banana_prompt": "Professional Korean food photography, shot at 45도 하이앵글 high angle, soft back / 후방 directional lighting from studio strobe, warm color temperature ~4599K, Kodak Portra 400 film style, desaturated and muted tones with cinematic grading, lifted blacks, on 77mm lens with shallow depth of field, extreme sharpness (very-high) on food texture, warm & cozy atmosphere  정갈한, 따뜻한, 미니멀, 정갈함, 온기, rustic dark wooden table, artisanal ceramic tableware, editorial food magazine quality, 8K resolution.",
+  "usage_guide": {
+    "description": "김현경 작가 스타일 핵심 특성 요약",
+    "lighting_tip": "주 조명: back / 후방 방향, soft 조명",
+    "color_tip": "색온도 3800~6000K, 평균 4599K, 필름: Kodak Portra 400",
+    "composition_tip": "앵글: 45도 하이앵글, 렌즈: 50~100mm, 평균 77mm",
+    "mood_tip": "분위기: warm & cozy, 주요 키워드: 정갈한, 따뜻한, 미니멀, 정갈함, 온기"
+  }
+}

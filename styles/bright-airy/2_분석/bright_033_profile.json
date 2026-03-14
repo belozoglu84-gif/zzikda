@@ -1,0 +1,51 @@
+{
+  "file": "bright_033.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "사광 (Oblique Light)",
+    "quality": "hard",
+    "shadow_character": "짙고 긴 그림자가 깊이감과 드라마틱한 느낌을 부여",
+    "highlight_shadow_ratio": "높은 명암비 (High Contrast)",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 6200,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Orange"
+    ],
+    "secondary_colors": [
+      "Magenta/Red",
+      "Deep Green",
+      "Warm White"
+    ],
+    "saturation": "high",
+    "grading_style": "필름룩 (Film Look)",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "하이 앵글 (High Angle)",
+    "distance": "close-up",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "요거트 볼 안의 구운 무화과와 크럼블",
+    "composition_rule": "대각선 구도 및 삼각 구도"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "요거트, 크럼블, 무화과의 질감이 빛과 그림자를 통해 완벽하게 표현됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "따뜻하고 활기차며 여유로운 지중해의 아침 식사",
+    "target_use": "magazine",
+    "keywords": [
+      "따사로운",
+      "활기찬",
+      "러스틱"
+    ]
+  },
+  "improvement_notes": "조명: 부드러운 빛을 위해 소프트박스/반사판 사용. 색감: 오렌지/옐로우 채도를 낮추고 특정 색상 채도를 올려 색 분리도 향상. 구도: 주제에 더 집중하기 위해 요소를 줄이거나, 더 넓게 찍어 스토리텔링 강화.",
+  "nano_banana_prompt": "A vibrant, hyper-detailed food photograph of [Your Dish Here, e.g., a stack of fluffy pancakes with berries] on a rustic terracotta tiled table. The scene is illuminated by harsh, direct morning sunlight from a high-angle top-left source, creating long, dramatic, hard-edged shadows. The style is warm and sun-kissed, with a cinematic color grade. High contrast and rich saturation, reminiscent of Kodak Portra 400 film. Shot with an 85mm lens at f/2.8 for a shallow depth of field, focusing sharply on the main dish while the background elements are softly blurred. Editorial food photography, rustic elegance, appetizing, vibrant, detailed texture."
+}

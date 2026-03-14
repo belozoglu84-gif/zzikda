@@ -1,0 +1,52 @@
+{
+  "file": "3A7A4EED-78F3-43E7-A9F7-9EB285091120.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "Key light from the left, approximately 45 degrees front (10 o'clock).",
+    "quality": "soft",
+    "shadow_character": "Soft shadows that do not obscure details, with the fill side gently brightened, likely by a reflector or a weak fill light.",
+    "highlight_shadow_ratio": "Middle-key tone with soft contrast, avoiding blown-out highlights or crushed shadows.",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5200,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Brown"
+    ],
+    "secondary_colors": [
+      "Off-white",
+      "Orange",
+      "Purple",
+      "Green"
+    ],
+    "saturation": "low",
+    "grading_style": "Film look with lifted blacks and soft overall contrast.",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "High-angle shot from approximately 30-45 degrees.",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "On the meat and rice grains directly in front of the egg yolk.",
+    "composition_rule": "Subtle application of the Rule of Thirds with the main bowl, and Leading Lines created by the spoon."
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "Excellent texture rendering of all elements, from the glossy meat to the matte bowl, thanks to the use of soft light.",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "Clean, warm, and minimalist.",
+    "target_use": "magazine",
+    "keywords": [
+      "정갈함",
+      "온기",
+      "담백함"
+    ]
+  },
+  "improvement_notes": "While commercially excellent, alternative directions could include: 1. Lighting: Use backlight (from 8 o'clock) for a more dramatic effect with rim light, enhancing steam if present. 2. Color: Apply an 'Orange & Teal' color grade for a trendier, cinematic feel. 3. Composition: Attempt a bold close-up to maximize the texture of the ingredients, or move the side dish closer to create a tighter relationship between elements.",
+  "nano_banana_prompt": "A professional food photograph of [FOOD NAME], styled in a minimalist and warm aesthetic. Shot from a 45-degree angle, medium shot. The main dish is placed slightly off-center on a rustic dark wood surface. Lighting is key: use a large, diffused soft light from the left side to create gentle, soft shadows, giving a natural and airy feel. The color palette is dominated by warm browns and off-whites, with natural color accents from the ingredients. Apply a filmic color grade reminiscent of Kodak Portra 400, featuring slightly desaturated colors, lifted blacks, and a soft overall contrast. Use a shallow depth of field (approx. f/2.8) with a standard 85mm lens, focusing sharply on the main texture of the food. The final image should feel clean, authentic, and inviting."
+}

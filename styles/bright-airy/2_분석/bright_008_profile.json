@@ -1,0 +1,50 @@
+{
+  "file": "bright_008.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "피사체의 좌측 상단, 약 10시 방향",
+    "quality": "hard",
+    "shadow_character": "콘트라스트가 매우 강하며, 그림자의 경계가 뚜렷하고 진함. 네거티브 필 기법 사용 가능성.",
+    "highlight_shadow_ratio": "7:3",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5400,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "cyan blue"
+    ],
+    "secondary_colors": [
+      "orange/yellow",
+      "green"
+    ],
+    "saturation": "high",
+    "grading_style": "현대적인 '틸 앤 오렌지(Teal & Orange)' 스타일 변형",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "하이 앵글(High Angle)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "shallow",
+    "focus_point": "중앙 접시에 놓인 할루미 치즈와 단호박",
+    "composition_rule": "대각선 구도, 삼분할 법칙"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "경광을 사용하여 음식과 식기의 미세한 질감을 극대화함. 치즈의 그릴 자국, 흑미 낱알, 접시의 균열 패턴까지 선명하게 표현됨.",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "밝고 활기차며 건강한 느낌. 햇살 좋은 날의 여유로운 브런치를 연상시키는 따뜻하고 감성적인 무드.",
+    "target_use": "magazine",
+    "keywords": [
+      "햇살가득",
+      "생동감",
+      "러스틱"
+    ]
+  },
+  "improvement_notes": "조명: 부드럽고 고급스러운 톤을 위해 대형 소프트박스나 스크림 사용 및 반사판으로 그림자 채우기. 색감: 재료 본연의 색 강조를 위해 화이트밸런스 중립 조정 및 특정 색 채도 선택적 조절. 구도: 주제 집중을 위해 주변 요소를 제거하는 미니멀한 구도 시도 또는 허브를 리딩 라인으로 활용.",
+  "nano_banana_prompt": "A vibrant high-angle food photograph of [your dish], styled on a rustic ceramic plate. The scene is illuminated by hard, direct sunlight coming from the top-left, creating crisp, long shadows and high contrast. The overall color palette is warm and cinematic, featuring a Kodak Portra 400 film aesthetic with rich oranges, deep cyans, and fresh greens. The composition is dynamic, with elements arranged diagonally. Shallow depth of field with tack-sharp focus on the main subject. The background is a textured, light-colored surface. --ar 4:5 --style raw --stylize 750"
+}

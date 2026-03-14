@@ -1,0 +1,51 @@
+{
+  "file": "bright_004.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "3-point lighting: Key light from top-left, soft fill light from the right, and a strong backlight to enhance transparency.",
+    "quality": "soft",
+    "shadow_character": "High-key tone with intentionally minimized shadows to create a bright and clean look.",
+    "highlight_shadow_ratio": "1:2 to 1:3",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5800,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Lime Green",
+      "Lemon Yellow"
+    ],
+    "secondary_colors": [
+      "White",
+      "Transparent/Silver"
+    ],
+    "saturation": "high",
+    "grading_style": "Clean & Vivid",
+    "similar_film_stock": "Kodak Ektar 100"
+  },
+  "composition": {
+    "angle": "Eye-level Angle",
+    "distance": "extreme-close-up",
+    "estimated_lens_mm": 100,
+    "dof": "very-shallow",
+    "focus_point": "Slightly left of center, on the largest group of bubbles on the lime surface.",
+    "composition_rule": "Filling the Frame, Diagonal Composition"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "Excellent rendering of fruit peel texture, pulp fibers, and the smoothness of bubbles.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Refreshing, Fresh, Vibrant, Energetic",
+    "target_use": "advertisement",
+    "keywords": [
+      "톡쏘는상쾌함",
+      "여름",
+      "에너지"
+    ]
+  },
+  "improvement_notes": "To elevate to a high-end level, consider using a single strong side light for more dramatic contrast and texture. Experiment with cinematic color grading, such as adding a teal tint to greens and a blue tone to shadows. Also, try incorporating negative space or capturing a dynamic moment like splashing droplets to add more life to the static image.",
+  "nano_banana_prompt": "/imagine prompt: Extreme macro photograph of [FOOD/DRINK], submerged in crystal clear sparkling water, covered in tiny effervescent bubbles, shot with a 100mm macro lens at f/2.8, bright and clean high-key studio lighting, dominant soft light from the left, strong backlight creating a luminous glow, vibrant saturated colors of lime green and lemon yellow, hyper-realistic detail, sharp focus on the bubbles, refreshing and energetic mood, commercial beverage photography style, Kodak Ektar 100 film aesthetic --ar 2:3 --style raw --v 6.0"
+}

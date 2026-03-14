@@ -1,0 +1,52 @@
+{
+  "file": "사용자 정의 이름 00019(포토샵).jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10-11시 방향)",
+    "quality": "soft",
+    "shadow_character": "깊지 않고 부드러운 그림자, 낮은 콘트라스트",
+    "highlight_shadow_ratio": "저-대비 (Low-Contrast)",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 4000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Olive Green",
+      "Warm Brown"
+    ],
+    "secondary_colors": [
+      "Teal/Mint",
+      "Golden Brown",
+      "Ivory"
+    ],
+    "saturation": "low",
+    "grading_style": "Lifted/Faded Blacks, 섀도우에 웜톤 추가, 매트한 질감",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "탑다운 앵글 (Flat Lay)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "shallow",
+    "focus_point": "수프 중앙에 띄워진 크루통과 파슬리, 크림이 만나는 지점",
+    "composition_rule": "자연스러운 배치, 원형 요소를 활용한 중앙 집중형 구도"
+  },
+  "texture": {
+    "sharpness": "medium",
+    "noise": "intentional-grain",
+    "detail_rendering": "크루통, 수프, 나무, 천의 질감이 부드러운 조명 아래서 잘 표현됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Warm, Rustic, Cozy",
+    "target_use": "sns",
+    "keywords": [
+      "Homemade",
+      "Rustic",
+      "Comfort"
+    ]
+  },
+  "improvement_notes": "조명: 입체감 강화를 위한 키커 라이트 추가 및 콘트라스트 조절을 위한 네거티브 필 사용 제안. 색감: 색상 대비를 위한 부분적 화이트밸런스 조정 및 먹음직스러움을 위한 선택적 채도 조절 제안. 구도: 프레임 단순화를 위한 주변 요소 제거 및 시선 유도를 위한 소품 재배치 제안.",
+  "nano_banana_prompt": "A top-down flat lay food photograph of [YOUR FOOD HERE] on a rustic wooden surface.\n\n**Style:**\n- **Lighting:** Soft, diffused natural light from the top-left, creating gentle, feathered shadows. Low-contrast and airy mood.\n- **Color Palette:** Warm and earthy tones, dominated by olive greens, warm browns, and creamy off-whites. Desaturated colors with a matte finish.\n- **Atmosphere:** Cozy, rustic, and homemade feeling.\n- **Composition:** Shallow depth of field (f/2.8), with sharp focus on the main subject and softly blurred edges.\n- **Aesthetics:** Analog film look, Kodak Portra 400 emulation, with lifted blacks and fine grain.\n\n**Parameters:**\n--style raw --ar 4:5"
+}

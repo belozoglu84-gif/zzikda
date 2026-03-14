@@ -1,0 +1,52 @@
+{
+  "file": "제육_앤밥2.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 후방 (약 10시 방향)",
+    "quality": "soft",
+    "shadow_character": "부드럽게 퍼지는 그림자, 우측 전방 필 라이트(반사판)로 디테일 확보",
+    "highlight_shadow_ratio": "3:1",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5100,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Brown"
+    ],
+    "secondary_colors": [
+      "Off-White",
+      "Black",
+      "Red",
+      "Green"
+    ],
+    "saturation": "low",
+    "grading_style": "Lifted blacks, low contrast, and subtle warm tones in shadows for a soft film look.",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "약 15-20도의 약간 높은 앵글",
+    "distance": "medium",
+    "estimated_lens_mm": 90,
+    "dof": "shallow",
+    "focus_point": "덮밥의 고명과 밥알 앞부분",
+    "composition_rule": "중앙 집중 구도"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "나무, 그릇, 음식의 질감이 과장 없이 사실적으로 표현됨",
+    "post_processing": "minimal"
+  },
+  "mood": {
+    "tone": "정갈함, 미니멀리즘, 따뜻함",
+    "target_use": "menu",
+    "keywords": [
+      "정갈한",
+      "미니멀",
+      "담백한"
+    ]
+  },
+  "improvement_notes": "조명: 스팟성 역광(Rim Light) 추가로 입체감 및 생동감 강화. 색감: 섀도우에 틸(Teal) 색감을 추가하여 영화적 분위기 연출. 구도: 액션 컷 또는 타이트한 클로즈업으로 스토리텔링 및 시각적 임팩트 강화.",
+  "nano_banana_prompt": "/imagine prompt: A hyper-realistic, professional food photograph of [FOOD NAME], minimalist plating in a rustic ceramic bowl. The scene is set on a dark natural wood board against a clean, bright off-white background. The lighting is soft and diffused, coming from a large softbox on the left side, creating gentle, soft shadows on the right. Eye-level medium shot, captured with a 100mm macro lens at f/4, sharp focus on the main food texture with a shallow depth of field. The color palette is warm, natural, and slightly desaturated, with an overall clean and inviting mood. The final image has the aesthetic of Kodak Portra 400 film. --ar 3:2 --style raw --v 6.0"
+}

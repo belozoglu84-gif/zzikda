@@ -1,0 +1,54 @@
+{
+  "file": "bright_041.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Top-left",
+    "quality": "hard",
+    "shadow_character": "Deep and dark shadows with minimal fill light, creating high contrast",
+    "highlight_shadow_ratio": "High-key contrast with specular highlights",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5250,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Terracotta",
+      "Coral",
+      "Cream",
+      "Ivory"
+    ],
+    "secondary_colors": [
+      "Blue",
+      "Yellow",
+      "Pink"
+    ],
+    "saturation": "high",
+    "grading_style": "Warm & Clean",
+    "similar_film_stock": "Kodak Portra 400 / Kodak Gold 200"
+  },
+  "composition": {
+    "angle": "Slight High-angle",
+    "distance": "close-up",
+    "estimated_lens_mm": 35,
+    "dof": "deep",
+    "focus_point": "Front picture frame or the space between the two frames",
+    "composition_rule": "Diagonal Composition"
+  },
+  "texture": {
+    "sharpness": "medium",
+    "noise": "minimal",
+    "detail_rendering": "Excellent rendering of the frame's twisted shape and matte texture due to hard light",
+    "post_processing": "minimal"
+  },
+  "mood": {
+    "tone": "Warm, cozy, and sentimental",
+    "target_use": "sns",
+    "keywords": [
+      "따스한오후",
+      "아날로그감성",
+      "홈카페"
+    ]
+  },
+  "improvement_notes": "For a high-end commercial look, control shadows with a reflector to reveal detail. Diffuse the light for a softer, more luxurious feel. Use a gray card for accurate white balance, and simplify the background to focus on the subject. Add complementary props to enhance the story.",
+  "nano_banana_prompt": "Subject: A freshly baked croissant with flaky layers, placed on a minimalist off-white ceramic plate. Style: Food photography, close-up shot, eye-level view. Lighting: Bathed in intense, hard direct sunlight from a top-left window, creating long, crisp, and dramatic dark shadows on the right side. High contrast. Color & Mood: Vibrant and warm color palette, reminiscent of the golden hour. The scene has a cozy, lazy afternoon vibe. Kodak Portra 400 film aesthetic with rich colors and pleasing warmth. Details: Hyper-realistic details, sharp focus on the croissant's texture, clean and simple background. Minimalist composition."
+}

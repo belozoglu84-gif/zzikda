@@ -1,0 +1,51 @@
+{
+  "file": "bright_062.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10시 방향)",
+    "quality": "hard",
+    "shadow_character": "짙고 선명하며, 피사체의 형태를 복제함",
+    "highlight_shadow_ratio": "매우 높음",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5900,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Scarlet Red",
+      "Orange"
+    ],
+    "secondary_colors": [
+      "Deep Green",
+      "Olive Green"
+    ],
+    "saturation": "boosted",
+    "grading_style": "Punchy",
+    "similar_film_stock": "Kodak Ektar 100"
+  },
+  "composition": {
+    "angle": "Top-down View / Flat-lay",
+    "distance": "close-up",
+    "estimated_lens_mm": 90,
+    "dof": "deep",
+    "focus_point": "프레임 전체",
+    "composition_rule": "Rhythmic Randomness"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "경광을 통해 매끄럽고 광택 있는 질감을 극대화함",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Vibrant, Graphic, Bold, Modern",
+    "target_use": "advertisement",
+    "keywords": [
+      "생기",
+      "강렬함",
+      "신선함"
+    ]
+  },
+  "improvement_notes": "조명: 약한 필 라이트로 그림자 디테일 보강. 색감: HSL 패널로 붉은 영역의 클리핑 방지 및 색 깊이감 추가. 구도: S자 곡선이나 대각선 배열로 리딩 라인 형성 또는 소품 추가.",
+  "nano_banana_prompt": "A top-down flat lay professional food photograph of [FOOD ITEM], scattered dynamically on a minimalist off-white surface. Lit with a single, direct hard light source from the upper-left, creating crisp, dark, well-defined shadows to the lower-right. The lighting creates strong specular highlights on the food's texture. The color palette is vibrant and punchy with extremely high saturation, reminiscent of cross-processed Kodak Ektar 100 film. Shot with a 100mm macro lens at f/11 for deep depth of field. The image is hyper-realistic, ultra-sharp, with rich textures and a bold, graphic, modern aesthetic."
+}

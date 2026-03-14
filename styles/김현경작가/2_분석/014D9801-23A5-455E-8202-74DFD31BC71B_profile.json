@@ -1,0 +1,52 @@
+{
+  "file": "014D9801-23A5-455E-8202-74DFD31BC71B.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10시 방향)",
+    "quality": "soft",
+    "shadow_character": "부드럽고 깊지 않으며, 우측에 반사판/보조광을 사용하여 디테일을 살림",
+    "highlight_shadow_ratio": "부드러운 톤 (낮은 콘트라스트)",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5000,
+    "white_balance": "cool-shifted",
+    "primary_colors": [
+      "brown",
+      "orange"
+    ],
+    "secondary_colors": [
+      "white",
+      "purple",
+      "green"
+    ],
+    "saturation": "low",
+    "grading_style": "시네마틱/필름룩 (암부 틴팅, 스플릿 토닝)",
+    "similar_film_stock": "Fujifilm Pro 400H"
+  },
+  "composition": {
+    "angle": "탑다운 뷰 (플랫레이)",
+    "distance": "close-up",
+    "estimated_lens_mm": 50,
+    "dof": "shallow",
+    "focus_point": "계란 노른자와 주변 고기",
+    "composition_rule": "중앙 집중 구도, 레이어링"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "최상급. 고기, 밥알, 노른자, 나무 결 등 모든 텍스처가 사실적으로 표현됨.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "차분하고, 고급스러우며, 감성적임",
+    "target_use": "sns",
+    "keywords": [
+      "Rustic",
+      "Moody",
+      "Cozy"
+    ]
+  },
+  "improvement_notes": "상업 광고용으로 조명(킥 라이트 추가), 색감(채도 증가), 구도(45도 앵글 추가, 소품 활용)를 변경하여 더 직관적인 식욕을 자극할 수 있음.",
+  "nano_banana_prompt": "/imagine prompt: A top-down flat lay food photograph of [FOOD NAME], professionally styled in a dark rustic ceramic bowl on a dark, textured wooden table.\n\n**Lighting**: Moody and atmospheric lighting, shot with a large, diffused soft light source from the top-left, creating soft and gentle shadows to the right. Low-key, cinematic feel.\n\n**Color Palette**: Desaturated and sophisticated color grading. A subtle teal and blue tint in the shadows, with warm, natural tones in the food. Overall look is similar to Fujifilm Pro 400H film stock. Matte finish with slightly lifted blacks.\n\n**Camera & Composition**: Shot with a 50mm lens, shallow depth of field (f/2.8), with sharp focus on the main element of the dish. The composition is centered and balanced, creating a calm and inviting mood.\n\n**Details**: Hyper-detailed texture, showing the glistening sauces and fresh ingredients. A fine layer of film grain is added for a rustic, analog feel. --ar 2:3 --style raw --v 6.0"
+}

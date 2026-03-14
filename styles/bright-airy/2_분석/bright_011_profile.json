@@ -1,0 +1,50 @@
+{
+  "file": "bright_011.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Key light from front-left (approx. 10 o'clock), with a soft fill light or reflector from the right.",
+    "quality": "soft",
+    "shadow_character": "Soft, light, and diffused shadows, maintaining a high-key overall tone.",
+    "highlight_shadow_ratio": "Low contrast, with details visible even in the darkest areas.",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5400,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Tangerine Orange"
+    ],
+    "secondary_colors": [
+      "Deep Green",
+      "Pale Yellow"
+    ],
+    "saturation": "high",
+    "grading_style": "Clean Commercial style, focusing on clarity and vibrance.",
+    "similar_film_stock": "Kodak Ektar 100"
+  },
+  "composition": {
+    "angle": "Slight High Angle (approx. 20-30 degrees)",
+    "distance": "close-up",
+    "estimated_lens_mm": 90,
+    "dof": "shallow",
+    "focus_point": "The main label on the bottle, specifically the word 'Tangerine'.",
+    "composition_rule": "Central placement combined with a Triangle Composition for stability."
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "Excellent rendering of textures on the orange peel and pineapple skin.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Bright, Clean, Fresh",
+    "target_use": "advertisement",
+    "keywords": [
+      "활기찬",
+      "건강한",
+      "상큼함"
+    ]
+  },
+  "improvement_notes": "Add a rim/kicker light for better separation and dimensionality. Consider subtle split toning for more color depth. Introduce dynamic elements like splashing juice or a hand model for a more engaging composition.",
+  "nano_banana_prompt": "commercial product photography of [FOOD/DRINK], high-key studio lighting, bright and clean aesthetic, shot against a seamless pure white background, main light is a large diffused softbox from the left, soft fill light from the right creating minimal soft shadows, eye-level with a slight high angle, medium close-up shot, captured with a 100mm macro lens at f/5.6, tack sharp focus on the main subject, vibrant and saturated colors, color palette dominated by [MAIN COLOR] and [SECONDARY COLOR], mood is fresh, healthy, and energetic, style of Kodak Ektar 100, hyper-detailed, professional retouching --ar 4:5 --style raw --q 2"
+}

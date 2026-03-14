@@ -1,0 +1,52 @@
+{
+  "file": "bright_001.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Back-left, approx. 45 degrees high",
+    "quality": "soft",
+    "shadow_character": "Soft-edged shadows that define the food's form and add depth",
+    "highlight_shadow_ratio": "7:3",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 4000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Brown",
+      "Yellow"
+    ],
+    "secondary_colors": [
+      "Deep Blue",
+      "Red",
+      "Green"
+    ],
+    "saturation": "high",
+    "grading_style": "Teal & Orange",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "45-degree angle (Three-Quarter View)",
+    "distance": "close-up",
+    "estimated_lens_mm": 90,
+    "dof": "very-shallow",
+    "focus_point": "Fillings and cheese of the frontmost taco",
+    "composition_rule": "Diagonal Composition, Leading Line, Rule of Thirds"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "Excellent rendering of textures, maximizing the tactile feel of ingredients like the crispy shell and meat.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Rustic, Warm, Premium",
+    "target_use": "advertisement",
+    "keywords": [
+      "정통의맛",
+      "따스한저녁",
+      "식욕자극"
+    ]
+  },
+  "improvement_notes": "조명: 피사체 오른쪽 뒷편에 림 라이트를 추가하여 실루엣을 배경과 분리하고 입체감을 극대화할 수 있음. 색감: 섀도우의 틸(청록) 색감을 줄여 더 클래식하고 자연스러운 톤을 고려할 수 있음. 구도: 라임 조각이나 소스 볼 등 소품을 추가하는 '내러티브 스타일링'으로 사진에 생동감과 스토리를 더할 수 있음.",
+  "nano_banana_prompt": "professional food photography of [FOOD NAME], close-up shot from a 45-degree angle, placed on a rustic dark ceramic plate on a dark textured wooden table. Dramatic back-left soft lighting creating deep, soft shadows and warm golden highlights. Cinematic and warm atmosphere, Teal and Orange color grading. Shallow depth of field with a beautifully blurred background. Highly detailed texture, style of Kodak Portra 400 film. --ar 9:19 --style raw --q 2"
+}

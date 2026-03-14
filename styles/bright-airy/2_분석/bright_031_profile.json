@@ -1,0 +1,54 @@
+{
+  "file": "bright_031.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단(10-11시 방향)",
+    "quality": "hard",
+    "shadow_character": "그림자가 길고 어두우며, 경계가 날카로움",
+    "highlight_shadow_ratio": "높은 콘트라스트",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 6000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "orange",
+      "yellow"
+    ],
+    "secondary_colors": [
+      "green",
+      "teal",
+      "blue",
+      "magenta",
+      "red"
+    ],
+    "saturation": "high",
+    "grading_style": "하이 콘트라스트 & 웜 톤",
+    "similar_film_stock": "Kodak Portra 400 / Kodak Gold 200"
+  },
+  "composition": {
+    "angle": "탑다운 뷰 (Top-down View) / 플랫레이 (Flat Lay)",
+    "distance": "wide",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "화면 전체 평면, 특히 중앙부와 손",
+    "composition_rule": "'S'자 또는 대각선 구도의 변형"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "경광을 통해 피사체 표면의 미세한 굴곡과 질감 표현을 극대화함",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "활기차고, 즐거우며, 사교적인 (Energetic, Joyful, Social)",
+    "target_use": "advertisement",
+    "keywords": [
+      "활기찬",
+      "화창한오후",
+      "어울림"
+    ]
+  },
+  "improvement_notes": "더 부드러운 무드를 위해 대형 소프트박스 사용. 세련된 느낌을 위해 채도를 선택적으로 조절하고 화이트밸런스를 중성적으로 조정. 정제된 느낌을 위해 요소 수를 줄여 여백 확보.",
+  "nano_banana_prompt": "A vibrant and abundant food flat lay, top-down view of a sun-drenched brunch party table. Featuring a citrus salad with walnuts, a cheese board with brie and swiss cheese, crackers, and orange cocktails in stylish glassware. A woman's hand with red nail polish is reaching for a glass. Shot with hard, direct sunlight from the top-left, creating long, crisp shadows and high contrast. The color palette is dominated by warm oranges, yellows, and golds, with accent pops of teal green and magenta. The overall mood is energetic, sociable, and joyful. Commercial food photography style, shot on a 50mm lens, deep depth of field, razor-sharp details, with a subtle film grain texture reminiscent of Kodak Portra 400 film. --style raw"
+}

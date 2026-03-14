@@ -1,0 +1,51 @@
+{
+  "file": "bright_059.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10-11시 방향)",
+    "quality": "hard",
+    "shadow_character": "짙고 긴 그림자 (Deep and long shadows)",
+    "highlight_shadow_ratio": "하이 콘트라스트 (High Contrast)",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 3800,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "terracotta orange/red"
+    ],
+    "secondary_colors": [
+      "vivid green",
+      "magenta pink",
+      "creamy beige"
+    ],
+    "saturation": "boosted",
+    "grading_style": "상업적 필름룩 (Commercial film look with teal in shadows)",
+    "similar_film_stock": "Kodak Ektar 100"
+  },
+  "composition": {
+    "angle": "탑다운 뷰 (Top-down View / Flat-lay)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "중앙부 (후무스와 피타 브레드 접시)",
+    "composition_rule": "격자 구도 및 대각선 구도 (Grid and Diagonal)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "경광을 활용한 질감 극대화 (Texture maximization using hard light)",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "활기차고 이국적이며 즐거운 분위기 (Vibrant, Exotic, Convivial)",
+    "target_use": "sns",
+    "keywords": [
+      "태양의만찬",
+      "활기",
+      "이국적정취"
+    ]
+  },
+  "improvement_notes": "고급/파인다이닝 스타일을 위해 부드러운 조명 사용, 내추럴/오가닉 스타일을 위해 채도와 웜톤 감소, 미니멀/모던 스타일을 위해 피사체 축소 및 여백 활용 제안.",
+  "nano_banana_prompt": "A vibrant and energetic flat lay photo of [Your Food Subject, e.g., a rustic pizza and a glass of red wine]. The scene is set on a rustic terracotta tile surface. The lighting is a single source of harsh, direct sunlight coming from the top-left, casting long, crisp, dramatic shadows across the frame. The color palette is extremely warm and saturated, with punchy reds, deep oranges, and rich greens, creating a sun-drenched, golden hour mood. The image is hyper-detailed, with sharp focus and rich textures. Professional food photography, editorial style, high contrast, Kodak Ektar 100 film aesthetic. --ar 4:5"
+}

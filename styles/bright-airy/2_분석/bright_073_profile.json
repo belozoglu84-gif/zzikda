@@ -1,0 +1,51 @@
+{
+  "file": "bright_073.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10~11시 방향)",
+    "quality": "hard",
+    "shadow_character": "길고 콘트라스트가 강해 입체감과 깊이감을 극대화함",
+    "highlight_shadow_ratio": "고대비 (High Contrast)",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5800,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "따뜻한 노란색 (Sunny Yellow)"
+    ],
+    "secondary_colors": [
+      "짙은 붉은색 (Deep Red)",
+      "선명한 주황색 (Vivid Orange)",
+      "청량한 녹색 (Cool Green)"
+    ],
+    "saturation": "high",
+    "grading_style": "'캘리포니아 선샤인' 또는 '지중해 휴일' 스타일",
+    "similar_film_stock": "코닥 포트라 400 또는 코닥 골드 200"
+  },
+  "composition": {
+    "angle": "하이 앵글 (약 45~60도)",
+    "distance": "medium",
+    "estimated_lens_mm": 65,
+    "dof": "shallow",
+    "focus_point": "중앙 요거트 볼의 토핑 (오렌지, 그래놀라)",
+    "composition_rule": "패턴과 반복, 대각선 구도 요소가 포함된 유기적(Organic) 구도"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "경광(Hard Light)이 그래놀라의 바삭함, 과일의 촉촉함, 타일의 거친 질감을 극적으로 강조함",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "밝고, 활기차며, 건강하고 신선한 느낌",
+    "target_use": "sns",
+    "keywords": [
+      "햇살가득",
+      "상큼한활력",
+      "여유로운아침"
+    ]
+  },
+  "improvement_notes": "조명: 더 부드러운 빛을 위해 큰 디퓨저 사용. 색감: 배경 채도를 낮추고 그림자에 청록/파란색 톤 추가. 구도: 주변 요소를 정리하고 더 타이트하게 크롭하거나 리딩 라인 강화.",
+  "nano_banana_prompt": "A vibrant and appetizing food photograph of [Your Food Subject], styled for a sunny morning brunch. Shot from a 45-degree high angle, medium close-up. The scene is illuminated by direct, hard sunlight coming from the top-left, creating long, crisp, high-contrast shadows on a rustic yellow tiled surface. The color palette is warm and saturated, dominated by sunny yellows, deep reds, and zesty oranges, color graded in the style of Kodak Portra 400 film. Extremely sharp focus on the food's texture, with a shallow depth of field. The overall mood is energetic, fresh, and full of life. --ar 4:5 --style raw"
+}

@@ -1,0 +1,53 @@
+{
+  "file": "B5CA1F22-8518-4533-98D2-70F1976A2A8B.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "Side-Backlight from the left (approx. 10 o'clock)",
+    "quality": "soft",
+    "shadow_character": "Shadows are deep but retain detail, suggesting a weak fill light or reflector from the right.",
+    "highlight_shadow_ratio": "Low contrast ratio, approximately 3:1",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5000,
+    "white_balance": "cool-shifted",
+    "primary_colors": [
+      "Brown",
+      "Black",
+      "Neutral Gray"
+    ],
+    "secondary_colors": [
+      "Orange",
+      "Purple",
+      "Green"
+    ],
+    "saturation": "low",
+    "grading_style": "Cinematic/Film Emulation Style",
+    "similar_film_stock": "Fujifilm Pro 400H"
+  },
+  "composition": {
+    "angle": "45-degree high-angle shot",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "Egg yolk and surrounding meat",
+    "composition_rule": "Rule of Thirds"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "Excellent. Perfectly renders textures like seared meat, rice grains, the crispness of green onions, and the glossiness of the yolk.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Calm, neat, and luxurious, giving the impression of a slow, carefully prepared meal.",
+    "target_use": "menu",
+    "keywords": [
+      "정갈한",
+      "깊이감있는",
+      "차분한"
+    ]
+  },
+  "improvement_notes": "For a more dramatic commercial look, add a spot highlight on the yolk and a rim light. To enhance appetite, warm the color temperature and selectively boost saturation on the yolk and meat. For more dynamism, add props like chopsticks lifting food or use a lower, eye-level angle.",
+  "nano_banana_prompt": "A hyper-realistic, editorial food photograph of [YOUR FOOD HERE], styled in a minimalist dark ceramic bowl. Shot with an 85mm lens at f/2.8, creating a shallow depth of field with sharp focus on the main ingredient. The composition is a 45-degree angle shot, following the rule of thirds. Lighting is key: use soft, diffused side-backlight from the left to create rich textures and gentle, long shadows. The mood is calm, moody, and sophisticated. Color grading in the style of Fujifilm Pro 400H: desaturated color palette, lifted blacks with a subtle cool cyan tint in the shadows, and neutral, natural highlights. The background is a dark rustic wooden table with subtle, out-of-focus elements. Add fine film grain for an authentic, analog feel. --ar 2:3 --style raw --stylize 750"
+}

@@ -1,0 +1,52 @@
+{
+  "file": "제육_앤밥3.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 후방 (10시 방향)",
+    "quality": "soft",
+    "shadow_character": "깊지 않고 부드러운 그림자. 카메라 방향이나 우측 전방에서 약한 필라이트나 반사판을 사용하여 그림자를 완화함.",
+    "highlight_shadow_ratio": "로우 콘트라스트(Low Contrast)",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5200,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Red",
+      "Brown"
+    ],
+    "secondary_colors": [
+      "White",
+      "Black",
+      "Green"
+    ],
+    "saturation": "low",
+    "grading_style": "필름룩 스타일, 암부를 살짝 띄우고(lifted blacks) 섀도우에 미세한 브라운 톤을 추가하여 부드러운 느낌을 줌.",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "45도 앵글",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "제육볶음과 밥이 만나는 그릇의 앞부분",
+    "composition_rule": "삼분할 법칙 및 삼각형 구도"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "소스의 윤기, 밥알의 찰기, 나무 도마의 결 등 음식의 질감 표현이 뛰어남.",
+    "post_processing": "minimal"
+  },
+  "mood": {
+    "tone": "미니멀, 정갈함, 따뜻함, 모던한 한식",
+    "target_use": "menu",
+    "keywords": [
+      "정갈한",
+      "미니멀",
+      "따뜻한"
+    ]
+  },
+  "improvement_notes": "조명: 스팟성 하이라이트 및 림라이트 추가로 입체감 강화. 색감: 스플릿 토닝으로 색의 깊이 추가. 구도: 손 모델을 활용하거나 타이트하게 크롭하여 생동감 부여.",
+  "nano_banana_prompt": "/imagine prompt: A hyper-realistic, professional food photograph of [음식 이름], styled in a minimalist aesthetic. The dish is served in a dark matte ceramic bowl, placed on a rustic wooden board against a clean, warm off-white background. **Lighting**: Soft, diffused studio light coming from the back-left (10 o'clock), creating gentle, soft shadows and highlighting the food's texture. Low contrast, bright and airy mood. **Composition**: 45-degree angle shot, medium shot capturing the main dish and small side dishes. Shallow depth of field with the focus sharp on the front of the main dish. **Color & Style**: Warm neutral color palette, natural and appetizing colors with slightly desaturated tones. The overall look resembles Kodak Portra 400 film stock, with lifted blacks and a hint of warmth in the shadows. **Details**: Extremely high detail, crisp textures, no digital noise. --ar 3:2 --style raw --v 6.0"
+}

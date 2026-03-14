@@ -1,0 +1,54 @@
+{
+  "file": "B16FE40D-DF26-4702-81B9-82E78FF29F6F.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10~11시 방향)",
+    "quality": "soft",
+    "shadow_character": "우측 하단으로 부드럽게 떨어지며, 반사판이나 필 라이트로 암부 디테일을 살림",
+    "highlight_shadow_ratio": "낮은 콘트라스트 비율",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5200,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "짙은 갈색",
+      "검은색"
+    ],
+    "secondary_colors": [
+      "아이보리",
+      "흰색",
+      "주황색",
+      "녹색",
+      "보라색"
+    ],
+    "saturation": "low",
+    "grading_style": "시네마틱/필름룩 스타일 (리프트된 블랙, 틸 앤 오렌지 뉘앙스)",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "탑다운 (플랫레이)",
+    "distance": "medium",
+    "estimated_lens_mm": 65,
+    "dof": "shallow",
+    "focus_point": "계란 노른자와 그 주변의 고기",
+    "composition_rule": "수직 분할 및 비대칭 균형"
+  },
+  "texture": {
+    "sharpness": "high",
+    "noise": "intentional-grain",
+    "detail_rendering": "최상급. 나무, 천, 그릇, 음식 등 각 재료의 질감이 사실적으로 표현됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "소박하지만 정성이 담긴, 차분하고 고급스러운 톤앤매너",
+    "target_use": "magazine",
+    "keywords": [
+      "정갈한",
+      "소박한_따스함",
+      "필름감성"
+    ]
+  },
+  "improvement_notes": "식욕을 더 자극하기 위해 키커/림 라이트를 추가하여 하이라이트를 강조할 수 있음. 상업적 매력을 높이려면 주 피사체에만 선택적으로 채도와 명료도를 높이는 것을 고려. 젓가락 등을 활용하여 '식사 직전'의 연출을 통해 역동성과 스토리를 더할 수 있음.",
+  "nano_banana_prompt": "A top-down flat lay food photograph of [음식 이름], styled on a dark rustic wooden board with a natural linen napkin on the side. The lighting is soft and moody, coming from a large, diffused light source from the top-left, creating gentle shadows. The color palette is desaturated and cinematic with lifted blacks for a matte, filmic look. A subtle, fine film grain is visible throughout the image. The style is reminiscent of Kodak Portra 400 film photography. Shot with a 50mm lens, shallow depth of field, focus is sharp on the main subject. --ar 2:3 --style raw"
+}

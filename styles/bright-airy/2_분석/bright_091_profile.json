@@ -1,0 +1,51 @@
+{
+  "file": "bright_091.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단(10시 방향)",
+    "quality": "hard",
+    "shadow_character": "콘트라스트가 매우 강하며, 깊고 진함",
+    "highlight_shadow_ratio": "하이 콘트라스트",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5700,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Vibrant Yellow",
+      "Cool Blue"
+    ],
+    "secondary_colors": [
+      "Earthy Green",
+      "Neutral Beige"
+    ],
+    "saturation": "high",
+    "grading_style": "디지털 필름룩 (암부 청록색 톤 추가)",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "하이 앵글 (약 45도)",
+    "distance": "medium",
+    "estimated_lens_mm": 70,
+    "dof": "shallow",
+    "focus_point": "가운데 레몬의 표면 질감",
+    "composition_rule": "리딩 라인 및 삼분할 법칙"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "경광을 활용하여 피사체 질감 극대화",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "활기찬 여름날의 피크닉",
+    "target_use": "sns",
+    "keywords": [
+      "청량함",
+      "자연광",
+      "지중해"
+    ]
+  },
+  "improvement_notes": "조명: 대형 디퓨저와 반사판을 사용하여 하이라이트 계조를 살리고 그림자 디테일을 보강. 색감: 파란색 채도를 조절하여 노란색을 강조. 구도: 주변 요소를 정리하여 주 피사체에 시선 집중.",
+  "nano_banana_prompt": "/imagine prompt: A vibrant, high-angle food photograph of [YOUR FOOD HERE, e.g., a bowl of fresh strawberries], styled for a summer picnic.\n\n**Setting & Props:** The food is placed on a rustic, textured surface like a blue and white striped linen tablecloth. Include natural elements like fresh green mint leaves and a simple ceramic bowl.\n\n**Lighting:** Bathed in bright, direct, hard natural sunlight coming from the top-left. This creates strong, crisp, dark shadows that fall towards the bottom-right, emphasizing texture and creating high contrast.\n\n**Composition:** Medium close-up shot from a 45-degree angle. Shallow depth of field with the main subject in sharp focus, and the background softly blurred. The composition follows the rule of thirds.\n\n**Color & Mood:** A fresh and vivid color palette dominated by the food's natural colors against a complementary background. Clean, natural daylight white balance (5600K). The overall mood is refreshing, sunny, and energetic.\n\n**Style:** Shot on a professional DSLR with a 85mm lens. The final image has the aesthetic of Kodak Portra 400 film, featuring rich colors, high clarity, and minimal grain. --ar 4:5 --style raw --stylize 750"
+}

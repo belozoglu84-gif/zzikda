@@ -1,0 +1,51 @@
+{
+  "file": "bright_083.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10-11시 방향)",
+    "quality": "soft",
+    "shadow_character": "매우 옅고 부드러우며, 콘트라스트가 낮은 하이키(High-key) 스타일",
+    "highlight_shadow_ratio": "2:1 이하",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5350,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Pink",
+      "Yellow"
+    ],
+    "secondary_colors": [
+      "Green",
+      "White"
+    ],
+    "saturation": "high",
+    "grading_style": "클린 팝 (Clean Pop)",
+    "similar_film_stock": "Fujifilm Pro 400H"
+  },
+  "composition": {
+    "angle": "탑다운 앵글 (Top-down Angle / Flat-lay)",
+    "distance": "wide",
+    "estimated_lens_mm": 50,
+    "dof": "pan-focus",
+    "focus_point": "프레임 전체 (Pan Focus)",
+    "composition_rule": "대각선 구도 (Diagonal Composition)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "레몬 껍질, 얼음, 물방울 등 각 재료의 질감이 명확하게 표현됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Bright, Playful, Vibrant (밝고, 경쾌하며, 생동감 넘치는)",
+    "target_use": "sns",
+    "keywords": [
+      "상큼함",
+      "청량감",
+      "생동감"
+    ]
+  },
+  "improvement_notes": "이 사진은 이미 상업적으로 훌륭하지만, 하이엔드 광고나 고급 매거진 수준으로 끌어올리기 위한 몇 가지 제안입니다.\n\n*   **조명**: 현재의 플랫한 조명은 깨끗하지만 다소 단조롭습니다. 그림자를 조금 더 만들어 입체감을 부여하겠습니다. 좌측 주광은 유지하되, 우측 반사판을 조금 멀리하거나 검은색 반사판(고보)을 사용하여 레몬이나 유리잔의 오른쪽에 미세한 그림자가 지게 만들면 깊이감이 살아납니다. 또한, 액체가 쏟아지는 부분에 스팟 조명을 하나 더 사용하여 투명함과 반짝임을 극대화할 수 있습니다.\n*   **색감**: 현재 색감은 직설적이고 트렌디합니다. 더 세련된 느낌을 주려면 컬러의 조화를 미세 조정할 필요가 있습니다. 예를 들어, 핑크 배경의 채도를 살짝 낮추고 명도를 높여 옐로우가 더 주인공처럼 보이게 하거나, 그림자 영역에만 아주 미세하게 보색인 청록색(Teal) 톤을 추가하여 색의 깊이를 더하면 훨씬 고급스러운 룩이 됩니다.\n*   **구도**: 요소가 많아 약간 산만해 보일 수 있습니다. '선택과 집중'이 필요합니다. 공중에 흩뿌려진 레몬 조각과 얼음의 개수를 1/3 정도 줄여서 시선이 '주전자에서 잔으로 이어지는 흐름'에 더 집중되도록 만들겠습니다. 불필요한 요소를 덜어내면 주제가 더 명확해지고, 사진에 힘이 생깁니다. 배경도 단색 종이 대신 질감이 있는 패브릭이나 미세한 패턴이 있는 소재를 사용하면 깊이를 더할 수 있습니다.",
+  "nano_banana_prompt": "food photography, a dynamic and playful flat lay of [음식 이름], top-down bird's-eye view, capturing a moment of action like pouring or sprinkling, --style bright and airy, clean commercial aesthetic, vibrant and cheerful mood, --lighting soft and diffused studio light from the top-left, creating minimal soft shadows for a high-key look, --composition strong diagonal composition, the background is a clean geometric split of two bold pastel colors like pastel pink and vibrant yellow, --color highly saturated yet clean color palette, colors pop against the background, reminiscent of a Fujifilm Pro 400H film look with clean whites and vibrant tones, --details hyper-realistic details, sharp focus throughout the entire frame, deep depth of field, every element is crisp and clear, photorealistic, 8K"
+}

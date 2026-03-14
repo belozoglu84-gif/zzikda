@@ -1,0 +1,51 @@
+{
+  "file": "목살스테이크_앤밥1.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Side-Back Lighting from the 10 o'clock position",
+    "quality": "soft",
+    "shadow_character": "Soft, diffused shadows with a bounce card or weak fill light used to lift details in the dark areas.",
+    "highlight_shadow_ratio": "Low contrast ratio, approximately 3:1 to 4:1",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5200,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Brown",
+      "Off-White"
+    ],
+    "secondary_colors": [
+      "Vibrant Green",
+      "Black"
+    ],
+    "saturation": "low",
+    "grading_style": "Film-like style with lifted blacks and a subtle warm tone, using a soft S-curve for contrast.",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "High-angle shot from approximately 30-45 degrees",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "The meat, sprinkled green onions, and sesame seeds.",
+    "composition_rule": "A combination of the Rule of Thirds, Triangular Composition, and Leading Lines."
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "Excellent rendering of textures, from the rough ceramic bowl and smooth wooden spoon to the glossy surface of the meat.",
+    "post_processing": "minimal"
+  },
+  "mood": {
+    "tone": "Clean, minimalist, warm, and authentic.",
+    "target_use": "magazine",
+    "keywords": [
+      "정갈한",
+      "자연주의",
+      "따뜻한"
+    ]
+  },
+  "improvement_notes": "For a more dramatic look, use a grid or snoot for controlled light and add a rim light. For a more modern color grade, add teal to the shadows (Teal and Orange look). For more dynamism, use a tighter close-up or an action shot with hands/chopsticks.",
+  "nano_banana_prompt": "A hyper-realistic, professional food photograph of [Your Food Here], styled in a minimalist Japanese aesthetic. The dish is served in a rustic ceramic bowl, placed on a dark wooden board against a clean, warm off-white background. The composition is a balanced 45-degree angle shot, creating a sense of depth. The lighting is soft, diffused studio light coming from the side-back, casting gentle, long shadows and beautifully highlighting the food's texture. The color palette is natural and slightly desaturated, with warm browns and a pop of vibrant green. The overall mood is clean, warm, and serene. Shot with an 85mm lens at f/4, capturing exquisite detail and a shallow depth of field. The style is reminiscent of a high-end cookbook or a photo with a Kodak Portra 400 film look. --ar 4:3 --style raw"
+}

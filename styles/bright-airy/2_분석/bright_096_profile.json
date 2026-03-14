@@ -1,0 +1,51 @@
+{
+  "file": "bright_096.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "정면 좌측 상단 (Front Light)",
+    "quality": "soft",
+    "shadow_character": "경계가 매우 부드럽고 농도가 옅음",
+    "highlight_shadow_ratio": "플랫(Flat)한 조명",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 6000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "노란색",
+      "주황색"
+    ],
+    "secondary_colors": [
+      "파란색",
+      "마젠타/핑크"
+    ],
+    "saturation": "high",
+    "grading_style": "암부를 띄운 따뜻한 톤의 필름룩 스타일",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "아이 레벨 (Eye-level)",
+    "distance": "close-up",
+    "estimated_lens_mm": 85,
+    "dof": "very-shallow",
+    "focus_point": "캔의 정중앙 로고",
+    "composition_rule": "리딩 라인 (Leading Line)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "캔의 금속 질감, 배경 벽, 옷의 천 질감이 효과적으로 대비됨",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "밝고, 긍정적이며, 활기찬 (Bright, Positive, Energetic)",
+    "target_use": "sns",
+    "keywords": [
+      "활기찬",
+      "여름날",
+      "상큼함"
+    ]
+  },
+  "improvement_notes": "입체감과 시원함을 더하기 위해 키커 라이트(Kicker Light)와 물방울 효과를 추가할 수 있습니다. 배경 채도를 미세하게 낮추고 피부 톤을 분리하여 피사체를 강조할 수 있습니다. 또한, 조리개를 살짝 조여(f/4) 모델의 표정을 희미하게 보이게 하면 스토리텔링을 강화할 수 있습니다.",
+  "nano_banana_prompt": "commercial lifestyle photo of [음식/제품명], held out towards the camera by a cheerful person's hand. The food is in sharp focus in the foreground, while a smiling person in a [의상 색상] outfit is softly blurred in the background. The setting is an urban outdoor location with a colorful, abstract mural wall. Shot on an 85mm lens at f/2.0, creating an extremely shallow depth of field. The lighting is bright, soft, and even, mimicking natural daylight from an overcast sky. The color palette is vibrant and warm with a dominant [주조색] and an accent of [보조색]. The overall mood is energetic, summery, and refreshing. The style is reminiscent of Kodak Portra 400 film photography, with soft contrast and subtle film grain."
+}

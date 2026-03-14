@@ -1,0 +1,51 @@
+{
+  "file": "bright_076.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단, 약 10시 방향",
+    "quality": "hard",
+    "shadow_character": "짧고 진한 그림자",
+    "highlight_shadow_ratio": "High Contrast",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5400,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Magenta Pink"
+    ],
+    "secondary_colors": [
+      "Creamy White/Ivory",
+      "Purple",
+      "Neon Green"
+    ],
+    "saturation": "high",
+    "grading_style": "Clean & Pop",
+    "similar_film_stock": "Kodak Ektar 100"
+  },
+  "composition": {
+    "angle": "Top-down View / Flat-lay",
+    "distance": "close-up",
+    "estimated_lens_mm": 90,
+    "dof": "shallow",
+    "focus_point": "중앙부 래디쉬와 쪽파",
+    "composition_rule": "Rule of Thirds, Leading Line"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "각 요소(배경, 소스, 래디쉬 등)의 질감이 효과적으로 표현됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Bright, Playful, Vibrant",
+    "target_use": "sns",
+    "keywords": [
+      "생기있는",
+      "상큼함",
+      "팝아트"
+    ]
+  },
+  "improvement_notes": "고급스러운 느낌을 위해 조명을 더 부드럽게 하고, 배경 채도를 낮추거나 교체하여 음식에 집중시키며, 접시 전체가 보이는 안정적인 구도로 변경할 수 있음.",
+  "nano_banana_prompt": "/imagine prompt: A vibrant and energetic top-down food photograph of [YOUR FOOD HERE], artfully arranged on a rustic off-white ceramic plate. The background is a highly textured, bright magenta pink stucco wall. The lighting is a single, crisp, hard light from the top-left, creating high contrast and defined short shadows on the right. The color palette is super saturated, clean, and pop, in the style of Kodak Ektar 100 film. Shot with a 100mm macro lens, capturing extreme detail and texture with a shallow depth of field. The composition uses the rule of thirds, with the plate cropped on the right side, leaving negative space on the left. --ar 4:5 --style raw --stylize 750"
+}

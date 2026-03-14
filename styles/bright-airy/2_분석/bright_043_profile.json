@@ -1,0 +1,50 @@
+{
+  "file": "bright_043.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10~11시 방향)",
+    "quality": "hard",
+    "shadow_character": "강하고 선명하며, 디자인 요소로 활용됨",
+    "highlight_shadow_ratio": "매우 높은 명암 대비 (High Contrast)",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5600,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Vivid Yellow",
+      "Cobalt Blue"
+    ],
+    "secondary_colors": [
+      "Vivid Red"
+    ],
+    "saturation": "high",
+    "grading_style": "그래픽 팝 (Graphic Pop) / 컬러 블록 (Color Block)",
+    "similar_film_stock": "코닥 엑타 100 (Kodak Ektar 100)"
+  },
+  "composition": {
+    "angle": "하이 앵글 (약 45도)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "중앙의 메인 스파게티 접시",
+    "composition_rule": "대각선 구도 (Diagonal Composition)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "경광을 활용하여 각 재료의 질감을 극대화하여 표현",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "생동감 넘치는(Vibrant), 그래픽적인(Graphic), 대담한(Bold)",
+    "target_use": "sns",
+    "keywords": [
+      "팝아트",
+      "에너지",
+      "강렬한대비"
+    ]
+  },
+  "improvement_notes": "조명: 반사판이나 약한 필라이트를 사용해 그림자를 약간 부드럽게 하여 입체감 향상. 색감: 배경 채도를 낮추고 음식의 채도를 강조하여 시선 집중. 구도: 타이트하게 크롭하거나 포크로 면을 드는 등 역동적인 연출 추가.",
+  "nano_banana_prompt": "A vibrant and graphic food photograph of [FOOD NAME], meticulously styled on a table. The scene is split into two bold color blocks: a vivid yellow surface and a solid cobalt blue background. Use hard, direct studio lighting from a high top-left angle to create sharp, dark, dramatic shadows on the right side. The color palette is highly saturated, pop-art style, with strong primary colors. Shot with a 50mm lens at a 45-degree angle, deep depth of field (f/11), everything tack sharp. The overall mood is energetic, modern, and bold. Hyper-detailed, commercial aesthetic, reminiscent of Kodak Ektar 100 film."
+}

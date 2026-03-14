@@ -1,0 +1,51 @@
+{
+  "file": "bright_007.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Side-Backlight from 10 o'clock",
+    "quality": "soft",
+    "shadow_character": "Open Shadow",
+    "highlight_shadow_ratio": "Low Contrast",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5800,
+    "white_balance": "cool-shifted",
+    "primary_colors": [
+      "Yellow",
+      "Red"
+    ],
+    "secondary_colors": [
+      "White/Gray",
+      "Green"
+    ],
+    "saturation": "medium",
+    "grading_style": "Modern clean style with a subtle Cyan/Blue tint in the shadows",
+    "similar_film_stock": "Fujifilm Pro 400H"
+  },
+  "composition": {
+    "angle": "45-degree angle",
+    "distance": "close-up",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "Raspberry and powdered sugar on the front bowl",
+    "composition_rule": "Central composition with a triangular arrangement of elements"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "Excellent rendering of raspberry texture and individual powdered sugar particles",
+    "post_processing": "minimal"
+  },
+  "mood": {
+    "tone": "Bright, Clean, Fresh",
+    "target_use": "sns",
+    "keywords": [
+      "신선한",
+      "부드러운",
+      "아침햇살"
+    ]
+  },
+  "improvement_notes": "For a more dramatic effect, increase the backlight and use negative fill to deepen shadows. A warmer color temperature could enhance a sweet, emotional mood. Applying the rule of thirds would create a more dynamic composition.",
+  "nano_banana_prompt": "professional food photography of [FOOD NAME], 45-degree angle shot, close-up, on a bright white marble surface, bright and airy mood, illuminated by soft natural window light from the upper left, creating soft and gentle shadows on the right, shallow depth of field with a beautifully blurred background, clean and fresh color palette with a slightly cool white balance, vibrant colors, tack-sharp focus on the food texture, shot on 85mm lens, f/2.8, hyper-detailed, clean aesthetics, commercial quality"
+}

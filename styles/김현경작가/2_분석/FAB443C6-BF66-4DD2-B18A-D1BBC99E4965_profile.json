@@ -1,0 +1,53 @@
+{
+  "file": "FAB443C6-BF66-4DD2-B18A-D1BBC99E4965.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "Side lighting from top-left (approx. 10 o'clock)",
+    "quality": "soft",
+    "shadow_character": "Soft shadows with details preserved by a fill light",
+    "highlight_shadow_ratio": "Low Contrast",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5350,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Brown",
+      "Ivory/White"
+    ],
+    "secondary_colors": [
+      "Dark Brown",
+      "Orange",
+      "Green",
+      "Purple"
+    ],
+    "saturation": "low",
+    "grading_style": "Lifted Blacks / Matte Look",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "45-degree angle",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "Junction of egg yolk, glazed meat, and rice",
+    "composition_rule": "Rule of Thirds and Leading Lines"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "Excellent rendering of various textures like glossy sauce, rough wood grain, and matte ceramic.",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "Neat, Minimalist, Natural",
+    "target_use": "magazine",
+    "keywords": [
+      "정갈한",
+      "담백한",
+      "킨포크스타일"
+    ]
+  },
+  "improvement_notes": "To enhance commercial appeal, move the main light to a back-side position to maximize texture. Selectively boost the saturation of the egg yolk and greens to stimulate appetite. Add dynamism by staging an action shot (e.g., with chopsticks) or adding steam effects.",
+  "nano_banana_prompt": "A professional food photograph of [음식 이름], styled in a minimalist and rustic aesthetic. Shot from a 45-degree angle with an 85mm lens, creating a shallow depth of field. The lighting is soft and natural, coming from a large diffused light source on the left, with a gentle fill light on the right to soften shadows. The color palette is muted and earthy, with a clean 5200K white balance. The overall style mimics Kodak Portra 400 film, featuring slightly lifted blacks for a matte finish and very fine grain. The food is presented in a dark ceramic bowl on a weathered dark wood surface, creating a calm, authentic, and sophisticated mood. --style raw --ar 4:3"
+}

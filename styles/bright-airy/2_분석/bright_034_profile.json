@@ -1,0 +1,53 @@
+{
+  "file": "bright_034.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Key light from top-right at an approximate 45-degree angle.",
+    "quality": "soft",
+    "shadow_character": "Soft shadows with preserved details, suggesting the use of a fill light or reflector.",
+    "highlight_shadow_ratio": "Low-Contrast",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 4000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "mustard yellow",
+      "vivid orange"
+    ],
+    "secondary_colors": [
+      "mint green",
+      "sky blue",
+      "red",
+      "pink"
+    ],
+    "saturation": "high",
+    "grading_style": "A variation of the modern 'Orange & Teal' style.",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "45-degree angle (Diner's-eye View)",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "The front of the frittata, the vegetables on top, and the bread.",
+    "composition_rule": "Rule of Thirds, Leading Lines, and Layering"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "Excellent rendering of texture and dimensionality despite using soft light, likely enhanced in post-processing.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Vibrant, Warm, Casual",
+    "target_use": "sns",
+    "keywords": [
+      "활기찬",
+      "따스함",
+      "먹음직스러운"
+    ]
+  },
+  "improvement_notes": "For a more artistic look, consider using a stronger side light to enhance texture, slightly reducing the saturation of the background to make the food pop, and refining the composition by adjusting the hand's position and the placement of the knife.",
+  "nano_banana_prompt": "A vibrant and appetizing 45-degree angle shot of [음식 이름], professional food photography. The scene is illuminated by a large, diffused softbox from the top-right, creating soft shadows and a bright, airy mood. The color palette is bold and saturated, featuring a warm mustard-yellow and orange background contrasted with a mint-green tabletop. The overall color grading is warm, reminiscent of Kodak Portra 400 film, with a subtle teal tint in the shadows. Shot with an 85mm lens at f/2.8 for a shallow depth of field, with crisp focus on the food's texture. A human hand enters the frame to present the dish, adding a dynamic and personal touch. Hyper-detailed, energetic, commercial style."
+}

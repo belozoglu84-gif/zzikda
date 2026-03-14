@@ -1,0 +1,53 @@
+{
+  "file": "사용자 정의 이름 00022(포토샵).jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Back-left, approximately 45 degrees above",
+    "quality": "soft",
+    "shadow_character": "Soft shadows filled with a reflector or fill light from the front-right",
+    "highlight_shadow_ratio": "Low Contrast",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 4000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Beige",
+      "Ivory",
+      "Light Brown",
+      "Earthy Tones"
+    ],
+    "secondary_colors": [
+      "Vibrant Yellow",
+      "Fresh Green"
+    ],
+    "saturation": "low",
+    "grading_style": "Lifted Blacks with a matte finish",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "45-degree angle",
+    "distance": "close-up",
+    "estimated_lens_mm": 90,
+    "dof": "shallow",
+    "focus_point": "Egg yolk and surrounding green onions",
+    "composition_rule": "Rule of Thirds"
+  },
+  "texture": {
+    "sharpness": "high",
+    "noise": "intentional-grain",
+    "detail_rendering": "Excellent rendering of textures like the ceramic bowl, wooden board, and linen tablecloth, adding a tactile feel.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Warm, Rustic, and Heartfelt",
+    "target_use": "sns",
+    "keywords": [
+      "소박한_정찬",
+      "온기",
+      "자연스러움"
+    ]
+  },
+  "improvement_notes": "조명: 스팟성 조명 추가로 생동감 향상, 그림자를 더 깊게 만들어 입체감 강조. 색감: 주재료의 채도 및 광량을 국소적으로 높여 존재감 부각. 구도: 배경 요소를 제거하거나 교체하여 주제 집중도 향상, 하단 프레이밍 안정감 확보.",
+  "nano_banana_prompt": "food photography, a beautifully styled bowl of [음식 이름], 45-degree angle shot, close-up, shallow depth of field with focus on the main ingredient. Lighting is soft and diffused natural window light from the back-left, creating gentle, long shadows. Color palette is warm and desaturated with earthy tones, dominant beiges and browns, with vibrant accent colors. The mood is rustic, wholesome, and inviting. Styled with a speckled ceramic bowl on a scratched wooden board and a linen tablecloth. The final image has a matte finish with lifted blacks and fine film grain, in the style of Kodak Portra 400 film. --ar 4:5 --style raw"
+}

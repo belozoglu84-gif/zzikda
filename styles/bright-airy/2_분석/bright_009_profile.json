@@ -1,0 +1,51 @@
+{
+  "file": "bright_009.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단(10시 방향)에서 우측 하단(4시 방향)으로 떨어지는 단일 광원",
+    "quality": "hard",
+    "shadow_character": "매우 짙고 길게 뻗어 있으며, 피사체의 형태를 그대로 복제하는 의도적인 그림자",
+    "highlight_shadow_ratio": "명부와 암부의 대비가 매우 강함",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 6000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Mustard Yellow"
+    ],
+    "secondary_colors": [
+      "Light Yellow",
+      "Creamy White",
+      "Brown"
+    ],
+    "saturation": "high",
+    "grading_style": "모던하고 그래픽적인 팝아트 스타일 (Crushed Blacks, 높은 채도)",
+    "similar_film_stock": "Kodak Portra 400 / Kodak Gold 200"
+  },
+  "composition": {
+    "angle": "탑다운 뷰 (Top-down View) / 플랫레이 (Flat Lay)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "화면 전체 (팬 포커스에 가까움)",
+    "composition_rule": "패턴과 반복, 대각선 리딩 라인"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "경광을 사용하여 크래커의 거친 표면과 크림치즈의 꾸덕한 질감을 극대화",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "경쾌하고, 활기차며, 모던하고, 감각적",
+    "target_use": "sns",
+    "keywords": [
+      "Vibrant",
+      "Graphic",
+      "Minimal"
+    ]
+  },
+  "improvement_notes": "고급스러운 느낌을 위해, 부드러운 연광으로 교체하고 채도를 낮춘 골드/오커 톤으로 조정하며, 허브나 나이프 등 스토리텔링 요소를 추가하는 것을 제안함.",
+  "nano_banana_prompt": "food photography of [your food item], minimalist flat lay composition, arranged in a dynamic diagonal pattern on a solid mustard yellow background with a lighter yellow diagonal stripe. Lit with a single, hard light source from the top-left, creating long, sharp, dramatic dark shadows that are a key design element. Vibrant pop-art aesthetic with a high-contrast, high-saturation color grading. The color palette is analogous, focusing on warm yellows, creamy whites, and browns. Extremely sharp details and textures, deep depth of field with everything in focus. Clean, modern, and graphic feel, inspired by a digital interpretation of Kodak Portra 400 film. --ar 4:5 --style raw"
+}

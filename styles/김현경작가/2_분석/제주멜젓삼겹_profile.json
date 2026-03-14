@@ -1,0 +1,54 @@
+{
+  "file": "제주멜젓삼겹.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Side Back Light",
+    "quality": "soft",
+    "shadow_character": "Soft shadows filled with a white bounce card or a weak fill light to retain detail.",
+    "highlight_shadow_ratio": "3:1 ~ 4:1",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 4000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Beige",
+      "Ivory",
+      "Brown"
+    ],
+    "secondary_colors": [
+      "Red",
+      "Green",
+      "Orange",
+      "Celadon Green"
+    ],
+    "saturation": "medium",
+    "grading_style": "Film-like with lifted blacks and rolled-off highlights.",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "45-degree angle",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "Front part of the bowl, specifically on the meat and toppings on the rice.",
+    "composition_rule": "Rule of Thirds and Leading Lines"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "Natural and clear rendering of different material textures like wood grain, linen weave, and smooth ceramic.",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "Warm, Neat, Natural",
+    "target_use": "magazine",
+    "keywords": [
+      "온기",
+      "정성",
+      "소박한 아름다움"
+    ]
+  },
+  "improvement_notes": "For a more dramatic look, use a grid on the key light and add a rim light. For a fresher feel, adjust the white balance to be cooler (around 5200K). For a bolder composition, try a tight close-up shot or add human elements.",
+  "nano_banana_prompt": "commercial food photography of [a bowl of ramen], minimalist styling, shot with an 85mm lens at f/2.8, 45-degree angle shot, tack sharp focus on the food toppings, shallow depth of field, bright and airy mood, lit by a large diffused softbox from the side-back creating soft and gentle shadows, balanced with a reflector for fill light, warm and inviting color palette, color graded in the style of Kodak Portra 400 film, dominant colors are creamy beige and ivory with natural color pops from ingredients, set on a rustic wooden board over a white linen tablecloth, hyper-detailed, professional retouching, clean aesthetic --ar 4:3 --style raw"
+}

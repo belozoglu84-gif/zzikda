@@ -1,0 +1,52 @@
+{
+  "file": "bright_054.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10시 방향)",
+    "quality": "hard",
+    "shadow_character": "짙고 명확하며 그래픽적인 요소로 활용됨",
+    "highlight_shadow_ratio": "하이 콘트라스트 (High Contrast)",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 6200,
+    "white_balance": "cool-shifted",
+    "primary_colors": [
+      "Cool Gray",
+      "Pastel Pink"
+    ],
+    "secondary_colors": [
+      "Vivid Green",
+      "Yellow/Orange",
+      "Red"
+    ],
+    "saturation": "low",
+    "grading_style": "Clean & Chic, 섀도우에 시안 톤 추가",
+    "similar_film_stock": "Fuji Pro 400H (Digital Emulation)"
+  },
+  "composition": {
+    "angle": "하이 앵글 (45-60도)",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "음식 중앙 (노란 꽃, 가리비)",
+    "composition_rule": "삼분할 법칙, 리딩 라인, 네거티브 스페이스"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "경광을 통해 식재료와 배경의 질감을 극대화",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "Modern, Minimal, Refined",
+    "target_use": "magazine",
+    "keywords": [
+      "미니멀리즘",
+      "감각적인",
+      "시크함"
+    ]
+  },
+  "improvement_notes": "조명을 연광으로 바꾸고 반사판을 사용하여 부드러운 분위기 연출. 화이트밸런스를 웜톤으로 조정하고 채도를 높여 생동감 부여. 카메라 앵글을 낮추거나 소품을 추가하여 역동성과 스토리텔링 강화.",
+  "nano_banana_prompt": "A minimalist fine-dining dish of [Your Food Here], meticulously plated in a matte pastel pink ceramic bowl. The scene is set on a light gray concrete surface with a darker, textured blue-gray concrete wall in the background. The lighting is the key: a single, direct, hard light source from a high 10 o'clock angle, casting a long, sharp, dramatic diagonal shadow across the frame. High-angle shot, 85mm lens style, shallow depth of field (f/4). The color palette is a sophisticated mix of cool grays, pastel pink, and vibrant food colors. The overall mood is modern, elegant, and refined, with a color grade reminiscent of Kodak Portra 400 film. --style raw --ar 4:5"
+}

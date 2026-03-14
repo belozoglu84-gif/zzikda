@@ -1,0 +1,52 @@
+{
+  "file": "사용자 정의 이름 00015(포토샵).jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 후방 (Side-Backlighting)",
+    "quality": "soft",
+    "shadow_character": "흰색 반사판이나 보조광으로 채워진 부드러운 그림자",
+    "highlight_shadow_ratio": "낮은 콘트라스트, 부드러운 톤",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 3800,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "beige",
+      "cream",
+      "brown"
+    ],
+    "secondary_colors": [
+      "red",
+      "green"
+    ],
+    "saturation": "low",
+    "grading_style": "블랙 레벨 리프팅 (Lifting Blacks)을 통한 매트한 필름 룩",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "45도 앵글",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "전경의 갈비와 깨",
+    "composition_rule": "삼분할 법칙 (Rule of Thirds) 및 리딩 라인 (Leading Line)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "음식, 식기, 소품의 질감이 섬세하게 표현됨",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "미니멀, 따뜻함, 정갈함, 편안함",
+    "target_use": "magazine",
+    "keywords": [
+      "정갈한",
+      "따뜻한",
+      "미니멀리즘"
+    ]
+  },
+  "improvement_notes": "드라마틱한 연출을 위해 그리드를 사용한 조명, 색상 대비 강조, 클로즈업이나 스토리텔링 요소를 가미한 구도 변경 등을 시도할 수 있음.",
+  "nano_banana_prompt": "A professional food photograph of [Your Dish Here], minimalist composition. Shot at a 45-degree angle, medium shot. Lit with a large, diffused soft light from the back-left, creating soft and gentle shadows to the front-right. The overall mood is warm, calm, and clean. The color palette is dominated by warm neutrals like beige, cream, and brown, with subtle color accents. Desaturated colors, lifted blacks for a matte, filmic look. Photographed with an 85mm lens at f/4 for a shallow depth of field. The image has a fine, subtle film grain. The aesthetic is similar to Kodak Portra 400 film, reminiscent of Kinfolk magazine style."
+}

@@ -1,0 +1,52 @@
+{
+  "file": "사용자 정의 이름 00021(포토샵).jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "사이드-백라이트(Side-Backlight) from 10 o'clock",
+    "quality": "soft",
+    "shadow_character": "Soft shadows filled with a reflector on the right side",
+    "highlight_shadow_ratio": "Low-Contrast",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 4200,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Beige",
+      "Yellow-Brown"
+    ],
+    "secondary_colors": [
+      "Teal Green",
+      "Light Green",
+      "Orange"
+    ],
+    "saturation": "low",
+    "grading_style": "Warm orange/yellow tones in highlights, subtle green/teal in shadows, with lifted blacks.",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "45-degree angle",
+    "distance": "close-up",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "Front edge of the green soup bowl, parsley, and cream",
+    "composition_rule": "Rule of Thirds and Layering"
+  },
+  "texture": {
+    "sharpness": "medium",
+    "noise": "intentional-grain",
+    "detail_rendering": "Excellent rendering of textures like wood grain, croutons, linen fabric, and pepper grains.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Warm, cozy, and rustic lifestyle mood with a homemade feel.",
+    "target_use": "sns",
+    "keywords": [
+      "아늑한",
+      "자연스러운",
+      "따스함"
+    ]
+  },
+  "improvement_notes": "For commercial use, add a specular highlight on the soup, slightly neutralize the white balance of the tablecloth while boosting the soup's saturation, and use a slightly smaller aperture (e.g., f/4) to increase depth of field to include more elements in focus.",
+  "nano_banana_prompt": "food photography of a cozy, rustic dining scene, a bowl of [음식 이름] is the main subject, 45-degree angle shot, shot on 85mm lens at f/2.2, shallow depth of field, main subject is tack sharp in the foreground, background is softly blurred. Lighting is soft and airy, natural window light coming from the left-back side, creating gentle shadows to the right. Color palette is warm and muted, overall warm tint like 4200K, colors inspired by Kodak Portra 400 film stock, lifted blacks, peachy highlights, slightly desaturated greens and oranges. The mood is warm, inviting, and homemade. --ar 4:5 --style raw"
+}

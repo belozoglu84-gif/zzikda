@@ -1,0 +1,53 @@
+{
+  "file": "사용자 정의 이름 00014(포토샵).jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "전방 좌측 상단 (10시 방향)",
+    "quality": "soft",
+    "shadow_character": "매우 옅고 부드러우며, 우측에 흰색 반사판이나 보조광을 사용하여 그림자를 완화함",
+    "highlight_shadow_ratio": "저대비 (Low Contrast)",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 4000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Beige",
+      "Cream"
+    ],
+    "secondary_colors": [
+      "Brown",
+      "Dark Brown",
+      "Red",
+      "Green"
+    ],
+    "saturation": "low",
+    "grading_style": "암부를 살짝 들어 콘트라스트를 낮추고, 섀도우 영역에 미세한 마젠타/브라운 톤을 추가한 필름 라이크 스타일",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "약 45도 앵글",
+    "distance": "medium",
+    "estimated_lens_mm": 70,
+    "dof": "shallow",
+    "focus_point": "가장 앞쪽에 놓인 갈비의 표면과 깨",
+    "composition_rule": "중앙 집중 구도를 기반으로 한 삼각 구도"
+  },
+  "texture": {
+    "sharpness": "medium",
+    "noise": "intentional-grain",
+    "detail_rendering": "갈비의 윤기, 린넨 테이블보의 직조감, 나무 도마의 결 등 각 요소의 질감이 자연스럽게 표현됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "미니멀, 차분함, 정갈함, 따뜻함",
+    "target_use": "magazine",
+    "keywords": [
+      "정갈한일상",
+      "미니멀한식",
+      "따스한온기"
+    ]
+  },
+  "improvement_notes": "조명: 입체감을 위해 피사체 뒤쪽(1시 방향)에서 강한 킥커 라이트를 추가. 색감: 음식 부분에만 마스킹을 적용하여 채도와 부분 대비를 살짝 높여 먹음직스러움을 강조. 구도: 삼분할 법칙을 적용하여 메인 접시를 우측 하단 교차점으로 이동시켜 역동성 부여.",
+  "nano_banana_prompt": "An editorial food photograph of [Your Food Here], beautifully styled in a minimalist setting.\n\n**Style:** Shot on Kodak Portra 400 film, featuring a warm and desaturated color palette dominated by beige, cream, and soft earth tones. The image has a bright, airy, and calm mood with very soft, diffused lighting from the front-left, creating gentle shadows and low contrast.\n\n**Composition:** A 45-degree angle medium shot with a shallow depth of field, focusing sharply on the main dish while the background elements are softly blurred. The composition is clean, balanced, and sophisticated.\n\n**Details:** Visible fine film grain, natural textures, and professional color grading for a serene and high-end lifestyle aesthetic."
+}

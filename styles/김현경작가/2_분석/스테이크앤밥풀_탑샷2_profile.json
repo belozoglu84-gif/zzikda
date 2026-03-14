@@ -1,0 +1,53 @@
+{
+  "file": "스테이크앤밥풀_탑샷2.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10-11시 방향)",
+    "quality": "soft",
+    "shadow_character": "옅고 부드러운 그림자, 보조광으로 적극적으로 채움",
+    "highlight_shadow_ratio": "낮은 대비 (Low Contrast)",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 4000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "beige",
+      "brown",
+      "black"
+    ],
+    "secondary_colors": [
+      "red",
+      "orange",
+      "green"
+    ],
+    "saturation": "low",
+    "grading_style": "페이드/매트 스타일, 필름룩 (따뜻한 톤)",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "탑다운 뷰 (플랫레이)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "중앙의 계란 노른자가 올라간 덮밥",
+    "composition_rule": "균형 잡힌 비대칭 (Balanced Asymmetry)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "고기의 윤기, 무광 그릇의 거친 질감, 파의 아삭함, 식탁보의 직물 패턴 등 각 재료의 질감이 잘 표현됨",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "모던하고 미니멀하지만, 따뜻함과 정성이 느껴지는 톤앤매너",
+    "target_use": "menu",
+    "keywords": [
+      "정갈한",
+      "따뜻한",
+      "먹음직스러운"
+    ]
+  },
+  "improvement_notes": "조명: 그림자를 더 깊게 만들어 입체감 강조. 색감: 스플릿 토닝을 미세하게 적용하여 깊이감 추가. 구도: 젓가락, 김, 손 등 인간적인 요소를 가미하여 생동감 부여.",
+  "nano_banana_prompt": "A top-down flat lay food photography of [음식 이름], professionally styled. The composition is a balanced asymmetry on a beige linen tablecloth with rustic props like a wooden board and ceramic bowls. The lighting is bright, even, and extremely soft studio light, creating minimal, gentle shadows, reminiscent of a large softbox setup. The color palette is warm and inviting, with earthy, desaturated tones and vibrant accents, color graded in the style of Kodak Portra 400 film with slightly lifted blacks for a matte finish. The image is ultra-detailed, shot with a 50mm lens at a deep depth of field (f/11), capturing the crisp texture of every ingredient. --ar 4:3 --style raw --q 2 --s 750"
+}

@@ -1,0 +1,51 @@
+{
+  "file": "bright_081.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단, 10시 방향",
+    "quality": "soft",
+    "shadow_character": "깊지만 디테일이 살아있는 부드러운 그림자. 우측에 반사판이나 필 라이트를 사용하여 그림자를 약하게 채움.",
+    "highlight_shadow_ratio": "콘트라스트가 강한 편이며, 로우키(Low-key)에 가까운 무디(Moody)한 톤",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5000,
+    "white_balance": "cool-shifted",
+    "primary_colors": [
+      "Teal/Green"
+    ],
+    "secondary_colors": [
+      "Creamy White",
+      "Brown",
+      "Vibrant Red"
+    ],
+    "saturation": "high",
+    "grading_style": "시네마틱 푸드 스타일, 암부에 틸/사이언 색조를 추가하는 스플릿 토닝 기법 사용",
+    "similar_film_stock": "Fujifilm Pro 400H"
+  },
+  "composition": {
+    "angle": "탑다운 뷰 (Top-down View) / 플랫레이 (Flat Lay)",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "전면에 위치한 그릇 안의 딸기, 라즈베리, 그래놀라",
+    "composition_rule": "대각선 구도 (Diagonal Composition)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "요거트의 매끄러움, 과일의 촉촉함, 그래놀라의 바삭함 등 각 요소의 질감이 매우 사실적으로 표현됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Moody, Rustic, Organic",
+    "target_use": "sns",
+    "keywords": [
+      "러스틱",
+      "시네마틱",
+      "건강한아침"
+    ]
+  },
+  "improvement_notes": "조명: 림 라이트(Rim Light)를 추가하여 피사체의 입체감을 강화할 수 있음. 색감: 암부의 틸(Teal) 색감을 줄여 더 대중적인 느낌을 강조할 수 있음. 구도: 흩뿌려진 요소들을 더 정교하게 배치하여 시선을 유도하는 리딩 라인(Leading Line)을 형성할 수 있음.",
+  "nano_banana_prompt": "A top-down flat lay food photograph of [Your Dish Here], styled in a rustic, artisanal mood. The lighting is moody and dramatic, with a single soft, diffused light source from the top-left creating soft, long shadows. The composition is dynamic, using diagonal lines. The color palette is rich and cinematic, set against a dark, textured teal-green background. The colors of the food, especially reds and oranges, are vibrant and saturated, while the shadows have a subtle cyan tint. The image has a shallow depth of field with tack-sharp focus on the main subject, and a fine layer of film grain is added for a vintage, tactile feel. --ar 2:3 --style raw"
+}

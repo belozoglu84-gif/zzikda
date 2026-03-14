@@ -1,0 +1,51 @@
+{
+  "file": "bright_078.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "우측 상단 (1-2시 방향)",
+    "quality": "hard",
+    "shadow_character": "짙고 강한 콘트라스트의 그림자가 그래픽 요소로 활용됨",
+    "highlight_shadow_ratio": "High Contrast",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5250,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Vivid Orange"
+    ],
+    "secondary_colors": [
+      "Yellow",
+      "Warm White",
+      "Deep Black"
+    ],
+    "saturation": "high",
+    "grading_style": "Modern graphic style with crushed blacks and boosted saturation for a pop art feel.",
+    "similar_film_stock": "Kodak Portra 400 / Kodak Gold 200"
+  },
+  "composition": {
+    "angle": "Top-down (Flat-lay)",
+    "distance": "close-up",
+    "estimated_lens_mm": 85,
+    "dof": "deep",
+    "focus_point": "주 피사체 (음식)",
+    "composition_rule": "Diagonal Composition (Shadow as Leading Line)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "음식 표면의 미세한 질감과 접시의 매트한 느낌이 잘 표현됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Modern, Minimal, Graphic, Vibrant",
+    "target_use": "sns",
+    "keywords": [
+      "생동감",
+      "미니멀리즘",
+      "햇살"
+    ]
+  },
+  "improvement_notes": "조명: 음식의 그림자를 살짝 밝혀 입체감 향상. 색감: 배경 채도를 약간 낮추고 음식의 색 순도를 높여 고급스러움 추가. 구도: 삼분할 법칙을 적용하여 여백 활용, 그림자 형태로 스토리텔링 강화.",
+  "nano_banana_prompt": "Minimalist food photography of [a delicious croissant] on a simple matte white ceramic plate, placed on a vibrant solid orange background, top-down flat lay angle, shot with a 85mm lens, hard direct sunlight from the side creating long, sharp, and dramatic dark shadows as a key graphic element, high contrast, vivid and warm color palette, Kodak Portra 400 film aesthetic, extremely sharp focus, hyper-detailed texture, modern and graphic style --ar 1:1"
+}

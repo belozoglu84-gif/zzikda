@@ -1,0 +1,52 @@
+{
+  "file": "제육_앤밥1.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "주 광원은 피사체의 좌측 후방, 10시 방향에 위치",
+    "quality": "soft",
+    "shadow_character": "우측 전면에서 약한 필 라이트나 흰색 반사판을 사용해 그림자 디테일을 살림",
+    "highlight_shadow_ratio": "3:1",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5400,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Brown"
+    ],
+    "secondary_colors": [
+      "Black",
+      "White",
+      "Red",
+      "Green"
+    ],
+    "saturation": "medium",
+    "grading_style": "클린 & 내추럴(Clean & Natural) 스타일, 암부를 살짝 띄워(Lifted Blacks) 부드러운 느낌을 더함",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "45도 앵글",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "제육볶음과 밥이 만나는 지점",
+    "composition_rule": "삼각 구도(Triangle Composition)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "고기 양념의 윤기, 밥알의 입체감, 그릇과 도마의 질감이 효과적으로 표현됨",
+    "post_processing": "minimal"
+  },
+  "mood": {
+    "tone": "정갈함, 미니멀리즘, 따뜻함",
+    "target_use": "menu",
+    "keywords": [
+      "정갈한",
+      "따뜻한",
+      "미니멀"
+    ]
+  },
+  "improvement_notes": "조명: 그리드나 스нут을 사용하여 콘트라스트를 더 강하게 만들고 드라마틱한 분위기 연출. 색감: 스플릿 토닝을 적용하여 시네마틱한 느낌 추가. 구도: 더 과감한 클로즈업이나 역동적인 연출(Action Shot) 시도.",
+  "nano_banana_prompt": "/imagine prompt: A photorealistic, high-end commercial food photograph of [YOUR FOOD HERE], presented in a minimalist ceramic bowl on a rustic dark wood surface.\n\n**Style & Composition:**\n- Shot from a 45-degree angle, medium shot, creating a sense of depth.\n- The main dish is the clear hero, with small, simple side dishes and elegant utensils arranged in a balanced, triangular composition.\n- Minimalist and clean styling, focusing entirely on the food.\n\n**Lighting:**\n- Professional studio lighting.\n- Key light is a large, diffused softbox from the back-left (10 o'clock), creating soft highlights and gentle, long shadows to the front-right.\n- Subtle fill light from the front-right to keep shadow details visible, low contrast ratio.\n- The background is a clean, bright, neutral off-white wall.\n\n**Camera & Lens:**\n- Shot with a 85mm lens at f/4, shallow depth of field.\n- Razor-sharp focus on the main texture of the food, with the foreground and background softly blurred.\n- Extremely high detail, hyper-realistic texture on the food.\n\n**Color & Mood:**\n- Natural and clean color palette with a neutral white balance (5500K).\n- Colors are rich and appetizing but not oversaturated.\n- The overall mood is refined, warm, minimalist, and inviting.\n- Color grading similar to Kodak Portra 400 film stock.\n\n**Negative Prompt:**\n--no harsh shadows, blown-out highlights, distracting props, unnatural colors, heavy filters, deep-fried look"
+}

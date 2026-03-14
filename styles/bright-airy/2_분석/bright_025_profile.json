@@ -1,0 +1,52 @@
+{
+  "file": "bright_025.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10-11시 방향)",
+    "quality": "hard",
+    "shadow_character": "우측 하단으로 길고 선명하게 떨어지는 그림자. 깊이감과 리듬감을 부여하는 디자인 요소로 활용됨.",
+    "highlight_shadow_ratio": "High Contrast",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 4800,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Warm Off-white",
+      "Brown"
+    ],
+    "secondary_colors": [
+      "Red",
+      "Green",
+      "Blue"
+    ],
+    "saturation": "high",
+    "grading_style": "시네마틱 필름룩 (따뜻한 하이라이트, 청록색/블루 톤의 섀도우, Lifted Blacks)",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "하이 앵글 (High Angle) / 플랫레이 (Flat Lay)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "화면 중앙부 (와인잔, 토마토, 소금 그릇)",
+    "composition_rule": "의도된 혼돈 (Organized Chaos) 및 대각선/S자 곡선 활용"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "경광(Hard Light)을 활용하여 피사체의 미세한 굴곡과 질감을 극대화함",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "따뜻하고, 풍요로우며, 활기찬 분위기. 지중해의 여유로운 점심 식사를 연상시킴.",
+    "target_use": "magazine",
+    "keywords": [
+      "따사로운",
+      "풍요로운",
+      "여유로운"
+    ]
+  },
+  "improvement_notes": "더 부드러운 느낌을 원하면 소프트박스나 디퓨저 사용. 더 드라마틱한 연출을 위해 고보(Gobo)로 그림자 패턴 추가. 더 청량한 스타일을 원하면 정확한 화이트밸런스 적용. 더 무드있는 스타일을 원하면 노출을 어둡게 조절. 더 미니멀한 구도를 원하면 여백(Negative Space) 활용.",
+  "nano_banana_prompt": "A vibrant and detailed flat lay food photograph of [Your Food Subject]. The scene is styled in a rustic, abundant Mediterranean aesthetic. The lighting is crucial: shot with a single source of hard, direct light from the top-left, mimicking late afternoon sun, creating long, crisp, and dramatic shadows across a creamy-white surface. The color palette is warm and inviting with a golden hour glow, rich reds, and deep greens, reminiscent of Kodak Portra 400 film stock. The composition is dynamic and artfully messy. Shot with a 50mm lens, tack sharp focus, capturing every texture in high definition. --ar 4:5 --style raw"
+}

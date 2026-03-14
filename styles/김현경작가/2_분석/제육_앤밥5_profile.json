@@ -1,0 +1,52 @@
+{
+  "file": "제육_앤밥5.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Side-Backlight",
+    "quality": "soft",
+    "shadow_character": "Filled with a white reflector or fill light",
+    "highlight_shadow_ratio": "3:1",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5100,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Red",
+      "Brown",
+      "White"
+    ],
+    "secondary_colors": [
+      "Black",
+      "Green"
+    ],
+    "saturation": "medium",
+    "grading_style": "Film look with lifted blacks and a subtle teal tone in shadows",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "45-degree angle",
+    "distance": "close-up",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "Center part with meat and sesame seeds",
+    "composition_rule": "Rule of Thirds and Leading Lines"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "Realistic rendering of glossy meat, fluffy rice, and rough wooden board textures",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "Modern Minimal & Natural",
+    "target_use": "menu",
+    "keywords": [
+      "정갈한",
+      "따뜻한",
+      "미니멀"
+    ]
+  },
+  "improvement_notes": "Add drama with a strong rim light and negative fill. Enhance color story with complementary colors or selective saturation. Introduce dynamic elements like hands and use a lower camera angle.",
+  "nano_banana_prompt": "/imagine prompt: A commercial food photography of [FOOD NAME], 45-degree angle view, close-up shot, plated in a minimalist ceramic bowl on a rustic wooden surface with a clean off-white background. Lighting is a soft and diffused side-backlight from the left, creating gentle highlights and soft shadows, with subtle fill light from the right. Shallow depth of field with an 85mm lens at f/3.5, focus sharp on the main texture of the food. Color graded with a Kodak Portra 400 film aesthetic, featuring natural saturation, slightly lifted blacks, a warm and inviting white balance around 5000K, and an overall clean, modern, and appetizing mood. --style raw --ar 4:5"
+}

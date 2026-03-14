@@ -1,0 +1,51 @@
+{
+  "file": "bright_055.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10시 방향)",
+    "quality": "hard",
+    "shadow_character": "짙고 어두우며 경계가 명확함. 의도적으로 그림자를 채우지 않음.",
+    "highlight_shadow_ratio": "고대비 (High-Contrast)",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5600,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Coral Pink",
+      "Terracotta"
+    ],
+    "secondary_colors": [
+      "Golden Yellow",
+      "Deep Green"
+    ],
+    "saturation": "high",
+    "grading_style": "고대비, 고채도 스타일. 블랙 레벨을 낮추고 HSL 보정을 통해 특정 색상 강조.",
+    "similar_film_stock": "Kodak Ektachrome E100"
+  },
+  "composition": {
+    "angle": "탑다운 (플랫레이)",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "deep",
+    "focus_point": "팬 안의 마늘과 로즈마리 전체",
+    "composition_rule": "중앙 집중 구도"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "경광을 활용하여 오일의 매끈함, 마늘의 입체감, 배경의 거친 질감 등 각 소재의 특징을 대비적으로 탁월하게 표현함.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "밝고, 활기차며, 그래픽적인 모던함",
+    "target_use": "sns",
+    "keywords": [
+      "따사로운햇살",
+      "생동감",
+      "러스틱모던"
+    ]
+  },
+  "improvement_notes": "조명: 부드러운 연광과 반사판을 사용해 고급스러운 무드 연출. 색감: 뉴트럴 톤 배경으로 음식 자체에 집중. 구도: 삼분할 법칙과 소품을 활용해 다이내믹한 스토리텔링 추가.",
+  "nano_banana_prompt": "A top-down flat lay food photograph of [FOOD NAME], in a rustic white ceramic dish, centered in the frame. The scene is illuminated by intense, direct sunlight coming from the top-left, creating sharp, dark, and well-defined shadows on the bottom-right. The background is a textured, rustic coral pink stucco wall. The color palette is vibrant and high-contrast, with the [MAIN COLOR of the food] and [SECONDARY COLOR of the food] popping against the pink background. Shot with an 85mm lens at f/11 for deep depth of field, everything in hyper-sharp focus. Professional food photography, high detail, vivid colors, graphic and modern style."
+}

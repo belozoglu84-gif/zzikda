@@ -1,0 +1,52 @@
+{
+  "file": "사용자 정의 이름 00008(포토샵).jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "주 광원은 좌측 상단(10시 방향), 보조광(반사판)은 우측(4시 방향)",
+    "quality": "soft",
+    "shadow_character": "열린 그림자(Open Shadow)로 디테일이 살아있음",
+    "highlight_shadow_ratio": "2:1 또는 3:1",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 4000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "beige",
+      "warm brown"
+    ],
+    "secondary_colors": [
+      "deep brown",
+      "light brown",
+      "vivid green"
+    ],
+    "saturation": "low",
+    "grading_style": "필름룩(Film Look) 스타일, 미세한 스플릿 토닝 적용 가능성",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "아이 레벨(Eye-level) 또는 약 15도의 하이 앵글",
+    "distance": "medium",
+    "estimated_lens_mm": 90,
+    "dof": "shallow",
+    "focus_point": "고기 표면의 질감과 쪽파",
+    "composition_rule": "중앙 집중 구도와 리딩 라인(Leading Line) 활용"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "최상급. 소스의 윤기, 쌀밥의 고슬고슬함, 나무결 등 다양한 질감이 사실적으로 표현됨",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "따뜻하고, 미니멀하며, 정갈하고, 건강한 느낌",
+    "target_use": "sns",
+    "keywords": [
+      "따뜻한",
+      "미니멀",
+      "정갈한"
+    ]
+  },
+  "improvement_notes": "입체감과 고급스러움을 위해 림 라이트(Rim Light)를 추가하거나, 드라마틱한 효과를 위해 네거티브 필(Negative Fill)을 사용할 수 있음. 보색 대비를 활용하거나 삼분할법 구도를 적용하여 다른 느낌을 연출할 수 있음.",
+  "nano_banana_prompt": "A professional food photograph of [your dish here], styled in a minimalist and warm aesthetic. **Composition:** Eye-level shot, medium distance, captured with an 85mm lens at f/3.5 for a shallow depth of field. The main dish is placed slightly off-center on a rustic wooden plate or board, set against a textured light beige linen tablecloth and a solid warm beige background. **Lighting:** The scene is illuminated by large, diffused soft light from the top-left (10 o'clock position), creating soft, gentle shadows. A subtle fill light from the right brightens the shadows, resulting in a low-contrast, airy feel. **Color & Mood:** The color palette is dominated by warm earth tones, beige, and cream. Color grading is inspired by Kodak Portra 400 film stock, featuring a warm color temperature (around 4000K), slightly desaturated colors, and lifted blacks for a soft, matte finish. The overall mood is inviting, clean, and serene. **Details:** Razor-sharp focus on the main texture of the food. The image is extremely high-resolution, clean, with a subtle hint of fine film grain."
+}

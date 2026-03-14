@@ -1,0 +1,50 @@
+{
+  "file": "bright_079.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Top-left, approximately 10 o'clock position",
+    "quality": "soft",
+    "shadow_character": "Soft shadows with visible detail, suggesting the use of a reflector or fill light to lift the shadows.",
+    "highlight_shadow_ratio": "Low contrast ratio, with bright but not blown-out highlights and filled-in shadows.",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 6000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Yellow"
+    ],
+    "secondary_colors": [
+      "Green",
+      "Red"
+    ],
+    "saturation": "high",
+    "grading_style": "Modern film look with lifted blacks for a soft, emotional feel.",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "Top-down (Flat-lay)",
+    "distance": "close-up",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "The sliced lemon section and surrounding limes in the center-right of the frame.",
+    "composition_rule": "Diagonal composition running from top-right to bottom-left, balanced with negative space."
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "Side lighting is utilized to maximize the texture of the fruit peels and the fabric weave.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Fresh, vibrant, and natural, creating a comfortable yet lively atmosphere.",
+    "target_use": "magazine",
+    "keywords": [
+      "Fresh",
+      "Vibrant",
+      "Summery"
+    ]
+  },
+  "improvement_notes": "Add a rim light from the back to enhance three-dimensionality. Introduce a subtle cool tone (cyan/blue) into the shadows for richer color contrast. Add small props like lemon leaves to the negative space to enrich the story.",
+  "nano_banana_prompt": "A vibrant flat lay food photograph of [YOUR FOOD SUBJECT], artfully arranged on a rustic linen cloth against a solid color background. **Style:** Commercial food photography, editorial style, hyper-realistic detail. **Lighting:** Lit by a large, diffused soft light from the top-left, creating soft, gentle shadows to the bottom-right. Bright, high-key, and airy mood. **Composition:** Top-down view, dynamic diagonal composition with balanced negative space. **Lens & DOF:** Shot with an 85mm lens, shallow depth of field (f/4), focus sharp on the main subject with softly blurred edges. **Color & Tone:** Color graded to emulate Kodak Portra 400 film. Saturated, punchy colors with a warm overall tone. Lifted blacks for a soft, cinematic feel. Incredible texture and detail on the food and fabric."
+}

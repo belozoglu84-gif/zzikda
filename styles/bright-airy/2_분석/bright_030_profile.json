@@ -1,0 +1,50 @@
+{
+  "file": "bright_030.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "우측 상단 (1-2시 방향)",
+    "quality": "hard",
+    "shadow_character": "짙고 명확하여 피사체의 형태를 그래픽적으로 강조",
+    "highlight_shadow_ratio": "고대비 (High Contrast)",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5500,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Vivid Orange",
+      "Deep Red"
+    ],
+    "secondary_colors": [
+      "Mint Green"
+    ],
+    "saturation": "high",
+    "grading_style": "Clean Pop / Graphic",
+    "similar_film_stock": "Kodak Ektar 100"
+  },
+  "composition": {
+    "angle": "하이 앵글 (High Angle, approx. 60-75 degrees)",
+    "distance": "close-up",
+    "estimated_lens_mm": 100,
+    "dof": "deep",
+    "focus_point": "과육과 껍질이 만나는 중앙부",
+    "composition_rule": "삼분할 법칙 및 리딩 라인 (Rule of Thirds and Leading Lines)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "최상급. 껍질의 유포와 과육의 질감을 극대화하여 표현",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "모던, 미니멀, 그래픽, 생동감 (Modern, Minimal, Graphic, Vibrant)",
+    "target_use": "advertisement",
+    "keywords": [
+      "Vibrant",
+      "Fresh",
+      "Graphic"
+    ]
+  },
+  "improvement_notes": "조명: 약한 필라이트를 추가하여 그림자 디테일 확보. 색감: 배경 채도를 낮추고 옐로우 틴트를 추가하여 고급스러운 톤으로 변경. 구도: 탑다운 앵글 또는 과즙이 튀는 연출로 역동성 강화.",
+  "nano_banana_prompt": "food photography of [a perfectly peeled apple in a spiral], close-up macro shot, sitting on a solid pastel blue background, hard direct light from the top right creating a single sharp and dramatic shadow, high contrast, vibrant pop art color style, hyper-detailed texture, clean and graphic composition, shot on Kodak Ektar 100 film --ar 2:3 --style raw"
+}

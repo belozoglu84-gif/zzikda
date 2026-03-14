@@ -1,0 +1,50 @@
+{
+  "file": "bright_093.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Top-Side Light from top-left",
+    "quality": "hard",
+    "shadow_character": "Long, deep, and sharp shadows used as a graphic element",
+    "highlight_shadow_ratio": "High Contrast",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5400,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Warm Yellow"
+    ],
+    "secondary_colors": [
+      "Vivid Red",
+      "Clean White"
+    ],
+    "saturation": "high",
+    "grading_style": "Clean & Vivid",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "Slightly angled top-down view (Flat-lay)",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "deep",
+    "focus_point": "Tomato salad in the central main dish",
+    "composition_rule": "Diagonal lines, Pattern & Repetition, Frame within a Frame"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "Excellent texture rendering, maximized by hard light to emphasize details like tomato skin and sauce creaminess.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Fresh, vibrant, healthy, and bright Mediterranean summer brunch mood.",
+    "target_use": "advertisement",
+    "keywords": [
+      "여름의오후",
+      "신선함",
+      "생동감"
+    ]
+  },
+  "improvement_notes": "For a high-end ad look, soften shadows with a large diffuser to enhance food details. Neutralize the white background and slightly boost primary colors for better subject separation. Simplify the composition into a 'Hero Cut' by removing distracting elements to focus solely on the main dish.",
+  "nano_banana_prompt": "professional food photography of a shrimp aglio e olio pasta, flat lay composition from a slightly angled top-down view, styled on a textured white surface, served in a simple ceramic white bowl. Lighting: Bathed in bright, direct, hard natural sunlight from the top-left, casting long, sharp, dramatic shadows across the scene. Color & Mood: Vibrant and fresh color palette with warm golden tones, clean and airy mood, high contrast, razor-sharp details, shot on Kodak Portra 400 film aesthetic. Camera: 85mm lens, f/9, ultra-detailed, photorealistic."
+}

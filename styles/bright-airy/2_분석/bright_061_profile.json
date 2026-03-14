@@ -1,0 +1,52 @@
+{
+  "file": "bright_061.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "피사체의 좌측 상단, 약 10시 방향에서 들어오는 사이드-백라이트",
+    "quality": "soft",
+    "shadow_character": "부드럽고 넓게 퍼지며, 반사판이나 필 라이트로 디테일을 살림",
+    "highlight_shadow_ratio": "콘트라스트가 강하지 않은 부드러운 톤",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5300,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Magenta Pink",
+      "Fresh Green"
+    ],
+    "secondary_colors": [
+      "Cool Gray",
+      "Creamy Beige",
+      "Pale Pink"
+    ],
+    "saturation": "medium",
+    "grading_style": "현대적인 '클린 앤 브라이트(Clean & Bright)' 스타일",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "위에서 비스듬히 내려다보는 45도 앵글",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "shallow",
+    "focus_point": "전경 접시 중앙의 아보카도와 허브가 겹쳐진 부분",
+    "composition_rule": "대각선 구도와 레이어링"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "허브 잎맥, 후추 알갱이 등 재료 각각의 질감이 훌륭하게 표현됨",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "밝고, 건강하며, 신선하고, 세련된 느낌",
+    "target_use": "magazine",
+    "keywords": [
+      "Fresh",
+      "Natural",
+      "Elegant"
+    ]
+  },
+  "improvement_notes": "드라마틱한 효과를 위해 림 라이트를 강조하고 그림자를 깊게 만들 수 있음. 스플릿 토닝으로 감성적인 무드를 추가하거나, 사람의 손을 등장시켜 역동성을 부여하는 것도 좋은 방법임.",
+  "nano_banana_prompt": "An editorial food photograph of [YOUR FOOD SUBJECT], styled for a bright and airy brunch. The scene is captured from a 45-degree angle, medium shot. The lighting is key: bright, diffused natural light from the top-left (10 o'clock), creating soft, gentle shadows on the bottom-right. Use a subtle fill light to keep shadows from being too dark. The color palette is clean and natural, with selectively saturated vibrant colors of the food popping against a neutral, cool-toned background. The mood is fresh, elegant, and sophisticated. Shot with a 50mm lens at f/4 for a shallow depth of field, with tack-sharp focus on the main dish. The final image should be high-resolution, with crisp details and no digital noise, reminiscent of a Kodak Portra 400 film stock. --style raw --ar 4:5"
+}

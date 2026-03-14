@@ -1,0 +1,51 @@
+{
+  "file": "bright_026.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10시 방향)",
+    "quality": "hard",
+    "shadow_character": "길고 어두우며, 피사체의 형태를 그대로 반영",
+    "highlight_shadow_ratio": "고대비(High Contrast)",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 6000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "따뜻한 노란색(Warm Yellow)"
+    ],
+    "secondary_colors": [
+      "진홍색(Crimson Red)",
+      "선명한 주황색(Vivid Orange)",
+      "청량한 녹색(Cool Green)"
+    ],
+    "saturation": "high",
+    "grading_style": "'Orange and Teal'의 변형된 웜톤 스타일",
+    "similar_film_stock": "코닥 포트라 400 (Kodak Portra 400) 또는 코닥 골드 200 (Kodak Gold 200)"
+  },
+  "composition": {
+    "angle": "하이 앵글(High Angle)",
+    "distance": "medium",
+    "estimated_lens_mm": 70,
+    "dof": "shallow",
+    "focus_point": "메인 요거트 볼의 토핑 부분",
+    "composition_rule": "대각선 구도 및 슬라이스 오브 라이프(Slice of Life)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "경광을 활용하여 요거트의 부드러움, 과일의 촉촉함, 그래놀라의 바삭함 등 질감이 극대화됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "활기차고, 따뜻하며, 자연스러운",
+    "target_use": "magazine",
+    "keywords": [
+      "햇살가득",
+      "싱그러움",
+      "활기찬아침"
+    ]
+  },
+  "improvement_notes": "강한 그림자를 부드럽게 하려면 반사판이나 필 라이트를 추가할 수 있음. 신선함을 강조하려면 화이트밸런스를 중립적으로 조정하고, 안정적인 구도를 원한다면 90도 탑뷰 앵글을 고려할 수 있음.",
+  "nano_banana_prompt": "professional food photography of [FOOD NAME], high-angle shot at 75 degrees, medium close-up. Lit by direct, hard sunlight from the top-left, creating long, sharp, dramatic shadows on a rustic yellow tiled surface. Vibrant and warm color palette, dominant saturated yellows and oranges. Color graded in the style of Kodak Portra 400 film, with a warm white balance and a cheerful, energetic summer morning mood. Shot on a 70mm lens with a shallow depth of field (f/3.2), extremely sharp details, cinematic and editorial quality."
+}

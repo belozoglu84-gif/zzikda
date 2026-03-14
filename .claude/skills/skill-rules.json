@@ -1,0 +1,44 @@
+{
+  "skills": [
+    {
+      "name": "landing-reference",
+      "path": ".claude/skills/landing-reference/SKILL.md",
+      "triggers": {
+        "keywords": ["레퍼런스", "참고", "시작", "만들어", "기획서", "새 프로젝트", "랜딩페이지", "벤치마킹", "비교", "트렌드", "업종", "톤앤매너"],
+        "patterns": ["참고.*사이트", "레퍼런스.*분석", "어떤.*참고", "랜딩.*만들", "페이지.*제작"]
+      }
+    },
+    {
+      "name": "landing-design",
+      "path": ".claude/skills/landing-design/SKILL.md",
+      "triggers": {
+        "keywords": ["디자인", "색상", "컬러", "폰트", "글꼴", "애니메이션", "톤앤매너", "스타일", "UI", "비주얼", "여백", "타이포그래피"],
+        "patterns": ["디자인.*시스템", "컬러.*팔레트", "폰트.*조합"]
+      }
+    },
+    {
+      "name": "landing-dev",
+      "path": ".claude/skills/landing-dev/SKILL.md",
+      "triggers": {
+        "keywords": ["코딩", "html", "css", "javascript", "js", "구현", "개발", "섹션 만들기", "버그", "수정", "코드", "스크립트", "태그", "반응형", "모바일", "tailwind"],
+        "patterns": ["index\\.html", "섹션.*구현", "코드.*작성", "html.*수정"]
+      }
+    },
+    {
+      "name": "landing-sections",
+      "path": ".claude/skills/landing-sections/SKILL.md",
+      "triggers": {
+        "keywords": ["섹션", "구조", "순서", "배치", "레이아웃", "히어로", "푸터", "네비게이션", "CTA", "가맹안내", "문의폼", "메뉴소개"],
+        "patterns": ["섹션.*구성", "섹션.*순서", "어떤.*섹션"]
+      }
+    },
+    {
+      "name": "landing-mapping",
+      "path": ".claude/skills/landing-mapping/SKILL.md",
+      "triggers": {
+        "keywords": ["기획서", "채워줘", "만들자", "시작하자", "제작", "brief", "매핑", "합쳐", "조합"],
+        "patterns": ["기획서.*채워", "랜딩.*만들", "페이지.*제작", "블루프린트.*매핑"]
+      }
+    }
+  ]
+}

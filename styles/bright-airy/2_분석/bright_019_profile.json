@@ -1,0 +1,52 @@
+{
+  "file": "bright_019.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10시 방향)",
+    "quality": "hard",
+    "shadow_character": "길고 콘트라스트가 강한 그림자, 반사판/필 라이트로 암부 디테일 확보",
+    "highlight_shadow_ratio": "High Contrast",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Red",
+      "Green"
+    ],
+    "secondary_colors": [
+      "Cream/Beige",
+      "Blue",
+      "White"
+    ],
+    "saturation": "high",
+    "grading_style": "High Contrast & Warm",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "Top-down Angle (Flat Lay)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "중앙의 샐러드 그릇",
+    "composition_rule": "Organic Placement"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "각 재료의 미세한 질감(냅킨 직물, 빵 단면, 치즈 입자)이 모두 선명하게 표현됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "신선, 건강, 활기찬 여름 브런치",
+    "target_use": "magazine",
+    "keywords": [
+      "여름의맛",
+      "신선함",
+      "홈브런치"
+    ]
+  },
+  "improvement_notes": "부드러운 연광(Soft Light)으로 변경하여 고급스러운 무드 연출, 채도를 낮추고 '틸 앤 오렌지' 그레이딩으로 시네마틱한 느낌 추가, 또는 여백을 확보하여 미니멀한 구도로 변경 가능.",
+  "nano_banana_prompt": "professional food photography of [FOOD NAME] in a rustic ceramic bowl, top-down flat lay composition, styled with complementary ingredients and a striped linen napkin on a textured cream-colored surface. The scene is illuminated by harsh, direct sunlight from the top-left, creating long, crisp shadows and bright specular highlights. Warm, summery color palette with vibrant, saturated colors, reminiscent of Kodak Portra 400 film. Shot with a 50mm lens, deep depth of field, hyper-realistic detail, extremely sharp focus, editorial style for a food magazine."
+}

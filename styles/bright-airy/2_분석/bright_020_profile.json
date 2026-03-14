@@ -1,0 +1,53 @@
+{
+  "file": "bright_020.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단(10시~11시 방향)",
+    "quality": "soft",
+    "shadow_character": "피사체 바로 아래의 약한 컨택트 섀도우 외에 전체적으로 어둡고 강한 그림자는 배제됨",
+    "highlight_shadow_ratio": "대비가 낮은 하이키(High-key) 스타일",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5650,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Pale Mint Green"
+    ],
+    "secondary_colors": [
+      "Brown",
+      "Orange",
+      "Beige",
+      "Red",
+      "Green"
+    ],
+    "saturation": "high",
+    "grading_style": "클린 앤 브라이트(Clean & Bright)",
+    "similar_film_stock": "Fuji Pro 400H"
+  },
+  "composition": {
+    "angle": "45도 앵글",
+    "distance": "close-up",
+    "estimated_lens_mm": 90,
+    "dof": "deep",
+    "focus_point": "각 음식의 핵심적인 질감이나 형태가 잘 보이는 전면부",
+    "composition_rule": "그리드(Grid) 시스템 기반의 모듈식 구성"
+  },
+  "texture": {
+    "sharpness": "high",
+    "noise": "none",
+    "detail_rendering": "우수함. 각 재료의 질감이 생생하게 표현되어 식감을 자극함",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "건강하고, 깨끗하며, 신뢰감을 주는 톤앤매너",
+    "target_use": "sns",
+    "keywords": [
+      "건강한",
+      "깔끔한",
+      "정보성"
+    ]
+  },
+  "improvement_notes": "조명에 더 강한 방향성(림라이트 등)을 부여하여 입체감 추가, 자연스러운 질감의 배경 사용 및 정교한 컬러 팔레트 적용, 그리드 방식에서 벗어나 하나의 완성된 장면(플랫레이 등)을 연출하여 고급스러움과 스토리텔링 강화",
+  "nano_banana_prompt": "food photography, [Your Food Item], neatly arranged, isolated on a solid pale mint green background (#E6F1EE), shot from a 45-degree angle, bright and clean commercial lighting, large softbox from top-left, subtle soft contact shadows, high-key style, vibrant natural colors, extremely sharp details, telephoto lens, no distortion, clean and healthy aesthetic --style raw --ar 2:3"
+}

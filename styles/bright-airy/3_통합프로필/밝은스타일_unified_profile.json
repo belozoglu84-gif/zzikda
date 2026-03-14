@@ -1,0 +1,2736 @@
+{
+  "meta": {
+    "total_profiles": 100,
+    "excluded": [],
+    "generator": "unify_profiles.py"
+  },
+  "category": {
+    "most_common": "food",
+    "distribution": [
+      {
+        "value": "food",
+        "count": 100,
+        "percent": 100.0
+      }
+    ]
+  },
+  "lighting": {
+    "direction": {
+      "most_common": "left / 좌측",
+      "distribution": [
+        {
+          "value": "left / 좌측",
+          "count": 70,
+          "percent": 70.0
+        },
+        {
+          "value": "back / 후방",
+          "count": 16,
+          "percent": 16.0
+        },
+        {
+          "value": "right / 우측",
+          "count": 12,
+          "percent": 12.0
+        },
+        {
+          "value": "top / 상단",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "사광 (Oblique Light)",
+          "count": 1,
+          "percent": 1.0
+        }
+      ]
+    },
+    "quality": {
+      "most_common": "hard",
+      "distribution": [
+        {
+          "value": "hard",
+          "count": 64,
+          "percent": 64.0
+        },
+        {
+          "value": "soft",
+          "count": 34,
+          "percent": 34.0
+        },
+        {
+          "value": "mixed",
+          "count": 2,
+          "percent": 2.0
+        }
+      ]
+    },
+    "equipment": {
+      "most_common": "studio-strobe",
+      "distribution": [
+        {
+          "value": "studio-strobe",
+          "count": 55,
+          "percent": 55.0
+        },
+        {
+          "value": "natural",
+          "count": 45,
+          "percent": 45.0
+        }
+      ]
+    },
+    "highlight_shadow_ratio": {
+      "samples": [
+        "명암 대비가 매우 높으며, 필라이트는 거의 사용되지 않음",
+        "Soft ratio, approximately 3:1",
+        "매우 강한 명암 대비",
+        "명부와 암부의 대비(Contrast)가 강렬하여 선명하고 강한 인상을 줌",
+        "매우 높은 콘트라스트, 강한 하이라이트와 깊은 섀도우",
+        "낮은 대비 (Low Contrast)",
+        "낮은 비율 (Low Contrast)",
+        "3:1"
+      ]
+    }
+  },
+  "color": {
+    "temperature_k": {
+      "min": 3800,
+      "max": 6250,
+      "mean": 5452.0,
+      "count": 100,
+      "range_str": "3800~6250K, 평균 5452K"
+    },
+    "white_balance": {
+      "most_common": "warm-shifted",
+      "distribution": [
+        {
+          "value": "warm-shifted",
+          "count": 54,
+          "percent": 54.0
+        },
+        {
+          "value": "accurate",
+          "count": 38,
+          "percent": 38.0
+        },
+        {
+          "value": "cool-shifted",
+          "count": 8,
+          "percent": 8.0
+        }
+      ]
+    },
+    "saturation": {
+      "most_common": "high",
+      "distribution": [
+        {
+          "value": "high",
+          "count": 68,
+          "percent": 68.0
+        },
+        {
+          "value": "boosted",
+          "count": 16,
+          "percent": 16.0
+        },
+        {
+          "value": "low",
+          "count": 9,
+          "percent": 9.0
+        },
+        {
+          "value": "medium",
+          "count": 7,
+          "percent": 7.0
+        }
+      ]
+    },
+    "film_stock": {
+      "most_common": "Kodak Portra 400",
+      "distribution": [
+        {
+          "value": "Kodak Portra 400",
+          "count": 46,
+          "percent": 46.0
+        },
+        {
+          "value": "Kodak (기타)",
+          "count": 28,
+          "percent": 28.0
+        },
+        {
+          "value": "Fuji Velvia",
+          "count": 15,
+          "percent": 15.0
+        },
+        {
+          "value": "Kodak Gold 200",
+          "count": 5,
+          "percent": 5.0
+        },
+        {
+          "value": "코닥 포트라 400 또는 코닥 골드 200",
+          "count": 2,
+          "percent": 2.0
+        },
+        {
+          "value": "코닥 포트라 400 또는 코닥 엑타 100의 디지털 에뮬레이션",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "코닥 골드 200 또는 코닥 엑타 100",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "코닥 포트라 400 / 코닥 골드 200",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "코닥 엑타 100 또는 코닥 포트라 400을 강하게 보정한 느낌",
+          "count": 1,
+          "percent": 1.0
+        }
+      ]
+    },
+    "primary_colors": {
+      "most_common": "Yellow",
+      "distribution": [
+        {
+          "value": "Yellow",
+          "count": 10,
+          "percent": 5.9
+        },
+        {
+          "value": "Orange",
+          "count": 9,
+          "percent": 5.3
+        },
+        {
+          "value": "Red",
+          "count": 6,
+          "percent": 3.6
+        },
+        {
+          "value": "orange",
+          "count": 5,
+          "percent": 3.0
+        },
+        {
+          "value": "Warm Yellow",
+          "count": 5,
+          "percent": 3.0
+        },
+        {
+          "value": "Blue",
+          "count": 4,
+          "percent": 2.4
+        },
+        {
+          "value": "yellow",
+          "count": 4,
+          "percent": 2.4
+        },
+        {
+          "value": "Brown",
+          "count": 3,
+          "percent": 1.8
+        },
+        {
+          "value": "Vivid Red",
+          "count": 3,
+          "percent": 1.8
+        },
+        {
+          "value": "Deep Red",
+          "count": 3,
+          "percent": 1.8
+        },
+        {
+          "value": "Magenta Pink",
+          "count": 3,
+          "percent": 1.8
+        },
+        {
+          "value": "Vibrant Yellow",
+          "count": 3,
+          "percent": 1.8
+        },
+        {
+          "value": "Beige",
+          "count": 3,
+          "percent": 1.8
+        },
+        {
+          "value": "Fresh Green",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "value": "Lime Green",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "value": "Mustard Yellow",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "value": "Cerulean Blue",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "value": "Teal Green",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "value": "White",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "value": "Sage Green",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "value": "Green",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "value": "Coral Pink",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "value": "Vivid Orange",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "value": "Teal",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "value": "Cyan",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "value": "Terracotta",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "value": "Vivid Yellow",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "value": "beige",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "value": "red",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "value": "Vibrant Orange",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "value": "Lively Green",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "value": "Golden Brown",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "value": "노란색",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "value": "주황색",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "value": "Teal/Cyan",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Orange/Yellow",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Lemon Yellow",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "cyan blue",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Tangerine Orange",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Pure White",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Sky Blue",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Apple Red",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Off-white",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Deep Green",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Yellow/Orange",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Pale Mint Green",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "따뜻한 노란색 (Warm Yellow)",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Seafoam Green",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "선명한 노란색(Vibrant Yellow)",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "짙은 파란색(Deep Blue)",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Warm Off-white",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "따뜻한 노란색(Warm Yellow)",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Mint Green",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "mustard yellow",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "vivid orange",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Cyan Blue",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Magenta",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Hot Pink",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Coral",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Cream",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Ivory",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Cobalt Blue",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Dusty Pink",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Coral-Orange",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "ivory",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "선명한 레드",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "깊은 마젠타/퍼플",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "생기 있는 그린",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Cool Gray",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Pastel Pink",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Energetic Orange",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Bright Yellow",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "terracotta orange/red",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Scarlet Red",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Taupe",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Creamy Saffron Yellow",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Skin Tone",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Amber",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Cream Beige",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Cream/Beige",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Pastel Orange",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Muted Green",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "따뜻한 노란색 (Sunny Yellow)",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "cyan-blue",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Vibrant Green",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Vivid Green",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Teal/Green",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Pink",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Turquoise",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Marigold Yellow",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Sunny Yellow",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Warm White",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "green",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "navy blue",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "아이보리/크림",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "브라운",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Cool Blue",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Orange-Red",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Warm Orange",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "value": "Red-Brown",
+          "count": 1,
+          "percent": 0.6
+        }
+      ]
+    },
+    "secondary_colors": {
+      "most_common": "Green",
+      "distribution": [
+        {
+          "value": "Green",
+          "count": 16,
+          "percent": 6.4
+        },
+        {
+          "value": "White",
+          "count": 11,
+          "percent": 4.4
+        },
+        {
+          "value": "Red",
+          "count": 10,
+          "percent": 4.0
+        },
+        {
+          "value": "Yellow",
+          "count": 9,
+          "percent": 3.6
+        },
+        {
+          "value": "Beige",
+          "count": 7,
+          "percent": 2.8
+        },
+        {
+          "value": "Brown",
+          "count": 7,
+          "percent": 2.8
+        },
+        {
+          "value": "Blue",
+          "count": 7,
+          "percent": 2.8
+        },
+        {
+          "value": "Deep Green",
+          "count": 5,
+          "percent": 2.0
+        },
+        {
+          "value": "Vivid Red",
+          "count": 5,
+          "percent": 2.0
+        },
+        {
+          "value": "Orange",
+          "count": 5,
+          "percent": 2.0
+        },
+        {
+          "value": "Deep Black",
+          "count": 4,
+          "percent": 1.6
+        },
+        {
+          "value": "green",
+          "count": 4,
+          "percent": 1.6
+        },
+        {
+          "value": "Pink",
+          "count": 4,
+          "percent": 1.6
+        },
+        {
+          "value": "Creamy White",
+          "count": 3,
+          "percent": 1.2
+        },
+        {
+          "value": "Pastel Pink",
+          "count": 3,
+          "percent": 1.2
+        },
+        {
+          "value": "white",
+          "count": 3,
+          "percent": 1.2
+        },
+        {
+          "value": "yellow",
+          "count": 3,
+          "percent": 1.2
+        },
+        {
+          "value": "Mint Green",
+          "count": 3,
+          "percent": 1.2
+        },
+        {
+          "value": "red",
+          "count": 3,
+          "percent": 1.2
+        },
+        {
+          "value": "Magenta",
+          "count": 3,
+          "percent": 1.2
+        },
+        {
+          "value": "Clean White",
+          "count": 3,
+          "percent": 1.2
+        },
+        {
+          "value": "Deep Red",
+          "count": 3,
+          "percent": 1.2
+        },
+        {
+          "value": "Deep Blue",
+          "count": 2,
+          "percent": 0.8
+        },
+        {
+          "value": "Magenta/Purple",
+          "count": 2,
+          "percent": 0.8
+        },
+        {
+          "value": "Light Yellow",
+          "count": 2,
+          "percent": 0.8
+        },
+        {
+          "value": "Cobalt Blue",
+          "count": 2,
+          "percent": 0.8
+        },
+        {
+          "value": "Pale Yellow",
+          "count": 2,
+          "percent": 0.8
+        },
+        {
+          "value": "Silver",
+          "count": 2,
+          "percent": 0.8
+        },
+        {
+          "value": "짙은 붉은색 (Deep Red)",
+          "count": 2,
+          "percent": 0.8
+        },
+        {
+          "value": "선명한 주황색 (Vivid Orange)",
+          "count": 2,
+          "percent": 0.8
+        },
+        {
+          "value": "청량한 녹색 (Cool Green)",
+          "count": 2,
+          "percent": 0.8
+        },
+        {
+          "value": "teal",
+          "count": 2,
+          "percent": 0.8
+        },
+        {
+          "value": "Warm White",
+          "count": 2,
+          "percent": 0.8
+        },
+        {
+          "value": "Purple",
+          "count": 2,
+          "percent": 0.8
+        },
+        {
+          "value": "Gold",
+          "count": 2,
+          "percent": 0.8
+        },
+        {
+          "value": "Fresh Green",
+          "count": 2,
+          "percent": 0.8
+        },
+        {
+          "value": "Olive Green",
+          "count": 2,
+          "percent": 0.8
+        },
+        {
+          "value": "Cool Gray",
+          "count": 2,
+          "percent": 0.8
+        },
+        {
+          "value": "Vibrant Yellow",
+          "count": 2,
+          "percent": 0.8
+        },
+        {
+          "value": "Vibrant Orange",
+          "count": 2,
+          "percent": 0.8
+        },
+        {
+          "value": "Cool Green",
+          "count": 2,
+          "percent": 0.8
+        },
+        {
+          "value": "Warm Brown",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Transparent/Silver",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Neutral White",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "White/Gray",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "orange/yellow",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Amber/Orange",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Dark Brown/Purple",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Dark Green",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Orange Brown",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Red/Magenta",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Deep Purple",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Dark Slate",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Cream/Beige",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Vibrant Orange/Yellow",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "부드러운 분홍색(Dusty Pink)",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "녹색(Green)",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "진홍색(Crimson Red)",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "선명한 주황색(Vivid Orange)",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "청량한 녹색(Cool Green)",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Vivid Orange",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "black",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "blue",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "magenta",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Magenta/Red",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "mint green",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "sky blue",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "pink",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Orange/Yellow",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Cool Blue",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Orange/Red",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Soft Pink",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Creamy White/Beige",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Rosé Pink",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "High-saturation Green",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Yellow-Green",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "rustic blue",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "gray",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "vibrant green",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "깨끗한 화이트",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "부드러운 핑크",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "따뜻한 골드",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Dusty Blue",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Vivid Green",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Yellow/Orange",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Golden Yellow",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Neutral White/Gray",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Transparent Mint",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Pinkish Juice",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Deep Green Leaf",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "vivid green",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "magenta pink",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "creamy beige",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Cyan",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Creamy Beige",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Pale Pink",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Black",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Pistachio Green",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Saffron Red",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Dry Rose Magenta",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "warm beige",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "dark brown",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "흰색",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "녹색",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "은색",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Dark Brown/Black",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Off-white",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Neutral Gray",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Natural Brown",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Red/Orange",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Creamy White/Ivory",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Neon Green",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Calm Blue",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Vibrant Red",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "White/Cream",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Raspberry Red",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Terracotta/Orange",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "레드",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "그린",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "옐로우",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "블루",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Forest Green",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Cream White",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Earthy Green",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Neutral Beige",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Earthy Brown",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Vibrant Green",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Magenta Pink",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Bright Yellow",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "파란색",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "마젠타/핑크",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Dark Brown",
+          "count": 1,
+          "percent": 0.4
+        },
+        {
+          "value": "Light Gray",
+          "count": 1,
+          "percent": 0.4
+        }
+      ]
+    }
+  },
+  "composition": {
+    "angle": {
+      "most_common": "탑다운 / 플랫레이",
+      "distribution": [
+        {
+          "value": "탑다운 / 플랫레이",
+          "count": 50,
+          "percent": 50.0
+        },
+        {
+          "value": "45도 하이앵글",
+          "count": 26,
+          "percent": 26.0
+        },
+        {
+          "value": "아이레벨",
+          "count": 12,
+          "percent": 12.0
+        },
+        {
+          "value": "하이 앵글(High Angle)",
+          "count": 2,
+          "percent": 2.0
+        },
+        {
+          "value": "High Angle",
+          "count": 2,
+          "percent": 2.0
+        },
+        {
+          "value": "Slight High Angle (approx. 20-",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "아이 레벨과 하이 앵글의 중간 (약 20-30도)",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "하이앵글 (약 75-80도)",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "하이 앵글 (High Angle, approx. 60-",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "하이 앵글 (High Angle)",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "High angle, approximately 60-7",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "Slight High-angle",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "Straight Angle",
+          "count": 1,
+          "percent": 1.0
+        }
+      ]
+    },
+    "distance": {
+      "most_common": "medium",
+      "distribution": [
+        {
+          "value": "medium",
+          "count": 60,
+          "percent": 60.0
+        },
+        {
+          "value": "close-up",
+          "count": 34,
+          "percent": 34.0
+        },
+        {
+          "value": "wide",
+          "count": 5,
+          "percent": 5.0
+        },
+        {
+          "value": "extreme-close-up",
+          "count": 1,
+          "percent": 1.0
+        }
+      ]
+    },
+    "estimated_lens_mm": {
+      "min": 35,
+      "max": 100,
+      "mean": 70.9,
+      "count": 100,
+      "range_str": "35~100mm, 평균 71mm"
+    },
+    "dof": {
+      "most_common": "deep",
+      "distribution": [
+        {
+          "value": "deep",
+          "count": 54,
+          "percent": 54.0
+        },
+        {
+          "value": "shallow",
+          "count": 37,
+          "percent": 37.0
+        },
+        {
+          "value": "very-shallow",
+          "count": 4,
+          "percent": 4.0
+        },
+        {
+          "value": "moderate",
+          "count": 3,
+          "percent": 3.0
+        },
+        {
+          "value": "pan-focus",
+          "count": 2,
+          "percent": 2.0
+        }
+      ]
+    }
+  },
+  "texture": {
+    "sharpness": {
+      "most_common": "very-high",
+      "distribution": [
+        {
+          "value": "very-high",
+          "count": 82,
+          "percent": 82.0
+        },
+        {
+          "value": "medium",
+          "count": 8,
+          "percent": 8.0
+        },
+        {
+          "value": "high",
+          "count": 6,
+          "percent": 6.0
+        },
+        {
+          "value": "low",
+          "count": 4,
+          "percent": 4.0
+        }
+      ]
+    },
+    "noise": {
+      "most_common": "none",
+      "distribution": [
+        {
+          "value": "none",
+          "count": 47,
+          "percent": 47.0
+        },
+        {
+          "value": "minimal",
+          "count": 29,
+          "percent": 29.0
+        },
+        {
+          "value": "intentional-grain",
+          "count": 24,
+          "percent": 24.0
+        }
+      ]
+    },
+    "post_processing": {
+      "most_common": "heavy",
+      "distribution": [
+        {
+          "value": "heavy",
+          "count": 77,
+          "percent": 77.0
+        },
+        {
+          "value": "moderate",
+          "count": 21,
+          "percent": 21.0
+        },
+        {
+          "value": "minimal",
+          "count": 2,
+          "percent": 2.0
+        }
+      ]
+    }
+  },
+  "mood": {
+    "tone": {
+      "most_common": "warm & cozy",
+      "distribution": [
+        {
+          "value": "warm & cozy",
+          "count": 19,
+          "percent": 19.0
+        },
+        {
+          "value": "minimal & clean",
+          "count": 15,
+          "percent": 15.0
+        },
+        {
+          "value": "Bright, Clean, Fresh",
+          "count": 2,
+          "percent": 2.0
+        },
+        {
+          "value": "Rustic, Fresh, Abundant",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "Pop, Graphic, Energetic, Retro",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "Refreshing, Fresh, Vibrant, En",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "생동감 넘치고, 강렬하며, 신선한",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "Free-spirited, exotic, and ene",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "경쾌하고, 활기차며, 모던하고, 감각적",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "활기차고, 자연스러우며, 소박한(Rustic) 감성",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "Vibrant, Playful, Graphic",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "Luxurious, Dramatic, Indulgent",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "밝고, 깨끗하며, 부드럽고, 서정적인 (Airy)",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "세련된(Chic), 건강한(Healthy), 풍요로운(",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "premium",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "신선, 건강, 활기찬 여름 브런치",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "건강하고, 깨끗하며, 신뢰감을 주는 톤앤매너",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "밝고, 활기차며, 건강하고, 신선함",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "Bright, cheerful, modern, and ",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "밝고 청량하며 여유로운",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "활기차고, 상쾌하며, 그래픽적인",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "신선하고, 활기차며, 감각적이고 모던함",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "활기차고, 즐거우며, 사교적인 (Energetic, J",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "Bright, vibrant, fresh, and mo",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "Vibrant, Modern, Graphic",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "밝고, 활기차며, 자연스러운 라이프스타일 화보",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "Vibrant, Playful, Modern",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "밝고, 활기차며, 화사함 (Bright, Energet",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "밝고, 경쾌하며, 활기찬",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "Rustic & Natural",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "생동감 넘치는(Vibrant), 그래픽적인(Graphi",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "모던, 청량, 초현실적(Surreal), 그래픽적(Gr",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "밝고, 건강하며, 활기찬 아침의 분위기",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "밝고, 청량하며, 감각적인. 나른한 여름날 오후의 피크",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "Dramatic, Intense, Sophisticat",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "신선하고, 활기차며, 건강한 느낌. 지중해의 여름날 브",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "활기차고, 역동적이며, 신선하고, 현대적인 느낌",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "Bright, vibrant, fresh, and he",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "밝고, 경쾌하며, 감각적이고, 모던함",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "밝고, 활기차며, 그래픽적인 모던함",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "Energetic, Fresh, Youthful, Tr",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "밝고, 활기차며, 긍정적인 에너지. 신선함과 즐거움 전",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "생동감 넘치고(Vibrant), 에너제틱하며(Energ",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "활기차고 이국적이며 즐거운 분위기 (Vibrant, E",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "밝고, 경쾌하며, 긍정적인 에너지",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "밝고, 건강하며, 신선하고, 세련된 느낌",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "Vibrant, Graphic, Bold, Modern",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "Vibrant, joyful, and friendly",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "활기차고, 즐거우며, 젊고, 트렌디함",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "밝고, 활기차며, 건강하고 신선한 느낌",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "활기차고, 건강하며, 이상적인 여름날의 오후를 연상시키",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "Bright, Playful, Vibrant",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "Fresh, healthy, calm, and soph",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "Fresh, vibrant, and natural, c",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "dark moody",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "Bright, Playful, Vibrant (밝고, ",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "청량함, 생동감, 신선함, 경쾌함",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "Bright, Playful, Energetic",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "활기차고 자연스러운 Rustic & Chic",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "활기차고, 건강하며, 신선하고, 긍정적인 에너지",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "밝고, 경쾌하며, 모던하고, 그래픽적인",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "활기찬 여름날의 피크닉",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "Fresh, vibrant, healthy, and b",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "Refreshing, Lively, Natural, E",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "밝고, 긍정적이며, 활기찬 (Bright, Positi",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "활기차고, 건강하며, 따스하고 긍정적인 느낌. 지중해의",
+          "count": 1,
+          "percent": 1.0
+        },
+        {
+          "value": "Bright & Cheerful",
+          "count": 1,
+          "percent": 1.0
+        }
+      ]
+    },
+    "target_use": {
+      "most_common": "sns",
+      "distribution": [
+        {
+          "value": "sns",
+          "count": 49,
+          "percent": 49.0
+        },
+        {
+          "value": "advertisement",
+          "count": 24,
+          "percent": 24.0
+        },
+        {
+          "value": "magazine",
+          "count": 24,
+          "percent": 24.0
+        },
+        {
+          "value": "catalog",
+          "count": 2,
+          "percent": 2.0
+        },
+        {
+          "value": "art",
+          "count": 1,
+          "percent": 1.0
+        }
+      ]
+    },
+    "keywords": {
+      "most_common": "생동감",
+      "distribution": [
+        {
+          "value": "생동감",
+          "count": 15,
+          "percent": 5.0
+        },
+        {
+          "value": "활기찬",
+          "count": 13,
+          "percent": 4.3
+        },
+        {
+          "value": "신선함",
+          "count": 9,
+          "percent": 3.0
+        },
+        {
+          "value": "미니멀리즘",
+          "count": 9,
+          "percent": 3.0
+        },
+        {
+          "value": "Vibrant",
+          "count": 8,
+          "percent": 2.7
+        },
+        {
+          "value": "햇살가득",
+          "count": 7,
+          "percent": 2.3
+        },
+        {
+          "value": "상큼함",
+          "count": 7,
+          "percent": 2.3
+        },
+        {
+          "value": "팝아트",
+          "count": 7,
+          "percent": 2.3
+        },
+        {
+          "value": "여유로운",
+          "count": 7,
+          "percent": 2.3
+        },
+        {
+          "value": "청량함",
+          "count": 6,
+          "percent": 2.0
+        },
+        {
+          "value": "여름날의오후",
+          "count": 5,
+          "percent": 1.7
+        },
+        {
+          "value": "러스틱",
+          "count": 5,
+          "percent": 1.7
+        },
+        {
+          "value": "미니멀",
+          "count": 5,
+          "percent": 1.7
+        },
+        {
+          "value": "생기있는",
+          "count": 5,
+          "percent": 1.7
+        },
+        {
+          "value": "먹음직스러운",
+          "count": 4,
+          "percent": 1.3
+        },
+        {
+          "value": "따스함",
+          "count": 4,
+          "percent": 1.3
+        },
+        {
+          "value": "나른한오후",
+          "count": 4,
+          "percent": 1.3
+        },
+        {
+          "value": "따스한",
+          "count": 4,
+          "percent": 1.3
+        },
+        {
+          "value": "여름의맛",
+          "count": 3,
+          "percent": 1.0
+        },
+        {
+          "value": "생기",
+          "count": 3,
+          "percent": 1.0
+        },
+        {
+          "value": "아침햇살",
+          "count": 3,
+          "percent": 1.0
+        },
+        {
+          "value": "자연광",
+          "count": 3,
+          "percent": 1.0
+        },
+        {
+          "value": "건강한",
+          "count": 3,
+          "percent": 1.0
+        },
+        {
+          "value": "강렬한대비",
+          "count": 3,
+          "percent": 1.0
+        },
+        {
+          "value": "화사한",
+          "count": 3,
+          "percent": 1.0
+        },
+        {
+          "value": "생동감있는",
+          "count": 3,
+          "percent": 1.0
+        },
+        {
+          "value": "따사로운",
+          "count": 3,
+          "percent": 1.0
+        },
+        {
+          "value": "싱그러움",
+          "count": 3,
+          "percent": 1.0
+        },
+        {
+          "value": "활기찬아침",
+          "count": 3,
+          "percent": 1.0
+        },
+        {
+          "value": "Fresh",
+          "count": 3,
+          "percent": 1.0
+        },
+        {
+          "value": "청량한",
+          "count": 3,
+          "percent": 1.0
+        },
+        {
+          "value": "감각적인",
+          "count": 3,
+          "percent": 1.0
+        },
+        {
+          "value": "자연주의",
+          "count": 2,
+          "percent": 0.7
+        },
+        {
+          "value": "에너지",
+          "count": 2,
+          "percent": 0.7
+        },
+        {
+          "value": "Graphic",
+          "count": 2,
+          "percent": 0.7
+        },
+        {
+          "value": "Freshness",
+          "count": 2,
+          "percent": 0.7
+        },
+        {
+          "value": "그래픽",
+          "count": 2,
+          "percent": 0.7
+        },
+        {
+          "value": "에너제틱",
+          "count": 2,
+          "percent": 0.7
+        },
+        {
+          "value": "그래픽적인",
+          "count": 2,
+          "percent": 0.7
+        },
+        {
+          "value": "아날로그감성",
+          "count": 2,
+          "percent": 0.7
+        },
+        {
+          "value": "햇살가득한",
+          "count": 2,
+          "percent": 0.7
+        },
+        {
+          "value": "여유로운아침",
+          "count": 2,
+          "percent": 0.7
+        },
+        {
+          "value": "여름의오후",
+          "count": 2,
+          "percent": 0.7
+        },
+        {
+          "value": "정통의맛",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "따스한저녁",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "식욕자극",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "톡쏘는상쾌함",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "여름",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "강렬한순간",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "Bohemian",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "Exotic",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "신선한",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "부드러운",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "Minimal",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "지중해의여름",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "쨍한오후",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "프리미엄",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "역동성",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "홀리데이",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "깨끗한",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "고요한",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "청초한",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "에슬레저룩",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "브런치",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "웰니스",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "Abundance",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "홈브런치",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "깔끔한",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "정보성",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "빈티지감성",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "그래픽디자인",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "풍요로운",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "생기발랄",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "시트러스펀치",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "minimalism",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "graphic",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "vibrancy",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "화창한오후",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "어울림",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "트로피컬",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "상쾌한",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "지중해의",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "다채로움",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "나눔",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "따스한오후",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "홈카페",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "나른한 오후",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "여름의 맛",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "아날로그 감성",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "모던한",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "플레이풀",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "아늑한",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "여름날의휴식",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "스타일리시",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "자연스러운",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "편안함",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "여름의단편",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "빛과그림자",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "청량한긴장감",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "Summer_Afternoon",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "여름날의브런치",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "일상의행복",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "시크함",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "따사로운햇살",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "러스틱모던",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "상쾌함",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "자연스러움",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "태양의만찬",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "활기",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "이국적정취",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "Refreshing",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "Urban Summer",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "Natural",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "Elegant",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "강렬함",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "감성디자인",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "에어리",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "정갈함",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "파스텔",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "즐거운",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "함께하는",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "달콤한 유혹",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "감각적 순간",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "레트로",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "여름휴가",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "고요함",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "대비",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "절제미",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "산뜻함",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "상큼한활력",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "차분함",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "모던함",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "햇살",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "Summery",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "평온한",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "아날로그",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "시네마틱",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "건강한아침",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "소박한행복",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "청량감",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "지중해의활기",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "자연스러운멋",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "따스한햇살",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "정돈된",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "싱그러운",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "지중해",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "따뜻한",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "풍성한",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "스타일리시한",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "Sunny",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "Appetizing",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "여름날",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "강렬한단순함",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "그림자놀이",
+          "count": 1,
+          "percent": 0.3
+        },
+        {
+          "value": "지중해의오후",
+          "count": 1,
+          "percent": 0.3
+        }
+      ]
+    }
+  },
+  "unified_nano_banana_prompt": "Professional Korean food photography, shot at 탑다운 / 플랫레이 high angle, hard left / 좌측 directional lighting from studio strobe, warm color temperature ~5452K, Kodak Portra 400 film style, desaturated and muted tones with cinematic grading, lifted blacks, on 71mm lens with deep depth of field, extreme sharpness (very-high) on food texture, warm & cozy atmosphere  생동감, 활기찬, 신선함, 미니멀리즘, Vibrant, rustic dark wooden table, artisanal ceramic tableware, editorial food magazine quality, 8K resolution.",
+  "usage_guide": {
+    "description": "김현경 작가 스타일 핵심 특성 요약",
+    "lighting_tip": "주 조명: left / 좌측 방향, hard 조명",
+    "color_tip": "색온도 3800~6250K, 평균 5452K, 필름: Kodak Portra 400",
+    "composition_tip": "앵글: 탑다운 / 플랫레이, 렌즈: 35~100mm, 평균 71mm",
+    "mood_tip": "분위기: warm & cozy, 주요 키워드: 생동감, 활기찬, 신선함, 미니멀리즘, Vibrant"
+  }
+}

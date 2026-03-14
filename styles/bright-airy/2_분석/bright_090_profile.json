@@ -1,0 +1,51 @@
+{
+  "file": "bright_090.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "사광 (Oblique Light) from the top-left",
+    "quality": "hard",
+    "shadow_character": "Strong contrast, dark, with sharp, well-defined edges",
+    "highlight_shadow_ratio": "High Contrast",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Orange"
+    ],
+    "secondary_colors": [
+      "Deep Red",
+      "Forest Green",
+      "Cream White"
+    ],
+    "saturation": "high",
+    "grading_style": "Film Look",
+    "similar_film_stock": "Kodak Gold 200 / Kodak Ektar 100"
+  },
+  "composition": {
+    "angle": "High Angle (approx. 45 degrees)",
+    "distance": "close-up",
+    "estimated_lens_mm": 50,
+    "dof": "shallow",
+    "focus_point": "무화과와 그래놀라 (Fig and Granola)",
+    "composition_rule": "삼분할 법칙 및 대각선 구도 (Rule of Thirds and Diagonal Composition)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "Excellent rendering of textures: crispy granola, creamy yogurt, and moist figs, enhanced by hard light.",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "A relaxed and healthy breakfast under warm sunlight, with a rustic or Mediterranean feel.",
+    "target_use": "sns",
+    "keywords": [
+      "따사로운",
+      "싱그러운",
+      "여유로운"
+    ]
+  },
+  "improvement_notes": "조명: 경광의 매력은 살리되, 하이라이트가 너무 강해 디테일이 손실(clipping)된 부분이 아쉽습니다. 광원과 피사체 사이에 아주 얇은 디퓨저(예: 1/4 Grid Cloth)를 추가하여 빛을 미세하게 부드럽게 만들면, 하이라이트 디테일을 살리면서도 경광의 느낌을 유지할 수 있습니다. 또한, 우측에 검은 판(Negative Fill)을 배치하여 그림자를 조금 더 깊고 풍부하게 만들어주면 전체적인 입체감이 향상될 것입니다. 색감: 현재의 강한 오렌지 톤이 전체를 지배하고 있습니다. 조금 더 세련된 컬러 팔레트를 위해, 후반 작업에서 오렌지색의 채도와 광도를 살짝 낮추고, 보색 관계인 냅킨의 녹색과 무화과의 붉은색을 국소적으로 강조하면 색의 균형이 잡히면서 각 요소가 더 돋보일 수 있습니다. 구도: 라이프스타일 샷의 자연스러움은 좋지만, 시선이 다소 분산됩니다. 주제에 더 집중시키기 위해, 배경의 접시나 우측의 배(pear)와 같은 부가적인 요소를 제거하거나 아웃포커싱을 더 강하게 하여 프레임을 단순화하는 것이 좋습니다. 커트러리와 냅킨의 배치를 조금 더 의도적으로 정돈하여 시선이 자연스럽게 메인 디쉬로 흐르도록 유도할 수 있습니다.",
+  "nano_banana_prompt": "An editorial food photography of a [음식 이름], close-up shot from a 45-degree high angle. The scene is illuminated by bright, direct morning sunlight creating long, hard-edged shadows and high contrast. The setting is a rustic terracotta tiled surface. The color palette is vibrant and warm, dominated by terracotta orange, deep reds, and creamy whites. Shallow depth of field with the main dish in sharp focus. The overall mood is a relaxed Mediterranean summer morning. Filmic look with subtle grain, shot on a 50mm lens. --style raw --ar 4:5"
+}

@@ -1,0 +1,52 @@
+{
+  "file": "FCAA6B7F-8394-498F-88FD-236312DAED76.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "Top-left, around the 10 o'clock position",
+    "quality": "soft",
+    "shadow_character": "Deep but detailed shadows, gently filled in by a reflector on the bottom-right",
+    "highlight_shadow_ratio": "Low contrast with soft highlights and lifted blacks, creating a gentle tonal range",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 4000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Brown",
+      "Orange"
+    ],
+    "secondary_colors": [
+      "Charcoal Gray",
+      "Ivory",
+      "Green"
+    ],
+    "saturation": "low",
+    "grading_style": "Film look style with lifted blacks and fine grain added for an analog texture",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "Top-view / Flat-lay",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "shallow",
+    "focus_point": "The egg yolk and the surrounding meat",
+    "composition_rule": "Balanced and asymmetrical composition, forming a visual triangle with surrounding elements"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "Excellent rendering of diverse textures, including glossy meat, a moist yolk, a rough wooden table, and a rustic ceramic bowl",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Warm, neat, and rustic yet refined, conveying a sense of a carefully prepared meal",
+    "target_use": "magazine",
+    "keywords": [
+      "따뜻한",
+      "정갈한",
+      "러스틱"
+    ]
+  },
+  "improvement_notes": "To add more dimension, a subtle kicker light could be used. For more commercial appeal, selectively increasing the saturation of the yolk and green onions would be effective. For a more dynamic feel, an action shot or a more aggressive use of the rule of thirds could be attempted.",
+  "nano_banana_prompt": "A top-down flat lay professional food photograph of [FOOD NAME], styled on a dark rustic wooden table. The lighting is soft, moody, and directional, coming from the top-left, creating gentle and diffused shadows, reminiscent of natural window light. The color palette is warm and desaturated with a cozy, inviting feel. The image has a subtle film grain and lifted blacks, emulating the look of Kodak Portra 400 film. The focus is razor-sharp on the main dish, with a shallow depth of field. The composition is balanced and artistic, with complementary side dishes and utensils. --ar 4:3 --style raw"
+}

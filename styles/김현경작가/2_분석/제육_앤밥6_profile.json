@@ -1,0 +1,52 @@
+{
+  "file": "제육_앤밥6.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Three-quarter backlighting from the right rear (4-5 o'clock position)",
+    "quality": "soft",
+    "shadow_character": "Soft, gentle shadows that create natural depth without obscuring details",
+    "highlight_shadow_ratio": "Low-contrast",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 4000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Reddish Brown",
+      "Warm Brown"
+    ],
+    "secondary_colors": [
+      "Off-white",
+      "Matte Black",
+      "Green"
+    ],
+    "saturation": "medium",
+    "grading_style": "Filmic look with lifted blacks and soft, rolled-off highlights",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "45-degree angle (Diner's point of view)",
+    "distance": "medium",
+    "estimated_lens_mm": 90,
+    "dof": "shallow",
+    "focus_point": "The point where the stir-fried pork and rice meet",
+    "composition_rule": "Leading lines created by the diagonal wooden board"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "Excellent rendering of various textures: glossy sauce, fluffy rice, rough wood, and matte bowl",
+    "post_processing": "minimal"
+  },
+  "mood": {
+    "tone": "Warm, neat, and minimalist",
+    "target_use": "menu",
+    "keywords": [
+      "정성스러운",
+      "아늑한",
+      "담백한"
+    ]
+  },
+  "improvement_notes": "For a more dramatic look, add a kicker light to separate the subject from the background. Introduce split toning (e.g., teal in shadows) for cinematic color depth. To enhance storytelling, consider an action shot or a lower camera angle.",
+  "nano_banana_prompt": "A professional food photograph of [FOOD NAME], styled in a minimalist and warm aesthetic. Shot with a 100mm macro lens at a 45-degree angle. The main dish is served in a matte black ceramic bowl, placed on a rustic dark wood board that acts as a diagonal leading line. The lighting is soft and dimensional, mimicking three-quarter backlighting from a large, diffused window on an overcast day, creating gentle, soft-edged shadows. The color palette is warm and inviting, with a color temperature of 3800K, dominated by rich browns, deep reds, and off-whites. The color grading is inspired by Kodak Portra 400 film stock, featuring slightly lifted blacks and soft, rolled-off highlights for a gentle, filmic look. Shallow depth of field with tack-sharp focus on the main texture of the food. Hyper-realistic details, appetizing, clean, cozy atmosphere. --ar 4:5 --style raw"
+}

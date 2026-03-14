@@ -1,0 +1,53 @@
+{
+  "file": "bright_050.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10시-11시 방향)",
+    "quality": "hard",
+    "shadow_character": "짧고 강렬함",
+    "highlight_shadow_ratio": "하이키 조명, 높은 콘트라스트",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5650,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "선명한 레드",
+      "깊은 마젠타/퍼플",
+      "생기 있는 그린"
+    ],
+    "secondary_colors": [
+      "깨끗한 화이트",
+      "부드러운 핑크",
+      "따뜻한 골드"
+    ],
+    "saturation": "high",
+    "grading_style": "Clean & Vivid",
+    "similar_film_stock": "Kodak Ektar 100"
+  },
+  "composition": {
+    "angle": "탑다운 앵글 (플랫레이)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "화면 전체 (중앙 메인 접시에 시선 집중)",
+    "composition_rule": "삼분할 법칙 및 프레이밍"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "경광(Hard Light)을 활용하여 재료 표면의 질감을 극대화",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "신선하고, 활기차며, 건강한 느낌. 지중해의 여름날 브런치 연상.",
+    "target_use": "magazine",
+    "keywords": [
+      "Freshness",
+      "Vibrant",
+      "Summer_Afternoon"
+    ]
+  },
+  "improvement_notes": "부드러운 분위기를 위해 연광(Soft Light) 사용, 빈티지한 느낌을 위해 색온도를 낮추고 암부 페이드 적용, 또는 45도 앵글과 얕은 피사계심도(Shallow DOF)를 활용하여 감성적인 컷 연출 가능.",
+  "nano_banana_prompt": "A vibrant and fresh [dish name] salad, professional food photography, top-down flat lay on a white tiled surface, bathed in bright direct hard sunlight from the top-left, creating crisp dark well-defined shadows, extremely high detail and sharp focus, vibrant high-contrast color palette, rich reds and fresh greens pop against the clean white background, style of Kodak Ektar 100, appetizing, clean, editorial quality."
+}

@@ -1,0 +1,50 @@
+{
+  "file": "bright_038.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Key light from top-left, approximately 10 o'clock",
+    "quality": "soft",
+    "shadow_character": "Shadows are present but not deep, with details preserved, opened up by a reflector or a weak fill light.",
+    "highlight_shadow_ratio": "Soft ratio, approximately 3:1",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 4000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Sage Green"
+    ],
+    "secondary_colors": [
+      "Orange/Red",
+      "Gold"
+    ],
+    "saturation": "boosted",
+    "grading_style": "Film look style with lifted shadows containing a slight green/teal tint, and soft cream-toned highlights.",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "High angle, approximately 60-75 degrees (Diner's View)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "shallow",
+    "focus_point": "Pasta and cherry tomatoes in the center of the plate",
+    "composition_rule": "Combination of Rule of Thirds and Diagonal Composition"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "Excellent. Soft light effectively renders the gloss of the pasta sauce and the texture of the tablecloth.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Warm, Rustic, Cozy",
+    "target_use": "magazine",
+    "keywords": [
+      "따스함",
+      "러스틱",
+      "나눔"
+    ]
+  },
+  "improvement_notes": "For a more dramatic feel, use a harder key light and add a rim light. For a modern look, change the background color to a more vibrant one like emerald green. To focus more on the food itself, a close-up shot could be used.",
+  "nano_banana_prompt": "professional food photography of [음식 이름], high-angle diner's perspective shot, on a rustic tablescape with a muted sage green linen tablecloth, styled with vintage green glassware and gold cutlery. Lighting is soft and dramatic, key light from the top-left creating a warm, appetizing glow and gentle shadows. Cinematic color grading with a warm, nostalgic feel inspired by Kodak Portra 400 film, featuring rich, vibrant food colors against a desaturated green background. Shallow depth of field, tack sharp focus on the main dish, subtle film grain, hyper-detailed texture. --ar 4:5"
+}

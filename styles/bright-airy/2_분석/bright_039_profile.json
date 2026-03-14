@@ -1,0 +1,52 @@
+{
+  "file": "bright_039.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10시 방향)",
+    "quality": "hard",
+    "shadow_character": "짧고 강렬한 그림자, 약한 필 라이트로 섀도우 디테일 유지",
+    "highlight_shadow_ratio": "High Contrast",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 6000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Warm Yellow",
+      "Beige"
+    ],
+    "secondary_colors": [
+      "Vivid Red",
+      "Fresh Green",
+      "Soft Pink"
+    ],
+    "saturation": "boosted",
+    "grading_style": "High Contrast, Warm Tone",
+    "similar_film_stock": "Kodak Ektar 100"
+  },
+  "composition": {
+    "angle": "Top-down View (Flat-lay)",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "플래터 중앙부 (부라타 치즈와 프로슈토)",
+    "composition_rule": "Diagonal Balance"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "경광을 활용한 질감 극대화, 음식의 다양한 텍스처를 생생하게 표현",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "밝고, 활기차며, 화사함 (Bright, Energetic, Vibrant)",
+    "target_use": "magazine",
+    "keywords": [
+      "따스한",
+      "생동감있는",
+      "여유로운"
+    ]
+  },
+  "improvement_notes": "경광 대신 부드러운 연광 사용으로 고급스러운 무드 연출. 배경 채도를 낮춰 음식에 시선 집중. 대각선 구도 대신 수평/수직 구도로 미니멀하고 차분한 느낌 연출.",
+  "nano_banana_prompt": "A top-down flat lay food photography of [Your Dish], styled for a vibrant Mediterranean brunch. The scene is illuminated by hard, direct morning sunlight coming from the top-left, creating crisp, dark shadows and strong specular highlights. The color palette is warm and highly saturated, with a distinct Kodak Ektar 100 film aesthetic, emphasizing rich reds, fresh greens, and sunny yellows. The composition is a dynamic diagonal arrangement on a rustic yellow ceramic tile background. The image should be ultra-sharp, highly detailed, capturing the appetizing textures of the food. Mood: cheerful, energetic, and leisurely."
+}

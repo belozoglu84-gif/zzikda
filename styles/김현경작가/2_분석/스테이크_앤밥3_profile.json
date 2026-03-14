@@ -1,0 +1,51 @@
+{
+  "file": "스테이크_앤밥3.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "주 광원은 피사체의 좌측 후방 (10시 방향)",
+    "quality": "soft",
+    "shadow_character": "부드러운 그림자, 우측 전방에서 약한 채움광(Fill Light) 또는 반사판 사용",
+    "highlight_shadow_ratio": "로우-미디엄 콘트라스트",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 4000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Brown"
+    ],
+    "secondary_colors": [
+      "Dark Gray",
+      "Brass Gold",
+      "Vivid Green"
+    ],
+    "saturation": "medium",
+    "grading_style": "필름룩 스타일, 암부를 살짝 띄우고 그림자에 미세한 청록색 톤 가미",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "45도 앵글",
+    "distance": "medium",
+    "estimated_lens_mm": 90,
+    "dof": "shallow",
+    "focus_point": "덮밥의 가장 앞쪽 고기 조각과 깨",
+    "composition_rule": "삼분할 법칙 및 리딩 라인"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "무광 도자기 그릇, 나무 도마, 천의 질감이 촉각적으로 잘 표현됨",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "정갈하고 따뜻한 프리미엄 가정식",
+    "target_use": "magazine",
+    "keywords": [
+      "따뜻한",
+      "정갈한",
+      "고급스러운"
+    ]
+  },
+  "improvement_notes": "더 드라마틱한 연출을 위해 키라이트를 강하게 하고 필라이트를 제거하여 그림자를 깊게 만들 수 있음. 배경과 그림자에 차가운 톤을 추가하여 '웜앤쿨' 색상 대비를 활용하거나, 과감한 클로즈업 또는 역동적인 순간을 포착하여 정적인 구도를 탈피할 수 있음.",
+  "nano_banana_prompt": "/imagine prompt: professional food photography of [sushi platter], styled in a minimalist wabi-sabi aesthetic. Shot at a 45-degree eye-level angle, medium close-up. The scene is illuminated by a large, diffused soft light from the back-left, creating gentle, soft shadows and beautiful specular highlights on the food. A subtle fill light from the front brightens the shadows slightly. The setting features a dark textured slate plate on a rustic dark wood surface with elegant black chopsticks. The background is a clean, bright, off-white wall. Shot on a 100mm macro lens at f/3.2, creating a shallow depth of field with the focus tack-sharp on the main subject. The color palette is warm and inviting, with rich, natural food tones. Color graded in the style of Kodak Portra 400 film, featuring warm mid-tones, slightly lifted blacks with a hint of teal in the shadows. ultra-detailed, appetizing, sophisticated, clean --ar 4:5 --style raw"
+}

@@ -1,0 +1,51 @@
+{
+  "file": "bright_094.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Top-left single light source",
+    "quality": "hard",
+    "shadow_character": "Deep and high contrast, creating dramatic effect and beautiful caustic patterns.",
+    "highlight_shadow_ratio": "High Contrast",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5800,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Vibrant Orange",
+      "Lively Green"
+    ],
+    "secondary_colors": [
+      "Clean White",
+      "Earthy Brown"
+    ],
+    "saturation": "high",
+    "grading_style": "Clean & Vivid",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "High-angle (approx. 45 degrees)",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "Center glass and the tangerine in front of it",
+    "composition_rule": "Controlled Chaos / Pattern & Repetition"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "Excellent. Micro-textures and contours are emphasized by hard light.",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "Refreshing, Lively, Natural, Energetic",
+    "target_use": "sns",
+    "keywords": [
+      "청량한",
+      "활기찬",
+      "자연광"
+    ]
+  },
+  "improvement_notes": "For high-end ads, consider using a large softbox or V-flat to soften shadows for a more refined look. Introduce a subtle color cast (e.g., teal in shadows) for a cinematic feel. Strengthen the composition by defining a single hero subject and using leading lines to guide the viewer's eye.",
+  "nano_banana_prompt": "food photography, a vibrant scene of [Your Food Here], shot from a 45-degree high angle, bathed in hard direct sunlight coming from the top-left, creating long, crisp, dramatic shadows on a clean white surface, hyper-detailed texture showing condensation and freshness, shallow depth of field, colors are vivid and saturated, especially oranges and greens, overall mood is refreshing and energetic, style of overexposed Kodak Portra 400 film, cinematic and bright --ar 4:5 --style raw"
+}

@@ -1,0 +1,52 @@
+{
+  "file": "bright_067.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Key light from the left (approx. 10 o'clock)",
+    "quality": "soft",
+    "shadow_character": "Soft shadows with visible detail, filled with a reflector or a weak fill light.",
+    "highlight_shadow_ratio": "Low-Contrast",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Brown",
+      "Skin Tone"
+    ],
+    "secondary_colors": [
+      "Red",
+      "Green",
+      "Blue"
+    ],
+    "saturation": "medium",
+    "grading_style": "Modern film look with lifted, matte blacks and a teal tint in the shadows.",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "Between eye-level and high-angle",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "shallow",
+    "focus_point": "The chicken rice bowl in the foreground, along with the hand and chopsticks holding it.",
+    "composition_rule": "Diagonal and Triangular Composition"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "Excellent rendering of various textures including food, wood grain, paper, and fabric patterns.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Vibrant, joyful, and friendly",
+    "target_use": "sns",
+    "keywords": [
+      "활기찬",
+      "즐거운",
+      "함께하는"
+    ]
+  },
+  "improvement_notes": "To elevate to a more artistic level, consider using more dramatic lighting (stronger side or backlighting), establishing a unique brand color identity instead of a trendy film look, and simplifying the composition with tighter close-ups or more negative space for a minimalist, high-end feel.",
+  "nano_banana_prompt": "/imagine prompt: A vibrant and joyful lifestyle food photography of [음식 이름], medium close-up shot from an eye-level angle. Two people are happily sharing the meal at a rustic wooden table. The scene is illuminated by a large, diffused soft light from the left, creating soft shadows and a warm, inviting atmosphere. The color palette is rich with earthy tones, graded in the style of Kodak Portra 400 film, featuring warm mid-tones and slightly lifted, matte blacks with a hint of teal. Shot with a 50mm lens at f/2.8 for a shallow depth of field, with sharp focus on the food and hands, while the background is softly blurred. Hyper-realistic texture, cinematic quality. --ar 4:5 --style raw"
+}

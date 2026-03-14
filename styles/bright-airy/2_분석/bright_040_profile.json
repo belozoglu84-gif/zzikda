@@ -1,0 +1,52 @@
+{
+  "file": "bright_040.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10시 방향)",
+    "quality": "soft",
+    "shadow_character": "부드럽고 옅은 그림자, 하이키(High-key) 스타일",
+    "highlight_shadow_ratio": "낮은 대비 (Low Contrast)",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5500,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Yellow",
+      "Orange"
+    ],
+    "secondary_colors": [
+      "Red",
+      "Green",
+      "White"
+    ],
+    "saturation": "high",
+    "grading_style": "Clean & Vivid",
+    "similar_film_stock": "Kodak Ektar 100 / Kodak Gold 200"
+  },
+  "composition": {
+    "angle": "Top-view / Flat-lay",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "중앙부 (배경색 경계)",
+    "composition_rule": "대각선 구도 (Diagonal)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "매끈한 광택과 부드러운 질감 강조 (정돈된 표현)",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "밝고, 경쾌하며, 활기찬",
+    "target_use": "sns",
+    "keywords": [
+      "활기찬",
+      "그래픽적인",
+      "팝아트"
+    ]
+  },
+  "improvement_notes": "조명: 측면광과 림라이트를 추가하여 입체감과 깊이감 부여. 색감: 배경 채도를 낮추고 톤을 조정(머스타드, 테라코타)하여 고급스러운 무드 연출. 구도: 45도 앵글로 변경하여 친밀감과 현실감 부여 및 '계획된 자연스러움' 연출.",
+  "nano_banana_prompt": "commercial food photography of [creamy pasta], top-down flat lay, graphic composition with a bold diagonal line splitting the background into two colors: vibrant sunny yellow and warm orange, bright and airy high-key studio lighting, soft diffused light creating minimal soft shadows, hyper-detailed, sharp focus, energetic and cheerful mood, clean and vivid color grading, style of Kodak Ektar 100 --ar 4:5 --style raw"
+}

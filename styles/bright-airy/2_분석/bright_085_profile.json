@@ -1,0 +1,49 @@
+{
+  "file": "bright_085.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 후방 (10시 방향)의 주 광원",
+    "quality": "soft",
+    "shadow_character": "부드럽고 디테일이 살아있는 채워진 그림자",
+    "highlight_shadow_ratio": "낮은 비율 (Low Contrast)",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5900,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Marigold Yellow"
+    ],
+    "secondary_colors": [
+      "Raspberry Red"
+    ],
+    "saturation": "high",
+    "grading_style": "Clean & Vivid",
+    "similar_film_stock": "Kodak Ektar 100"
+  },
+  "composition": {
+    "angle": "Eye-level Angle",
+    "distance": "medium",
+    "estimated_lens_mm": 100,
+    "dof": "shallow",
+    "focus_point": "가장 위의 라즈베리, 소스, 맨 위 팬케이크",
+    "composition_rule": "삼분할 법칙 및 네거티브 스페이스 활용"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "소스의 광택, 팬케이크의 폭신한 질감, 견과류의 바삭함이 훌륭하게 표현됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Bright, Playful, Energetic",
+    "target_use": "sns",
+    "keywords": [
+      "활기찬",
+      "먹음직스러운",
+      "팝아트"
+    ]
+  },
+  "improvement_notes": "고급 광고용으로 개선하려면, 더 강한 측광으로 질감을 강조하고, '오렌지 & 틸' 스타일의 색 보정으로 깊이를 더하며, 소품을 활용한 역동적인 구도를 시도할 수 있음.",
+  "nano_banana_prompt": "commercial food photography of [FOOD NAME], eye-level shot, centered in the lower third of a vertical frame, on a vibrant solid marigold yellow background, professional studio lighting, large diffused soft light from the left creating soft shadows, shallow depth of field with a 100mm macro lens at f/3.5, hyper-detailed texture, pop art color style with high saturation, clean and vivid color grading similar to Kodak Ektar 100 film, significant minimalist negative space at the top, appetizing, bright and cheerful mood"
+}

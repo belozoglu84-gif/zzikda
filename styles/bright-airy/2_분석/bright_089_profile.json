@@ -1,0 +1,53 @@
+{
+  "file": "bright_089.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "하이 사이드 백라이트 (High Side Backlight)",
+    "quality": "hard",
+    "shadow_character": "길고 어두운 고대비 그림자가 깊이감과 드라마틱한 분위기를 형성",
+    "highlight_shadow_ratio": "고대비 (High Contrast)",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 4000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "아이보리/크림",
+      "브라운"
+    ],
+    "secondary_colors": [
+      "레드",
+      "그린",
+      "옐로우",
+      "블루"
+    ],
+    "saturation": "high",
+    "grading_style": "필름룩 스타일 (Film Look) עם Lifted Blacks 및 스플릿 토닝 가능성",
+    "similar_film_stock": "코닥 포트라 400 / 코닥 골드 200"
+  },
+  "composition": {
+    "angle": "탑다운 뷰 (Top-down View) / 플랫레이 (Flat-lay)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "중앙부 (토마토, 소금 그릇 주변)",
+    "composition_rule": "계획된 혼돈 (Organized Chaos) 및 그림자를 이용한 리딩 라인 (Leading Lines)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "경광(Hard Light)을 활용하여 음식 표면의 미세한 굴곡과 질감을 극대화",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "따뜻하고, 소박하며(Rustic), 자연스럽고 스타일리시함",
+    "target_use": "magazine",
+    "keywords": [
+      "햇살가득한",
+      "여유로운",
+      "러스틱"
+    ]
+  },
+  "improvement_notes": "상업적 용도를 위해 부드러운 필 라이트를 추가하여 그림자 디테일을 살리고, 특정 색상의 채도를 국소적으로 높여 시각적 포인트를 강조할 수 있음. 또한, 일부 요소를 덜어내어 구도를 단순화하고 주인공 피사체에 시선을 집중시키는 방법도 고려할 수 있음.",
+  "nano_banana_prompt": "An overhead flat lay photo of [your food subject], styled in an artfully messy, rustic arrangement. The scene is illuminated by hard, direct sunlight from the top-left, creating long, crisp, dramatic shadows. The color palette is warm and golden, reminiscent of the Kodak Portra 400 film stock, with creamy whites, rich reds, and deep greens. The image has high contrast, sharp details, and a subtle film grain texture. A human hand is interacting with the food, adding a dynamic element. Editorial food photography, hyper-realistic, rich textures. --ar 4:5"
+}

@@ -1,0 +1,51 @@
+{
+  "file": "bright_068.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (약 10시 방향)",
+    "quality": "hard",
+    "shadow_character": "그림자의 경계가 뚜렷하고 짙지만, 반사판이나 약한 필 라이트를 사용하여 디테일이 살아있음",
+    "highlight_shadow_ratio": "명부와 암부의 대비가 매우 높은 편",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 4000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Golden Brown",
+      "Amber",
+      "Cream Beige"
+    ],
+    "secondary_colors": [
+      "Silver"
+    ],
+    "saturation": "high",
+    "grading_style": "따뜻한 옐로우/오렌지 톤의 필름룩 스타일, 암부를 살짝 들어올려 부드러움을 더함",
+    "similar_film_stock": "Kodak Portra 400, Kodak Gold 200"
+  },
+  "composition": {
+    "angle": "Eye-level",
+    "distance": "close-up",
+    "estimated_lens_mm": 100,
+    "dof": "deep",
+    "focus_point": "빵 더미의 중앙부와 흘러내리는 꿀",
+    "composition_rule": "중앙 집중 구도 (Central Composition)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "최상급. 경광을 사용하여 빵 표면의 굴곡과 꿀의 광택 등 질감을 극대화함",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "모던, 미니멀, 감각적, 그래픽",
+    "target_use": "advertisement",
+    "keywords": [
+      "달콤한 유혹",
+      "미니멀리즘",
+      "감각적 순간"
+    ]
+  },
+  "improvement_notes": "부드러운 무드를 위해 연광(Soft Light)과 림 라이트(Rim Light) 사용을 제안. 보색 대비(예: 배경에 미묘한 쿨톤 추가)로 시각적 재미를 더하거나, 삼분할 법칙을 적용하여 더 역동적인 구도를 만들 수 있음.",
+  "nano_banana_prompt": "A hyper-detailed, eye-level studio food photograph of [FOOD SUBJECT, e.g., a scoop of vanilla ice cream on a waffle cone]. A stream of [SAUCE/TOPPING, e.g., glossy chocolate sauce] is dripping down dramatically. The lighting is hard and directional, coming from the left side, creating crisp shadows and strong specular highlights with a starburst effect on the drips. The background is a solid, warm cream color (#F5E9D1). The composition is minimalist and centered. The color palette is warm and monochromatic, dominated by golden browns and ambers, reminiscent of Kodak Portra 400 film. Shot with a 100mm macro lens at f/11 for sharp, deep focus. --ar 4:5 --style raw --v 6.0"
+}

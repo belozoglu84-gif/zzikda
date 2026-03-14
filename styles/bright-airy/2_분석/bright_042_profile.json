@@ -1,0 +1,51 @@
+{
+  "file": "bright_042.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단, 10시 방향",
+    "quality": "hard",
+    "shadow_character": "짙고 콘트라스트가 강하며, 나뭇잎 사이로 들어오는 빛처럼 얼룩덜룩한 패턴(dappled light) 형성",
+    "highlight_shadow_ratio": "High Contrast",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Red"
+    ],
+    "secondary_colors": [
+      "Creamy White/Beige",
+      "Olive Green",
+      "Cool Gray"
+    ],
+    "saturation": "boosted",
+    "grading_style": "필름 에뮬레이션 스타일. 암부를 띄우고(Lifted Blacks), 따뜻한 하이라이트와 차가운 그림자의 대비가 돋보이는 빈티지 스타일.",
+    "similar_film_stock": "Kodak Portra 400 or Kodak Gold 200"
+  },
+  "composition": {
+    "angle": "Top-down Angle / Flat-lay",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "moderate",
+    "focus_point": "접시 중앙에 놓인 가장 큰 토마토 조각과 딸기 주변",
+    "composition_rule": "대각선 구도, 프레이밍, 리딩 라인"
+  },
+  "texture": {
+    "sharpness": "medium",
+    "noise": "intentional-grain",
+    "detail_rendering": "경광의 특성 덕분에 토마토의 반짝이는 과육, 올리브 오일의 광택, 거친 배경의 질감이 효과적으로 표현됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Rustic & Natural",
+    "target_use": "sns",
+    "keywords": [
+      "나른한 오후",
+      "여름의 맛",
+      "아날로그 감성"
+    ]
+  },
+  "improvement_notes": "그림자를 부드러운 반사판으로 살짝 밝혀 디테일 확보. 음식 색감은 유지하되 접시의 화이트밸런스를 중성적으로 교정하여 신선도 강조. 메인 피사체를 삼분할선에 배치하고 주변 요소를 정리하여 시선 집중 유도.",
+  "nano_banana_prompt": "A top-down flat lay food photograph of [음식 이름], rustic and natural styling. Bathed in dramatic, hard sunlight coming from the top-left, creating long, sharp, dappled shadows across a textured, light-colored surface. The color palette is warm and vibrant, with rich reds and greens, graded with a nostalgic film look. High contrast, but with soft, lifted blacks and a subtle cool tone in the shadows. Shot with a 50mm lens aesthetic, moderately shallow depth of field. The overall mood is a lazy, golden summer afternoon. Add fine, authentic film grain, reminiscent of Kodak Portra 400."
+}

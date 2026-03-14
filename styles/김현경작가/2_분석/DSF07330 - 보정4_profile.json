@@ -1,0 +1,53 @@
+{
+  "file": "DSF07330 - 보정4.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Side-Backlight from the left-rear (10 o'clock position)",
+    "quality": "soft",
+    "shadow_character": "Soft, filled shadows with visible detail, indicating the use of a fill light or bounce card.",
+    "highlight_shadow_ratio": "Low contrast, approximately 3:1",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 4900,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "ivory",
+      "beige"
+    ],
+    "secondary_colors": [
+      "wood tone",
+      "green",
+      "orange",
+      "red"
+    ],
+    "saturation": "medium",
+    "grading_style": "Clean & Warm style with lifted blacks for a soft, film-like appearance.",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "Slightly high-angle, close to eye-level (approx. 15 degrees down)",
+    "distance": "medium",
+    "estimated_lens_mm": 70,
+    "dof": "shallow",
+    "focus_point": "The front of the bowl and the food contained within.",
+    "composition_rule": "Rule of Thirds with the main subject slightly off-center, and leading lines created by utensils."
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "Excellent rendering of various textures, including wood grain, linen weave, and ceramic glaze.",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "Warm, neat, healthy, and natural with a minimalist aesthetic.",
+    "target_use": "menu",
+    "keywords": [
+      "정갈함",
+      "따스함",
+      "자연스러움"
+    ]
+  },
+  "improvement_notes": "To add more drama, use negative fill for deeper shadows (low-key lighting). To enhance the food's color, introduce complementary colors (e.g., a cool-toned background). To add dynamism, incorporate a human element like hands using chopsticks.",
+  "nano_banana_prompt": "A professional food photograph of [Your Food Here] in a minimalist ceramic bowl, placed on a rustic live-edge wooden board. The setting is on a clean, off-white linen tablecloth with natural wooden chopsticks and a small sauce bowl neatly arranged. The background is a warm, textured beige wall, creating a soft and inviting atmosphere.\n\n**Photography Style:** Eye-level medium shot, captured with an 85mm lens at f/4, resulting in a shallow depth of field with the main dish in sharp focus and the foreground/background softly blurred.\n\n**Lighting:** Lit by a large, diffused soft light source from the left-back (10 o'clock position), creating long, gentle shadows to the right-front. The overall lighting is bright, airy, and clean with very soft contrast.\n\n**Color Palette:** Dominated by a warm, analogous color scheme of beige, cream, and wood tones. Colors are natural and moderately saturated. The overall color grading is warm and clean, reminiscent of Kodak Portra 400 film stock.\n\n**Mood:** Sophisticated, natural, warm, and tidy.\n\n**Parameters:** --style raw --ar 4:3"
+}

@@ -1,0 +1,52 @@
+{
+  "file": "bright_013.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10-11시 방향)의 단일 광원",
+    "quality": "hard",
+    "shadow_character": "짙고 명확함 (Deep and Defined)",
+    "highlight_shadow_ratio": "하이키 & 하이 콘트라스트 (High-key & High-contrast)",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5600,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Deep Red",
+      "Pure White"
+    ],
+    "secondary_colors": [
+      "Beige",
+      "Brown",
+      "Dark Green"
+    ],
+    "saturation": "boosted",
+    "grading_style": "높은 대비의 S-커브 (High-contrast S-Curve)",
+    "similar_film_stock": "Kodak Ektar 100"
+  },
+  "composition": {
+    "angle": "탑다운 뷰 / 플랫레이 (Top-down View / Flat-lay)",
+    "distance": "close-up",
+    "estimated_lens_mm": 85,
+    "dof": "deep",
+    "focus_point": "블러드 오렌지 과육 단면",
+    "composition_rule": "격자 구조 및 삼분할 법칙 (Grid and Rule of Thirds)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "경광(Hard Light)을 활용하여 오렌지, 코스터, 타일의 질감 대비를 극대화함",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "모던, 미니멀, 그래픽, 볼드 (Modern, Minimal, Graphic, Bold)",
+    "target_use": "sns",
+    "keywords": [
+      "쨍한오후",
+      "미니멀리즘",
+      "강렬한대비"
+    ]
+  },
+  "improvement_notes": "경광을 연광으로 바꾸고 반사판으로 그림자를 채워 부드럽고 고급스러운 느낌을 줄 수 있음. 화이트밸런스를 살짝 따뜻하게 조정하고, 작은 소품을 추가하여 스토리를 더할 수 있음.",
+  "nano_banana_prompt": "A minimalist top-down flat lay food photography of [FOOD ITEM]. The scene is illuminated by intense, direct natural sunlight from a high side angle, casting a single, sharp, and deep dark shadow. The background is a clean, bright white tiled surface. The overall style is graphic and high-contrast, with the food's colors being vibrant and saturated while the background remains neutral. Emphasize the glistening, hyper-detailed texture of the food. The image should have a subtle film grain, reminiscent of Kodak Ektar 100 film. --ar 2:3"
+}

@@ -1,0 +1,54 @@
+{
+  "file": "사용자 정의 이름 00017(포토샵2).jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "주 광원은 좌측 상단(10시 방향)에서 들어오며, 필 라이트는 반대편이나 천장에서 비춤",
+    "quality": "mixed",
+    "shadow_character": "경계가 뚜렷한 그림자와 부드럽게 퍼지는 그림자가 공존하며, 디테일이 살아있음",
+    "highlight_shadow_ratio": "전반적인 로우-콘트라스트 기반에 국소적인 하이-콘트라스트가 혼합됨",
+    "equipment": "mixed"
+  },
+  "color": {
+    "temperature_k": 4000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "beige",
+      "brown",
+      "dark brown"
+    ],
+    "secondary_colors": [
+      "orange",
+      "amber",
+      "yellow",
+      "green"
+    ],
+    "saturation": "low",
+    "grading_style": "필름 에뮬레이션 스타일. 암부를 살짝 들어올리고(Lifted Blacks) 그림자에 미세한 청록색(Teal) 톤을 추가함",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "탑다운 앵글 (Top-down Angle) / 플랫레이 (Flat Lay)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "메인 덮밥 그릇 중앙의 계란 노른자와 쪽파",
+    "composition_rule": "유기적 배치(Organic Placement)와 프레임 속 프레임(Frame within a Frame) 기법 활용"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "쌀알, 고기의 윤기, 나무 도마, 리넨 천 등 다양한 재료의 질감이 생생하게 표현됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "따뜻하고 정갈하며 소박한 '킨포크(Kinfolk)' 또는 '와비사비(Wabi-sabi)' 스타일",
+    "target_use": "magazine",
+    "keywords": [
+      "Rustic",
+      "Warmth",
+      "Authentic"
+    ]
+  },
+  "improvement_notes": "이 사진은 이미 매우 높은 수준의 완성도를 가지고 있지만, '최고 수준의 상업 광고'를 목표로 한다면 다음과 같은 부분을 고려해볼 수 있습니다.\n\n*   **조명**: 현재의 극적인 빛줄기는 예술적이지만, 시선을 다소 분산시킬 수 있습니다. 만약 음식 자체에 100% 집중시켜야 하는 광고 사진이라면, 이 빛줄기를 제거하고 10시 방향에서 들어오는 부드럽지만 방향성이 명확한 빛(예: 그리드를 씌운 소프트박스)으로 교체하여 음식의 입체감과 질감을 더욱 정교하게 살릴 것입니다. 또한 4시 방향에서 아주 약한 반사광(Kicker Light)을 추가해 그릇의 오른쪽 가장자리에 미세한 하이라이트를 만들어주면 공간감이 더 살아납니다.\n*   **색감**: 현재의 톤은 훌륭하지만, 조금 더 '맛'에 집중하려면 계란 노른자의 채도와 명도를 국소적으로 살짝 더 높여 터질 듯한 신선함을 강조하고, 고기의 갈색 톤을 미세하게 분리(어두운 부분은 더 깊게, 밝은 부분은 더 윤기나게)하여 식감을 극대화할 수 있습니다.\n*   **구도**: 현재의 유기적인 배치는 자연스럽지만, 조금 더 상업적인 명료함을 원한다면 주변 요소들의 배치를 살짝 정리할 수 있습니다. 예를 들어, 왼쪽의 녹색 천을 조금 더 적게 보이게 하거나, 오른쪽 아래의 고수 접시를 살짝 더 안쪽으로 들여와 시선이 밖으로 빠져나가는 것을 방지하고 전체적인 안정감을 높일 수 있습니다.",
+  "nano_banana_prompt": "/imagine prompt: A top-down flat-lay food photograph of [YOUR FOOD HERE], centered in a rustic speckled ceramic bowl on a worn wooden cutting board. The scene is styled with surrounding elements like a glass of water, a small side dish, and a linen napkin.\n\n**Lighting**: Dramatic natural window lighting. A distinct, hard-edged beam of warm morning sunlight cuts diagonally across the top-left of the frame, while the rest of the scene is filled with soft, diffused ambient light creating gentle shadows.\n\n**Color & Mood**: Shot on Kodak Portra 400 film. Warm and inviting color palette with a dominant base of beige and brown. Colors are slightly desaturated for a moody, authentic feel. Lifted blacks with a hint of teal in the shadows. The overall mood is rustic, cozy, and wabi-sabi.\n\n**Composition & Details**: Shot with a 50mm lens, f/8 for a deep depth of field. Tack-sharp focus on the main food element. Highly detailed textures are visible on the food, the rough linen tablecloth, and the ceramic. Fine, subtle film grain throughout the image. --ar 4:5 --style raw"
+}

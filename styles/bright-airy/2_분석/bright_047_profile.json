@@ -1,0 +1,51 @@
+{
+  "file": "bright_047.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단(10시 방향)의 단일 광원",
+    "quality": "hard",
+    "shadow_character": "길고 짙으며 경계가 선명한 그림자가 깊이감과 그래픽적인 요소를 부여함",
+    "highlight_shadow_ratio": "명부와 암부의 대비가 극명한 높은 콘트라스트",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 6000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Coral-Orange"
+    ],
+    "secondary_colors": [
+      "High-saturation Green",
+      "Orange",
+      "Yellow-Green"
+    ],
+    "saturation": "boosted",
+    "grading_style": "크로스 프로세싱과 유사하게 하이라이트는 웜톤, 섀도우는 마젠타/레드 톤을 추가하고 S-Curve를 적용",
+    "similar_film_stock": "코닥 포트라 400 또는 코닥 엑타 100의 디지털 에뮬레이션"
+  },
+  "composition": {
+    "angle": "탑다운 앵글(Top-down Angle) / 플랫레이(Flat Lay)",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "deep",
+    "focus_point": "사진 전체에 초점이 맞는 팬 포커스(Pan Focus)",
+    "composition_rule": "수직선 구도, 대각선 구도, 패턴과 반복(Pattern and Repetition)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "주스 표면의 미세한 거품과 매끈한 배경의 질감이 대비를 이룸",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "모던, 미니멀, 그래픽, 활기참(Energetic)",
+    "target_use": "sns",
+    "keywords": [
+      "생동감",
+      "청량함",
+      "스타일리시"
+    ]
+  },
+  "improvement_notes": "대안 스타일 제안: 1) 조명: 대형 소프트박스를 이용한 연광으로 부드러운 무드 연출. 2) 색감: 배경을 뉴트럴 톤으로 바꾸고 채도를 낮춰 고급스러운 느낌 연출. 3) 구도: 컵을 대각선이나 S자 곡선으로 배치하거나, 과일 등 재료를 추가하여 스토리텔링 강화.",
+  "nano_banana_prompt": "professional food photography of [음식 이름], top-down flat lay, minimalist composition, arranged in a clean geometric pattern on a solid vibrant coral-orange background, lit by a single hard light source from the top-left creating long, sharp, dramatic diagonal shadows, high contrast, vivid and saturated colors, extremely sharp details, modern and graphic style, shot on Kodak Portra 400 film, clean aesthetic --ar 9:16"
+}

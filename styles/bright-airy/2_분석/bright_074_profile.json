@@ -1,0 +1,50 @@
+{
+  "file": "bright_074.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Top-sidelight from top-left",
+    "quality": "hard",
+    "shadow_character": "Dark, high-contrast, and sharp-edged shadows with a distinct shape",
+    "highlight_shadow_ratio": "High-Contrast",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5800,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "orange",
+      "cyan-blue"
+    ],
+    "secondary_colors": [
+      "yellow"
+    ],
+    "saturation": "boosted",
+    "grading_style": "Color Block style with high purity and separation",
+    "similar_film_stock": "Kodak Ektar 100"
+  },
+  "composition": {
+    "angle": "High-angle (approx. 45-60 degrees)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "Egg yolk",
+    "composition_rule": "Diagonal composition with leading lines"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "Excellent rendering of matte pan surface, jelly-like egg white, and smooth yolk texture",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Pop-art, Minimalism, Graphic Design",
+    "target_use": "advertisement",
+    "keywords": [
+      "팝아트",
+      "강렬한대비",
+      "미니멀"
+    ]
+  },
+  "improvement_notes": "For a more traditional commercial food photo, consider using soft light (e.g., a large softbox) to create a more appetizing texture. A neutral or analogous background color could help focus attention on the food. Adding props and using a shallower depth of field could introduce more story and emotion.",
+  "nano_banana_prompt": "Pop art style food photography of [a perfectly fried sunny-side-up egg] in a [cyan blue frying pan], set against a vibrant solid [bright orange] background. The scene is illuminated by a single source of harsh, direct sunlight coming from the top-left, creating a long, sharp, and dark shadow to the bottom-right. The color palette is a high-contrast, complementary scheme with extremely high saturation. Minimalist composition, high-angle shot, deep depth of field with everything in sharp focus. Shot on Kodak Ektar 100 film, ultra-detailed, graphic design aesthetic, clean and bold."
+}

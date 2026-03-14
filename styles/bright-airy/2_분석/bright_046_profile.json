@@ -1,0 +1,50 @@
+{
+  "file": "bright_046.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10시 방향)",
+    "quality": "hard",
+    "shadow_character": "길고 짙은 그림자가 깊이감과 리듬감을 부여하며, 유리잔을 통과한 코스틱 패턴이 시각적 재미를 더함",
+    "highlight_shadow_ratio": "높은 콘트라스트",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5700,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Dusty Pink"
+    ],
+    "secondary_colors": [
+      "Fresh Green",
+      "Rosé Pink"
+    ],
+    "saturation": "high",
+    "grading_style": "현대적이고 세련된 '클린 앤 브라이트(Clean & Bright)' 스타일",
+    "similar_film_stock": "Kodak Ektar 100"
+  },
+  "composition": {
+    "angle": "약 45도 하이앵글(High Angle)",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "중앙의 청포도 줄기와 앞쪽의 핑크색 음료가 담긴 잔",
+    "composition_rule": "패턴 구도(Pattern Composition)와 대각선(Diagonal Lines) 활용"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "경광을 활용하여 포도알의 광택, 배의 껍질, 배경의 질감 등 피사체의 텍스처를 극대화함",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "밝고, 청량하며, 감각적인. 나른한 여름날 오후의 피크닉 같은 무드.",
+    "target_use": "magazine",
+    "keywords": [
+      "싱그러움",
+      "여름날의휴식",
+      "감각적인"
+    ]
+  },
+  "improvement_notes": "부드러운 느낌을 위해 필 라이트(Fill Light)를 추가하거나, 배경색을 딥 블루나 테라코타로 변경하여 다른 무드를 연출. 또는 요소를 덜어내고 하나의 피사체를 강조하는 미니멀리즘 구도 시도 가능.",
+  "nano_banana_prompt": "food photography of [Your Food Subject], bright and airy summer afternoon aesthetic, shot with a single source of direct hard light from a high top-left angle, creating long, crisp, dramatic shadows on a dusty pink textured background, high contrast, vibrant fresh green and rosé pink color palette, 45-degree high angle shot, captured with an 85mm lens at f/4 for a shallow depth of field, hyper-detailed texture, clean and sharp focus on the main subject, color graded in the style of Kodak Ektar 100 film, sophisticated and minimalist composition, commercial editorial quality --ar 4:5 --style raw"
+}

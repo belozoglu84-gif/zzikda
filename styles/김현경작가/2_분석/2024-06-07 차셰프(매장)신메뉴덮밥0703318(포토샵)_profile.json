@@ -1,0 +1,54 @@
+{
+  "file": "2024-06-07 차셰프(매장)신메뉴덮밥0703318(포토샵).jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 후방 (10시 방향)의 사이드-백라이트",
+    "quality": "soft",
+    "shadow_character": "매우 옅고 부드러운 그림자. 우측 전방에서 반사판이나 보조 조명으로 채움(Fill-in).",
+    "highlight_shadow_ratio": "낮은 대비(Low Contrast)",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "ivory",
+      "beige"
+    ],
+    "secondary_colors": [
+      "brown",
+      "wood-tone",
+      "yellow",
+      "orange",
+      "green"
+    ],
+    "saturation": "low",
+    "grading_style": "블랙 포인트를 올리고(Lifted Blacks) 하이라이트를 눌러 만든 매트(Matte)한 필름 톤",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "약 45도 각도에서 내려다보는 앵글",
+    "distance": "medium",
+    "estimated_lens_mm": 70,
+    "dof": "shallow",
+    "focus_point": "계란 노른자와 그 주변 고기, 파",
+    "composition_rule": "삼분할 법칙(Rule of Thirds) 및 대각선 구도"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "도자기, 리넨, 나무, 음식 등 각 재질의 질감이 매우 섬세하게 표현됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "따뜻하고, 편안하며, 정갈한 (Warm, Cozy, and Refined)",
+    "target_use": "magazine",
+    "keywords": [
+      "아날로그감성",
+      "정갈한한끼",
+      "킨포크스타일"
+    ]
+  },
+  "improvement_notes": "스팟 조명을 추가하여 음식의 특정 부분에 반짝이는 하이라이트를 만들어 생동감을 더할 수 있음. 계란 노른자와 파의 채도를 국소적으로 살짝 높여 시각적 임팩트를 강화할 수 있음. 배경 소품의 배치나 종류를 변경하여 공간감을 더 명확하게 만들 수 있음.",
+  "nano_banana_prompt": "/imagine prompt:A professional editorial food photograph of [YOUR FOOD HERE], meticulously styled in a rustic ceramic bowl on a natural linen tablecloth.\n\n**Style:** Warm, cozy, and inviting atmosphere, Kinfolk magazine aesthetic.\n\n**Lighting:** Photographed with soft, diffused natural window light coming from the side-back (10 o'clock position), creating gentle, soft-edged shadows. The scene is bright and airy with low contrast.\n\n**Composition:** 45-degree angle shot, medium close-up, shallow depth of field with creamy bokeh in the background and foreground. The main subject is placed following the rule of thirds.\n\n**Color & Tone:** A warm color palette with creamy whites, beige, and earthy tones. Colors are slightly desaturated for an analog feel. Color graded to emulate the look of Kodak Portra 400 film, featuring lifted blacks and a matte finish.\n\n**Details:** Razor-sharp focus on the main food texture, with visible fine film grain. Include subtle, out-of-focus propping elements like a wooden spoon or a glass to add depth. --ar 3:2 --style raw"
+}

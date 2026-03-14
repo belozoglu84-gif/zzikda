@@ -1,0 +1,51 @@
+{
+  "file": "bright_036.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단(10~11시 방향)",
+    "quality": "hard",
+    "shadow_character": "콘트라스트가 매우 강하고 어두우며, 경계선이 날카로움",
+    "highlight_shadow_ratio": "고대비(High Contrast)",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5800,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Vibrant Yellow"
+    ],
+    "secondary_colors": [
+      "Cool Blue",
+      "Green",
+      "Beige"
+    ],
+    "saturation": "high",
+    "grading_style": "클린 앤 비비드(Clean & Vivid) 스타일, 암부에 청록색(Cyan/Teal) 톤 추가",
+    "similar_film_stock": "코닥 포트라 400 (Kodak Portra 400)"
+  },
+  "composition": {
+    "angle": "하이 앵글(High Angle), 약 45도",
+    "distance": "close-up",
+    "estimated_lens_mm": 50,
+    "dof": "shallow",
+    "focus_point": "그릇 안에 담긴 레몬들의 표면",
+    "composition_rule": "삼분할 법칙(Rule of Thirds) 및 대각선 구도(Diagonal Lines)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "경광을 활용하여 레몬 껍질, 천의 직조감 등 피사체의 질감을 극대화",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "밝고, 활기차며, 자연스러운 라이프스타일 화보",
+    "target_use": "sns",
+    "keywords": [
+      "상쾌한",
+      "여유로운",
+      "지중해의"
+    ]
+  },
+  "improvement_notes": "조명: 부드러운 연광(Soft Light)과 반사판을 사용하여 고급스러운 무드 연출. 색감: 빈티지 필름룩이나 컬러 스플래시 기법으로 독창성 부여. 구도: 아이 레벨이나 탑다운 앵글로 새로운 시점 시도.",
+  "nano_banana_prompt": "food photography of [음식 이름], bright and airy Mediterranean style, shot from a 45-degree high angle, medium close-up. Lit by direct hard sunlight from the upper left, creating crisp, dark, and dramatic shadows on a blue and white striped linen tablecloth. Vibrant, saturated colors with a strong contrast between the subject and the background. The scene has a refreshing and relaxed summer picnic mood. Photorealistic, hyper-detailed texture on the food and fabric. Shot on Kodak Portra 400 film style, shallow depth of field. --ar 4:5 --style raw --v 6.0"
+}

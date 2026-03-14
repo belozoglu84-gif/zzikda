@@ -1,0 +1,51 @@
+{
+  "file": "bright_002.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "역광성 측광(Back-Side Light), 좌측 상단 10시 방향",
+    "quality": "soft",
+    "shadow_character": "우측 하단으로 부드럽게 길게 뻗어나가며, 우측 전면 반사판/필라이트로 암부 디테일 유지",
+    "highlight_shadow_ratio": "3:1",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 4500,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Vivid Red",
+      "Fresh Green"
+    ],
+    "secondary_colors": [
+      "Warm Brown",
+      "Beige"
+    ],
+    "saturation": "high",
+    "grading_style": "Rich & Moody",
+    "similar_film_stock": "Kodak Portra 400 or Kodak Gold 200"
+  },
+  "composition": {
+    "angle": "45도 각도에서 내려다보는 앵글",
+    "distance": "medium",
+    "estimated_lens_mm": 90,
+    "dof": "shallow",
+    "focus_point": "접시 가장 앞쪽의 슬라이스된 토마토와 오이",
+    "composition_rule": "삼분할 법칙, 대각선 구도 (리딩라인)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "측광을 활용하여 빵과 채소 표면의 미세한 굴곡을 효과적으로 살려냈으며, 후보정으로 질감을 강조함",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Rustic, Fresh, Abundant",
+    "target_use": "magazine",
+    "keywords": [
+      "먹음직스러운",
+      "자연주의",
+      "따스함"
+    ]
+  },
+  "improvement_notes": "조명: 그리드를 사용하여 더 드라마틱한 그림자 연출. 색감: Red/Green 보색 대비를 강화하거나 Teal and Orange 기법을 적용하여 세련미 추가. 구도: 주변 요소를 줄여 시선을 단순화하고 미니멀한 고급스러움 강조.",
+  "nano_banana_prompt": "professional food photography of [FOOD NAME], presented on a rustic wooden plate, on a dark barn wood table. Styled with a green and white striped linen napkin and fresh ingredients scattered around. Shot at a 45-degree angle, medium close-up. Lit with dramatic back-side lighting from the upper left, creating soft, long shadows and rich textures. Shallow depth of field, focus on the foreground of the dish, 85mm lens. The color palette is warm, rich, and saturated, with vibrant reds and greens, reminiscent of Kodak Portra 400 film. Hyper-detailed, sharp focus, gourmet magazine style, 8K, cinematic."
+}

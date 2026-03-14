@@ -1,0 +1,52 @@
+{
+  "file": "bright_058.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단, 약 10시 방향",
+    "quality": "hard",
+    "shadow_character": "콘트라스트가 강하고 짙은 그림자가 형성되어 깊이감과 입체감을 부여",
+    "highlight_shadow_ratio": "하이라이트와 섀도우의 대비가 매우 높음",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 6000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Vivid Red",
+      "Energetic Orange",
+      "Bright Yellow"
+    ],
+    "secondary_colors": [
+      "Pinkish Juice",
+      "Deep Green Leaf"
+    ],
+    "saturation": "high",
+    "grading_style": "필름룩(Film Look) 스타일",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "탑다운 앵글 (Top-down Angle) / 플랫레이 (Flat Lay)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "프레임 전체",
+    "composition_rule": "의도된 혼돈(Controlled Chaos) / 패턴 속의 불규칙성"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "과일 껍질의 요철과 과육의 촉촉한 질감을 극대화하여 사실적으로 표현",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "생동감 넘치고(Vibrant), 에너제틱하며(Energetic), 날 것 그대로의(Raw)",
+    "target_use": "sns",
+    "keywords": [
+      "생동감",
+      "신선함",
+      "자연스러움"
+    ]
+  },
+  "improvement_notes": "조명: 부드러운 광고 느낌을 위해 약한 필 라이트 추가 가능. 색감: HSL 패널에서 특정 색상 미세 조정으로 주목도 제어. 구도: S자/C자 곡선 재배치 및 자잘한 요소 제거로 시선 유도 및 정돈.",
+  "nano_banana_prompt": "A top-down flat lay food photograph of [food item], artfully scattered on a messy white surface with natural spills and drips. Lit by a single, direct hard light from the upper left, creating crisp, defined shadows and bright specular highlights. The color palette is vibrant and highly saturated with a warm color temperature. The style is reminiscent of Kodak Portra 400 film, featuring rich tones, high contrast, and a subtle fine grain. --ar 4:5 --style raw --q 2"
+}

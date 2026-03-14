@@ -1,0 +1,52 @@
+{
+  "file": "사용자 정의 이름 00002(포토샵).jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Back-Left Light",
+    "quality": "soft",
+    "shadow_character": "Deep but soft shadows with visible details, not completely black.",
+    "highlight_shadow_ratio": "Low Contrast",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 4800,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Beige",
+      "Ivory"
+    ],
+    "secondary_colors": [
+      "Sky Blue",
+      "Red",
+      "Green"
+    ],
+    "saturation": "medium",
+    "grading_style": "Film-like with lifted blacks and warm tones added to the shadows.",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "45-degree angle",
+    "distance": "close-up",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "Red sauce, cilantro, and the noodles underneath.",
+    "composition_rule": "Rule of Thirds and Leading Line"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "Excellent rendering of various textures: rough ceramic, woven linen, and moist food.",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "Warm, Clean, Natural",
+    "target_use": "magazine",
+    "keywords": [
+      "정갈한",
+      "따스함",
+      "입맛돋우는"
+    ]
+  },
+  "improvement_notes": "For a more dramatic effect, add a spot highlight using a honeycomb grid. For color depth, subtly introduce a teal/blue tone to the shadows (Teal and Orange look). To add dynamism, incorporate action like lifting noodles with chopsticks.",
+  "nano_banana_prompt": "professional food photography of [음식 이름], close-up 45-degree angle shot, placed in a rustic ceramic bowl on a sky blue linen napkin, set on a beige linen tablecloth. The lighting is soft and natural, coming from the back-left, creating gentle and luminous shadows. Shallow depth of field with tack-sharp focus on the main toppings. The color palette is warm and inviting, with a cozy 4800K color temperature, featuring earthy tones with a vibrant blue accent. The style is clean, aesthetic, and appetizing, emulating the look of Kodak Portra 400 film with subtle fine grain. Shot with an 85mm macro lens at f/3.2 --style raw --ar 4:5"
+}

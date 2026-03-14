@@ -1,0 +1,52 @@
+{
+  "file": "bright_017.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "정면광 혹은 정면 좌측 상단",
+    "quality": "soft",
+    "shadow_character": "매우 옅고 부드러운 그림자, 하이키(High-key) 스타일",
+    "highlight_shadow_ratio": "매우 낮음 (플랫한 조명)",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 6000,
+    "white_balance": "cool-shifted",
+    "primary_colors": [
+      "Sage Green",
+      "Off-white"
+    ],
+    "secondary_colors": [
+      "Beige",
+      "Red/Magenta",
+      "Orange"
+    ],
+    "saturation": "low",
+    "grading_style": "인플루언서/라이프스타일 스타일 (리프트된 블랙, 그린/시안 틴트)",
+    "similar_film_stock": "Fuji Pro 400H"
+  },
+  "composition": {
+    "angle": "정면 앵글 (Eye-level)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "moderate",
+    "focus_point": "인물의 눈 (Eyes)",
+    "composition_rule": "대칭 구도와 프레이밍"
+  },
+  "texture": {
+    "sharpness": "low",
+    "noise": "none",
+    "detail_rendering": "인물의 피부와 옷 질감에 중점, 배경은 부드럽게 표현",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "세련된(Chic), 건강한(Healthy), 풍요로운(Abundant)",
+    "target_use": "sns",
+    "keywords": [
+      "에슬레저룩",
+      "브런치",
+      "웰니스"
+    ]
+  },
+  "improvement_notes": "조명 입체감 부족 (렘브란트/루프 라이팅 제안), 음식 색감 저하 (국소적 채도/온도 보정 제안), 산만한 구도 (손 개수 줄여 리딩 라인 형성 제안)",
+  "nano_banana_prompt": "A vibrant and healthy food scene, centered around a main dish. The style is a high-key commercial lifestyle photograph.\n\n**Lighting:** Use bright, diffused, shadowless frontal lighting, mimicking a large octabox. Create a low-contrast, airy, and clean look. No harsh shadows.\n\n**Color Palette:** A desaturated and muted color scheme. The dominant colors are sage green, off-white, and beige. Apply a subtle cyan/green color grade, especially in the mid-tones and shadows, similar to the Fuji Pro 400H film stock aesthetic. Keep skin tones natural but cool.\n\n**Composition:** Eye-level medium shot, 50mm lens perspective. The main subject is perfectly centered. Shallow depth of field (f/2.8) to softly blur the background. The background should be a minimalist, textured off-white stucco wall.\n\n**Mood & Details:** The overall mood is chic, modern, and aspirational. The image should be clean, with minimal noise and soft sharpness. Ensure textures like food and fabric are rendered smoothly. Final output should look like a polished Instagram influencer post for a wellness brand."
+}

@@ -1,0 +1,53 @@
+{
+  "file": "F462AF6A-0068-49B3-A69C-FEE2666670DC.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "Side-Backlight from 10 o'clock direction",
+    "quality": "soft",
+    "shadow_character": "Soft shadows gently filled with a reflector or a weak fill light",
+    "highlight_shadow_ratio": "Low contrast ratio, approximately 3:1",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Brown",
+      "Black",
+      "Ivory"
+    ],
+    "secondary_colors": [
+      "Orange",
+      "Purple",
+      "Green"
+    ],
+    "saturation": "low",
+    "grading_style": "Cinematic grading with lifted matte blacks, a subtle teal/green tone in shadows, and warmth in midtones/highlights.",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "45-degree angle",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "Egg yolk and the surrounding meat",
+    "composition_rule": "Rule of Thirds"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "Excellent texture rendering due to side-backlight, vividly capturing the glossiness of the yolk, moisture of the rice, and crispness of the onion.",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "차분하고 정갈한, 따뜻함이 깃든 미식의 순간",
+    "target_use": "magazine",
+    "keywords": [
+      "정갈함",
+      "온기",
+      "진정성"
+    ]
+  },
+  "improvement_notes": "To elevate, add a specular highlight on the yolk using a snoot. For a trendier look, enhance color contrast by boosting the teal in shadows and the orange/purple saturation. To add dynamism, capture a moment of lifting food with chopsticks or use a lower angle.",
+  "nano_banana_prompt": "Professional food photography of [Your Food Here], editorial style. Shot with an 85mm lens at f/2.8, creating a shallow depth of field. The lighting is soft, diffused side-backlight from the left, mimicking natural window light, with gentle fill light to soften shadows. The composition is a 45-degree angle shot, medium close-up, focusing sharply on the main texture of the food. The color palette is muted and sophisticated, with a warm and inviting tone. Color graded in the style of Kodak Portra 400 film, featuring lifted matte blacks, desaturated tones with vibrant orange and green accents. Set on a dark rustic wooden table with minimalist ceramic props. The mood is calm, authentic, and appetizing. Hyper-detailed, subtle film grain."
+}

@@ -1,0 +1,52 @@
+{
+  "file": "사용자 정의 이름 00009(포토샵).jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 후방, 10시 방향",
+    "quality": "soft",
+    "shadow_character": "부드럽고 옅은 그림자, 반사판이나 필라이트로 디테일 유지",
+    "highlight_shadow_ratio": "낮은 콘트라스트",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Warm Beige",
+      "Light Brown"
+    ],
+    "secondary_colors": [
+      "Deep Brown",
+      "Neutral White",
+      "Vivid Green"
+    ],
+    "saturation": "low",
+    "grading_style": "현대적인 미니멀리즘, 킨포크(Kinfolk) 스타일, Lifted Blacks",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "아이 레벨(Eye-level)",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "돼지고기 조림의 앞부분과 그릇의 앞쪽 가장자리",
+    "composition_rule": "중앙 집중 구도(Centered Composition)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "소스의 윤기, 도자기 그릇, 린넨 식탁보, 나무 도마 등 다양한 재질의 질감을 효과적으로 표현",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "미니멀, 차분함, 정갈함, 따뜻함",
+    "target_use": "magazine",
+    "keywords": [
+      "정갈한",
+      "따뜻한",
+      "미니멀리즘"
+    ]
+  },
+  "improvement_notes": "조명: 더 강한 사이드-백라이트와 네거티브 필을 사용해 드라마틱한 연출 가능. 색감: 채도를 선택적으로 높여 식욕을 더 자극. 구도: 삼분할 법칙이나 사람의 손을 활용하여 역동성 추가.",
+  "nano_banana_prompt": "/imagine prompt: high-end commercial food photography of [YOUR FOOD HERE], minimalist Japanese wabi-sabi aesthetic, centered composition, eye-level shot, on a rustic ceramic bowl placed on a circular wooden plate, on a light beige linen tablecloth, soft and diffused studio lighting from the left creating gentle shadows, shot with an 85mm lens at f/3.5 for shallow depth of field, color graded with a warm and airy palette, muted tones, desaturated background, emulating Kodak Portra 400 film stock with subtle grain, clean, sophisticated, serene --ar 4:3 --style raw --v 6.0"
+}

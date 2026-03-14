@@ -1,0 +1,52 @@
+{
+  "file": "bright_051.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단(10-11시 방향)",
+    "quality": "hard",
+    "shadow_character": "길고 짙은 그림자. 경계선이 매우 뚜렷하고 선명하며, 피사체의 조형 요소로 활용됨.",
+    "highlight_shadow_ratio": "매우 강한 명암 대비",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5600,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Cerulean Blue",
+      "Orange"
+    ],
+    "secondary_colors": [
+      "Brown",
+      "Green",
+      "Yellow"
+    ],
+    "saturation": "high",
+    "grading_style": "그래픽 팝 (Graphic Pop)",
+    "similar_film_stock": "코닥 엑타 100 (Kodak Ektar 100)"
+  },
+  "composition": {
+    "angle": "탑다운 뷰 (Top-down View) / 플랫레이 (Flat Lay)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "중앙의 껍질을 깐 귤이 담긴 회색 접시",
+    "composition_rule": "대각선 구도 및 패턴과 반복"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "경광을 사용하여 오렌지 껍질, 과육, 그릇의 유약 질감 등 피사체의 입체감과 질감이 극대화됨.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "활기차고, 역동적이며, 신선하고, 현대적인 느낌",
+    "target_use": "sns",
+    "keywords": [
+      "생동감",
+      "청량함",
+      "그래픽"
+    ]
+  },
+  "improvement_notes": "조명: 필라이트를 추가하여 그림자 속 디테일을 살리면 깊이와 고급스러움을 더할 수 있음. 색감: 배경 채도를 낮추거나 더 깊은 톤의 색으로 변경하면 피사체가 부각되고 세련되어 보일 것임. 구도: S자나 C자 곡선을 만들도록 재배치하여 시선 흐름을 유도하고, 어색한 크롭을 개선할 수 있음.",
+  "nano_banana_prompt": "A vibrant and energetic flat lay food photograph of [FOOD SUBJECT], artfully arranged on a solid cerulean blue background. The scene is illuminated by a single, hard light source from the top-left, creating long, crisp, dramatic dark blue shadows that stretch diagonally across the frame. High contrast with bright specular highlights on the food. The color palette is a bold complementary scheme of vivid orange and intense blue. Shot with a 50mm lens, top-down perspective, deep depth of field, everything in sharp focus. Hyper-detailed texture, clean and graphic aesthetic, color graded in the style of Kodak Ektar 100 film. --ar 4:5 --style raw"
+}

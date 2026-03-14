@@ -1,0 +1,53 @@
+{
+  "file": "50B8D140-6A78-4766-A0DF-AC770C8BCAAA.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단, 10시 방향",
+    "quality": "soft",
+    "shadow_character": "깊지 않고 디테일이 살아있으며, 반사판이나 보조광으로 채워진 부드러운 그림자",
+    "highlight_shadow_ratio": "콘트라스트가 낮은 부드러운 톤",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5200,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "짙은 갈색",
+      "검은색"
+    ],
+    "secondary_colors": [
+      "흰색",
+      "초록색",
+      "주황색",
+      "자주색"
+    ],
+    "saturation": "low",
+    "grading_style": "암부를 살짝 띄우고 차가운 톤을 더한 시네마틱 필름 룩 스타일 (스플릿 토닝)",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "탑다운 뷰 (플랫레이)",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "계란 노른자",
+    "composition_rule": "삼분할 법칙 및 수직/수평선 활용"
+  },
+  "texture": {
+    "sharpness": "high",
+    "noise": "intentional-grain",
+    "detail_rendering": "각기 다른 재질(고기, 나무, 그릇, 천)의 질감을 효과적으로 표현",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "소박하지만 정성이 담긴, 차분하고 고급스러운 (Rustic & Refined)",
+    "target_use": "magazine",
+    "keywords": [
+      "정갈한",
+      "소박한",
+      "깊이감"
+    ]
+  },
+  "improvement_notes": "더 드라마틱한 연출을 위해 스팟성 조명을 추가하거나, 그림자를 더 깊게 만들어 무게감을 더할 수 있음. 상업적 목적일 경우 특정 색상의 채도를 높여 식욕을 자극하거나, 젓가락이나 손과 같은 요소를 추가하여 생동감을 부여할 수 있음.",
+  "nano_banana_prompt": "An editorial food photography, top-down flat lay of [Your Dish Here] on a dark, rustic wooden table. The main dish is in a matte black ceramic bowl, placed on the right following the rule of thirds. A rustic off-white linen cloth runs along the left edge of the frame. The scene is illuminated by a single, large, diffused soft light from the top-left, creating gentle and soft shadows. The overall mood is moody, warm, and authentic. Cinematic color grading with a desaturated color palette, lifted blacks for a matte finish, and subtle cool tones in the shadows. The image has a fine film grain texture, reminiscent of Kodak Portra 400 film. Shot with a 85mm lens at f/5.6 for a shallow depth of field, with tack-sharp focus on the main subject. --ar 2:3 --style raw"
+}

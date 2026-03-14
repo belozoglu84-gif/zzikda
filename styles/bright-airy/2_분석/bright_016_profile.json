@@ -1,0 +1,51 @@
+{
+  "file": "bright_016.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "피사체의 좌측 상단, 약 10시 방향",
+    "quality": "soft",
+    "shadow_character": "열린 그림자(Open Shadow)로, 그림자 속 디테일이 살아있음",
+    "highlight_shadow_ratio": "저대비(Low Contrast)의 하이키(High-key) 조명",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 6200,
+    "white_balance": "cool-shifted",
+    "primary_colors": [
+      "Sky Blue",
+      "Apple Red"
+    ],
+    "secondary_colors": [
+      "White",
+      "Silver"
+    ],
+    "saturation": "medium",
+    "grading_style": "필름룩(Film Look) 스타일, 암부를 살짝 띄우고 사이언(Cyan) 톤을 추가",
+    "similar_film_stock": "Fuji Pro 400H"
+  },
+  "composition": {
+    "angle": "하이 앵글(High Angle), 약 45~60도",
+    "distance": "close-up",
+    "estimated_lens_mm": 90,
+    "dof": "shallow",
+    "focus_point": "파란 그릇 안 중앙의 사과",
+    "composition_rule": "대각선 구도와 프레이밍(Framing) 기법 사용"
+  },
+  "texture": {
+    "sharpness": "high",
+    "noise": "minimal",
+    "detail_rendering": "사과, 그릇, 천, 나이프 등 각 요소의 질감이 과장 없이 자연스럽게 표현됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "밝고, 깨끗하며, 부드럽고, 서정적인 (Airy)",
+    "target_use": "sns",
+    "keywords": [
+      "청초한",
+      "미니멀",
+      "아침햇살"
+    ]
+  },
+  "improvement_notes": "조명: 사과의 신선함과 식감을 극대화하고 싶다면, 그리드를 장착한 스트립 박스를 사용하여 더 날카로운 하이라이트를 만들고, 반사판을 검은색 폼보드로 교체하여 그림자를 깊게 만들어 더 드라마틱한 인상을 줄 수 있음. 색감: 음식의 '맛'을 강조하는 광고라면, 색온도를 5200K 정도로 높여 따뜻함을 더하고 Red/Yellow 채널을 올려 사과가 더 달고 신선해 보이도록 조정 가능. 구도: 역동성을 더하고 싶다면, 삼분할 법칙을 적극적으로 활용하여 메인 피사체를 교차점에 배치하고, 여백을 더 만들어 시선의 흐름을 유도할 수 있음.",
+  "nano_banana_prompt": "A minimalist and airy food photograph, top-down angle shot, of [FOOD SUBJECT] beautifully arranged in a pastel light blue ceramic bowl. The bowl is placed on a stack of clean white plates. A vintage silver knife rests beside the bowl. Styled with delicate tiny white flowers. The background is a solid, soft light blue surface with a hint of white gauze fabric.\n\n**Photography Style:** Shot with a 100mm macro lens, shallow depth of field (f/2.8), focus locked on the main food element.\n\n**Lighting:** Bright, high-key natural window light, extremely soft and diffused, creating gentle, open shadows with very low contrast.\n\n**Color Palette:** Dominated by pastel blue, vibrant red, and clean white. Cool white balance, film-like color grading with a subtle cyan tint in the shadows.\n\n**Aesthetics:** Clean, serene, delicate, photorealistic, Fuji Pro 400H film look. --ar 4:5 --style raw --v 6.0"
+}

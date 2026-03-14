@@ -1,0 +1,51 @@
+{
+  "file": "bright_097.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10시 방향)",
+    "quality": "hard",
+    "shadow_character": "길고 선명하며, 그래픽 요소로 활용된 짙은 그림자",
+    "highlight_shadow_ratio": "High contrast (High-key)",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 4000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Orange",
+      "Beige"
+    ],
+    "secondary_colors": [
+      "Dark Brown",
+      "Light Yellow"
+    ],
+    "saturation": "high",
+    "grading_style": "Lifted blacks with a subtle brown tone for a film-like feel",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "Straight Angle",
+    "distance": "medium",
+    "estimated_lens_mm": 90,
+    "dof": "moderate",
+    "focus_point": "반으로 잘린 오렌지의 단면",
+    "composition_rule": "Rule of Thirds and Triangular Composition"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "경광을 활용하여 오렌지 껍질과 과육의 질감을 극대화함",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "따뜻하고, 활기차며, 미니멀한 톤앤매너",
+    "target_use": "sns",
+    "keywords": [
+      "따스함",
+      "생동감",
+      "미니멀리즘"
+    ]
+  },
+  "improvement_notes": "조명: 부드러운 연광으로 교체하여 고급스러운 톤 연출. 색감: 보색(블루/틸)을 활용하여 시각적 임팩트 강화. 구도: 과즙이 흐르는 순간이나 인간적 요소를 추가하여 스토리와 움직임 부여.",
+  "nano_banana_prompt": "/imagine prompt: A minimalist still life food photography of [YOUR FOOD SUBJECT]. Eye-level shot, straight-on angle. The scene is illuminated by a single hard light source from the top-left, creating sharp, dramatic, long shadows on the right. High contrast. The background is a two-toned solid color surface, clean and simple. The overall color palette is a warm monochromatic scheme, dominated by shades of amber, beige, and orange. Color temperature around 4000K. The style is modern, graphic, and vibrant. Shot on Kodak Portra 400 film, ultra-high detail, sharp focus. --ar 4:5 --style raw"
+}

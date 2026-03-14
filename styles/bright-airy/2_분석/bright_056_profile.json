@@ -1,0 +1,50 @@
+{
+  "file": "bright_056.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Top-Right",
+    "quality": "hard",
+    "shadow_character": "Long, dark, and well-defined shadows that replicate the subject's shape, maximizing three-dimensionality and graphic elements.",
+    "highlight_shadow_ratio": "High Contrast",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5700,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Vivid Yellow",
+      "Lime Green"
+    ],
+    "secondary_colors": [
+      "Pastel Pink"
+    ],
+    "saturation": "high",
+    "grading_style": "California Sunshine style with faded blacks and warm yellow/orange tones added to midtones and highlights.",
+    "similar_film_stock": "Kodak Portra 400 / Kodak Gold 200"
+  },
+  "composition": {
+    "angle": "Top-down View / Flat-lay",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "Energy bar and 'VERB' logo located in the center of the frame.",
+    "composition_rule": "Dynamic balance with elements arranged in a diagonal flow from top-left to bottom-right."
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "Texture is maximized by using hard light, making details like the lemon peel and the energy bar's surface appear three-dimensional and distinct.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Energetic, Fresh, Youthful, Trendy",
+    "target_use": "sns",
+    "keywords": [
+      "햇살가득",
+      "상큼함",
+      "에너제틱"
+    ]
+  },
+  "improvement_notes": "To achieve a more 'premium' look, use soft diffused light (e.g., large softbox). For a 'natural/organic' concept, switch to a neutral background (beige, wood) and slightly lower the saturation. To create more 'focus', establish a clear 'hero' subject and arrange other elements minimally around it.",
+  "nano_banana_prompt": "commercial food photography of [YOUR FOOD SUBJECT], dynamic flat lay composition, top-down view. Bathed in bright, direct afternoon sunlight creating hard, crisp, and defined shadows, giving a strong graphic and dimensional feel. The scene is set against a solid pastel pink background. The color palette is vibrant and energetic, dominated by vivid yellows, fresh greens, and warm tones. The mood is fresh, zesty, and full of energy. Hyper-detailed, tack-sharp focus across the entire frame, showcasing the food's texture. Shot on Kodak Portra 400 film style, 50mm lens, high contrast, clean and polished aesthetic."
+}

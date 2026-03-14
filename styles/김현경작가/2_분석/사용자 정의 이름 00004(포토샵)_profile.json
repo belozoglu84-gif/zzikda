@@ -1,0 +1,53 @@
+{
+  "file": "사용자 정의 이름 00004(포토샵).jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Key light from front-left, approx. 10 o'clock position.",
+    "quality": "soft",
+    "shadow_character": "Shadows are not deep and are softly cast, likely filled by a reflector.",
+    "highlight_shadow_ratio": "Low contrast, mid-tone focused, similar to a high-key setup.",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 4000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "beige",
+      "cream",
+      "warm brown"
+    ],
+    "secondary_colors": [
+      "deep orange",
+      "brown",
+      "green"
+    ],
+    "saturation": "low",
+    "grading_style": "Lifted blacks for soft contrast, with a subtle warm tone added to the shadows.",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "Approx. 45-degree angle, slightly looking down.",
+    "distance": "medium",
+    "estimated_lens_mm": 90,
+    "dof": "shallow",
+    "focus_point": "The front-most piece of chicken in the bowl.",
+    "composition_rule": "Centered Composition"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "Delicate and natural rendering of textures due to soft light, without exaggeration.",
+    "post_processing": "minimal"
+  },
+  "mood": {
+    "tone": "Minimal, Natural, Warm",
+    "target_use": "magazine",
+    "keywords": [
+      "정갈함",
+      "온기",
+      "미니멀리즘"
+    ]
+  },
+  "improvement_notes": "To add drama, use a grid on the light source for stronger contrast or add a rim light for depth. For color, introduce a cool-toned prop for complementary contrast. For composition, try the rule of thirds or add a human element for a more dynamic feel.",
+  "nano_banana_prompt": "professional food photography of [FOOD NAME], centered in a rustic ceramic bowl on a wooden plate, eye-level 45-degree angle shot, medium shot with ample minimalist negative space, shot on 85mm lens with shallow depth of field (f/2.8), lighting is key: a single large diffused softbox from the front-left creating soft, gentle shadows, warm and inviting color palette dominated by beige, cream, and warm browns, color graded in the style of Kodak Portra 400 film, with muted saturation, lifted blacks, and an overall warm, cozy, and clean aesthetic, hyper-detailed, sharp focus on the food texture, set against a beige linen tablecloth and a soft out-of-focus beige wall background --ar 4:3 --style raw --v 6.0"
+}

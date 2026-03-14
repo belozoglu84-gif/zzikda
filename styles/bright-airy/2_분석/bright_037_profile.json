@@ -1,0 +1,54 @@
+{
+  "file": "bright_037.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Top-left (10-11 o'clock)",
+    "quality": "hard",
+    "shadow_character": "Short, intense, and clearly defined, replicating the subject's shape.",
+    "highlight_shadow_ratio": "High contrast",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5400,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Magenta",
+      "Hot Pink"
+    ],
+    "secondary_colors": [
+      "White",
+      "Red",
+      "Green",
+      "Blue",
+      "Purple"
+    ],
+    "saturation": "boosted",
+    "grading_style": "Graphic Pop / Bold & Vivid",
+    "similar_film_stock": "Kodak Ektar 100 or Fuji Velvia (digital reinterpretation)"
+  },
+  "composition": {
+    "angle": "Top-down View / Flat Lay",
+    "distance": "medium",
+    "estimated_lens_mm": 100,
+    "dof": "pan-focus",
+    "focus_point": "Entire frame (Pan-focus)",
+    "composition_rule": "Pattern and Rhythm"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "Hard light effectively emphasizes the texture and contours of the subjects.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Vibrant, Playful, Modern",
+    "target_use": "sns",
+    "keywords": [
+      "생동감",
+      "팝아트",
+      "다채로움"
+    ]
+  },
+  "improvement_notes": "For a more luxurious feel, use soft diffused light (large softbox), a neutral or pastel background instead of magenta, and a more organized composition like a grid or a minimalist hero shot.",
+  "nano_banana_prompt": "A top-down flat lay photo of [YOUR FOOD HERE], scattered artfully on a solid, vibrant hot pink background. The lighting is a single hard light source from the top-left, creating sharp, crisp shadows and high contrast, giving a graphic and poppy look. The colors are hyper-saturated and vivid. Shot with a macro lens, ultra-sharp detail, deep depth of field, clean commercial studio quality. Energetic, playful, and modern food photography style, reminiscent of Bon Appétit magazine. --ar 2:3 --style raw"
+}

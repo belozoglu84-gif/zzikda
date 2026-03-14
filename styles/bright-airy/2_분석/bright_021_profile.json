@@ -1,0 +1,51 @@
+{
+  "file": "bright_021.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단, 약 10시 방향",
+    "quality": "hard",
+    "shadow_character": "짙고 긴 그림자가 강한 콘트라스트를 형성",
+    "highlight_shadow_ratio": "하이 콘트라스트 (High Contrast)",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 6000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "따뜻한 노란색 (Warm Yellow)"
+    ],
+    "secondary_colors": [
+      "짙은 붉은색 (Deep Red)",
+      "선명한 주황색 (Vivid Orange)",
+      "청량한 녹색 (Cool Green)"
+    ],
+    "saturation": "high",
+    "grading_style": "필름룩 스타일, 은은한 오렌지 & 틸 (Orange & Teal)",
+    "similar_film_stock": "코닥 포트라 400 또는 코닥 골드 200"
+  },
+  "composition": {
+    "angle": "하이앵글 (약 75~80도), 탑다운 뷰에 가까움",
+    "distance": "close-up",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "중앙 좌측 요거트 볼의 토핑 (민트, 그래놀라, 오렌지)",
+    "composition_rule": "계획된 무질서 (Organized Chaos), 삼분할 법칙, 대각선 구도"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "경광을 통해 음식 표면의 미세한 굴곡과 질감이 강조되어 입체적으로 표현됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "밝고, 활기차며, 건강하고, 신선함",
+    "target_use": "sns",
+    "keywords": [
+      "햇살가득",
+      "생기있는",
+      "나른한오후"
+    ]
+  },
+  "improvement_notes": "조명: 약한 필라이트를 추가하여 그림자 영역의 디테일을 살릴 수 있음. 색감: 배경 타일의 채도를 미세하게 낮춰 주제에 대한 집중도를 높일 수 있음. 구도: 소품 위치를 조정하여 시선을 유도하는 리딩 라인을 강화할 수 있음.",
+  "nano_banana_prompt": "professional food photography of [Your Dish], styled in a vibrant and rustic setting. Shot from a high 75-degree angle, creating a dynamic flat-lay perspective. The scene is illuminated by intense, hard morning sunlight from the top-left, casting long, crisp, dramatic shadows to the bottom-right. The color palette is warm and saturated, with a distinct golden hour glow, reminiscent of Kodak Portra 400 film. Key colors like reds and oranges are exceptionally vivid. Shot with a macro lens for tack-sharp details on the food and a shallow depth of field that softly blurs the background. High contrast, energetic, and appetizing mood. --ar 4:5 --style raw --stylize 750"
+}

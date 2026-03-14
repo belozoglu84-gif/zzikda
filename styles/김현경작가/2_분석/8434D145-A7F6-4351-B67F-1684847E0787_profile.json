@@ -1,0 +1,53 @@
+{
+  "file": "8434D145-A7F6-4351-B67F-1684847E0787.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "Side light from the top-left (10 o'clock)",
+    "quality": "soft",
+    "shadow_character": "Soft shadows with visible details, suggesting the use of a reflector or fill light.",
+    "highlight_shadow_ratio": "Low-Key with low contrast, highlights are not blown out and shadows are not crushed.",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 6000,
+    "white_balance": "cool-shifted",
+    "primary_colors": [
+      "dark brown",
+      "matte black",
+      "neutral gray/white"
+    ],
+    "secondary_colors": [
+      "orange",
+      "purple",
+      "green"
+    ],
+    "saturation": "low",
+    "grading_style": "Cinematic/Film Look",
+    "similar_film_stock": "Kodak Portra 400 or Fuji Pro 400H"
+  },
+  "composition": {
+    "angle": "45-degree angle shot",
+    "distance": "medium",
+    "estimated_lens_mm": 90,
+    "dof": "very-shallow",
+    "focus_point": "Egg yolk and surrounding meat and rice",
+    "composition_rule": "Rule of Thirds with leading lines"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "Excellent rendering of textures like wood grain, matte bowl, and moist egg yolk.",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "Calm, neat, and luxurious",
+    "target_use": "magazine",
+    "keywords": [
+      "정갈한",
+      "미니멀",
+      "감성적"
+    ]
+  },
+  "improvement_notes": "For a more dramatic look, add a rim light. For a more appetizing feel, shift to a warmer tone and increase saturation. For more dynamism, try an action shot or a close-up.",
+  "nano_banana_prompt": "professional food photography of [your dish], 45-degree angle shot, medium close-up, served in a rustic ceramic bowl on a dark wooden table. **Style:** Moody and cinematic, soft diffused side lighting from the left creating gentle shadows, shallow depth of field with focus on the main ingredient. **Color:** Desaturated color grading with a subtle cool tone, lifted blacks, film look aesthetic reminiscent of Kodak Portra 400, fine grain. The color palette is dominated by dark browns and neutrals, with a pop of vibrant color from the food. **Details:** Photorealistic, ultra-high detail, sharp focus, texture-rich, minimalist and elegant composition. --ar 2:3"
+}

@@ -1,0 +1,50 @@
+{
+  "file": "bright_006.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Top-left, approximately 10 o'clock",
+    "quality": "hard",
+    "shadow_character": "Deep, dark shadows with sharp edges, creating high contrast",
+    "highlight_shadow_ratio": "Very high contrast, with some highlights near clipping",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5800,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Orange"
+    ],
+    "secondary_colors": [
+      "Deep Blue",
+      "Magenta/Purple"
+    ],
+    "saturation": "boosted",
+    "grading_style": "Split Toning with lifted blacks (purple/blue tint) and warm highlights",
+    "similar_film_stock": "Kodak Ektar 100 or Fuji Velvia 50"
+  },
+  "composition": {
+    "angle": "High-angle, near top-down (approx. 70-80 degrees)",
+    "distance": "close-up",
+    "estimated_lens_mm": 45,
+    "dof": "deep",
+    "focus_point": "Cross-section of the orange slices in the center of the plate",
+    "composition_rule": "Subtle Rule of Thirds with diagonal lines from the tablecloth pattern"
+  },
+  "texture": {
+    "sharpness": "high",
+    "noise": "intentional-grain",
+    "detail_rendering": "Excellent rendering of the orange's moist pulp and bumpy peel texture due to hard light",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Free-spirited, exotic, and energetic",
+    "target_use": "sns",
+    "keywords": [
+      "Bohemian",
+      "Vibrant",
+      "Exotic"
+    ]
+  },
+  "improvement_notes": "To achieve a more professional commercial look, soften the light with a large diffuser and use a reflector to fill in shadows. Reduce the saturation of the background tablecloth to draw more attention to the oranges. Use a simpler background (e.g., linen, wood) and create more negative space for a more refined composition.",
+  "nano_banana_prompt": "close-up top-down angle food photography of [sushi platter on a rustic plate], harsh direct sunlight from the side creating strong specular highlights and deep, defined shadows, high contrast, vibrant and saturated colors, bohemian style, on a busy floral patterned tablecloth, dominant colors are deep blue and magenta, Kodak Ektar 100 film aesthetic, noticeable film grain, sharp details on the food texture --ar 4:5"
+}

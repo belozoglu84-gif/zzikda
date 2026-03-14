@@ -1,0 +1,52 @@
+{
+  "file": "EF430FC6-5A5F-4B37-B296-A976AF2191E6.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "Side-Backlight from top-left",
+    "quality": "soft",
+    "shadow_character": "Deep but soft shadows with preserved details",
+    "highlight_shadow_ratio": "7:3",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 4000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Brown",
+      "Orange",
+      "Red-Brown"
+    ],
+    "secondary_colors": [
+      "Purple",
+      "Green"
+    ],
+    "saturation": "high",
+    "grading_style": "Cinematic Teal & Orange",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "45-degree angle",
+    "distance": "close-up",
+    "estimated_lens_mm": 70,
+    "dof": "shallow",
+    "focus_point": "Egg yolk and surrounding meat",
+    "composition_rule": "Rule of Thirds"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "Excellent rendering of gloss on the meat, texture of rice, and plumpness of the yolk",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Warm, rustic, appetizing, and moody",
+    "target_use": "magazine",
+    "keywords": [
+      "따뜻한",
+      "먹음직스러운",
+      "감성적인"
+    ]
+  },
+  "improvement_notes": "Add a soft fill light to reveal more detail in the shadows. Use a kicker light to create a rim light for more dimension. Locally increase saturation on green and purple elements for better color contrast. Consider adding props like chopsticks to create a more dynamic, storytelling scene.",
+  "nano_banana_prompt": "close-up 45-degree angle food photography of [음식 이름], in a dark rustic ceramic bowl on a warm-toned wooden table. Moody and dramatic lighting from a single soft light source from the top-left, creating deep soft shadows. Cinematic color grading with a warm, inviting overall tone, rich browns and vibrant oranges, subtle teal in the shadows. Shallow depth of field with tack-sharp focus on the main ingredient. The style is reminiscent of Kodak Portra 400 film, with fine grain. --ar 2:3"
+}

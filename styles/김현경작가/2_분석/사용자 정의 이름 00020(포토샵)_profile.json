@@ -1,0 +1,51 @@
+{
+  "file": "사용자 정의 이름 00020(포토샵).jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Side-Backlight from back-left (10-11 o'clock)",
+    "quality": "soft",
+    "shadow_character": "Soft shadows filled with a reflector from the front-right",
+    "highlight_shadow_ratio": "Low Contrast",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 4800,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Teal Green",
+      "Warm Orange"
+    ],
+    "secondary_colors": [
+      "Brown",
+      "Creamy Beige"
+    ],
+    "saturation": "low",
+    "grading_style": "Light & Airy style with film emulation, featuring lifted blacks and soft highlight roll-off",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "45-degree high angle",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "very-shallow",
+    "focus_point": "Center of the foreground green soup, on the parsley and cream",
+    "composition_rule": "Rule of Thirds, Leading Lines, Layering"
+  },
+  "texture": {
+    "sharpness": "medium",
+    "noise": "intentional-grain",
+    "detail_rendering": "Soft rendering of creamy textures and gloss, focusing on overall mood over sharp detail",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Warm, cozy, and clean homemade feeling",
+    "target_use": "sns",
+    "keywords": [
+      "Cozy",
+      "Natural",
+      "Comfortable"
+    ]
+  },
+  "improvement_notes": "Add a kicker light for better separation. Use negative fill for more contrast. Apply color contrast by adding cool tones to shadows. Locally adjust saturation on the main subject. Use focus stacking for complete sharpness on the main dish. Declutter by removing or repositioning the water glass.",
+  "nano_banana_prompt": "A high-angle 45-degree shot of two bowls of creamy soup, a vibrant green pea soup in the foreground and an orange carrot soup in the background, on a rustic wooden cutting board. Shot with an 85mm lens at f/2.8 for a very shallow depth of field. The scene is illuminated by soft, diffused natural window light coming from the back-left, creating a bright and airy mood with gentle shadows. The color palette is warm and inviting, featuring teal green, warm orange, and creamy beige tones. The overall aesthetic is reminiscent of Kodak Portra 400 film, with creamy highlights, slightly lifted blacks, and subtle film grain. The mood is cozy, natural, and comfortable. food photography, professional, high quality, detailed texture."
+}

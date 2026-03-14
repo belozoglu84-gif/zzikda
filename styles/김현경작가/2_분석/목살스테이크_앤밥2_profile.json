@@ -1,0 +1,52 @@
+{
+  "file": "목살스테이크_앤밥2.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "주 광원은 피사체의 좌측 후방(10시 방향) 높은 곳에서, 보조광은 우측 전방에서 비춤",
+    "quality": "soft",
+    "shadow_character": "그림자의 경계가 부드럽고 농도가 옅으며, 보조광으로 그림자 영역의 디테일을 살림",
+    "highlight_shadow_ratio": "콘트라스트가 강하지 않은 로우키에 가까운 미드키 조명",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 4000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Brown",
+      "Ivory/Cream"
+    ],
+    "secondary_colors": [
+      "Dark Brown",
+      "Reddish Brown",
+      "Vivid Green"
+    ],
+    "saturation": "low",
+    "grading_style": "필름룩 스타일, 암부를 살짝 띄운(Lifted Blacks) 매트한 질감",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "약 30도의 낮은 앵글(Low Angle)",
+    "distance": "medium",
+    "estimated_lens_mm": 90,
+    "dof": "shallow",
+    "focus_point": "고기 표면의 윤기와 참깨, 그리고 바로 아래 밥알",
+    "composition_rule": "삼분할 법칙(Rule of Thirds) 및 대각선 구도"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "최상급. 고기의 기름진 윤기, 도자기 그릇의 질감, 나무결 등 각 재질의 특성을 사실적으로 표현",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "Minimal, Natural, Warm",
+    "target_use": "magazine",
+    "keywords": [
+      "정갈한",
+      "따뜻한",
+      "담백한"
+    ]
+  },
+  "improvement_notes": "드라마틱한 연출을 위해 콘트라스트를 극대화하는 조명 시도, 현대적 느낌을 위해 스플릿 토닝 적용, 역동성을 더하기 위해 젓가락을 든 손 등 사람 요소를 포함하는 구도 변경을 고려할 수 있음.",
+  "nano_banana_prompt": "/imagine prompt: A medium close-up, eye-level angle shot of [Your Food Here], minimalist food photography.\n\n**Style:** Photorealistic, authentic, and warm. The overall mood is calm and clean, with a rustic touch.\n\n**Lighting:** Soft, diffused side lighting from a large window on the left (10 o'clock position), creating gentle, soft-edged shadows. Subtle fill light from the right to lift the shadows, low contrast.\n\n**Color Palette:** Muted and desaturated color grading. A warm color temperature (around 4000K) with a dominant palette of rich browns, creamy whites, and natural tones. A single, vibrant accent color (like fresh green herbs) for a pop.\n\n**Aesthetics:** Analog film look, inspired by Kodak Portra 400. Matte finish with slightly lifted blacks, no pure blacks.\n\n**Composition:** Shallow depth of field (f/2.8), with sharp focus on the main texture of the food. The food is placed on a rustic wooden surface and in a textured ceramic bowl. Minimal props.\n\n**Details:** Hyper-detailed texture, capturing the glossiness of sauces and the fine details of the ingredients. --ar 2:3 --style raw"
+}

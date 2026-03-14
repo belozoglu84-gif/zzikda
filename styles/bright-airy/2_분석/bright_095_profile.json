@@ -1,0 +1,52 @@
+{
+  "file": "bright_095.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10-11시 방향)",
+    "quality": "hard",
+    "shadow_character": "짙고 길게 드리워져 깊이감과 드라마틱한 느낌을 더함",
+    "highlight_shadow_ratio": "High Contrast",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 3800,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Warm Orange",
+      "Red-Brown"
+    ],
+    "secondary_colors": [
+      "Vibrant Green",
+      "Magenta Pink",
+      "Bright Yellow"
+    ],
+    "saturation": "high",
+    "grading_style": "현대적인 상업 광고/매거진 스타일, 암부를 살짝 띄우고 미드톤과 하이라이트에 따뜻한 톤을 주입",
+    "similar_film_stock": "코닥 엑타 100 또는 코닥 포트라 400을 강하게 보정한 느낌"
+  },
+  "composition": {
+    "angle": "탑다운 앵글 / 플랫레이",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "화면 중앙의 후무스와 피타 브레드 접시",
+    "composition_rule": "격자 구도와 대각선 구도 활용"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "경광을 사용하여 피사체의 굴곡과 질감을 극대화함",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "활기차고, 따뜻하며, 에너지가 넘치는 톤앤매너",
+    "target_use": "magazine",
+    "keywords": [
+      "Vibrant",
+      "Sunny",
+      "Appetizing"
+    ]
+  },
+  "improvement_notes": "부드러운 느낌을 위해 대형 소프트박스 사용, 더 극적인 대비를 위해 검은색 반사판으로 그림자 강조, 차분한 무드를 위해 채도 조정, 사람의 손과 같은 요소를 추가하여 스토리 부여 등의 변주가 가능함.",
+  "nano_banana_prompt": "A vibrant and appetizing flat-lay food photograph of [Your Dish Here], styled as a Mediterranean mezze spread. Shot from a perfect top-down 90-degree angle. The lighting is a single source of hard, direct light coming from the top-left, creating long, crisp, well-defined shadows that stretch to the bottom-right. High contrast with bright specular highlights on wet and oily surfaces. The scene is set on rustic, warm orange terracotta tiles. The color palette is highly saturated and warm, dominated by terracotta orange, with accents of vibrant green, magenta pink, and bright yellow. Deep depth of field, everything in sharp focus. The overall mood is energetic, sunny, and summery. Style of a high-end food magazine editorial, hyper-realistic, sharp details, Kodak Ektar 100 film aesthetic. --no soft lighting --no muted colors --no shallow depth of field"
+}

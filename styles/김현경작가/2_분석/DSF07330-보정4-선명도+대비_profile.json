@@ -1,0 +1,54 @@
+{
+  "file": "DSF07330-보정4-선명도+대비.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 후방 (10시 방향)",
+    "quality": "soft",
+    "shadow_character": "열린 그림자 (Open Shadow)",
+    "highlight_shadow_ratio": "로우 콘트라스트",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 4200,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "아이보리",
+      "베이지"
+    ],
+    "secondary_colors": [
+      "브라운",
+      "우드톤",
+      "그린",
+      "레드/핑크",
+      "오렌지"
+    ],
+    "saturation": "medium",
+    "grading_style": "필름룩 (블랙 포인트 리프팅, 스플릿 토닝)",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "아이 레벨에 가까운 낮은 앵글 (약 15도)",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "음식 앞부분 (고기, 붉은 고명)",
+    "composition_rule": "삼분할 법칙, 리딩 라인"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "음식, 그릇, 나무, 천의 질감이 과하지 않으면서도 사실적으로 잘 표현됨",
+    "post_processing": "minimal"
+  },
+  "mood": {
+    "tone": "미니멀, 내추럴, 웜 앤 코지 (Warm & Cozy)",
+    "target_use": "sns",
+    "keywords": [
+      "정갈함",
+      "따스함",
+      "자연주의"
+    ]
+  },
+  "improvement_notes": "킥 라이트 추가로 입체감 강화, 선택적 색 보정으로 세련미 증대, 레이어링 강화로 깊이감 강조",
+  "nano_banana_prompt": "/imagine prompt: A professional food photograph of [Your Food Here] in a ceramic bowl, styled in a minimalist and natural aesthetic.\n\n**Shot Details:**\n- **Angle:** Eye-level shot, camera angle at 15 degrees.\n- **Lens:** 85mm prime lens, creating natural compression.\n- **Aperture:** Shot at f/3.5 for a shallow depth of field, with sharp focus on the main food texture and soft bokeh in the foreground and background.\n- **Composition:** Main subject placed slightly off-center following the rule of thirds. A small side dish and wooden chopsticks are placed naturally in the scene.\n\n**Lighting:**\n- **Key Light:** A large, diffused softbox from the top-left (10 o'clock position), creating soft, long shadows to the right.\n- **Fill Light:** A large white reflector on the right side to gently lift the shadows, maintaining low contrast and rich detail.\n- **Mood:** Bright, airy, and clean.\n\n**Color & Style:**\n- **Color Palette:** Dominated by warm, earthy tones like ivory, beige, and brown, with vibrant natural accents of green and orange.\n- **White Balance:** Warm white balance, around 4200K, giving the entire scene a cozy, inviting feel.\n- **Grading:** Emulates Kodak Portra 400 film stock. Colors are slightly desaturated, with soft contrast and lifted blacks for a gentle, filmic look.\n- **Setting:** The surface is a textured off-white linen tablecloth, and the background is a simple, lightly textured beige wall.\n\n**Overall Vibe:**\n- Minimalist, warm, organic, elegant, and serene. --ar 3:2 --style raw --v 6.0"
+}

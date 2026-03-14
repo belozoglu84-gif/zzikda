@@ -1,0 +1,51 @@
+{
+  "file": "8E72D533-6FA9-44F9-BE8D-AF70B67D322C.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "Side light from the top-left (10 o'clock)",
+    "quality": "soft",
+    "shadow_character": "Soft shadows with preserved details, suggesting the use of a fill light or a white reflector.",
+    "highlight_shadow_ratio": "Low Contrast",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 4800,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Brown"
+    ],
+    "secondary_colors": [
+      "Ivory/Beige",
+      "Dark Brown",
+      "Green"
+    ],
+    "saturation": "low",
+    "grading_style": "Matte or Fade style with lifted blacks and a subtle brown/gray tone in the shadows.",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "Top-down Angle / Flat-lay",
+    "distance": "medium",
+    "estimated_lens_mm": 90,
+    "dof": "shallow",
+    "focus_point": "The junction where the chicken, seaweed flakes, and green onions meet.",
+    "composition_rule": "Asymmetrical balance creating a diagonal visual flow from bottom-left to top-right."
+  },
+  "texture": {
+    "sharpness": "medium",
+    "noise": "intentional-grain",
+    "detail_rendering": "Excellent rendering of textures: the gloss of the sauce, individual rice grains, the rough napkin, and the wood grain.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Rustic, warm, and neat Japanese home-style meal. 'Kinfolk' or 'Cozy' aesthetic.",
+    "target_use": "sns",
+    "keywords": [
+      "소박한",
+      "따뜻한",
+      "정갈한"
+    ]
+  },
+  "improvement_notes": "To elevate to a commercial level, add a small, focused kicker light from the back-left to enhance food texture and gloss. Locally increase saturation and clarity on the food itself to make it pop against the muted background. For more dynamism, consider a composition showing chopsticks lifting a piece of food or a tighter crop where the bowl slightly exits the frame.",
+  "nano_banana_prompt": "Top-down flat lay photo of [FOOD NAME], in a rustic speckled ceramic bowl, placed on a dark, weathered wooden table with a natural linen napkin. Key light is a large, diffused soft light from the top-left, creating soft shadows. Asymmetrical composition with small side dishes and bronze cutlery. Moody and atmospheric tone, warm color temperature (4800K), low contrast, matte look with lifted blacks. Colors are desaturated and earthy. Shot on a 100mm macro lens at f/4, shallow depth of field, tack sharp focus on the main food texture. Filmic style, subtle grain, reminiscent of Kodak Portra 400 film."
+}

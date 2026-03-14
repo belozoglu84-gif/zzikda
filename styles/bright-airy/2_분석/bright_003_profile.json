@@ -1,0 +1,50 @@
+{
+  "file": "bright_003.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단(10-11시 방향)",
+    "quality": "hard",
+    "shadow_character": "짙고 선명하며 우측 하단으로 길게 뻗어 있음",
+    "highlight_shadow_ratio": "High Contrast",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 6000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Teal/Cyan",
+      "Orange/Yellow"
+    ],
+    "secondary_colors": [
+      "White"
+    ],
+    "saturation": "high",
+    "grading_style": "필름룩을 가미한 하이 콘트라스트 스타일",
+    "similar_film_stock": "Kodak Ektar 100"
+  },
+  "composition": {
+    "angle": "탑다운 뷰(Top-down View) / 플랫레이(Flat-lay)",
+    "distance": "close-up",
+    "estimated_lens_mm": 85,
+    "dof": "deep",
+    "focus_point": "프레임 전체에 고르게 맞음",
+    "composition_rule": "패턴과 반복(Pattern & Repetition)"
+  },
+  "texture": {
+    "sharpness": "high",
+    "noise": "intentional-grain",
+    "detail_rendering": "아이스크림 표면의 얼음 결정과 서리 질감이 극적으로 표현됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Pop, Graphic, Energetic, Retro",
+    "target_use": "advertisement",
+    "keywords": [
+      "청량함",
+      "생동감",
+      "여름날의오후"
+    ]
+  },
+  "improvement_notes": "고급스러운 느낌을 위해 부드러운 연광(Soft Light) 사용, 내추럴한 컨셉을 위해 채도 하향 및 화이트밸런스 중성 조절, 스토리텔링 강화를 위해 명확한 주인공 설정 및 소품 활용을 제안함.",
+  "nano_banana_prompt": "food photography of [Your Food Subject], flat lay, top-down view, dynamic random pattern filling the frame :: Style: pop art, graphic, retro :: Lighting: bright direct sunlight from the upper-left, creating harsh, defined, long dark shadows, high contrast :: Color: vibrant teal and orange complementary color palette, highly saturated, warm color temperature :: Details: sharp focus, visible texture, fine film grain, shot on Kodak Ektar 100 film :: --ar 4:5"
+}

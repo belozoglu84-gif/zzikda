@@ -1,0 +1,53 @@
+{
+  "file": "사용자 정의 이름 00001 (포토샵).jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 후방 (10시 방향)의 주광원",
+    "quality": "soft",
+    "shadow_character": "우측 전방에 반사판/필 라이트를 사용하여 부드럽게 채움",
+    "highlight_shadow_ratio": "3:1",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 4000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Beige",
+      "Cream"
+    ],
+    "secondary_colors": [
+      "Cyan",
+      "Teal Blue",
+      "Green",
+      "Red"
+    ],
+    "saturation": "low",
+    "grading_style": "매트(Matte) 스타일, 암부 톤 압축",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "아이 레벨에서 약간 내려다보는 앵글 (약 10도)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "shallow",
+    "focus_point": "고명과 양념장",
+    "composition_rule": "중앙 집중 구도와 삼각 구도"
+  },
+  "texture": {
+    "sharpness": "medium",
+    "noise": "intentional-grain",
+    "detail_rendering": "리넨, 도자기, 면의 질감을 과장 없이 자연스럽게 표현",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "Minimal, Natural, Warm",
+    "target_use": "magazine",
+    "keywords": [
+      "정갈한",
+      "편안한",
+      "따스함"
+    ]
+  },
+  "improvement_notes": "조명: 그리드와 림 라이트로 입체감 강화. 색감: 배경 채도를 낮추고 음식 색상만 강조하여 대비 극대화. 구도: 클로즈업 및 액션 추가로 역동성 부여.",
+  "nano_banana_prompt": "/imagine prompt: A professional food photograph of [음식 이름], minimalist and serene aesthetic.\n\n**Shot Details:**\n- **Angle:** Eye-level shot, slightly elevated (10 degrees).\n- **Lens:** 50mm lens.\n- **Composition:** Centered composition with props creating a triangular balance.\n- **Depth of Field:** Shallow depth of field, f/3.5, with sharp focus on the main toppings.\n\n**Lighting:**\n- **Style:** Soft, diffused back-lighting from the left, mimicking a large morning window light.\n- **Characteristics:** Creates gentle, soft-edged shadows. Low contrast ratio. A large white reflector on the front-right subtly fills in the shadows.\n\n**Color & Mood:**\n- **Palette:** Dominant warm beige and cream tones, with cyan blue and fresh green as accent colors.\n- **Grading:** Warm color temperature (4000K), muted saturation, with lifted blacks for a soft, matte, and slightly faded look.\n- **Film Emulation:** In the style of Kodak Portra 400 film stock.\n\n**Texture & Details:**\n- **Surface:** Placed on a natural linen tablecloth.\n- **Props:** Served in a rustic ceramic bowl, with minimalist props like a white teacup and brass chopsticks.\n- **Atmosphere:** Clean, warm, and comfortable. Add a very fine, subtle film grain. --ar 4:3 --style raw"
+}

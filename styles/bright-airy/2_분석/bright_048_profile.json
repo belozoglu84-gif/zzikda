@@ -1,0 +1,52 @@
+{
+  "file": "bright_048.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10~11시 방향)",
+    "quality": "hard",
+    "shadow_character": "콘트라스트가 강하고 어두우나 디테일이 살아있음",
+    "highlight_shadow_ratio": "7:3",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5400,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "ivory",
+      "beige"
+    ],
+    "secondary_colors": [
+      "rustic blue",
+      "gray",
+      "vibrant green"
+    ],
+    "saturation": "medium",
+    "grading_style": "어스 톤(Earth Tone) 기반, 미세한 틸앤오렌지 적용 가능성",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "탑다운 뷰 (플랫레이)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "중앙의 메인 파스타 그릇",
+    "composition_rule": "대각선 구도, 삼분할 법칙, 여백의 미"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "경광을 활용하여 파스타의 광택, 그릇의 질감, 배경의 요철 등 입체적 표현이 극대화됨",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "따뜻하고 자연스러우며 여유로운, 킨포크(Kinfolk) 스타일",
+    "target_use": "sns",
+    "keywords": [
+      "따스한",
+      "자연스러운",
+      "편안함"
+    ]
+  },
+  "improvement_notes": "조명: 강한 하이라이트 제어를 위해 얇은 확산판 사용 및 반사판으로 그림자 보완. 색감: 스플릿 토닝을 적용하여 색의 깊이감 추가. 구도: 상단 크롭 또는 소품 추가로 스토리텔링 강화.",
+  "nano_banana_prompt": "food photography, a top-down flat lay of [음식 이름], styled in rustic ceramic bowls on a textured light beige concrete surface. The scene is illuminated by dramatic, hard natural sunlight coming from the top-left, creating long, crisp shadows and bright caustic reflections. The color palette is warm and earthy, dominated by creamy yellows and accented with fresh green herbs. The overall mood is cozy, natural, and inviting. Shot with a 50mm lens, deep depth of field, sharp focus, emulating the aesthetic of Kodak Portra 400 film."
+}

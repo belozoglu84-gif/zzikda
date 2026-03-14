@@ -1,0 +1,52 @@
+{
+  "file": "bright_065.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Top-right (1-2 o'clock)",
+    "quality": "soft",
+    "shadow_character": "Very soft, short, and filled-in shadows, creating a nearly shadowless high-key look.",
+    "highlight_shadow_ratio": "9:1",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5350,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Creamy Saffron Yellow"
+    ],
+    "secondary_colors": [
+      "Clean White",
+      "Pistachio Green",
+      "Saffron Red",
+      "Dry Rose Magenta"
+    ],
+    "saturation": "low",
+    "grading_style": "Light & Airy style with lifted blacks, reduced overall saturation, and selective color enhancement.",
+    "similar_film_stock": "Fuji Pro 400H"
+  },
+  "composition": {
+    "angle": "Top-down (Flat Lay)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "Pan Focus",
+    "composition_rule": "S-Curve / Diagonal with significant use of negative space."
+  },
+  "texture": {
+    "sharpness": "medium",
+    "noise": "minimal",
+    "detail_rendering": "Soft rendering of background stucco texture; creamy texture of food and details of ingredients are well-preserved.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Clean, elegant, and delicate. A blend of modern minimalism and traditional food.",
+    "target_use": "sns",
+    "keywords": [
+      "정갈함",
+      "미니멀",
+      "파스텔"
+    ]
+  },
+  "improvement_notes": "To enhance for high-end commercial use: 1. Lighting: Lower the key light to create longer, more defined shadows and use negative fill to add depth and contrast. 2. Color: Increase color contrast using split toning to make the subject pop. 3. Composition: Clearly define a 'hero' dish by adjusting the size/placement of surrounding elements, possibly removing some to create more negative space and focus.",
+  "nano_banana_prompt": "An elegant top-down flat lay photo of [Your Food Here], minimalist styling. The scene is set on a white textured stucco surface. The food is arranged in a gentle S-curve, with small ingredients like herbs and spices artfully scattered around. The lighting is bright, airy, and high-key, illuminated by a large, diffused soft light, creating very soft and subtle shadows. The color palette is natural and slightly desaturated with pastel tones, reminiscent of Fuji Pro 400H film stock. Shot with a 50mm lens, deep depth of field, everything in sharp focus. --ar 4:5 --style raw"
+}

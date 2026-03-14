@@ -1,0 +1,50 @@
+{
+  "file": "bright_015.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 후방 높은 곳 (Back-Side Lighting, 10시 방향)",
+    "quality": "soft",
+    "shadow_character": "매우 옅고 부드러우며, 반사판이나 필라이트로 채워진 그림자. 하이키(High-key) 스타일에 가까움.",
+    "highlight_shadow_ratio": "8:2",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5800,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "White"
+    ],
+    "secondary_colors": [
+      "Brown",
+      "Green"
+    ],
+    "saturation": "low",
+    "grading_style": "클린 & 에어리(Clean & Airy) 스타일, 암부를 살짝 들어올리고(Lifted Blacks) 암부에 미세한 사이언(Cyan) 톤 추가",
+    "similar_film_stock": "Fuji Pro 400H"
+  },
+  "composition": {
+    "angle": "아이 레벨과 하이 앵글의 중간 (약 20-30도)",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "케이크의 가장 앞쪽 슬라이스 단면",
+    "composition_rule": "중앙 집중 구도를 기반으로 한 삼각 구도"
+  },
+  "texture": {
+    "sharpness": "medium",
+    "noise": "none",
+    "detail_rendering": "부드러운 조명 아래 케이크의 폭신한 질감과 식기의 매끈한 질감이 잘 표현됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "밝고, 깨끗하며, 공기감이 느껴지는(Airy) 미니멀리즘",
+    "target_use": "sns",
+    "keywords": [
+      "깨끗한",
+      "화사한",
+      "고요한"
+    ]
+  },
+  "improvement_notes": "상업 광고 수준으로 개선하기 위해, 네거티브 필(Negative Fill)을 사용해 그림자를 깊게 만들고, 화이트밸런스를 따뜻하게 조정하여 온기를 더하며, 포인트 컬러를 추가하거나 과감한 클로즈업 구도를 시도하여 역동성을 부여할 수 있음.",
+  "nano_banana_prompt": "/imagine prompt: professional food photography of [FOOD NAME], bright and airy high-key style, minimalist composition on a white marble surface, shot with an 85mm lens at f/3.2, natural diffused light coming from the back-left creating soft and gentle shadows, clean and desaturated color palette dominated by whites and browns, subtle cyan tint in the shadows, Fuji Pro 400H film aesthetic, hyper-realistic texture, serene and clean mood --ar 4:5 --style raw --q 2 --s 250"
+}

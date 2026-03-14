@@ -1,0 +1,53 @@
+{
+  "file": "61EC75C4-835E-4F15-ADEE-AB2186ACA0E1.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "Side-Backlight from the left (10 o'clock position)",
+    "quality": "soft",
+    "shadow_character": "Soft-edged shadows with visible detail, lifted by a fill light or reflector.",
+    "highlight_shadow_ratio": "Low-Contrast",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 4200,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Brown",
+      "Ivory"
+    ],
+    "secondary_colors": [
+      "White",
+      "Red-Brown",
+      "Gold",
+      "Green"
+    ],
+    "saturation": "low",
+    "grading_style": "Film look with lifted blacks, a brown tint in the shadows, and a soft S-Curve.",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "45-degree angle",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "Front part of the rice bowl, specifically on the meat and green onions.",
+    "composition_rule": "Rule of Thirds and Leading Lines"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "Excellent rendering of textures like the ceramic bowl, wood grain, and moist meat surface.",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "Clean, warm, and minimalist with a sense of rustic beauty.",
+    "target_use": "menu",
+    "keywords": [
+      "정갈한",
+      "따뜻한",
+      "소박함"
+    ]
+  },
+  "improvement_notes": "For a more dramatic look, increase contrast using a grid and deepen shadows. For more vibrancy, use split-toning (cool shadows, warm highlights) and boost saturation on key elements. For a more dynamic composition, try close-up shots or add action like lifting food with chopsticks.",
+  "nano_banana_prompt": "professional food photography of [음식 이름], in a rustic minimalist style. Shot with an 85mm lens at f/2.2, eye-level 45-degree angle. The scene is illuminated by a single large, soft, diffused side-backlight from the left, creating gentle, soft shadows. The composition is minimalist, featuring the main dish in a handmade ceramic bowl on a dark, weathered wood board. The color palette is desaturated and warm, dominated by rich browns and creamy whites, with a vibrant green accent. The overall mood is calm, authentic, and sophisticated. The image has a cinematic, Kodak Portra 400 film aesthetic with a matte finish, fine grain, and slightly lifted blacks. --ar 4:3 --style raw"
+}

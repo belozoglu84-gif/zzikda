@@ -1,0 +1,49 @@
+{
+  "file": "bright_063.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단에서 들어오는 단일 광원 (Top-left, single source)",
+    "quality": "hard",
+    "shadow_character": "짙고 선명한 대각선 그림자가 그래픽적인 요소를 형성함",
+    "highlight_shadow_ratio": "매우 높은 콘트라스트, 필 라이트 없음",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 4800,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Yellow",
+      "Beige",
+      "Taupe"
+    ],
+    "secondary_colors": [],
+    "saturation": "low",
+    "grading_style": "매트(Matte) 또는 페이드(Faded) 스타일, 블랙 포인트가 살짝 들려있음",
+    "similar_film_stock": "Kodak Portra 400, Kodak Gold 200"
+  },
+  "composition": {
+    "angle": "하이 앵글 (High Angle, approx. 45 degrees)",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "deep",
+    "focus_point": "칵테일 잔 위 말린 오렌지 슬라이스",
+    "composition_rule": "대각선 구도 및 삼분할 법칙"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "경광을 활용하여 레몬 껍질, 바구니 등의 질감을 극대화함",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "미니멀, 모던, 내추럴, 세련됨",
+    "target_use": "magazine",
+    "keywords": [
+      "나른한오후",
+      "미니멀리즘",
+      "감성디자인"
+    ]
+  },
+  "improvement_notes": "상업 광고용으로 활용 시, 반사판을 사용해 그림자를 부드럽게 만들고, 주 피사체의 채도를 선택적으로 높여 정보 전달력과 식감을 향상시킬 수 있음. 또한, 손과 같은 인간적인 요소를 추가하여 스토리텔링을 강화할 수 있음.",
+  "nano_banana_prompt": "/imagine prompt:A minimalist and sophisticated editorial food photograph of [FOOD/DRINK NAME], styled with natural ingredients.\n\n**Shot Details:**\n- **Camera Angle:** High angle shot, 45-degree view.\n- **Lens:** 85mm lens, creating natural perspective with no distortion.\n- **Aperture:** f/8 for a deep depth of field, keeping the entire scene sharp and detailed.\n\n**Lighting:**\n- **Style:** Hard, direct sunlight from a single top-left source.\n- **Effect:** Creates long, crisp, high-contrast diagonal shadows across a plain surface, adding a strong graphic element. No fill light, shadows are deep and dramatic.\n\n**Color & Mood:**\n- **Palette:** Muted, analogous color scheme dominated by [MAIN COLOR OF THE FOOD] and warm beige/taupe tones.\n- **Grading:** Warm color temperature, Kodak Portra 400 film look, with a matte finish and slightly lifted blacks. Saturation is low to medium, creating a sophisticated and calm mood.\n- **Atmosphere:** A serene, warm afternoon vibe. Clean, minimal, and elegant.\n\n**Composition:**\n- **Layout:** The main subject is placed on the rule-of-thirds grid. The composition is balanced by the strong diagonal shadow line.\n- **Background:** A simple, textured, neutral-colored surface.\n\n**Negative Prompts:**\n--no soft light, --no diffused shadows, --no vibrant colors, --no cluttered background, --no bokeh, --no flash photography"
+}

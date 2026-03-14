@@ -1,0 +1,170 @@
+{
+  "비빔밥": {
+    "en": "Korean bibimbap with colorful vegetables, gochujang sauce, fried egg on top, served in a stone bowl",
+    "category": "한식-정갈한계열"
+  },
+  "김치찌개": {
+    "en": "Korean kimchi stew (kimchi-jjigae) with tofu, pork belly, and bubbling red broth in a hot stone pot",
+    "category": "한식-빨간계열"
+  },
+  "된장찌개": {
+    "en": "Korean soybean paste stew (doenjang-jjigae) with tofu, zucchini, potatoes, and anchovy broth",
+    "category": "한식-정갈한계열"
+  },
+  "불고기": {
+    "en": "Korean bulgogi, thinly sliced marinated beef with onions and mushrooms",
+    "category": "한식-정갈한계열"
+  },
+  "제육볶음": {
+    "en": "Korean spicy stir-fried pork (jeyuk-bokkeum) with gochujang sauce and vegetables",
+    "category": "한식-빨간계열"
+  },
+  "잡채": {
+    "en": "Korean japchae, stir-fried glass noodles with colorful vegetables, beef, and sesame oil",
+    "category": "한식-정갈한계열"
+  },
+  "김밥": {
+    "en": "Korean kimbap rolls with rice, vegetables, egg, and pickled radish wrapped in seaweed",
+    "category": "한식-정갈한계열"
+  },
+  "떡볶이": {
+    "en": "Korean tteokbokki, spicy rice cakes with fish cakes in gochujang sauce, topped with green onions",
+    "category": "치킨/분식"
+  },
+  "순두부찌개": {
+    "en": "Korean soft tofu stew (sundubu-jjigae) with silken tofu, seafood, and egg in spicy broth",
+    "category": "한식-빨간계열"
+  },
+  "갈비탕": {
+    "en": "Korean short rib soup (galbitang) with clear beef broth, radish, and glass noodles",
+    "category": "한식-정갈한계열"
+  },
+  "삼겹살": {
+    "en": "Korean grilled pork belly (samgyeopsal) with lettuce wraps, garlic, and ssamjang",
+    "category": "한식-정갈한계열"
+  },
+  "냉면": {
+    "en": "Korean cold buckwheat noodles (naengmyeon) with sliced beef, cucumber, egg, and icy broth",
+    "category": "한식-정갈한계열"
+  },
+  "칼국수": {
+    "en": "Korean knife-cut noodle soup (kalguksu) with handmade noodles in anchovy broth with zucchini",
+    "category": "한식-정갈한계열"
+  },
+  "해물파전": {
+    "en": "Korean seafood pancake (haemul pajeon) with shrimp, squid, and green onions, crispy golden",
+    "category": "한식-정갈한계열"
+  },
+  "닭갈비": {
+    "en": "Korean spicy stir-fried chicken (dakgalbi) with cabbage, sweet potatoes, and gochujang sauce",
+    "category": "한식-빨간계열"
+  },
+  "김치볶음밥": {
+    "en": "Korean kimchi fried rice with diced kimchi, spam, topped with a fried egg and sesame seeds",
+    "category": "한식-빨간계열"
+  },
+  "돈까스": {
+    "en": "Japanese-style tonkatsu, deep-fried breaded pork cutlet with shredded cabbage, rice, and tonkatsu sauce",
+    "category": "일식"
+  },
+  "라멘": {
+    "en": "Japanese ramen with rich pork bone broth, chashu pork, soft-boiled egg, nori, and green onions",
+    "category": "일식"
+  },
+  "초밥": {
+    "en": "Japanese sushi assortment with fresh salmon, tuna, shrimp nigiri on vinegared rice",
+    "category": "일식"
+  },
+  "우동": {
+    "en": "Japanese udon noodle soup with thick wheat noodles in dashi broth, tempura, and green onions",
+    "category": "일식"
+  },
+  "카레라이스": {
+    "en": "Japanese curry rice with rich brown curry sauce, potato, carrot, and onion over steamed rice",
+    "category": "일식"
+  },
+  "치킨": {
+    "en": "Korean fried chicken (yangnyeom chicken) with sweet and spicy glaze, sesame seeds, and pickled radish",
+    "category": "치킨/분식"
+  },
+  "양념치킨": {
+    "en": "Korean yangnyeom fried chicken coated in sweet-spicy red sauce with sesame seeds",
+    "category": "치킨/분식"
+  },
+  "후라이드치킨": {
+    "en": "Korean-style crispy fried chicken with golden crunchy batter, served with pickled radish",
+    "category": "치킨/분식"
+  },
+  "핫도그": {
+    "en": "Korean corn dog (hot dog) with crispy batter coating, mustard and ketchup",
+    "category": "치킨/분식"
+  },
+  "파스타": {
+    "en": "Italian pasta with tomato sauce, fresh basil, and parmesan cheese",
+    "category": "양식"
+  },
+  "크림파스타": {
+    "en": "Creamy Italian fettuccine alfredo with rich cream sauce, mushrooms, and parmesan",
+    "category": "양식"
+  },
+  "스테이크": {
+    "en": "Grilled beef steak medium-rare with roasted vegetables and herb butter",
+    "category": "양식"
+  },
+  "햄버거": {
+    "en": "Gourmet hamburger with beef patty, melted cheese, lettuce, tomato, and brioche bun",
+    "category": "양식"
+  },
+  "피자": {
+    "en": "Italian pizza margherita with fresh mozzarella, tomato sauce, and basil on crispy crust",
+    "category": "양식"
+  },
+  "샐러드": {
+    "en": "Fresh garden salad with mixed greens, cherry tomatoes, avocado, and vinaigrette dressing",
+    "category": "양식"
+  },
+  "치아바타샌드위치": {
+    "en": "Italian ciabatta sandwich with fresh mozzarella, tomatoes, basil, prosciutto, and olive oil",
+    "category": "양식"
+  },
+  "샌드위치": {
+    "en": "Club sandwich with grilled chicken, bacon, lettuce, tomato, and mayo on toasted bread",
+    "category": "양식"
+  },
+  "리조또": {
+    "en": "Italian mushroom risotto with arborio rice, porcini mushrooms, parmesan, and truffle oil",
+    "category": "양식"
+  },
+  "케이크": {
+    "en": "Layered cake with cream frosting, fresh berries, and decorative garnish on a cake stand",
+    "category": "카페/디저트"
+  },
+  "크루아상": {
+    "en": "French croissant, golden flaky pastry with buttery layers",
+    "category": "카페/디저트"
+  },
+  "티라미수": {
+    "en": "Italian tiramisu with layers of mascarpone cream, espresso-soaked ladyfingers, and cocoa powder",
+    "category": "카페/디저트"
+  },
+  "와플": {
+    "en": "Belgian waffle with fresh fruits, whipped cream, and maple syrup",
+    "category": "카페/디저트"
+  },
+  "마카롱": {
+    "en": "French macarons in assorted pastel colors with cream filling",
+    "category": "카페/디저트"
+  },
+  "아메리카노": {
+    "en": "Hot americano coffee in a ceramic cup with latte art",
+    "category": "카페/디저트"
+  },
+  "카페라떼": {
+    "en": "Cafe latte with steamed milk and beautiful latte art in a ceramic cup",
+    "category": "카페/디저트"
+  },
+  "팥빙수": {
+    "en": "Korean shaved ice dessert (patbingsu) with sweet red beans, condensed milk, fruits, and mochi",
+    "category": "카페/디저트"
+  }
+}

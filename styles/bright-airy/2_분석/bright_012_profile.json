@@ -1,0 +1,51 @@
+{
+  "file": "bright_012.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10시 방향)",
+    "quality": "hard",
+    "shadow_character": "피사체의 형태를 복제하는 깊고 선명한 그림자",
+    "highlight_shadow_ratio": "강한 명암 대비",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5800,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Cerulean Blue"
+    ],
+    "secondary_colors": [
+      "Vivid Red",
+      "Yellow",
+      "Dark Brown/Purple"
+    ],
+    "saturation": "boosted",
+    "grading_style": "Vibrant & Punchy",
+    "similar_film_stock": "Kodak Ektar 100"
+  },
+  "composition": {
+    "angle": "Top-down (Flat Lay)",
+    "distance": "close-up",
+    "estimated_lens_mm": 90,
+    "dof": "deep",
+    "focus_point": "전체 프레임 (Pan Focus)",
+    "composition_rule": "Pattern & Repetition"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "반짝이는 질감(specular)과 매트한 질감의 대비를 극대화",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Vibrant, Playful, Graphic",
+    "target_use": "advertisement",
+    "keywords": [
+      "신선함",
+      "생동감",
+      "팝아트"
+    ]
+  },
+  "improvement_notes": "고급스러운 톤을 원할 경우, 디퓨저를 사용해 빛을 부드럽게 만들고 반사판으로 그림자를 완화할 수 있음. 감성적인 느낌을 위해 채도를 낮추고 배경색을 미세 조정할 수 있음. 명확한 주제 전달을 위해 하나의 피사체를 주인공으로 삼는 황금분할 구도를 적용할 수 있음.",
+  "nano_banana_prompt": "food photography of [FOOD ITEM] slices, arranged in a scattered pattern, flat lay, top-down view, on a vibrant solid cerulean blue background. Shot with a single hard light source from the top-left, creating crisp, well-defined dark shadows. The style is graphic and pop-art inspired. Hyper-detailed, sharp focus, macro details visible. Vibrant and saturated color palette, high contrast, specular highlights on wet surfaces, Kodak Ektar 100 film aesthetic. --ar 4:5 --style raw"
+}

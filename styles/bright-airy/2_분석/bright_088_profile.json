@@ -1,0 +1,52 @@
+{
+  "file": "bright_088.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "우측 상단",
+    "quality": "soft",
+    "shadow_character": "거의 느껴지지 않을 정도로 옅고 부드러움",
+    "highlight_shadow_ratio": "Low-Contrast",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5500,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "red",
+      "yellow",
+      "green",
+      "navy blue"
+    ],
+    "secondary_colors": [
+      "white"
+    ],
+    "saturation": "high",
+    "grading_style": "Commercial Clean Tone",
+    "similar_film_stock": "Kodak Ektar 100"
+  },
+  "composition": {
+    "angle": "Top-down View / Flat Lay",
+    "distance": "close-up",
+    "estimated_lens_mm": 85,
+    "dof": "deep",
+    "focus_point": "중앙 교차점",
+    "composition_rule": "사분할 구도, 집중선/리딩라인"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "액자 표면의 매트한 질감이 잘 살아있음",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "밝고, 경쾌하며, 모던하고, 그래픽적인",
+    "target_use": "catalog",
+    "keywords": [
+      "생동감있는",
+      "그래픽적인",
+      "정돈된"
+    ]
+  },
+  "improvement_notes": "드라마틱한 느낌을 위해 더 단단한 광원과 낮은 각도 사용, 감성적인 라이프스타일 사진을 위해 따뜻한 톤의 컬러 그레이딩 적용, 45도 앵글과 소품을 활용하여 이야기 부여",
+  "nano_banana_prompt": "A vibrant and colorful poke bowl, top-down flat lay photography, graphic composition. Shot in a bright studio with a large overhead softbox, creating extremely soft and minimal shadows. Bold, high-saturation colors focusing on the fresh red of tuna, green of avocado, and yellow of mango. Modern and clean aesthetic, minimalist white background. Shot with an 85mm lens for a distortion-free view, deep depth of field (f/11), tack sharp focus across the entire image. Commercial food photography style, clean and crisp, inspired by high-end catalog imagery."
+}

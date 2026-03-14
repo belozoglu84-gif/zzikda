@@ -1,0 +1,51 @@
+{
+  "file": "스테이크_앤밥4.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Side-Backlight from back-left (10 o'clock)",
+    "quality": "soft",
+    "shadow_character": "Soft shadows, lifted by a reflector or fill light from the front-right",
+    "highlight_shadow_ratio": "Low-Contrast",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 4800,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Brown",
+      "Charcoal"
+    ],
+    "secondary_colors": [
+      "Warm White",
+      "Green"
+    ],
+    "saturation": "low",
+    "grading_style": "Filmic look with lifted blacks and a subtle magenta/pink tint",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "45-degree high-angle",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "Front part of the meat topping and wasabi",
+    "composition_rule": "Rule of Thirds and Leading Lines"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "Excellent rendering of different textures like glossy sauce, rough bowl, natural wood grain, and coarse fabric.",
+    "post_processing": "minimal"
+  },
+  "mood": {
+    "tone": "Clean, Warm, Minimalist",
+    "target_use": "menu",
+    "keywords": [
+      "정갈한",
+      "따뜻한",
+      "미니멀"
+    ]
+  },
+  "improvement_notes": "For a more dramatic impact, add a small kicker light from the back-right. Enhance color richness by subtly applying complementary color contrast. Increase depth by layering elements in the foreground.",
+  "nano_banana_prompt": "professional food photography of [YOUR_DISH], minimalist Japanese aesthetic, shot at a 45-degree eye-level angle, medium shot. Lighting is extremely soft and diffused, coming from the back-left, creating gentle, soft shadows to the front-right. A subtle fill light brightens the shadows. The overall mood is warm, clean, and inviting. Color palette is dominated by natural browns and warm whites with a fresh green accent, overall desaturated tones with a subtle warm pinkish tint. Shallow depth of field, focus sharp on the main subject, background softly blurred. The image has a gentle S-curve contrast with lifted blacks, creating a filmic look. --style raw --ar 4:5 --stylize 750 --quality 2 --v 6.0"
+}

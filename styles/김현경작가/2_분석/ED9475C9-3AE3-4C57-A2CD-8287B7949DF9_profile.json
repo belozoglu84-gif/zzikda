@@ -1,0 +1,52 @@
+{
+  "file": "ED9475C9-3AE3-4C57-A2CD-8287B7949DF9.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "Back-Left",
+    "quality": "soft",
+    "shadow_character": "Soft, diffused shadows with details preserved in dark areas, likely using a fill light or reflector to lift shadows.",
+    "highlight_shadow_ratio": "Low-Key",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 4200,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Brown"
+    ],
+    "secondary_colors": [
+      "Ivory",
+      "Beige",
+      "Green",
+      "Dark Brown"
+    ],
+    "saturation": "low",
+    "grading_style": "Matte film look with lifted blacks, adding warm brown or green tones to the shadows.",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "45-degree angle",
+    "distance": "medium",
+    "estimated_lens_mm": 90,
+    "dof": "very-shallow",
+    "focus_point": "Front part of the toppings",
+    "composition_rule": "Rule of Thirds and Diagonal Composition"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "Excellent rendering of various textures like wood grain, matte ceramic, moist meat, and sticky rice using soft light.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Warm, Calm, Rustic",
+    "target_use": "magazine",
+    "keywords": [
+      "정갈함",
+      "온기",
+      "아날로그"
+    ]
+  },
+  "improvement_notes": "For a more dramatic feel, add a spot rim light. To enhance freshness, selectively boost the saturation and luminance of greens. To strengthen storytelling, include a human element like hands with chopsticks.",
+  "nano_banana_prompt": "cinematic food photography of [food name], medium close-up shot from a 45-degree angle, placed on a dark rustic wooden table. Lit with soft, moody, diffused natural window light coming from the back-left, creating gentle and deep shadows. Shallow depth of field, captured with an 85mm lens at f/2.8, focus is tack sharp on the main toppings. The color palette is warm and desaturated, with a cozy and authentic feel. Color graded in the style of Kodak Portra 400 film, featuring lifted matte blacks and a subtle film grain. The overall mood is calm, rustic, and appetizing."
+}

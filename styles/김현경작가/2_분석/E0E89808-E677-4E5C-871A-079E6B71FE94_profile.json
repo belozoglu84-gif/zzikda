@@ -1,0 +1,52 @@
+{
+  "file": "E0E89808-E677-4E5C-871A-079E6B71FE94.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "Left-Back Light",
+    "quality": "soft",
+    "shadow_character": "Filled-in with a white reflector or foam board",
+    "highlight_shadow_ratio": "Low Contrast",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 4200,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Deep Brown",
+      "Ivory/Cream"
+    ],
+    "secondary_colors": [
+      "Teriyaki Brown",
+      "Fresh Green",
+      "Dark Navy/Black"
+    ],
+    "saturation": "low",
+    "grading_style": "Film Emulation with lifted blacks and fine grain",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "45-degree angle",
+    "distance": "close-up",
+    "estimated_lens_mm": 50,
+    "dof": "very-shallow",
+    "focus_point": "Front part of the meat and the sprinkled green onions",
+    "composition_rule": "Rule of Thirds"
+  },
+  "texture": {
+    "sharpness": "high",
+    "noise": "intentional-grain",
+    "detail_rendering": "Excellent rendering of textures like moist meat, rice grains, and the rough wood table.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Warm, Rustic, Heartfelt",
+    "target_use": "magazine",
+    "keywords": [
+      "아늑함",
+      "정갈함",
+      "킨포크"
+    ]
+  },
+  "improvement_notes": "For commercial use, a kick light could be added to enhance the glossiness of the sauce. Selectively increasing the saturation of green and brown could make it more eye-catching. Adding props like chopsticks could create a more dynamic, 'about to eat' moment.",
+  "nano_banana_prompt": "professional food photography of [Your Food Here], 45-degree angle close-up shot, placed on a rustic dark wood table, rule of thirds composition. Lit by soft, diffused natural light from a side window, creating gentle and warm shadows. The style is cozy and authentic, with a warm color palette reminiscent of Kodak Portra 400 film. Low contrast, slightly lifted blacks, and fine film grain. Shot with an 85mm lens at f/2.2 for a very shallow depth of field, sharp focus on the main ingredients. wabi-sabi aesthetic, Kinfolk style."
+}

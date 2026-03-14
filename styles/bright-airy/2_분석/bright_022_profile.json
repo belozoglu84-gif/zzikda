@@ -1,0 +1,50 @@
+{
+  "file": "bright_022.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Backlight or Side-light from the top-left",
+    "quality": "hard",
+    "shadow_character": "Long, dark, high-contrast shadows that act as a graphic element",
+    "highlight_shadow_ratio": "3:7",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 6000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Seafoam Green"
+    ],
+    "secondary_colors": [
+      "Vibrant Orange/Yellow",
+      "Pastel Pink"
+    ],
+    "saturation": "high",
+    "grading_style": "Cinematic/Film look grading with a subtle cyan/green tint in the shadows and lifted blacks",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "Top-down view (Flat-lay)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "Main dish (egg, bread, orange) in the center",
+    "composition_rule": "Grid composition and Leading Lines from shadows"
+  },
+  "texture": {
+    "sharpness": "medium",
+    "noise": "intentional-grain",
+    "detail_rendering": "Excellent texture rendering due to hard light, highlighting the gloss of tiles, the texture of bread, and the tanginess of the egg yolk.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Warm, leisurely, vibrant, and vintage",
+    "target_use": "sns",
+    "keywords": [
+      "햇살가득",
+      "나른한오후",
+      "빈티지감성"
+    ]
+  },
+  "improvement_notes": "For high-end commercial use, consider adding a soft fill light to lift deep shadows and reveal more food detail. For some clients, neutralizing the green cast in shadows might be preferred for a cleaner look. A more meticulously calculated composition (e.g., S-curve, golden ratio) could enhance visual satisfaction.",
+  "nano_banana_prompt": "A vibrant breakfast flat-lay photo, top-down view, featuring [Your Food Here] on a glossy seafoam green tiled surface. Bathed in bright, direct morning sunlight coming from the top-left, creating long, dramatic, crisp shadows. Dappled shadows from out-of-frame plant leaves fall across the scene. The color palette is dominated by seafoam green, vibrant orange, and sunny yellow. The mood is warm, leisurely, and nostalgic. Shot on Kodak Portra 400 film, subtle film grain, slightly lifted blacks with a hint of cyan tint in the shadows. Shot with a 50mm lens, deep depth of field, everything in sharp focus. --ar 4:5 --style raw"
+}

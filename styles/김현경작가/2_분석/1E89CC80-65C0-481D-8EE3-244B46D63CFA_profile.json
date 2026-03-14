@@ -1,0 +1,51 @@
+{
+  "file": "1E89CC80-65C0-481D-8EE3-244B46D63CFA.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단, 10시 방향",
+    "quality": "soft",
+    "shadow_character": "부드럽고 깊지 않으며, 반사판 등으로 채워진 그림자",
+    "highlight_shadow_ratio": "콘트라스트가 강하지 않은 부드러운 톤",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 4000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Warm Brown"
+    ],
+    "secondary_colors": [
+      "Charcoal",
+      "Cream White",
+      "Orange"
+    ],
+    "saturation": "low",
+    "grading_style": "블랙 포인트를 들어올린 '페이드' 또는 '매트' 스타일",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "탑다운 앵글 (플랫레이)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "shallow",
+    "focus_point": "계란 노른자와 그 주변의 고기",
+    "composition_rule": "비대칭적 균형"
+  },
+  "texture": {
+    "sharpness": "medium",
+    "noise": "intentional-grain",
+    "detail_rendering": "고기, 계란, 쌀밥, 나무 테이블 등의 질감이 사실적으로 표현됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "따뜻하고, 차분하며, 정갈한 (Warm, Moody, Authentic)",
+    "target_use": "sns",
+    "keywords": [
+      "정성",
+      "온기",
+      "소박함"
+    ]
+  },
+  "improvement_notes": "조명: 그릇 뒤편에 약한 림 라이트를 추가하여 입체감과 신선함 극대화. 색감: 계란 노른자와 쪽파의 채도만 부분적으로 높여 식욕 자극. 구도: 젓가락으로 음식을 집는 연출을 추가하여 동적인 느낌과 스토리텔링 강화.",
+  "nano_banana_prompt": "A top-down flat lay, professional food photography of [음식 이름], beautifully arranged in a rustic matte black ceramic bowl on a dark, textured wooden table. The lighting is soft, moody, and directional, coming from the top-left, creating gentle, diffused shadows. The color palette is warm and desaturated, with a cinematic feel reminiscent of Kodak Portra 400 film. The blacks are slightly lifted for a faded, matte aesthetic. Subtle film grain is visible. The focus is razor-sharp on the main ingredients, showcasing their delicious texture. --ar 4:3 --style raw --v 6.0"
+}

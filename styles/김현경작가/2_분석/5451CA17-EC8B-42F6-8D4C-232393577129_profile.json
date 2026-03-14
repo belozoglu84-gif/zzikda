@@ -1,0 +1,53 @@
+{
+  "file": "5451CA17-EC8B-42F6-8D4C-232393577129.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단, 10시 방향",
+    "quality": "soft",
+    "shadow_character": "열린 그림자 (Open Shadow)",
+    "highlight_shadow_ratio": "낮은 콘트라스트",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Brown",
+      "Ivory",
+      "Beige"
+    ],
+    "secondary_colors": [
+      "Orange-Brown",
+      "Green",
+      "Black"
+    ],
+    "saturation": "low",
+    "grading_style": "Film Look with Lifted Blacks",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "Top-down (Flat-lay)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "shallow",
+    "focus_point": "닭고기 덮밥의 중앙 부분",
+    "composition_rule": "밸런스 구도 및 수직 리딩라인"
+  },
+  "texture": {
+    "sharpness": "high",
+    "noise": "intentional-grain",
+    "detail_rendering": "최상급. 거친 질감의 도자기, 나무 결, 소스의 질감 등이 매우 사실적으로 표현됨.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "정갈하고 소박한, 따뜻한 가정식",
+    "target_use": "magazine",
+    "keywords": [
+      "Rustic",
+      "Neat",
+      "Warm"
+    ]
+  },
+  "improvement_notes": "더 상업적인 느낌을 위해 역광을 추가하고 채도/콘트라스트를 높일 수 있음. 단일 메뉴 소개용으로는 메인 그릇에 더 타이트하게 크롭하는 것이 효과적일 수 있음.",
+  "nano_banana_prompt": "A top-down flat lay food photograph of [Your Dish Here], styled in a rustic, wabi-sabi aesthetic.\n\n**Subject & Styling:** The main dish is served in a handmade, earth-toned ceramic bowl, placed on a dark, weathered wooden surface. Minimalist props like brass cutlery and small side dish bowls are arranged to create a balanced composition.\n\n**Lighting:** Photographed with soft, diffused natural window light coming from the top-left, creating gentle, open shadows on the bottom-right. The lighting is low-contrast and wraps around the subject.\n\n**Color & Mood:** Muted and warm color palette with an overall earthy tone. The mood is calm, cozy, and authentic.\n\n**Camera & Post-processing:** Shot on a 50mm lens with a shallow depth of field (f/2.8). The image has the color science and fine grain of Kodak Portra 400 film. Blacks are slightly lifted, and highlights are soft. The image is sharp but not over-sharpened, with photorealistic textures."
+}

@@ -1,0 +1,51 @@
+{
+  "file": "bright_066.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "피사체의 우측 상단, 약 45도 각도",
+    "quality": "hard",
+    "shadow_character": "매우 짙고 콘트라스트가 강하며, 디자인의 그래픽 요소로 활용됨",
+    "highlight_shadow_ratio": "하이 콘트라스트 (High Contrast)",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 3800,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "orange"
+    ],
+    "secondary_colors": [
+      "yellow",
+      "warm beige",
+      "dark brown"
+    ],
+    "saturation": "boosted",
+    "grading_style": "어시 톤(Earthy Tone) 또는 테라코타(Terracotta) 스타일",
+    "similar_film_stock": "Kodak Portra 400 or Kodak Gold 200"
+  },
+  "composition": {
+    "angle": "아이 레벨 (Eye-level)",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "반으로 자른 오렌지의 단면",
+    "composition_rule": "삼분할 법칙 및 삼각 구도"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "경광을 통해 피사체의 미세한 질감을 극대화함",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "따뜻하고, 생기 있으며, 미니멀하고, 그래픽적인 느낌",
+    "target_use": "sns",
+    "keywords": [
+      "따스한",
+      "생기있는",
+      "미니멀리즘"
+    ]
+  },
+  "improvement_notes": "조명: 필라이트나 반사판을 추가하여 암부 디테일을 살리고, 림 라이트로 공간감 부여. 색감: 민트 잎 등 보색 대비 요소를 추가하여 시각적 임팩트 강화. 구도: 과즙이 흐르는 등 역동적인 연출을 추가하고 배경 텍스처에 변화를 주어 깊이감 향상.",
+  "nano_banana_prompt": "/imagine prompt: A minimalist and graphic still life photo of [YOUR FOOD SUBJECT], meticulously arranged in a slightly asymmetrical stack. Shot at eye-level with an 85mm lens. The lighting is the key: a single, direct hard light source from the top-right at a 45-degree angle, creating long, crisp, and dramatic dark shadows on a plain surface. The color palette is strictly analogous, dominated by warm earthy tones like terracotta, beige, and the natural colors of the food. The overall color grading mimics Kodak Portra 400 film, featuring rich warm tones, high saturation in the main subject, and slightly lifted blacks for a matte finish. The image is extremely sharp, with hyper-realistic textures. The background is a solid, warm-toned wall, creating a two-plane composition with the surface. --ar 4:5 --style raw --v 6.0"
+}

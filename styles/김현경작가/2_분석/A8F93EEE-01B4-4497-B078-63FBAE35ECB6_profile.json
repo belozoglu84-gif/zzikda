@@ -1,0 +1,52 @@
+{
+  "file": "A8F93EEE-01B4-4497-B078-63FBAE35ECB6.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단, 10시 방향",
+    "quality": "soft",
+    "shadow_character": "짙지 않고 디테일이 살아있으며 경계가 부드러움",
+    "highlight_shadow_ratio": "낮은 비율, 부드러운 톤",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Brown"
+    ],
+    "secondary_colors": [
+      "Orange",
+      "White",
+      "Purple",
+      "Green"
+    ],
+    "saturation": "low",
+    "grading_style": "크로스 프로세스/스플릿 토닝 (암부 Teal, 명부 Orange)",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "탑다운 앵글 (플랫레이)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "shallow",
+    "focus_point": "계란 노른자와 그 주변 고기",
+    "composition_rule": "삼분할 법칙 및 리딩 라인"
+  },
+  "texture": {
+    "sharpness": "medium",
+    "noise": "intentional-grain",
+    "detail_rendering": "매우 뛰어남. 각 재료의 질감이 과장 없이 사실적으로 표현됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "소박하고(Rustic), 따뜻하며(Warm), 감성적인(Moody & Emotional)",
+    "target_use": "sns",
+    "keywords": [
+      "아늑함",
+      "정성",
+      "필름감성"
+    ]
+  },
+  "improvement_notes": "먹음직스러움을 극대화하기 위해 스팟성 하이라이트를 추가하고, 계란 노른자나 고기 등 특정 색상의 채도를 선택적으로 높일 수 있음. 또한, 75~85도 앵글로 입체감을 더하거나 젓가락으로 집는 액션을 추가하여 생동감을 부여하는 것도 좋은 방법임.",
+  "nano_banana_prompt": "/imagine prompt: A top-down flat lay food photography of [음식 이름], beautifully arranged in a dark matte ceramic bowl on a rustic dark wood table. The lighting is soft and diffused, coming from the top-left, creating gentle shadows. The mood is warm, cozy, and slightly moody. The color palette is desaturated with an overall warm color temperature. Color graded in a cinematic film style with subtle teal tones in the shadows and warm orange in the highlights, reminiscent of Kodak Portra 400 film. The image has a fine, subtle film grain texture and slightly lifted blacks for a matte finish. Shot with a 50mm lens, shallow depth of field, focus is sharp on the main ingredients. --ar 2:3 --style raw --stylize 750"
+}

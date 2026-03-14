@@ -1,0 +1,51 @@
+{
+  "file": "DF2A0C2C-FD52-441F-9CD9-326CFC0B8D3B.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "Side-front light from the left",
+    "quality": "soft",
+    "shadow_character": "Soft shadows with fill-in light from the right",
+    "highlight_shadow_ratio": "Low Contrast",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 4000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Reddish Brown",
+      "Ivory/Cream"
+    ],
+    "secondary_colors": [
+      "Dark Brown",
+      "Vivid Green"
+    ],
+    "saturation": "low",
+    "grading_style": "Film look with lifted blacks and fine grain",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "45-degree angle",
+    "distance": "close-up",
+    "estimated_lens_mm": 85,
+    "dof": "very-shallow",
+    "focus_point": "Front part of the meat topping and green onions",
+    "composition_rule": "Rule of Thirds and Leading Lines"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "Excellent and realistic texture rendering using soft light",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Warm, cozy, and sincere 'home-cooked meal' feeling. Simple yet neat, conveying a sense of rustic elegance.",
+    "target_use": "sns",
+    "keywords": [
+      "따뜻한",
+      "소박한",
+      "정갈한"
+    ]
+  },
+  "improvement_notes": "For a more commercial look, use side-back lighting to create drama and highlight textures. Increase saturation, especially for the meat's brown and green onion's green, and add a teal/blue tone to shadows for a modern feel. Incorporate a human element, like a hand with chopsticks, to add dynamism and story.",
+  "nano_banana_prompt": "A professional food photograph of [FOOD NAME], close-up shot from a 45-degree angle. The scene is illuminated by soft, diffused natural window light coming from the left, creating gentle shadows. The overall mood is warm, cozy, and rustic. The color palette is muted and desaturated, dominated by warm browns, creamy whites, and accented with vibrant greens. Styled with a natural linen napkin on a dark rustic wooden board. Shot with an 85mm lens at f/2.2, resulting in a very shallow depth of field with sharp focus on the main subject. The image has a filmic look, emulating Kodak Portra 400 with fine grain, lifted blacks, and a matte finish. --style raw --ar 2:3"
+}

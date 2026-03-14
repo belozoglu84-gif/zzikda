@@ -1,0 +1,53 @@
+{
+  "file": "AE85D3BA-8183-4F79-AD77-A25DB048B886.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10시 방향)",
+    "quality": "soft",
+    "shadow_character": "부드럽고 디테일이 살아있음 (Fill Light 사용 추정)",
+    "highlight_shadow_ratio": "로우-키에 가까운 낮은 콘트라스트",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5000,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Brown",
+      "Black"
+    ],
+    "secondary_colors": [
+      "White",
+      "Orange",
+      "Purple",
+      "Green"
+    ],
+    "saturation": "low",
+    "grading_style": "필름룩/시네마틱 스타일 (Lifted Blacks)",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "45도 하이앵글",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "very-shallow",
+    "focus_point": "계란 노른자와 주변 파채",
+    "composition_rule": "삼분할 법칙 (Rule of Thirds)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "최상급. 고기, 밥, 양파 등의 질감이 사실적으로 표현됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "차분하고 고급스러우며 정갈함",
+    "target_use": "magazine",
+    "keywords": [
+      "정갈한",
+      "따뜻한",
+      "필름감성"
+    ]
+  },
+  "improvement_notes": "조명: 림 라이트 추가로 입체감 극대화. 색감: 주 피사체 채도만 국소적으로 올려 생동감 추가 (컬러 팝). 구도: 역동적 연출 또는 배경 단순화로 주제 집중.",
+  "nano_banana_prompt": "/imagine prompt: professional food photography of [YOUR FOOD HERE], 45-degree angle shot, medium close-up, cinematic and moody atmosphere, shot on 85mm f/1.8 lens, shallow depth of field with sharp focus on the main ingredient, soft and diffused lighting from a large softbox on the left, creating gentle shadows, color graded in Kodak Portra 400 film style, desaturated colors with warm tones, lifted blacks for a matte finish, served in a rustic ceramic bowl on a dark wooden table, hyper-detailed food texture, subtle film grain --ar 2:3 --style raw"
+}

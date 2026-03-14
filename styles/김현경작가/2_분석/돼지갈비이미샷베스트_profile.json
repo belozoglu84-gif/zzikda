@@ -1,0 +1,51 @@
+{
+  "file": "돼지갈비이미샷베스트.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "Back-left",
+    "quality": "soft",
+    "shadow_character": "Deep and dark shadows towards the front-right with soft edges",
+    "highlight_shadow_ratio": "4:1 high contrast",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 6000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "brown",
+      "golden yellow"
+    ],
+    "secondary_colors": [
+      "purple",
+      "green"
+    ],
+    "saturation": "high",
+    "grading_style": "Rich contrast, lifted blacks, cinematic film look",
+    "similar_film_stock": "Kodak Portra 800 or Kodak Gold 200"
+  },
+  "composition": {
+    "angle": "45-degree high angle",
+    "distance": "close-up",
+    "estimated_lens_mm": 100,
+    "dof": "very-shallow",
+    "focus_point": "Sharp focus on the egg yolk and the meat in front of it",
+    "composition_rule": "Rule of thirds (yolk on intersection) + leading lines (cutlery)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "Texture maximized with micro-contrast",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "dark-moody-premium",
+    "target_use": "magazine",
+    "keywords": [
+      "sizzle",
+      "artisanal",
+      "moody"
+    ]
+  },
+  "improvement_notes": "Lighting: The right shadow is too deep, obscuring the bowl's shape. Add an edge light with a small reflector. Color: The rice in the bottom-left has a dull gray tint. Locally adjust exposure/white balance. Composition: The cutlery is distractingly close to the edge of the frame. Move it 2-3cm in or remove it.",
+  "nano_banana_prompt": "Commercial food photography, extreme close-up shot, appetizing grilled pork ribs over rice, topped with a glossy raw egg yolk, garnished with sliced red onions and scallions, sprinkled with sesame seeds, placed in a dark ceramic bowl, rustic weathered dark wood table background, out of focus brass cutlery in foreground. Directional back-left softbox lighting, specular highlights on shiny ingredients, dark and moody lighting, deep rich shadows, warm color temperature, golden hour tones, rich contrast, shot on 100mm macro lens, f/2.8, extremely shallow depth of field, sharp focus on the egg yolk and center meat, Kodak Portra 800 film style, cinematic, editorial food magazine style, 8k resolution, highly detailed texture."
+}

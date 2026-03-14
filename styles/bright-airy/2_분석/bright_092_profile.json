@@ -1,0 +1,51 @@
+{
+  "file": "bright_092.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단(약 10시 방향)에서 들어오는 사이드-탑 라이팅",
+    "quality": "soft",
+    "shadow_character": "반사판이나 필 라이트를 사용하여 그림자 영역의 디테일을 살림",
+    "highlight_shadow_ratio": "의도적으로 연출된 높은 명암 대비",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 4000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Teal Green",
+      "Orange-Red"
+    ],
+    "secondary_colors": [
+      "Creamy White",
+      "Gold"
+    ],
+    "saturation": "high",
+    "grading_style": "Teal and Orange",
+    "similar_film_stock": "Kodak Portra 400 / Kodak Gold 200"
+  },
+  "composition": {
+    "angle": "하이 앵글 (약 45-60도), 관찰자 시점",
+    "distance": "medium",
+    "estimated_lens_mm": 60,
+    "dof": "shallow",
+    "focus_point": "중앙의 방울토마토와 리가토니 파스타 면",
+    "composition_rule": "삼분할 법칙 및 대각선 구도"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "소스의 윤기, 파스타의 거친 표면, 리넨 테이블보의 직조감 등 질감이 극대화됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "따뜻하고, 풍성하며, 정겨운 저녁 식사 분위기. 캐주얼하면서도 세련됨.",
+    "target_use": "magazine",
+    "keywords": [
+      "따뜻한",
+      "풍성한",
+      "스타일리시한"
+    ]
+  },
+  "improvement_notes": "고급스러운 느낌을 위해 피사체 뒤에 림 라이트 추가, 그림자의 청록색 톤을 줄여 중성적으로 표현, 주변 소품을 정리하여 미니멀하게 구성하는 것을 고려할 수 있음.",
+  "nano_banana_prompt": "/imagine prompt: editorial food photography of [FOOD NAME], high-angle 45-degree shot, medium close-up, shallow depth of field, set on a textured teal linen tablecloth with elegant green glassware and gold cutlery --style raw --ar 4:5 --stylize 750\n\n**Parameters for fine-tuning:**\n- **Lighting:** Dramatic moody lighting, large soft light source from top-left, creating soft but defined shadows, rich contrast, bright specular highlights on wet surfaces.\n- **Color Palette:** Cinematic color grading, dominant teal and orange tones, warm golden highlights, deep teal-green shadows, vibrant and saturated colors.\n- **Atmosphere:** Warm, inviting, cozy dinner party mood, stylish and rustic.\n- **Details:** Shot on a 60mm lens, f/3.2 aperture, subtle film grain texture, extremely sharp focus on the main subject."
+}

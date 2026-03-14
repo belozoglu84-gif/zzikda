@@ -1,0 +1,52 @@
+{
+  "file": "bright_032.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Top-Backlight from top-left (11 o'clock)",
+    "quality": "hard",
+    "shadow_character": "Very dark, clear, and well-defined shadows that replicate the subject's shape.",
+    "highlight_shadow_ratio": "High contrast",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5600,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Teal",
+      "Cyan"
+    ],
+    "secondary_colors": [
+      "Yellow",
+      "Orange",
+      "Red"
+    ],
+    "saturation": "high",
+    "grading_style": "Clean & Vivid",
+    "similar_film_stock": "Kodak Portra 400 or Fuji Pro 400H digital emulation"
+  },
+  "composition": {
+    "angle": "Top-down View (Flat-lay)",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "deep",
+    "focus_point": "Fruits on the plate",
+    "composition_rule": "Diagonal composition, Rule of Thirds, Negative Space"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "Hard light effectively renders the moist, shiny texture of the fruit and the fine texture of the background paper.",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "Bright, vibrant, fresh, and modern.",
+    "target_use": "advertisement",
+    "keywords": [
+      "청량함",
+      "생기",
+      "미니멀"
+    ]
+  },
+  "improvement_notes": "Lighting: Add a soft reflector or weak fill light to bring out shadow details while maintaining the strong contrast. Color: Slightly adjust the background's hue/saturation to make the fruit colors pop more dominantly. Composition: Introduce dynamic elements like a dripping honey drop or fine water droplets to enhance the sense of freshness and vitality.",
+  "nano_banana_prompt": "A vibrant and sharp flat lay food photograph, top-down view. A [음식 이름] is artfully arranged on a minimalist ceramic plate. The scene is illuminated by a single source of direct, hard sunlight coming from the top-left, creating long, crisp, and dramatic shadows across a bold teal-colored background. The color palette is high-contrast and saturated, featuring the vivid colors of the food against the cool-toned backdrop. The mood is fresh, energetic, and modern. Shot with a 85mm lens for a clean, distortion-free look, deep depth of field with everything in sharp focus. The style is reminiscent of a Kodak Portra 400 film, clean and highly detailed. --style raw --ar 2:3"
+}

@@ -1,0 +1,50 @@
+{
+  "file": "bright_029.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10시 방향)",
+    "quality": "hard",
+    "shadow_character": "짙고 길게 뻗어 있으며, 그래픽적인 형태를 강조함",
+    "highlight_shadow_ratio": "고대비 (High Contrast)",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5600,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Mint Green"
+    ],
+    "secondary_colors": [
+      "Vivid Red",
+      "Yellow"
+    ],
+    "saturation": "high",
+    "grading_style": "Clean & Vivid 스타일, 스플릿 토닝(Split Toning) 기법 사용",
+    "similar_film_stock": "Kodak Ektar 100"
+  },
+  "composition": {
+    "angle": "하이앵글 (약 75-80도)",
+    "distance": "close-up",
+    "estimated_lens_mm": 90,
+    "dof": "deep",
+    "focus_point": "중앙의 가장 큰 자몽 슬라이스와 껍질 벗긴 과육",
+    "composition_rule": "대각선 구도, 삼분할 법칙"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "경광을 사용하여 과육의 촉촉함과 껍질의 입체감을 극대화함",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "신선하고, 활기차며, 감각적이고 모던함",
+    "target_use": "advertisement",
+    "keywords": [
+      "생동감",
+      "상큼함",
+      "그래픽"
+    ]
+  },
+  "improvement_notes": "부드러운 무드를 위해 연광(Soft Light) 사용, 자연주의 콘셉트를 위해 채도를 낮추고 뉴트럴 배경 사용, 미니멀한 느낌을 위해 중앙 집중 구도 및 여백 활용을 제안할 수 있음.",
+  "nano_banana_prompt": "A vibrant and energetic commercial food photograph of [YOUR FOOD], artfully arranged on a rustic ceramic plate. The scene is illuminated by bright, direct sunlight coming from the top-left, creating long, hard, crisp graphic shadows across a solid mint green background. The style is high-contrast and ultra-sharp, emphasizing the detailed textures of the food. The color palette is highly saturated and vivid, with a clean and modern aesthetic. Shot with a 100mm macro lens at f/11, capturing every detail with deep depth of field. The overall mood is fresh, lively, and stylish, reminiscent of Kodak Ektar 100 film. --ar 4:5 --style raw"
+}

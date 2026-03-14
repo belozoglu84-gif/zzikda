@@ -1,0 +1,52 @@
+{
+  "file": "bright_052.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "반역광 (Back-sidelight) from top-left",
+    "quality": "hard",
+    "shadow_character": "Strong, dark, and contrasting shadows used as a design element to add depth and rhythm.",
+    "highlight_shadow_ratio": "High Contrast",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5600,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "yellow",
+      "red",
+      "orange"
+    ],
+    "secondary_colors": [
+      "white",
+      "green"
+    ],
+    "saturation": "high",
+    "grading_style": "Modern Film Look with lifted blacks and added warmth.",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "Top-down View / Flat-lay",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "Central amber glass plate",
+    "composition_rule": "Diagonal lines and Pattern/Repetition"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "Hard light was used to maximize texture rendering by emphasizing fine surface details.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Bright, vibrant, fresh, and healthy, reminiscent of a Mediterranean summer brunch.",
+    "target_use": "advertisement",
+    "keywords": [
+      "여름날의브런치",
+      "생동감",
+      "신선함"
+    ]
+  },
+  "improvement_notes": "For a softer mood, use a large softbox or scrim to diffuse the light. For a more artistic feel, slightly desaturate and add cyan/magenta tones to shadows. For a minimalist composition, focus on a single dish and use a shallower depth of field to blur the background.",
+  "nano_banana_prompt": "/imagine prompt: A vibrant flat lay food photography of [Your Dish], professionally styled on a textured white concrete surface. The scene is illuminated by bright, direct, hard sunlight coming from the top-left, creating long, sharp, dramatic shadows across the frame. The composition is a top-down view, capturing ornate amber glass plates and minimalist props like a small bowl of sea salt and a glass of white wine. The color palette is warm and vivid, dominated by reds, yellows, and oranges, with high contrast and rich saturation. The image is extremely sharp and detailed, capturing the fresh texture of the food. Shot in the style of a Kodak Portra 400 film, creating a modern yet timeless aesthetic. --ar 4:5 --style raw --q 2 --s 750"
+}

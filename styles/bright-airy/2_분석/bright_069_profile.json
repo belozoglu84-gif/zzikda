@@ -1,0 +1,52 @@
+{
+  "file": "bright_069.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단, 약 10시 방향",
+    "quality": "hard",
+    "shadow_character": "짙고 선명함 (Deep and Crisp)",
+    "highlight_shadow_ratio": "고대비 (High Contrast)",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5700,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "노란색",
+      "주황색"
+    ],
+    "secondary_colors": [
+      "흰색",
+      "녹색",
+      "은색"
+    ],
+    "saturation": "high",
+    "grading_style": "캘리포니아 레트로 (California Retro)",
+    "similar_film_stock": "코닥 골드 200 또는 코닥 엑타 100"
+  },
+  "composition": {
+    "angle": "하이 앵글 (High Angle, approx. 45 degrees)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "'Flings' 제품 박스 로고",
+    "composition_rule": "리딩 라인 및 대각선 구도"
+  },
+  "texture": {
+    "sharpness": "medium",
+    "noise": "intentional-grain",
+    "detail_rendering": "경광으로 인해 가죽, 종이, 직물 등의 질감이 입체적으로 표현됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "활기차고, 즐거우며, 젊고, 트렌디함",
+    "target_use": "sns",
+    "keywords": [
+      "활기찬",
+      "레트로",
+      "여름휴가"
+    ]
+  },
+  "improvement_notes": "조명: 현재의 경광은 스타일리시하지만, 은색 포장지의 하이라이트가 날아가고 그림자가 너무 강해 제품의 일부 디테일이 묻힙니다. 대형 스크림이나 실크 확산판을 설치하여 빛을 부드럽게 만들고, 우측에 작은 흰색 반사판을 두어 그림자를 살짝 채워주면 제품의 고급감과 디테일을 훨씬 더 잘 살릴 수 있습니다.\n색감: 현재의 높은 채도는 시선을 끌지만 자칫 가벼워 보일 수 있습니다. 주조색인 주황/노랑의 채도는 유지하되, 배경의 녹색 채도를 미세하게 낮추어 주 피사체에 시선이 더 집중되도록 만들 수 있습니다. 또한, 선글라스의 흰색을 완벽한 뉴트럴 화이트로 보정하여 전체 색상의 기준점을 잡아주면 색이 더 정돈되고 세련되어 보입니다.\n구도: 요소들이 다소 산만하게 흩어져 있는 느낌이 있습니다. 하단의 은색 포장지를 제거하거나 위치를 조정하여 구도를 더 단순화하고, 샌들의 각도를 살짝 틀어 시선이 자연스럽게 제품 박스로 향하도록 유도하면 메시지 전달력이 더 강해집니다.",
+  "nano_banana_prompt": "A vibrant and energetic lifestyle product photo of [FOOD/PRODUCT NAME], styled on a colorful surface. Shot from a 45-degree high angle in harsh, direct midday sunlight, creating sharp, crisp shadows and high contrast. The scene includes retro props like [PROP 1] and [PROP 2]. The color palette is dominated by saturated warm tones like vibrant yellow and punchy orange, with a complementary color pop. The overall mood is a playful, carefree retro summer vibe. Photographed with a 50mm lens, deep depth of field, with a noticeable fine film grain texture, reminiscent of Kodak Gold 200 film stock. --ar 4:5"
+}

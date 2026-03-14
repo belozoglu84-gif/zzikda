@@ -1,0 +1,53 @@
+{
+  "file": "96716AF9-AC68-426C-B962-186A1EA42FAB.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 후방 (10시 방향)",
+    "quality": "soft",
+    "shadow_character": "주 광원 반대편에 흰색 반사판을 사용한 필라이트로 인해 디테일이 살아있는 부드러운 그림자",
+    "highlight_shadow_ratio": "Low Contrast",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5000,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Brown",
+      "Ivory",
+      "Warm Gray"
+    ],
+    "secondary_colors": [
+      "Dark Brown",
+      "Green",
+      "Black"
+    ],
+    "saturation": "low",
+    "grading_style": "리프티드 블랙(Lifted Blacks)과 섀도우 영역의 웜톤을 통해 매트한 필름룩 연출",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "약 45도",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "덮밥의 고기와 파가 쌓인 부분",
+    "composition_rule": "삼분할 법칙 및 대각선 구도"
+  },
+  "texture": {
+    "sharpness": "high",
+    "noise": "intentional-grain",
+    "detail_rendering": "연광을 활용하여 나무, 도기, 음식의 질감을 사실적으로 표현",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "정갈함, 미니멀리즘, 따뜻함, 한국적 모던함",
+    "target_use": "menu",
+    "keywords": [
+      "정갈한",
+      "자연주의",
+      "따뜻한일상"
+    ]
+  },
+  "improvement_notes": "조명: 그리드나 스누트를 사용해 더 드라마틱한 콘트라스트 연출. 색감: 음식 부분의 채도와 광량을 국소적으로 올려 식욕을 강조. 구도: 젓가락으로 음식을 집는 등 액션을 추가하여 역동성 부여.",
+  "nano_banana_prompt": "A professional food photograph of [FOOD NAME], styled in a minimalist and rustic manner. The dish is served in an artisanal ceramic bowl, placed on a dark, textured wooden board. Composition is a medium shot from a 45-degree angle, creating a sense of depth with a small side dish and brass utensils slightly out of focus. The lighting is soft, diffused, natural side-lighting coming from the left, creating gentle, soft shadows to the right. The color palette is muted and earthy with warm undertones, featuring desaturated greens and rich browns. The overall mood is calm, clean, and authentic. Shot on a 85mm lens at f/2.8 for a shallow depth of field. The image has a subtle matte finish and fine film grain, reminiscent of Kodak Portra 400 film stock."
+}

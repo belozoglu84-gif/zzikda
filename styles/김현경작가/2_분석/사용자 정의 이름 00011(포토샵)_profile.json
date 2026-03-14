@@ -1,0 +1,53 @@
+{
+  "file": "사용자 정의 이름 00011(포토샵).jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 후방 (약 10시 방향)",
+    "quality": "soft",
+    "shadow_character": "부드러운 경계, 옅은 농도, 보조광으로 채워진 밝은 톤",
+    "highlight_shadow_ratio": "저대비 (Low Contrast)",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 4500,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Beige",
+      "Cream"
+    ],
+    "secondary_colors": [
+      "Brown",
+      "Orange",
+      "Green",
+      "Red"
+    ],
+    "saturation": "low",
+    "grading_style": "웜톤 모노크로매틱 (Warm-tone Monochromatic) 스타일",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "30-45도 하이앵글 (Diner's POV)",
+    "distance": "medium",
+    "estimated_lens_mm": 90,
+    "dof": "shallow",
+    "focus_point": "메인 토핑 중앙부",
+    "composition_rule": "삼분할 법칙 및 삼각형 구도"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "리넨, 세라믹, 나무, 소스 등 각 재료의 질감이 사실적으로 표현됨",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "Minimal, Natural, Well-being",
+    "target_use": "sns",
+    "keywords": [
+      "따뜻한",
+      "정갈한",
+      "편안함"
+    ]
+  },
+  "improvement_notes": "조명: 그리드를 사용해 질감을 극대화하고 네거티브 필로 입체감 강화. 색감: 배경에 쿨톤을 추가하여 색상 대비 부여. 구도: 숟가락 등 인간적인 요소를 추가하여 생동감 부여.",
+  "nano_banana_prompt": "professional food photography of [a bowl of pasta], eye-level shot, minimalist and clean composition on a linen tablecloth, warm beige background. Lighting is key: shot with a large, diffused soft light from the back-left, creating soft and gentle shadows, low contrast, warm and inviting atmosphere. Color graded in a warm, desaturated style reminiscent of Kodak Portra 400 film, with a shallow depth of field. The focus is tack sharp on the food's texture. --ar 4:3 --style raw --stylize 250"
+}

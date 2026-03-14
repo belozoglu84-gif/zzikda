@@ -1,0 +1,50 @@
+{
+  "file": "스테이크_앤밥2.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 후방 10시 방향의 측후광 (Side-Back Light)",
+    "quality": "soft",
+    "shadow_character": "매우 부드럽고 농도가 옅음. 반사판이나 보조광으로 그림자 디테일을 살림.",
+    "highlight_shadow_ratio": "로우 컨트라스트 (Low Contrast)",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5200,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Brown"
+    ],
+    "secondary_colors": [
+      "Monotone",
+      "Green"
+    ],
+    "saturation": "low",
+    "grading_style": "필름룩 (Film Look) 스타일, 암부를 살짝 띄운(Lifted Blacks) 부드러운 톤",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "약 45도 하이앵글",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "그릇 앞쪽의 고기와 깨",
+    "composition_rule": "삼분할 법칙 및 리딩 라인"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "측후광을 활용하여 음식, 그릇, 도마 등 모든 요소의 질감이 뛰어남",
+    "post_processing": "minimal"
+  },
+  "mood": {
+    "tone": "정갈함, 미니멀리즘, 따뜻함",
+    "target_use": "menu",
+    "keywords": [
+      "정갈한",
+      "따뜻한",
+      "미니멀"
+    ]
+  },
+  "improvement_notes": "조명: 그리드/스누트로 하이라이트를 강조하거나 킥커 라이트를 추가하여 입체감 향상. 색감: 채도를 높이고 보색 대비를 활용하여 활기찬 느낌 추가. 구도: 과감한 클로즈업이나 젓가락으로 집는 액션 컷으로 역동성 부여.",
+  "nano_banana_prompt": "A commercial food photography of [Your Food Here], minimalist Japanese style, shot from a 45-degree angle. Use soft and diffused side-back lighting from the 10 o'clock direction, creating gentle and subtle shadows. Shallow depth of field with a creamy bokeh background, focus is sharp on the main food texture. The color palette is desaturated and muted with warm undertones, inspired by Kodak Portra 400 film stock. The scene is set on a rustic wooden board with artisanal ceramic tableware. The overall mood is clean, warm, and sophisticated. --ar 4:5 --style raw --stylize 250"
+}

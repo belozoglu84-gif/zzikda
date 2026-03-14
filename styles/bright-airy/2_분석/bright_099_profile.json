@@ -1,0 +1,52 @@
+{
+  "file": "bright_099.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Top-right (1-2 o'clock position)",
+    "quality": "hard",
+    "shadow_character": "Deep, high-contrast shadows of a hand and leaves used as a graphic element",
+    "highlight_shadow_ratio": "High Contrast",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5400,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Orange"
+    ],
+    "secondary_colors": [
+      "Yellow",
+      "White",
+      "Light Gray",
+      "Deep Black"
+    ],
+    "saturation": "high",
+    "grading_style": "Clean & Vivid style with crushed blacks and selective color boosting",
+    "similar_film_stock": "Kodak Ektar 100"
+  },
+  "composition": {
+    "angle": "Top-down view (Flat-lay)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "Main subject (food)",
+    "composition_rule": "Central framing with strong diagonal composition"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "Smooth texture of the food is well-rendered despite the hard light",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Modern, Minimal, Graphic, Sensuous",
+    "target_use": "advertisement",
+    "keywords": [
+      "여름의오후",
+      "강렬한단순함",
+      "그림자놀이"
+    ]
+  },
+  "improvement_notes": "To enhance texture, add a faint fill light using a reflector. For a more subdued mood, slightly desaturate the background and apply an 'Orange and Teal' grade. For a classic composition, shift the subject off-center following the rule of thirds and use softer shadows.",
+  "nano_banana_prompt": "Minimalist food photography of [a single piece of mango mochi] on a simple white ceramic plate, top-down flat lay angle. The scene is set against a vibrant, saturated orange background. Lit by hard, direct sunlight from the top-right, creating long, sharp, high-contrast shadows of a human hand and tropical leaves that fall across the plate and background. The style is graphic, modern, and clean. Shot on Kodak Ektar 100, ultra-detailed, sharp focus, deep depth of field."
+}

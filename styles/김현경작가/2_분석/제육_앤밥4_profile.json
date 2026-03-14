@@ -1,0 +1,52 @@
+{
+  "file": "제육_앤밥4.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 후방 (10시 방향)의 주광원과 우측 전방 (4시 방향)의 필 라이트",
+    "quality": "soft",
+    "shadow_character": "부드럽고 넓게 퍼지는 그림자. 필 라이트로 암부 디테일을 살림",
+    "highlight_shadow_ratio": "Low-Contrast",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 5200,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Warm Brown"
+    ],
+    "secondary_colors": [
+      "Matte Black",
+      "Clean White",
+      "Appetizing Red",
+      "Fresh Green"
+    ],
+    "saturation": "medium",
+    "grading_style": "필름룩 스타일 (블랙 레벨을 살짝 띄우고 미드톤/하이라이트에 웜톤 추가)",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "45도 하이 앵글",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "제육볶음과 쌀밥이 만나는 경계선, 깨가 뿌려진 부분",
+    "composition_rule": "중앙 집중 구도와 대칭적 균형"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "무광 그릇, 윤기나는 제육볶음, 나무 도마 등 각 소재의 질감을 효과적으로 표현",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "모던하고 미니멀하지만, 따뜻함과 정성이 느껴지는 톤앤매너",
+    "target_use": "menu",
+    "keywords": [
+      "정갈한",
+      "따뜻한",
+      "미니멀"
+    ]
+  },
+  "improvement_notes": "더 드라마틱한 연출을 위해 그리드를 사용한 스팟 조명이나 강한 역광을 추가할 수 있음. 색감은 크로스 프로세싱 기법을 적용하거나, 구도는 삼분할 구도를 활용하고 사람의 손을 프레임에 넣어 역동성을 부여하는 시도가 가능함.",
+  "nano_banana_prompt": "A hyper-realistic, professional food photograph of [Your Dish Name], styled in a modern minimalist aesthetic. The dish is served in a matte black ceramic bowl, placed on a rustic dark wood board. Composition is a 45-degree angle medium shot, with the main dish slightly off-center following the rule of thirds. Lighting is soft and diffused studio light coming from the left, creating gentle, soft shadows to the right, with subtle fill light to reveal details in the shadows. The color palette is warm and inviting, color graded in the style of Kodak Portra 400 film, featuring rich natural tones and slightly lifted blacks. The background is a clean, textured off-white wall. Shot with an 85mm lens at f/5.6 for a shallow depth of field, focus is razor-sharp on the main texture of the food. --ar 4:3 --style raw"
+}

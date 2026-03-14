@@ -1,0 +1,50 @@
+{
+  "file": "bright_049.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Top-side light / Top-backlight from 10 o'clock position",
+    "quality": "hard",
+    "shadow_character": "Deep, sharp-edged shadows with high contrast",
+    "highlight_shadow_ratio": "High Contrast",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5400,
+    "white_balance": "accurate",
+    "primary_colors": [
+      "Teal"
+    ],
+    "secondary_colors": [
+      "Vibrant Yellow",
+      "Green"
+    ],
+    "saturation": "high",
+    "grading_style": "Digital high contrast style with crushed blacks and emphasized teal tones",
+    "similar_film_stock": "Kodak Ektar 100"
+  },
+  "composition": {
+    "angle": "Top-down view (Flat Lay) with a slight angle (~80 degrees)",
+    "distance": "close-up",
+    "estimated_lens_mm": 85,
+    "dof": "deep",
+    "focus_point": "Central plate with whole and sliced lemons",
+    "composition_rule": "Rule of Thirds, Diagonal Composition, Frame within a Frame"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "minimal",
+    "detail_rendering": "Vivid rendering of lemon peel texture, wet leaf surfaces, and background texture",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "Dramatic, Intense, Sophisticated",
+    "target_use": "advertisement",
+    "keywords": [
+      "여름의단편",
+      "빛과그림자",
+      "청량한긴장감"
+    ]
+  },
+  "improvement_notes": "For a more commercial look, add a soft fill light to soften shadows. For an organic feel, reduce saturation and contrast. To simplify the composition, remove the secondary plate on the bottom right.",
+  "nano_banana_prompt": "food photography of [YOUR FOOD], flat lay composition with a slight top-down angle, dramatic hard lighting from a single top-left source creating long, sharp, deep shadows, high contrast chiaroscuro effect, caustic light patterns projected from a glass of water, on a deep teal textured background, vibrant complementary color scheme, editorial and sophisticated mood, shot on Kodak Ektar 100, 85mm lens, tack sharp details, rich textures, hyper-realistic --style raw --ar 4:5"
+}

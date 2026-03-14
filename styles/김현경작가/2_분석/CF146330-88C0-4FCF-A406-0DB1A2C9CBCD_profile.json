@@ -1,0 +1,52 @@
+{
+  "file": "CF146330-88C0-4FCF-A406-0DB1A2C9CBCD.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "주 광원은 피사체의 좌측 상단, 10시 방향",
+    "quality": "soft",
+    "shadow_character": "부드럽고 깊지 않으며, 우측에서 반사판이나 필 라이트로 채워짐",
+    "highlight_shadow_ratio": "콘트라스트가 강하지 않은 부드러운 톤",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 4000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Brown"
+    ],
+    "secondary_colors": [
+      "Charcoal/Black",
+      "Orange/Brown",
+      "Green",
+      "Purple"
+    ],
+    "saturation": "low",
+    "grading_style": "필름룩 스타일, 암부를 살짝 들어올리고(lifted blacks) 암부에 미세한 청록색(Teal) 톤 가미",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "탑다운 뷰(Top-down View) / 플랫레이(Flat Lay)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "shallow",
+    "focus_point": "계란 노른자와 그 주변 고기",
+    "composition_rule": "삼분할 법칙(Rule of Thirds)과 리딩 라인(Leading Line)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "최상급. 각 재료의 질감이 사실적이면서도 아름답게 표현됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "소박하지만 정성이 담긴, 따뜻하고 편안한 분위기",
+    "target_use": "magazine",
+    "keywords": [
+      "Rustic",
+      "Warm",
+      "Authentic"
+    ]
+  },
+  "improvement_notes": "스팟 조명을 이용해 계란 노른자와 고기 부분에 스페큘러 하이라이트를 추가하고, 노른자의 오렌지색과 파의 녹색 채도를 부분적으로 높여 생동감을 더할 수 있음. 또한, 좌측 반찬 그릇을 잘라내어 더 미니멀한 구성을 시도해볼 수 있음.",
+  "nano_banana_prompt": "A top-down flat lay food photography of [Your Food Here], styled on a dark, rustic wooden table.\n\n**Lighting**: Moody and atmospheric, lit by a single large, diffused soft light source from the top-left, creating soft, gentle shadows that fall to the bottom-right. Low-contrast.\n\n**Composition**: Asymmetrical but balanced, with the main dish placed on the right following the rule of thirds. Minimal props like ceramic bowls and antique cutlery are placed strategically to create visual interest.\n\n**Color & Mood**: Warm color temperature (around 4000K), overall warm and cozy mood. A rich and deep color palette with muted saturation. The color grading has lifted blacks and a subtle teal tint in the shadows, creating a cinematic feel.\n\n**Style & Details**: Shot on Kodak Portra 400 film style, with visible fine grain. Tack sharp focus on the most delicious part of the food, with a shallow depth of field (f/2.8) that gently blurs the edges of the frame. Hyper-detailed texture, professional food styling."
+}

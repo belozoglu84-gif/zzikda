@@ -1,0 +1,51 @@
+{
+  "file": "사용자 정의 이름 00003(포토샵).jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (약 10시 방향)",
+    "quality": "soft",
+    "shadow_character": "우측 하단으로 부드럽게 떨어지며, 반사판이나 약한 보조광으로 채워짐",
+    "highlight_shadow_ratio": "약 3:1 (Low-Contrast)",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 4000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Brown",
+      "Beige"
+    ],
+    "secondary_colors": [
+      "Green",
+      "Red"
+    ],
+    "saturation": "low",
+    "grading_style": "페이드(Fade) 또는 매트(Matte) 스타일",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "아이 레벨 (Eye-Level)",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "그릇 앞쪽에 담긴 닭강정 덩어리들",
+    "composition_rule": "중앙 집중 구도 (Centered Composition)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "나무 도마의 결, 리넨 테이블클로스의 직조감, 도자기 그릇의 질감 등 소재별 텍스처 표현이 뛰어남",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "따뜻하고, 정갈하며, 미니멀한 톤앤매너",
+    "target_use": "sns",
+    "keywords": [
+      "따뜻한",
+      "미니멀",
+      "정갈함"
+    ]
+  },
+  "improvement_notes": "드라마틱한 연출을 위해 그리드/스누트로 빛을 집중시키거나 림 라이트 추가. 개성을 위해 보색 대비(Teal and Orange) 활용. 역동성을 위해 삼분할 구도 및 라이프스타일 요소 추가.",
+  "nano_banana_prompt": "/imagine prompt: A hyper-realistic, commercial food photograph of [Your Food Here], eye-level medium shot, centered composition. The food is placed in a rustic ceramic bowl on a circular wooden board. The setting is a beige linen tablecloth with a soft, warm, out-of-focus background.\n\n**Lighting**: Lit by a single, large, diffused softbox from the top-left, creating soft and gentle shadows, low-contrast, bright and airy mood.\n\n**Color**: Warm and inviting color palette, dominant earthy tones, color graded in the style of Kodak Portra 400 film, slightly desaturated, soft creamy highlights, matte shadows.\n\n**Camera**: Shot with an 85mm f/2.8 lens, shallow depth of field, tack sharp focus on the main food texture.\n\n**Details**: Fine film grain, minimalist and clean aesthetic, sophisticated and appetizing. --ar 4:3 --style raw --v 6.0"
+}

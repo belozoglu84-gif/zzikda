@@ -1,0 +1,50 @@
+{
+  "file": "bright_082.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "Top-Right Backlight",
+    "quality": "soft",
+    "shadow_character": "Shallow with a cool tone",
+    "highlight_shadow_ratio": "Low Contrast",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 6200,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Red"
+    ],
+    "secondary_colors": [
+      "Blue",
+      "White/Cream"
+    ],
+    "saturation": "low",
+    "grading_style": "Film Emulation",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "High Angle",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "shallow",
+    "focus_point": "Tomato on the blue plate",
+    "composition_rule": "Diagonal Composition"
+  },
+  "texture": {
+    "sharpness": "low",
+    "noise": "none",
+    "detail_rendering": "Realistic rendering of textures like the gauze cloth, smooth tomato skin, and rough grissini surface.",
+    "post_processing": "moderate"
+  },
+  "mood": {
+    "tone": "Relaxed, Warm, Pastoral",
+    "target_use": "sns",
+    "keywords": [
+      "나른한오후",
+      "자연주의",
+      "소박한행복"
+    ]
+  },
+  "improvement_notes": "To elevate to a high-end commercial level, use a large diffuser and a black flag for more controlled lighting and deeper shadows. Enhance color separation in post-processing to make the main subject pop. Strengthen the composition by placing the main dish on a rule-of-thirds intersection and using surrounding elements as leading lines.",
+  "nano_banana_prompt": "A high-angle medium shot of [Your Food Subject], styled for a Mediterranean picnic. The food is arranged casually on a wrinkled, white muslin cloth.\n\n**Photography Style:**\n- **Lighting:** Bathed in the warm, soft light of the golden hour. A strong key light from the top-right creates long, gentle shadows stretching to the lower-left, beautifully defining the food's texture.\n- **Color Palette:** Dominated by warm tones with cool, blue-tinted shadows. Overall colors are slightly desaturated for a gentle, nostalgic feel. The final image is color-graded to emulate the look of **Kodak Portra 400 film**, featuring lifted blacks and a warm-highlight/cool-shadow split tone.\n- **Composition:** Shot with a **50mm prime lens** at a shallow depth of field (f/2.8), keeping the main dish in sharp focus while the foreground and background are softly blurred. The mood is relaxed, natural, and serene.\n- **Details:** Soft sharpness, no digital noise, emphasizing natural textures.\n\n**Keywords:** food photography, lifestyle, natural light, airy, warm and cozy, filmic, serene afternoon, rustic elegance."
+}

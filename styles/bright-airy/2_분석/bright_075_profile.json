@@ -1,0 +1,51 @@
+{
+  "file": "bright_075.jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "피사체의 우측 상단, 1시 방향",
+    "quality": "hard",
+    "shadow_character": "콘트라스트가 매우 강하며, 어두운 부분의 디테일이 묻힐 정도로 깊음",
+    "highlight_shadow_ratio": "하이 콘트라스트 (High Contrast)",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 6000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Vibrant Green",
+      "Warm Yellow"
+    ],
+    "secondary_colors": [
+      "Natural Brown",
+      "Red/Orange"
+    ],
+    "saturation": "high",
+    "grading_style": "현대적인 상업 광고 스타일, 변형된 틸 앤 오렌지(Teal & Orange) 기법 적용",
+    "similar_film_stock": "코닥 골드 200 (Kodak Gold 200) 또는 코닥 엑타 100 (Kodak Ektar 100)"
+  },
+  "composition": {
+    "angle": "하이 앵글 (High Angle), 약 45도",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "피크닉 바구니 안의 'Bloom' 제품",
+    "composition_rule": "큐레이팅된 혼돈 (Curated Chaos) 및 대각선 구도 활용"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "none",
+    "detail_rendering": "경광을 사용하여 크루아상, 바구니, 잔디 등 피사체 표면의 질감을 극대화함",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "활기차고, 건강하며, 이상적인 여름날의 오후를 연상시키는 긍정적인 톤앤매너",
+    "target_use": "sns",
+    "keywords": [
+      "활기찬",
+      "따스한",
+      "여유로운"
+    ]
+  },
+  "improvement_notes": "조명: 반사판이나 약한 보조 조명을 사용해 강한 그림자를 부드럽게 조절하여 고급스러운 분위기 연출. 색감: 특정 색(녹색, 흰색)을 분리 보정하여 제품의 신선도 강조. 구도: 불필요한 소품(선글라스)을 제거하고 배치를 정돈하여 시선을 메인 제품에 집중 유도.",
+  "nano_banana_prompt": "/imagine prompt: A vibrant and energetic lifestyle food photography, high-angle shot at 45 degrees, capturing a curated picnic scene on lush green grass. The main subject is [Your Food/Product Here]. The scene is illuminated by bright, hard sunlight from the top-right, creating long, crisp shadows and high contrast, mimicking a golden hour feel. The color palette is dominated by warm yellows and vibrant greens, with a highly saturated and warm color temperature (6000K). The style is reminiscent of Kodak Gold 200 film, but with modern digital sharpness. Shot with a 50mm lens at f/5.6 for deep focus with slight background blur. Hyper-detailed textures on the food and surrounding props. The overall mood is aspirational, warm, and leisurely. --ar 2:3 --style raw --v 6.0"
+}

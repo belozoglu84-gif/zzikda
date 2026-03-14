@@ -1,0 +1,50 @@
+{
+  "file": "4BD36C8F-5678-4630-847E-3CE384DF482E.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10시 방향)",
+    "quality": "soft",
+    "shadow_character": "부드러운 그림자, 필 라이트로 채워져 디테일이 살아있음",
+    "highlight_shadow_ratio": "로우 콘트라스트, 로우키에 가까움",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Dark Brown"
+    ],
+    "secondary_colors": [
+      "Neutral Gray",
+      "White"
+    ],
+    "saturation": "low",
+    "grading_style": "매트 필름 룩 (Matte Film Look) with lifted blacks",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "탑다운 (플랫레이)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "deep",
+    "focus_point": "중앙 덮밥 그릇의 계란 노른자",
+    "composition_rule": "삼각형 구도"
+  },
+  "texture": {
+    "sharpness": "medium",
+    "noise": "intentional-grain",
+    "detail_rendering": "나무, 도자기, 음식의 질감이 부드러운 조명 아래 잘 표현됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "정갈하고, 차분하며, 소박한 미(美)",
+    "target_use": "magazine",
+    "keywords": [
+      "정갈한",
+      "소박한",
+      "따뜻한"
+    ]
+  },
+  "improvement_notes": "입체감을 위한 키커 라이트(Kicker Light) 추가, 음식의 신선함을 강조하기 위한 강조색(계란, 쪽파)의 채도/명도 선택적 상향 조정, 그리고 사진에 생동감을 더하기 위한 젓가락이나 손과 같은 스토리텔링 요소 추가를 제안합니다.",
+  "nano_banana_prompt": "A top-down flat lay, professional food photography of [Your Food Here], neatly arranged on a dark rustic wooden board with textured ceramic side dishes. The scene is illuminated by a large, diffused soft light from the top-left, creating gentle, soft shadows. Moody and atmospheric tone, with a desaturated and muted color palette, emphasizing rich brown and neutral tones. A vibrant accent color from the main ingredient pops against the calm background. The image has an analog film aesthetic, similar to Kodak Portra 400, featuring a matte look with slightly lifted blacks and very fine film grain. Shot on a 50mm lens with a deep depth of field (f/11), hyper-detailed, cinematic."
+}

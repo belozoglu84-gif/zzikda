@@ -1,0 +1,52 @@
+{
+  "file": "사용자 정의 이름 00012(포토샵).jpg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 후방, 약 10시 방향",
+    "quality": "soft",
+    "shadow_character": "그림자의 경계가 매우 부드럽고 농도가 옅으며, 깊지 않고 디테일이 살아있음",
+    "highlight_shadow_ratio": "저-대비 (Low Contrast)",
+    "equipment": "studio-strobe"
+  },
+  "color": {
+    "temperature_k": 4000,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "beige",
+      "ivory"
+    ],
+    "secondary_colors": [
+      "brown",
+      "green",
+      "orange"
+    ],
+    "saturation": "low",
+    "grading_style": "콘트라스트가 낮은 매트한 필름 룩 (Lifted Blacks, Compressed Highlights)",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "약 45도 각도 (Diner's POV)",
+    "distance": "medium",
+    "estimated_lens_mm": 85,
+    "dof": "shallow",
+    "focus_point": "햄버그 스테이크의 표면과 쪽파",
+    "composition_rule": "삼분할 법칙 (Rule of Thirds)"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "린넨, 나무, 도자기, 음식 등 각 재료의 질감이 훌륭하게 표현됨",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "미니멀, 내추럴, 따뜻함, 정갈함",
+    "target_use": "magazine",
+    "keywords": [
+      "정갈한",
+      "따뜻한",
+      "미니멀"
+    ]
+  },
+  "improvement_notes": "입체감을 위한 림 라이트 추가, 음식 부분의 국소적 채도/콘트라스트 강화, 김이나 손과 같은 동적 요소 추가를 통해 깊이감과 생동감을 더할 수 있음.",
+  "nano_banana_prompt": "/imagine prompt: professional food photography of [FOOD NAME], minimalist Japanese style, shot from a 45-degree angle, medium shot. The scene is illuminated by a large, diffused soft light from the top-left, creating gentle and soft shadows. The overall color palette is warm and muted, dominated by beige, cream, and natural tones. The background is a plain light-beige wall, and the surface is a light-colored linen tablecloth. The image has a low-contrast, matte, and analog film aesthetic, with lifted blacks and fine grain, reminiscent of Kodak Portra 400 film stock. Shot on an 85mm lens at f/4, shallow depth of field with the main dish in tack-sharp focus. --ar 4:3 --style raw --v 6.0"
+}

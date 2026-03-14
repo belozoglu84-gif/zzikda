@@ -1,0 +1,51 @@
+{
+  "file": "46C9991C-B5FD-455D-8BD7-29DD82916396.jpeg",
+  "category": "food",
+  "lighting": {
+    "direction": "좌측 상단 (10~11시 방향)",
+    "quality": "soft",
+    "shadow_character": "부드럽고 깊지 않은 그림자. 우측 하단에 필 라이트(반사판)를 사용한 것으로 추정됨.",
+    "highlight_shadow_ratio": "낮은 콘트라스트. 하이라이트와 섀도우의 디테일이 모두 살아있음.",
+    "equipment": "natural"
+  },
+  "color": {
+    "temperature_k": 5100,
+    "white_balance": "warm-shifted",
+    "primary_colors": [
+      "Brown",
+      "Ivory"
+    ],
+    "secondary_colors": [
+      "Savory Brown",
+      "Deep Green"
+    ],
+    "saturation": "low",
+    "grading_style": "매트한 필름룩 스타일 (Lifted Blacks)과 암부의 청록색(Teal) 톤 추가",
+    "similar_film_stock": "Kodak Portra 400"
+  },
+  "composition": {
+    "angle": "탑다운 앵글 (Top-down Angle) / 플랫레이 (Flat Lay)",
+    "distance": "medium",
+    "estimated_lens_mm": 50,
+    "dof": "shallow",
+    "focus_point": "밥 위에 올라간 닭고기와 깨, 김가루",
+    "composition_rule": "나무 도마를 활용한 수직선 구도와 대각선 배치를 통한 시선 유도"
+  },
+  "texture": {
+    "sharpness": "very-high",
+    "noise": "intentional-grain",
+    "detail_rendering": "훌륭함. 도자기, 소스, 나무, 쪽파 등 각 재료의 질감이 효과적으로 표현됨.",
+    "post_processing": "heavy"
+  },
+  "mood": {
+    "tone": "차분하고, 정갈하며, 소박한 가운데 고급스러움이 느껴지는 톤앤매너",
+    "target_use": "magazine",
+    "keywords": [
+      "정갈한",
+      "소박한_따뜻함",
+      "아날로그_감성"
+    ]
+  },
+  "improvement_notes": "맛을 더 극적으로 표현하기 위해 그림자를 깊게 만들어 입체감을 강화하거나, 음식의 채도와 명료도를 국부적으로 높여 식욕을 자극할 수 있음. 45도 앵글이나 연출 컷을 통해 역동성을 추가하는 것도 좋은 시도임.",
+  "nano_banana_prompt": "A top-down flat lay food photograph of [food name], styled in a rustic, artisanal wabi-sabi aesthetic. The main dish is served in a handmade, speckled ceramic bowl placed on a dark, weathered wooden surface. The lighting is soft, diffused, and directional, mimicking natural window light from the top-left, creating gentle, long shadows. The color palette is desaturated and earthy, dominated by warm browns, off-whites, and deep muted greens. The image has a cinematic, moody tone with a matte finish, achieved by lifting the black point and adding subtle film grain. The style is reminiscent of a Kodak Portra 400 film photograph. Shot with a 50mm lens for a natural perspective, with a shallow depth of field focusing sharply on the main food element. --ar 2:3 --style raw --v 6.0"
+}
