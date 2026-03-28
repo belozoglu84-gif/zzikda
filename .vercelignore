@@ -1,0 +1,37 @@
+# 스타일 원본/분석 데이터 (MVP에 불필요)
+styles/
+생성결과/
+클라이언트_샘플/
+포스터샘플/
+배달플랫폼_사진리사이징/
+다발김치찌개_cl/
+땡겨요사진/
+생새우살완자탕/
+생새우살완자탕_2026-03-21/
+철판함박스테이크*
+landing/
+
+# 로그/캐시
+logs/
+.omc/
+.playwright-data/
+.playwright-mcp/
+__pycache__/
+
+# 개발 파일
+scripts/
+.env
+*.py
+
+# 큰 이미지 (MVP에서 안 쓰는 것)
+dimensions/previews/background/
+dimensions/previews/angle/bright-airy_*
+dimensions/previews/angle/dark-moody_*
+dimensions/previews/angle/warm-rustic_*
+dimensions/tagged_photos.json
+dimensions/mapping_report.txt
+dimensions/fragments/
+
+# 기타
+*.jpeg
+fluid-glass-fullpage.png
