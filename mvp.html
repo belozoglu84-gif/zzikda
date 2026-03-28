@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>찍다 — AI 메뉴사진 스튜디오</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            cream: { 50: '#FFFCF7', 100: '#FFF8EE', 200: '#FFF0DB', 300: '#FFE4C2' },
+            terra: { 400: '#D4765A', 500: '#C4603E', 600: '#A84E30' },
+            bark: { 700: '#5C3D2E', 800: '#3D2B1F', 900: '#2A1C14' },
+            sage: { 300: '#B5C4A8', 400: '#8FA47D', 500: '#6B8A57' },
+            gold: { 400: '#D4A853', 500: '#C4963A' },
+          }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Pretendard:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --cream: #FFF8EE;
+      --terra: #C4603E;
+      --terra-light: #F2D6CB;
+      --bark: #3D2B1F;
+      --sage: #8FA47D;
+      --gold: #C4963A;
+    }
+    body {
+      font-family: 'Pretendard Variable', 'Pretendard', -apple-system, sans-serif;
+      background: var(--cream);
+      color: var(--bark);
+    }
+    h1, h2, h3, .heading-font { font-family: 'DM Serif Display', serif; }
+
+    /* 미세한 노이즈 텍스처 */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      opacity: 0.03;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+      z-index: 9999;
+    }
+
+    .card {
+      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      cursor: pointer;
+      background: white;
+      border: 2px solid transparent;
+    }
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 32px rgba(60, 43, 31, 0.12);
+      border-color: var(--terra-light);
+    }
+    .card.selected {
+      border-color: var(--terra);
+      box-shadow: 0 0 0 3px rgba(196, 96, 62, 0.2), 0 8px 24px rgba(60, 43, 31, 0.1);
+    }
+    .card.selected::after {
+      content: '';
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 24px;
+      height: 24px;
+      background: var(--terra);
+      border-radius: 50%;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z'/%3E%3C/svg%3E");
+      background-size: 16px;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .step-hidden { display: none; }
+    .step-visible { display: block; animation: fadeSlideIn 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+    @keyframes fadeSlideIn {
+      from { opacity: 0; transform: translateY(16px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .preview-img {
+      width: 100%;
+      aspect-ratio: 1;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+
+    .generating { animation: gentlePulse 2s ease-in-out infinite; }
+    @keyframes gentlePulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.6; }
+    }
+
+    /* 스텝 인디케이터 */
+    .step-dot {
+      width: 32px; height: 32px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 13px; font-weight: 700;
+      transition: all 0.3s;
+    }
+    .step-dot.active { background: var(--terra); color: white; }
+    .step-dot.done { background: var(--sage); color: white; }
+    .step-dot.pending { background: #E8E0D8; color: #A09080; }
+    .step-line { height: 2px; width: 40px; background: #E8E0D8; transition: background 0.3s; }
+    .step-line.done { background: var(--sage); }
+
+    /* 포인트 버튼 */
+    .btn-primary {
+      background: linear-gradient(135deg, #D4765A 0%, #C4603E 100%);
+      color: white;
+      font-weight: 700;
+      border-radius: 14px;
+      padding: 16px 32px;
+      font-size: 18px;
+      transition: all 0.2s;
+      box-shadow: 0 4px 16px rgba(196, 96, 62, 0.3);
+    }
+    .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 6px 24px rgba(196, 96, 62, 0.4); }
+    .btn-primary:disabled { opacity: 0.5; transform: none; box-shadow: none; }
+
+    .input-warm {
+      background: white;
+      border: 2px solid #E8E0D8;
+      border-radius: 12px;
+      padding: 14px 18px;
+      font-size: 16px;
+      transition: border-color 0.2s;
+      color: var(--bark);
+    }
+    .input-warm:focus { outline: none; border-color: var(--terra); }
+    .input-warm::placeholder { color: #B8A898; }
+
+    /* 결과 카드 */
+    .result-card {
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 8px 40px rgba(60, 43, 31, 0.08);
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body class="min-h-screen">
+
+  <!-- 헤더 -->
+  <header class="bg-white/80 backdrop-blur-md border-b border-cream-200 px-6 py-4 sticky top-0 z-50">
+    <div class="max-w-5xl mx-auto flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <h1 class="text-2xl heading-font text-bark-800">찍다</h1>
+        <span class="text-xs font-medium text-terra-500 bg-terra-500/10 px-2.5 py-1 rounded-full">AI 스튜디오</span>
+      </div>
+      <!-- 스텝 인디케이터 -->
+      <div class="hidden sm:flex items-center gap-0" id="stepIndicatorBar">
+        <div class="flex items-center gap-1.5">
+          <div id="dot1" class="step-dot active">1</div>
+          <span id="dotLabel1" class="text-xs font-semibold text-terra-500 ml-1">분위기</span>
+        </div>
+        <div id="line1" class="step-line mx-2"></div>
+        <div class="flex items-center gap-1.5">
+          <div id="dot2" class="step-dot pending">2</div>
+          <span id="dotLabel2" class="text-xs font-medium text-gray-400 ml-1">배경</span>
+        </div>
+        <div id="line2" class="step-line mx-2"></div>
+        <div class="flex items-center gap-1.5">
+          <div id="dot3" class="step-dot pending">3</div>
+          <span id="dotLabel3" class="text-xs font-medium text-gray-400 ml-1">앵글</span>
+        </div>
+        <div id="line3" class="step-line mx-2"></div>
+        <div class="flex items-center gap-1.5">
+          <div id="dot4" class="step-dot pending">4</div>
+          <span id="dotLabel4" class="text-xs font-medium text-gray-400 ml-1">생성</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 py-10">
+
+    <!-- Step 1: 분위기 선택 -->
+    <section id="step1" class="step-visible">
+      <div class="text-center mb-8">
+        <h2 class="text-3xl md:text-4xl heading-font mb-3">어떤 분위기로 찍을까요?</h2>
+        <p class="text-bark-700/60 text-lg">원하는 사진 느낌을 골라보세요</p>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-5" id="moodGrid"></div>
+    </section>
+
+    <!-- Step 2: 배경 선택 -->
+    <section id="step2" class="step-hidden">
+      <button onclick="goStep(1)" class="text-bark-700/50 hover:text-terra-500 mb-5 flex items-center gap-1.5 text-sm font-medium transition">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        분위기 다시 선택
+      </button>
+      <div class="text-center mb-8">
+        <p class="text-terra-500 font-semibold text-sm mb-2">
+          <span id="selectedMoodLabel"></span> 분위기 선택됨
+        </p>
+        <h2 class="text-3xl md:text-4xl heading-font mb-3">배경을 골라주세요</h2>
+        <p class="text-bark-700/60 text-lg">음식이 놓일 표면을 선택하세요</p>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-5" id="bgGrid"></div>
+    </section>
+
+    <!-- Step 3: 앵글 선택 -->
+    <section id="step3" class="step-hidden">
+      <button onclick="goStep(2)" class="text-bark-700/50 hover:text-terra-500 mb-5 flex items-center gap-1.5 text-sm font-medium transition">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        배경 다시 선택
+      </button>
+      <div class="text-center mb-8">
+        <div class="flex justify-center gap-2 mb-3">
+          <span class="text-sm font-semibold text-terra-500 bg-terra-500/10 px-3 py-1 rounded-full" id="selectedMoodLabel2"></span>
+          <span class="text-sm font-semibold text-sage-500 bg-sage-400/15 px-3 py-1 rounded-full" id="selectedBgLabel"></span>
+        </div>
+        <h2 class="text-3xl md:text-4xl heading-font mb-3">촬영 앵글을 선택하세요</h2>
+        <p class="text-bark-700/60 text-lg">어떤 각도에서 찍을지 골라주세요</p>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-5" id="angleGrid"></div>
+    </section>
+
+    <!-- Step 4: 생성 -->
+    <section id="step4" class="step-hidden">
+      <button onclick="goStep(3)" class="text-bark-700/50 hover:text-terra-500 mb-5 flex items-center gap-1.5 text-sm font-medium transition">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        앵글 다시 선택
+      </button>
+
+      <div class="text-center mb-6">
+        <h2 class="text-3xl md:text-4xl heading-font mb-4">메뉴 사진 생성</h2>
+        <!-- 선택 요약 -->
+        <div class="flex justify-center gap-2 flex-wrap">
+          <span class="text-sm font-semibold text-terra-500 bg-terra-500/10 px-3 py-1 rounded-full" id="summaryMood"></span>
+          <span class="text-sm font-semibold text-sage-500 bg-sage-400/15 px-3 py-1 rounded-full" id="summaryBg"></span>
+          <span class="text-sm font-semibold text-gold-500 bg-gold-400/15 px-3 py-1 rounded-full" id="summaryAngle"></span>
+        </div>
+      </div>
+
+      <!-- 입력 폼 -->
+      <div class="result-card p-8 mb-8 max-w-2xl mx-auto">
+        <label class="block text-sm font-semibold text-bark-700/70 mb-2">메뉴 이름 *</label>
+        <input id="foodInput" type="text" placeholder="예: 비빔밥, 김치찌개, 돈까스" class="input-warm w-full text-lg mb-5">
+
+        <!-- 참조 사진 업로드 -->
+        <label class="block text-sm font-semibold text-bark-700/70 mb-2">참조 사진 <span class="font-normal text-bark-700/40">(선택)</span></label>
+        <p class="text-xs text-bark-700/40 mb-2">내 음식 사진을 올리면 같은 음식을 선택한 스타일로 재생성</p>
+        <div id="uploadArea" class="border-2 border-dashed border-cream-300 rounded-xl p-5 text-center cursor-pointer hover:border-terra-400 hover:bg-terra-500/5 transition-all"
+             onclick="openFileDialog()">
+          <input id="fileInput" type="file" accept="image/*" class="hidden" tabindex="-1" onchange="handleFileUpload(event)">
+          <div id="uploadPlaceholder">
+            <svg class="w-8 h-8 mx-auto mb-2 text-bark-700/25" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+            <p class="text-bark-700/40 text-sm">클릭하여 사진 업로드</p>
+            <p class="text-bark-700/25 text-xs mt-1">없으면 텍스트만으로 생성</p>
+          </div>
+          <div id="uploadPreview" class="hidden">
+            <img id="uploadedImage" class="max-h-40 mx-auto rounded-lg">
+            <button onclick="event.stopPropagation(); clearUpload()" class="mt-2 text-terra-500 text-sm hover:text-terra-600 font-medium">삭제</button>
+          </div>
+        </div>
+
+        <label class="block text-sm font-semibold text-bark-700/70 mt-5 mb-2">추가 요청 <span class="font-normal text-bark-700/40">(선택)</span></label>
+        <input id="tweaksInput" type="text" placeholder="예: 소스 많이, 김치 조각 크게, 연기 효과" class="input-warm w-full mb-6">
+
+        <button id="generateBtn" onclick="generatePhoto()" class="btn-primary w-full">
+          사진 생성하기
+        </button>
+      </div>
+
+      <!-- 생성 결과 -->
+      <div id="resultArea" class="hidden max-w-2xl mx-auto">
+        <h3 class="text-2xl heading-font mb-4 text-center">생성 결과</h3>
+        <div class="result-card p-6">
+          <img id="resultImage" class="w-full rounded-2xl" />
+          <div class="mt-5 flex justify-center gap-3">
+            <a id="downloadLink" download class="inline-flex items-center gap-2 bg-bark-800 text-white font-semibold px-6 py-3 rounded-xl hover:bg-bark-900 transition">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+              다운로드
+            </a>
+            <button onclick="generatePhoto()" class="inline-flex items-center gap-2 border-2 border-bark-800/20 text-bark-800 font-semibold px-6 py-3 rounded-xl hover:bg-bark-800/5 transition">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+              다시 생성
+            </button>
+          </div>
+        </div>
+        <details class="mt-5">
+          <summary class="text-bark-700/40 text-sm cursor-pointer hover:text-bark-700/60 transition">사용된 프롬프트 보기</summary>
+          <pre id="promptPreview" class="mt-2 text-xs text-bark-700/50 bg-white p-4 rounded-xl overflow-x-auto whitespace-pre-wrap border border-cream-200"></pre>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <!-- 푸터 -->
+  <footer class="text-center py-8 text-bark-700/30 text-xs">
+    찍다 AI 스튜디오 — 자영업자를 위한 전문가급 메뉴사진
+  </footer>
+
+<script>
+// === 데이터 ===
+const MOODS = [
+  { id: 'bright-airy', ko: '밝고 경쾌한', en: 'Bright & Airy', img: '분위기 샘플/bright-airy_174.jpg' },
+  { id: 'warm-rustic', ko: '따뜻한 가정식', en: 'Warm & Rustic', img: '분위기 샘플/warm-rustic_038.jpg' },
+  { id: 'dark-moody', ko: '어둡고 무디한', en: 'Dark & Moody', img: '분위기 샘플/dark-moody_046.jpg' },
+  { id: 'film-vintage', ko: '필름 빈티지', en: 'Film Vintage', img: '분위기 샘플/film-vintage_140.jpg' },
+  { id: 'clean-minimal', ko: '클린 미니멀', en: 'Clean Minimal', img: '분위기 샘플/clean-minimal_070.jpg' },
+  { id: 'vibrant-pop', ko: '비비드 팝', en: 'Vibrant Pop', img: '분위기 샘플/vibrant-pop_002.jpg' },
+  { id: 'japanese-zen', ko: '일본식 정갈한', en: 'Japanese Zen', img: '분위기 샘플/clean-minimal_110.jpg' },
+  { id: 'street-casual', ko: '스트릿 캐주얼', en: 'Street Casual', img: '분위기 샘플/street-casual_018.jpg' },
+  { id: 'editorial', ko: '에디토리얼', en: 'Editorial', img: '분위기 샘플/overhead-editorial_116.jpg' },
+  { id: 'cinematic', ko: '시네마틱', en: 'Cinematic', img: '분위기 샘플/street-casual_037.jpg' },
+];
+
+const BACKGROUNDS = [
+  { id: 'dark-wood', ko: '어두운 나무' },
+  { id: 'light-wood', ko: '밝은 나무' },
+  { id: 'marble-tile', ko: '대리석/타일' },
+  { id: 'linen-fabric', ko: '린넨/천' },
+  { id: 'concrete', ko: '콘크리트' },
+  { id: 'korean-traditional', ko: '한지/한식 상' },
+  { id: 'plate-only', ko: '접시 위' },
+  { id: 'metal-steel', ko: '메탈' },
+  { id: 'solid-color', ko: '단색 배경' },
+  { id: 'real-restaurant', ko: '실제 매장' },
+];
+
+const ANGLES = [
+  { id: 'topview-90', ko: '탑뷰 / 플랫레이', en: '90°', img: 'docs/앵글샘플/01_topview_90.png' },
+  { id: 'high-60', ko: '하이앵글', en: '60°', img: 'docs/앵글샘플/02_high_60.png' },
+  { id: 'classic-45', ko: '클래식 45', en: '45°', img: 'docs/앵글샘플/03_classic_45.png' },
+  { id: 'low-30', ko: '로우앵글', en: '30°', img: 'docs/앵글샘플/04_low_30.png' },
+  { id: 'eyelevel-0', ko: '아이레벨 정면', en: '0°', img: 'docs/앵글샘플/05_eyelevel_0.png' },
+  { id: 'side-0', ko: '사이드 프로필', en: '0° 측면', img: 'docs/앵글샘플/06_side_0.png' },
+  { id: 'macro-closeup', ko: '매크로 클로즈업', en: '근접', img: 'docs/앵글샘플/07_macro_closeup.png' },
+  { id: 'dramatic-low', ko: '드라마틱 로우', en: '10~15°', img: 'docs/앵글샘플/08_dramatic_low_15.png' },
+  { id: 'threequarter-rear', ko: '3/4 뒤쪽', en: '45° 후방', img: 'docs/앵글샘플/09_threequarter_rear.png' },
+  { id: 'dutch-tilt', ko: '틸트/더치앵글', en: '기울임', img: 'docs/앵글샘플/10_dutch_tilt.png' },
+];
+
+// === 상태 ===
+let selected = { mood: null, bg: null, angle: null };
+
+// === 카드 생성 ===
+function createCard(item, imgSrc, onClick) {
+  const div = document.createElement('div');
+  div.className = 'card rounded-2xl overflow-hidden relative';
+  div.dataset.id = item.id;
+  div.innerHTML = `
+    <img src="${imgSrc}" alt="${item.ko}" class="preview-img" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 200%22><rect fill=%22%23F5EDE4%22 width=%22200%22 height=%22200%22/><text x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%23B8A898%22 font-size=%2213%22>${item.ko}</text></svg>'">
+    <div class="p-3">
+      <p class="font-semibold text-sm text-bark-800">${item.ko}</p>
+      ${item.en ? `<p class="text-xs text-bark-700/40 mt-0.5">${item.en}</p>` : ''}
+    </div>
+  `;
+  div.addEventListener('click', () => onClick(item, div));
+  return div;
+}
+
+function selectCard(container, card) {
+  container.querySelectorAll('.card').forEach(c => c.classList.remove('selected'));
+  card.classList.add('selected');
+}
+
+// === Step 1: 분위기 ===
+function initMoodGrid() {
+  const grid = document.getElementById('moodGrid');
+  MOODS.forEach(mood => {
+    const img = mood.img || `dimensions/previews/mood/${mood.id}.jpg`;
+    const card = createCard(mood, img, (item, el) => {
+      selected.mood = item;
+      selectCard(grid, el);
+      setTimeout(() => goStep(2), 300);
+    });
+    grid.appendChild(card);
+  });
+}
+
+// === Step 2: 배경 ===
+function initBgGrid() {
+  const grid = document.getElementById('bgGrid');
+  grid.innerHTML = '';
+  document.getElementById('selectedMoodLabel').textContent = selected.mood.ko;
+
+  BACKGROUNDS.forEach(bg => {
+    const img = `dimensions/previews/background-only/${bg.id}.jpg`;
+    const card = createCard(bg, img, (item, el) => {
+      selected.bg = item;
+      selectCard(grid, el);
+      setTimeout(() => goStep(3), 300);
+    });
+    grid.appendChild(card);
+  });
+}
+
+// === Step 3: 앵글 ===
+function initAngleGrid() {
+  const grid = document.getElementById('angleGrid');
+  grid.innerHTML = '';
+  document.getElementById('selectedMoodLabel2').textContent = selected.mood.ko;
+  document.getElementById('selectedBgLabel').textContent = selected.bg.ko;
+
+  ANGLES.forEach(angle => {
+    const img = angle.img || `dimensions/previews/angle/${angle.id}.jpg`;
+    const card = createCard(angle, img, (item, el) => {
+      selected.angle = item;
+      selectCard(grid, el);
+      setTimeout(() => goStep(4), 300);
+    });
+    grid.appendChild(card);
+  });
+}
+
+// === Step 4: 생성 ===
+function initGenerate() {
+  document.getElementById('summaryMood').textContent = selected.mood.ko;
+  document.getElementById('summaryBg').textContent = selected.bg.ko;
+  document.getElementById('summaryAngle').textContent = selected.angle.ko;
+  document.getElementById('resultArea').classList.add('hidden');
+  document.getElementById('foodInput').focus();
+}
+
+// === 프롬프트 조합 ===
+const FRAGMENTS = {
+  mood: {
+    'bright-airy': 'bright and airy high-key lighting, soft diffused natural light, warm color temperature around 5400K, Kodak Portra 400 film style, low contrast with lifted blacks, clean and fresh atmosphere, vibrant yet gentle tones',
+    'warm-rustic': 'warm and cozy atmosphere, soft golden hour lighting, warm color temperature around 4500K, rustic homestyle feel, gentle shadows, nostalgic and comforting mood, slightly desaturated warm tones',
+    'dark-moody': 'dramatic low-key lighting, deep rich shadows, chiaroscuro style, dark and moody atmosphere, single directional light source, high contrast, cinematic color grading with teal and orange tones, mysterious and elegant',
+    'film-vintage': 'vintage film photography aesthetic, visible fine grain, faded blacks with lifted shadow tones, retro color palette, warm analog feel, reminiscent of Kodak Gold 200 or Fuji Superia, nostalgic and timeless',
+    'clean-minimal': 'clean and minimal aesthetic, bright even lighting, neutral white balance, simple and uncluttered composition, modern and sophisticated, high-key with soft shadows, crisp and precise',
+    'vibrant-pop': 'vibrant and bold color palette, highly saturated vivid colors, pop art inspired, bright punchy lighting, playful and energetic mood, strong color contrast, eye-catching and dynamic',
+    'japanese-zen': 'serene Japanese wabi-sabi aesthetic, soft diffused lighting, muted and restrained color palette, zen-like calm and balance, elegant simplicity, subtle earthy tones, meditative and refined atmosphere',
+    'street-casual': 'natural candid street photography style, available ambient light, casual and authentic atmosphere, lifestyle documentary feel, slightly imperfect and spontaneous, real-world setting',
+    'editorial': 'editorial magazine quality, professional studio lighting setup, polished and styled, high-end food magazine aesthetic, precise and intentional composition, commercial photography grade',
+    'cinematic': 'cinematic film still quality, anamorphic lens feel, dramatic directional lighting, teal and orange color grading, movie scene atmosphere, shallow depth of field with beautiful bokeh, epic and storytelling mood',
+  },
+  background: {
+    'dark-wood': 'on a rustic dark wooden table surface, natural wood grain texture visible, warm brown and walnut tones',
+    'light-wood': 'on a light natural wood table, pale oak or pine surface, bright and airy wooden texture',
+    'marble-tile': 'on a white marble or ceramic tile surface, subtle veining pattern, clean and elegant stone texture',
+    'linen-fabric': 'on a natural linen cloth or textured fabric, soft wrinkled textile surface, warm and organic feel',
+    'concrete': 'on a raw concrete or cement surface, industrial gray texture, minimalist and urban feel',
+    'korean-traditional': 'on a traditional Korean wooden soban table or hanji paper surface, authentic Korean dining setting, warm traditional aesthetics',
+    'plate-only': 'isolated on a clean plate, minimal background, focus entirely on the dish, negative space around the plate',
+    'metal-steel': 'on a brushed metal or stainless steel surface, industrial kitchen aesthetic, reflective metallic texture',
+    'solid-color': 'on a solid colored backdrop, clean studio background, bold single-color surface for maximum contrast',
+    'real-restaurant': 'in a real restaurant or cafe setting, ambient interior background with soft bokeh, authentic dining environment',
+  },
+  angle: {
+    'topview-90': 'shot from directly above, top-down flat lay perspective, 90-degree overhead angle, deep depth of field with everything in sharp focus',
+    'high-60': 'shot from a 60-degree high angle, standing perspective looking down at the dish, showing depth and volume',
+    'classic-45': 'shot from a 45-degree angle, classic three-quarter view showing both top and side of the dish, the most natural dining perspective',
+    'low-30': 'shot from a low 30-degree angle looking slightly up at the dish, emphasizing height and creating a premium imposing feel',
+    'eyelevel-0': 'shot at eye level, straight-on front view at 0 degrees, emphasizing the height and layers of the dish, shallow depth of field',
+    'side-0': 'shot from the side at 0 degrees, profile view emphasizing thickness and silhouette of the dish, cross-section visible',
+    'macro-closeup': 'extreme macro close-up shot at 45 degrees, ultra detailed texture of the food surface, every grain and droplet visible, very shallow depth of field',
+    'dramatic-low': 'shot from a dramatic low angle at 10-15 degrees, looking up at the dish from near table level, epic and towering perspective',
+    'threequarter-rear': 'shot from three-quarter rear angle at 45 degrees from behind, steam and smoke rising toward the camera, atmospheric and appetizing',
+    'dutch-tilt': 'shot with a dynamic dutch angle tilt, camera tilted for energetic unconventional perspective, adding movement and excitement',
+  }
+};
+
+function buildPrompt(food, mood, bg, angle, tweaks) {
+  let parts = [
+    `Professional Korean food photography of ${food}`,
+    FRAGMENTS.mood[mood] || '',
+    FRAGMENTS.background[bg] || '',
+    FRAGMENTS.angle[angle] || '',
+  ];
+  if (tweaks) parts.push(`additional details: ${tweaks}`);
+  parts.push('editorial food magazine quality, ultra detailed, 8K resolution');
+  return parts.filter(p => p).join(', ');
+}
+
+// === 파일 다이얼로그 ===
+function openFileDialog() {
+  document.getElementById('fileInput').click();
+}
+
+// === 사진 업로드 처리 ===
+let uploadedFileBase64 = null;
+let uploadedFileMime = null;
+
+function handleFileUpload(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = (e) => {
+    const dataUrl = e.target.result;
+    uploadedFileMime = dataUrl.split(';')[0].split(':')[1];
+    uploadedFileBase64 = dataUrl.split(',')[1];
+    document.getElementById('uploadedImage').src = dataUrl;
+    document.getElementById('uploadPlaceholder').classList.add('hidden');
+    document.getElementById('uploadPreview').classList.remove('hidden');
+  };
+  reader.readAsDataURL(file);
+}
+
+function clearUpload() {
+  uploadedFileBase64 = null;
+  uploadedFileMime = null;
+  document.getElementById('fileInput').value = '';
+  document.getElementById('uploadPlaceholder').classList.remove('hidden');
+  document.getElementById('uploadPreview').classList.add('hidden');
+}
+
+// === API ===
+const API_KEY = 'AIzaSyDXmzuFwHCshowthB8MVxyCRWj6q3Vw654';
+const MODEL = 'gemini-3-pro-image-preview';
+
+async function generatePhoto() {
+  const food = document.getElementById('foodInput').value.trim();
+  if (!food) { alert('메뉴 이름을 입력해주세요'); return; }
+
+  const tweaks = document.getElementById('tweaksInput').value.trim();
+  const prompt = buildPrompt(food, selected.mood.id, selected.bg.id, selected.angle.id, tweaks);
+
+  const btn = document.getElementById('generateBtn');
+  btn.textContent = '생성 중... (30초~1분 소요)';
+  btn.disabled = true;
+  btn.classList.add('generating');
+  document.getElementById('promptPreview').textContent = prompt;
+  document.getElementById('resultArea').classList.remove('hidden');
+  document.getElementById('resultImage').src = '';
+  document.getElementById('resultImage').alt = '생성 중...';
+
+  try {
+    let parts = [];
+    if (uploadedFileBase64) {
+      parts.push({ inlineData: { mimeType: uploadedFileMime, data: uploadedFileBase64 } });
+      parts.push({ text: `이 음식 사진을 참고해서 같은 음식을 다음 스타일로 전문가급 사진으로 재생성해주세요. 원본 음식의 형태와 구성을 유지하되, 조명/배경/앵글/분위기만 변경합니다:\n\n${prompt}` });
+    } else {
+      parts.push({ text: prompt });
+    }
+
+    const response = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${API_KEY}`,
+      {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          contents: [{ parts }],
+          generationConfig: { responseModalities: ['TEXT', 'IMAGE'], temperature: 1.0 }
+        })
+      }
+    );
+
+    const data = await response.json();
+    if (data.error) throw new Error(data.error.message || JSON.stringify(data.error));
+
+    const resParts = data.candidates?.[0]?.content?.parts || [];
+    let imageFound = false;
+    for (const part of resParts) {
+      if (part.inlineData) {
+        const imgSrc = `data:${part.inlineData.mimeType};base64,${part.inlineData.data}`;
+        document.getElementById('resultImage').src = imgSrc;
+        document.getElementById('downloadLink').href = imgSrc;
+        document.getElementById('downloadLink').download = `${food}_${selected.mood.id}_${selected.bg.id}_${selected.angle.id}.png`;
+        imageFound = true;
+        break;
+      }
+    }
+
+    if (!imageFound) {
+      const textParts = resParts.filter(p => p.text).map(p => p.text).join('\n');
+      document.getElementById('resultImage').alt = '이미지 생성 실패: ' + (textParts || '다시 시도해주세요');
+    }
+  } catch (err) {
+    alert(`생성 실패: ${err.message}`);
+  }
+
+  resetBtn();
+}
+
+function resetBtn() {
+  const btn = document.getElementById('generateBtn');
+  btn.textContent = '사진 생성하기';
+  btn.disabled = false;
+  btn.classList.remove('generating');
+}
+
+// === 네비게이션 ===
+const stepLabels = ['분위기', '배경', '앵글', '생성'];
+
+function goStep(n) {
+  for (let i = 1; i <= 4; i++) {
+    document.getElementById(`step${i}`).className = i === n ? 'step-visible' : 'step-hidden';
+
+    const dot = document.getElementById(`dot${i}`);
+    const label = document.getElementById(`dotLabel${i}`);
+    if (i < n) {
+      dot.className = 'step-dot done';
+      dot.textContent = '';
+      dot.innerHTML = '<svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>';
+      label.className = 'text-xs font-medium text-sage-500 ml-1';
+    } else if (i === n) {
+      dot.className = 'step-dot active';
+      dot.innerHTML = i;
+      label.className = 'text-xs font-semibold text-terra-500 ml-1';
+    } else {
+      dot.className = 'step-dot pending';
+      dot.innerHTML = i;
+      label.className = 'text-xs font-medium text-gray-400 ml-1';
+    }
+
+    if (i < 4) {
+      const line = document.getElementById(`line${i}`);
+      line.className = i < n ? 'step-line done mx-2' : 'step-line mx-2';
+    }
+  }
+
+  if (n === 2) initBgGrid();
+  if (n === 3) initAngleGrid();
+  if (n === 4) initGenerate();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// === 초기화 ===
+initMoodGrid();
+</script>
+
+</body>
+</html>

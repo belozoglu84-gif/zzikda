@@ -1,0 +1,210 @@
+{
+  "version": "1.0",
+  "description": "찍다 — 4차원 음식사진 스타일 분류 체계",
+  "dimensions": {
+    "mood": {
+      "name_ko": "분위기",
+      "name_en": "Mood",
+      "description": "사진의 전체적인 톤과 감성",
+      "values": {
+        "mood-bright-airy": {
+          "name_ko": "밝고 경쾌한",
+          "name_en": "Bright & Airy",
+          "keywords": ["bright", "airy", "light", "fresh", "clean", "vivid", "밝", "경쾌", "산뜻", "화사", "신선"]
+        },
+        "mood-warm-rustic": {
+          "name_ko": "따뜻한 가정식",
+          "name_en": "Warm & Rustic",
+          "keywords": ["warm", "rustic", "cozy", "homey", "comfort", "따뜻", "가정", "아늑", "정겨운", "소박"]
+        },
+        "mood-dark-moody": {
+          "name_ko": "어둡고 무디한",
+          "name_en": "Dark & Moody",
+          "keywords": ["dark", "moody", "dramatic", "cinematic", "low-key", "어두", "무디", "드라마틱", "시네마틱"]
+        },
+        "mood-film-vintage": {
+          "name_ko": "필름 빈티지",
+          "name_en": "Film Vintage",
+          "keywords": ["vintage", "retro", "film", "analog", "nostalgic", "빈티지", "레트로", "필름", "아날로그", "복고"]
+        },
+        "mood-clean-minimal": {
+          "name_ko": "클린 미니멀",
+          "name_en": "Clean Minimal",
+          "keywords": ["clean", "minimal", "simple", "pure", "elegant", "클린", "미니멀", "깔끔", "정갈", "심플"]
+        },
+        "mood-vibrant-pop": {
+          "name_ko": "비비드 팝",
+          "name_en": "Vibrant Pop",
+          "keywords": ["vibrant", "pop", "colorful", "bold", "saturated", "비비드", "팝", "컬러풀", "선명", "톡톡"]
+        },
+        "mood-japanese-zen": {
+          "name_ko": "일본식 정갈한",
+          "name_en": "Japanese Zen",
+          "keywords": ["japanese", "zen", "wabi-sabi", "serene", "일본", "젠", "와비사비", "고요", "정갈"]
+        },
+        "mood-street-casual": {
+          "name_ko": "스트릿 캐주얼",
+          "name_en": "Street Casual",
+          "keywords": ["street", "casual", "natural", "candid", "lifestyle", "스트릿", "캐주얼", "자연스러운", "일상"]
+        },
+        "mood-editorial": {
+          "name_ko": "에디토리얼 매거진",
+          "name_en": "Editorial Magazine",
+          "keywords": ["editorial", "magazine", "professional", "studio", "에디토리얼", "매거진", "화보", "스튜디오"]
+        },
+        "mood-cinematic": {
+          "name_ko": "시네마틱",
+          "name_en": "Cinematic",
+          "keywords": ["cinematic", "movie", "dramatic lighting", "teal orange", "시네마틱", "영화", "극적"]
+        }
+      }
+    },
+    "background": {
+      "name_ko": "배경",
+      "name_en": "Background",
+      "description": "음식이 놓인 표면/배경",
+      "values": {
+        "bg-dark-wood": {
+          "name_ko": "어두운 나무 테이블",
+          "name_en": "Dark Wood",
+          "keywords": ["dark wood", "dark wooden", "walnut", "dark table", "어두운 나무", "원목", "호두나무"]
+        },
+        "bg-light-wood": {
+          "name_ko": "밝은 나무 테이블",
+          "name_en": "Light Wood",
+          "keywords": ["light wood", "light wooden", "oak", "pine", "bamboo", "밝은 나무", "오크", "소나무", "대나무"]
+        },
+        "bg-marble-tile": {
+          "name_ko": "대리석/타일",
+          "name_en": "Marble / Tile",
+          "keywords": ["marble", "tile", "stone", "granite", "terrazzo", "대리석", "타일", "돌", "테라조"]
+        },
+        "bg-linen-fabric": {
+          "name_ko": "린넨/천",
+          "name_en": "Linen / Fabric",
+          "keywords": ["linen", "fabric", "cloth", "textile", "napkin", "린넨", "천", "패브릭", "냅킨"]
+        },
+        "bg-concrete": {
+          "name_ko": "콘크리트/시멘트",
+          "name_en": "Concrete",
+          "keywords": ["concrete", "cement", "industrial", "gray surface", "콘크리트", "시멘트", "회색"]
+        },
+        "bg-korean-traditional": {
+          "name_ko": "한지/한식 상",
+          "name_en": "Korean Traditional",
+          "keywords": ["korean", "hanji", "traditional", "banquet", "한지", "한식", "소반", "밥상", "전통"]
+        },
+        "bg-plate-only": {
+          "name_ko": "접시 위",
+          "name_en": "On Plate Only",
+          "keywords": ["plate only", "isolated", "white plate", "접시 위", "단독", "화이트 플레이트"]
+        },
+        "bg-metal-steel": {
+          "name_ko": "스테인리스/메탈",
+          "name_en": "Metal / Steel",
+          "keywords": ["metal", "steel", "stainless", "iron", "copper", "메탈", "스테인리스", "철판", "구리"]
+        },
+        "bg-solid-color": {
+          "name_ko": "컬러 단색 배경",
+          "name_en": "Solid Color",
+          "keywords": ["solid color", "solid background", "colored backdrop", "단색", "컬러 배경", "배경지"]
+        },
+        "bg-real-restaurant": {
+          "name_ko": "실제 매장 배경",
+          "name_en": "Real Restaurant",
+          "keywords": ["restaurant", "cafe", "real setting", "매장", "카페", "식당", "실제 환경"]
+        }
+      }
+    },
+    "angle": {
+      "name_ko": "앵글",
+      "name_en": "Angle",
+      "description": "촬영 각도",
+      "values": {
+        "angle-topdown": {
+          "name_ko": "탑다운 / 플랫레이",
+          "name_en": "Top-down (90°)",
+          "keywords": ["top-down", "topdown", "flat lay", "flatlay", "overhead", "90", "탑다운", "플랫레이", "위에서", "버드아이"]
+        },
+        "angle-high-45": {
+          "name_ko": "하이앵글 (45도)",
+          "name_en": "High Angle (45°)",
+          "keywords": ["45", "high angle", "three-quarter", "하이앵글", "45도", "사선"]
+        },
+        "angle-eye-level": {
+          "name_ko": "아이레벨 (정면)",
+          "name_en": "Eye Level (0°)",
+          "keywords": ["eye level", "straight on", "front", "아이레벨", "정면", "눈높이"]
+        },
+        "angle-low": {
+          "name_ko": "로우앵글",
+          "name_en": "Low Angle (-15°)",
+          "keywords": ["low angle", "below", "로우앵글", "아래에서"]
+        },
+        "angle-dynamic-tilt": {
+          "name_ko": "다이내믹 틸트",
+          "name_en": "Dynamic Tilt",
+          "keywords": ["tilt", "dutch angle", "dynamic", "다이내믹", "틸트", "기울어진"]
+        }
+      }
+    },
+    "props": {
+      "name_ko": "소품",
+      "name_en": "Props",
+      "description": "음식 주변 소품 (복수 선택 가능)",
+      "multiple": true,
+      "values": {
+        "prop-chopsticks": {
+          "name_ko": "젓가락/수저",
+          "name_en": "Chopsticks / Spoon",
+          "keywords": ["chopstick", "spoon", "utensil", "cutlery", "fork", "젓가락", "수저", "숟가락", "포크"]
+        },
+        "prop-napkin": {
+          "name_ko": "냅킨/천",
+          "name_en": "Napkin / Fabric",
+          "keywords": ["napkin", "cloth", "towel", "냅킨", "천", "행주"]
+        },
+        "prop-herbs": {
+          "name_ko": "허브/채소 장식",
+          "name_en": "Herbs / Garnish",
+          "keywords": ["herb", "basil", "parsley", "garnish", "green onion", "허브", "바질", "파슬리", "장식", "파"]
+        },
+        "prop-beverage": {
+          "name_ko": "음료/물잔",
+          "name_en": "Beverage / Glass",
+          "keywords": ["beverage", "drink", "glass", "water", "wine", "음료", "물잔", "와인", "컵"]
+        },
+        "prop-condiments": {
+          "name_ko": "양념통/소스",
+          "name_en": "Condiments / Sauce",
+          "keywords": ["condiment", "sauce", "seasoning", "dipping", "양념", "소스", "간장", "고추장"]
+        },
+        "prop-side-dishes": {
+          "name_ko": "사이드 반찬",
+          "name_en": "Side Dishes",
+          "keywords": ["side dish", "banchan", "side", "반찬", "사이드", "곁들임"]
+        },
+        "prop-hands": {
+          "name_ko": "손/사람",
+          "name_en": "Human Hands",
+          "keywords": ["hand", "human", "person", "holding", "손", "사람", "잡고"]
+        },
+        "prop-flowers": {
+          "name_ko": "꽃/식물",
+          "name_en": "Flowers / Plants",
+          "keywords": ["flower", "plant", "botanical", "꽃", "식물", "화분"]
+        },
+        "prop-empty-dish": {
+          "name_ko": "빈 접시/그릇",
+          "name_en": "Empty Dishes",
+          "keywords": ["empty dish", "empty plate", "bowl", "빈 접시", "빈 그릇", "볼"]
+        },
+        "prop-none": {
+          "name_ko": "없음",
+          "name_en": "None",
+          "keywords": ["none", "no props", "없음", "단독"]
+        }
+      }
+    }
+  }
+}

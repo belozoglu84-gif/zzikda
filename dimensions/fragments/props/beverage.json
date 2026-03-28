@@ -1,0 +1,6 @@
+{
+  "id": "prop-beverage",
+  "name_ko": "음료/물잔",
+  "name_en": "Beverage / Glass",
+  "prompt_fragment": "with a glass of water or beverage placed nearby"
+}

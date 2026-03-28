@@ -1,0 +1,378 @@
+============================================================
+  찍다 — 차원 재분류 매핑 리포트
+============================================================
+
+전체 프로필 수: 841
+
+--- 분위기 (mood) ---
+  mood-warm-rustic: 210장 (25.0%)
+  mood-dark-moody: 194장 (23.1%)
+  mood-bright-airy: 171장 (20.3%)
+  mood-clean-minimal: 94장 (11.2%)
+  mood-film-vintage: 78장 (9.3%)
+  mood-vibrant-pop: 71장 (8.4%)
+  mood-street-casual: 15장 (1.8%)
+  mood-japanese-zen: 6장 (0.7%)
+  mood-cinematic: 2장 (0.2%)
+  → 분류 성공: 841/841 (100.0%)
+  → 미분류: 0장
+
+--- 배경 (background) ---
+  unknown: 304장 (36.1%) ⚠️
+  bg-marble-tile: 233장 (27.7%)
+  bg-linen-fabric: 141장 (16.8%)
+  bg-dark-wood: 59장 (7.0%)
+  bg-concrete: 33장 (3.9%)
+  bg-real-restaurant: 32장 (3.8%)
+  bg-metal-steel: 17장 (2.0%)
+  bg-korean-traditional: 8장 (1.0%)
+  bg-light-wood: 7장 (0.8%)
+  bg-solid-color: 4장 (0.5%)
+  bg-plate-only: 3장 (0.4%)
+  → 분류 성공: 537/841 (63.9%)
+  → 미분류: 304장
+
+--- 앵글 (angle) ---
+  angle-high-45: 345장 (41.0%)
+  angle-topdown: 315장 (37.5%)
+  angle-eye-level: 162장 (19.3%)
+  angle-low: 9장 (1.1%)
+  unknown: 6장 (0.7%) ⚠️
+  angle-dynamic-tilt: 4장 (0.5%)
+  → 분류 성공: 835/841 (99.3%)
+  → 미분류: 6장
+
+--- 소품 (props) ---
+  prop-side-dishes: 328장 (39.0%)
+  prop-hands: 219장 (26.0%)
+  prop-none: 216장 (25.7%)
+  prop-empty-dish: 145장 (17.2%)
+  prop-chopsticks: 139장 (16.5%)
+  prop-napkin: 137장 (16.3%)
+  prop-beverage: 93장 (11.1%)
+  prop-herbs: 78장 (9.3%)
+  prop-condiments: 45장 (5.4%)
+  prop-flowers: 19장 (2.3%)
+
+--- 미분류 항목 상세 ---
+  street-casual_003: background
+  street-casual_005: background
+  street-casual_010: background
+  street-casual_013: background
+  street-casual_014: background
+  street-casual_015: background
+  street-casual_017: background
+  street-casual_018: background
+  street-casual_020: background
+  street-casual_022: background
+  street-casual_024: background
+  street-casual_026: background
+  street-casual_028: background
+  street-casual_030: background
+  street-casual_031: background
+  street-casual_034: background
+  street-casual_036: background
+  street-casual_037: background
+  street-casual_039: background
+  street-casual_042: background
+  street-casual_043: background
+  street-casual_044: background
+  street-casual_045: background
+  street-casual_047: background
+  street-casual_048: background
+  street-casual_050: background
+  street-casual_051: background
+  street-casual_056: background
+  street-casual_062: background
+  street-casual_065: background
+  street-casual_067: background
+  street-casual_069: background
+  street-casual_073: background
+  street-casual_074: background
+  street-casual_075: background
+  street-casual_076: background
+  street-casual_079: background
+  street-casual_083: background
+  street-casual_087: background
+  street-casual_090: background
+  street-casual_091: background
+  street-casual_093: background
+  street-casual_094: background
+  bright-airy_003: background
+  bright-airy_004: background
+  bright-airy_005: background
+  bright-airy_006: background
+  bright-airy_008: background
+  bright-airy_009: background
+  bright-airy_013: background
+  bright-airy_018: background
+  bright-airy_022: background
+  bright-airy_025: background
+  bright-airy_028: background
+  bright-airy_031: background
+  bright-airy_036: background
+  bright-airy_038: background
+  bright-airy_039: background
+  bright-airy_043: background
+  bright-airy_045: background
+  bright-airy_051: background
+  bright-airy_055: background
+  bright-airy_057: background
+  bright-airy_066: background
+  bright-airy_071: background
+  bright-airy_072: background
+  bright-airy_075: background
+  bright-airy_097: background
+  bright-airy_106: background
+  bright_004: background
+  bright_005: background
+  bright_010: background
+  bright_011: background
+  bright_012: background
+  bright_014: background
+  bright_015: angle
+  bright_018: background
+  bright_023: background
+  bright_024: background
+  bright_028: background
+  bright_030: background
+  bright_032: background
+  bright_037: background
+  bright_040: background
+  bright_043: background
+  bright_049: background
+  bright_051: background
+  bright_056: background
+  bright_057: background
+  bright_060: background
+  bright_062: background
+  bright_067: background
+  bright_071: background
+  bright_076: background
+  bright_077: background
+  bright_078: background
+  bright_093: background
+  bright_094: background
+  bright_099: background
+  bright_100: background
+  clean-minimal_005: background
+  clean-minimal_007: background
+  clean-minimal_013: background
+  clean-minimal_014: background
+  clean-minimal_015: background
+  clean-minimal_016: background
+  clean-minimal_019: background
+  clean-minimal_024: background
+  clean-minimal_025: background
+  clean-minimal_026: background
+  clean-minimal_027: background
+  clean-minimal_030: background
+  clean-minimal_034: background
+  clean-minimal_037: background
+  clean-minimal_040: angle
+  clean-minimal_043: background
+  clean-minimal_044: background
+  clean-minimal_046: background
+  clean-minimal_048: background
+  clean-minimal_050: background
+  clean-minimal_052: background
+  clean-minimal_053: background
+  clean-minimal_059: background
+  clean-minimal_060: background
+  clean-minimal_061: background
+  clean-minimal_064: background
+  clean-minimal_065: background
+  clean-minimal_068: background
+  clean-minimal_071: angle
+  clean-minimal_089: background
+  clean-minimal_094: background
+  clean-minimal_100: background
+  clean-minimal_101: background
+  clean-minimal_105: background
+  clean-minimal_111: background
+  clean-minimal_117: background
+  dark-moody_001: background
+  dark-moody_002: background
+  dark-moody_005: background
+  dark-moody_006: background
+  dark-moody_007: background
+  dark-moody_008: background
+  dark-moody_010: background
+  dark-moody_012: background
+  dark-moody_013: background
+  dark-moody_015: background
+  dark-moody_016: background
+  dark-moody_021: background
+  dark-moody_023: background
+  dark-moody_024: background
+  dark-moody_027: background
+  dark-moody_028: background
+  dark-moody_032: background
+  dark-moody_036: background
+  dark-moody_037: background
+  dark-moody_038: background
+  dark-moody_043: angle
+  dark-moody_044: background
+  dark-moody_045: background
+  dark-moody_046: background
+  dark-moody_047: background
+  dark-moody_049: background
+  dark-moody_050: background
+  dark-moody_052: background
+  dark-moody_056: background
+  dark-moody_059: background
+  dark-moody_065: background
+  dark-moody_066: background
+  dark-moody_073: background
+  dark-moody_075: background
+  dark-moody_077: background
+  dark-moody_087: background
+  dark-moody_088: background
+  dark-moody_092: background
+  dark-moody_101: background
+  dark-moody_104: background
+  dark-moody_108: background
+  film-vintage_002: background
+  film-vintage_007: background
+  film-vintage_012: background
+  film-vintage_014: background
+  film-vintage_015: background
+  film-vintage_016: background
+  film-vintage_018: background
+  film-vintage_020: background
+  film-vintage_022: background
+  film-vintage_024: background
+  film-vintage_027: background
+  film-vintage_029: background
+  film-vintage_031: background
+  film-vintage_035: background
+  film-vintage_036: background
+  film-vintage_039: background
+  film-vintage_040: background
+  film-vintage_042: background
+  film-vintage_043: background
+  film-vintage_044: background
+  film-vintage_045: background
+  film-vintage_058: background
+  film-vintage_059: background
+  film-vintage_062: angle
+  film-vintage_071: background
+  film-vintage_079: background
+  film-vintage_104: background
+  film-vintage_107: background
+  film-vintage_108: background
+  film-vintage_111: background
+  clean-minimal_076: background
+  overhead-editorial_006: background
+  overhead-editorial_018: background
+  overhead-editorial_020: background
+  overhead-editorial_032: background
+  overhead-editorial_033: background
+  overhead-editorial_041: background
+  overhead-editorial_043: background
+  overhead-editorial_049: background
+  overhead-editorial_050: background
+  overhead-editorial_063: background
+  overhead-editorial_069: background
+  overhead-editorial_074: background
+  overhead-editorial_076: background
+  overhead-editorial_078: background
+  overhead-editorial_100: background
+  street-casual_054: background
+  street-casual_066: background
+  street-casual_081: background
+  street-casual_085: background
+  street-casual_092: background
+  street-casual_097: background
+  vibrant-pop_001: angle
+  vibrant-pop_003: background
+  vibrant-pop_005: background
+  vibrant-pop_009: background
+  vibrant-pop_010: background
+  vibrant-pop_012: background
+  vibrant-pop_013: background
+  vibrant-pop_014: background
+  vibrant-pop_016: background
+  vibrant-pop_021: background
+  vibrant-pop_022: background
+  vibrant-pop_023: background
+  vibrant-pop_024: background
+  vibrant-pop_025: background
+  vibrant-pop_031: background
+  vibrant-pop_035: background
+  vibrant-pop_037: background
+  vibrant-pop_038: background
+  vibrant-pop_043: background
+  vibrant-pop_044: background
+  vibrant-pop_045: background
+  vibrant-pop_048: background
+  vibrant-pop_058: background
+  vibrant-pop_070: background
+  vibrant-pop_072: background
+  vibrant-pop_076: background
+  vibrant-pop_077: background
+  vibrant-pop_079: background
+  vibrant-pop_084: background
+  vibrant-pop_087: background
+  vibrant-pop_092: background
+  vibrant-pop_100: background
+  vibrant-pop_106: background
+  vibrant-pop_109: background
+  vibrant-pop_110: background
+  warm-rustic_001: background
+  warm-rustic_002: background
+  warm-rustic_003: background
+  warm-rustic_006: background
+  warm-rustic_008: background
+  warm-rustic_011: background
+  warm-rustic_015: background
+  warm-rustic_017: background
+  warm-rustic_018: background
+  warm-rustic_019: background
+  warm-rustic_020: background
+  warm-rustic_022: background
+  warm-rustic_023: background
+  warm-rustic_027: background
+  warm-rustic_030: background
+  warm-rustic_032: background
+  warm-rustic_034: background
+  warm-rustic_037: background
+  warm-rustic_041: background
+  warm-rustic_042: background
+  warm-rustic_044: background
+  warm-rustic_047: background
+  warm-rustic_058: background
+  warm-rustic_061: background
+  warm-rustic_075: background
+  warm-rustic_076: background
+  warm-rustic_078: background
+  warm-rustic_087: background
+  warm-rustic_106: background
+  014D9801-23A5-455E-8202-74DFD31BC71B: background
+  4BD36C8F-5678-4630-847E-3CE384DF482E: background
+  5451CA17-EC8B-42F6-8D4C-232393577129: background
+  61EC75C4-835E-4F15-ADEE-AB2186ACA0E1: background
+  887117CD-24B9-423F-A82B-279FB6C9FC9B: background
+  96716AF9-AC68-426C-B962-186A1EA42FAB: background
+  B5CA1F22-8518-4533-98D2-70F1976A2A8B: background
+  ED9475C9-3AE3-4C57-A2CD-8287B7949DF9: background
+  EF430FC6-5A5F-4B37-B296-A976AF2191E6: background
+  F462AF6A-0068-49B3-A69C-FEE2666670DC: background
+  FCAA6B7F-8394-498F-88FD-236312DAED76: background
+  사용자 정의 이름 00015(포토샵): background
+  사용자 정의 이름 00019(포토샵): background
+  사용자 정의 이름 00020(포토샵): background
+  스테이크_앤밥4: background
+  제육_앤밥2: background
+  제육_앤밥5: background
+
+--- 소스 스타일별 프로필 수 ---
+  bright-airy: 183장
+  clean-minimal: 103장
+  street-casual: 95장
+  dark-moody: 81장
+  vibrant-pop: 78장
+  warm-rustic: 78장
+  overhead-table: 75장
+  kim-hyunkyung: 75장
+  film-vintage: 73장
