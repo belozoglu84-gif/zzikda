@@ -38,7 +38,7 @@
     }
     h1, h2, h3, .heading-font { font-family: 'DM Serif Display', serif; }
 
-    /* 미세한 노이즈 텍스처 */
+    /* 미세한 노이즈 텍스처 — FINDING-005: z-index 수정 */
     body::before {
       content: '';
       position: fixed;
@@ -46,7 +46,7 @@
       pointer-events: none;
       opacity: 0.03;
       background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
-      z-index: 9999;
+      z-index: 1;
     }
 
     .card {
@@ -54,7 +54,24 @@
       cursor: pointer;
       background: white;
       border: 2px solid transparent;
+      position: relative; /* FINDING-006 */
     }
+    /* FINDING-002: 키보드 접근성 */
+    .card:focus-visible { outline: 2px solid var(--terra); outline-offset: 2px; }
+    .input-warm:focus-visible { outline: 2px solid var(--terra); outline-offset: 1px; }
+    .btn-primary:focus-visible { outline: 2px solid var(--bark); outline-offset: 2px; }
+    /* FINDING-010: stagger 애니메이션 */
+    .card { animation: fadeSlideIn 0.4s cubic-bezier(0.4, 0, 0.2, 1) both; }
+    .card:nth-child(1) { animation-delay: 0ms; }
+    .card:nth-child(2) { animation-delay: 50ms; }
+    .card:nth-child(3) { animation-delay: 100ms; }
+    .card:nth-child(4) { animation-delay: 150ms; }
+    .card:nth-child(5) { animation-delay: 200ms; }
+    .card:nth-child(6) { animation-delay: 250ms; }
+    .card:nth-child(7) { animation-delay: 300ms; }
+    .card:nth-child(8) { animation-delay: 350ms; }
+    .card:nth-child(9) { animation-delay: 400ms; }
+    .card:nth-child(10) { animation-delay: 450ms; }
     .card:hover {
       transform: translateY(-6px);
       box-shadow: 0 12px 32px rgba(60, 43, 31, 0.12);
@@ -89,11 +106,31 @@
     .preview-img {
       width: 100%;
       aspect-ratio: 4/3;
-      object-fit: contain;
+      object-fit: cover; /* FINDING-003: 그리드 일관성 우선 */
       object-position: center;
       border-radius: 12px;
       background: #F5EDE4;
     }
+    /* FINDING-007: 생성 로딩 스켈레톤 */
+    .skeleton-loading {
+      background: linear-gradient(90deg, #F5EDE4 25%, #FFF0DB 50%, #F5EDE4 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.5s infinite;
+      border-radius: 16px;
+      min-height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--bark);
+      opacity: 0.6;
+      font-size: 15px;
+    }
+    @keyframes shimmer {
+      0% { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
+    }
+    /* FINDING-011: 드래그앤드롭 */
+    .upload-dragover { border-color: var(--terra) !important; background: rgba(196,96,62,0.08) !important; }
 
     .generating { animation: gentlePulse 2s ease-in-out infinite; }
     @keyframes gentlePulse {
@@ -112,8 +149,13 @@
     .step-dot.active { background: var(--terra); color: white; }
     .step-dot.done { background: var(--sage); color: white; }
     .step-dot.pending { background: #E8E0D8; color: #A09080; }
-    .step-line { height: 2px; width: 40px; background: #E8E0D8; transition: background 0.3s; }
+    .step-line { height: 2px; width: 24px; background: #E8E0D8; transition: background 0.3s; } /* FINDING-009: 축소 */
     .step-line.done { background: var(--sage); }
+    /* FINDING-001: 모바일 스텝 표시 */
+    .mobile-step-label { display: none; }
+    @media (max-width: 639px) { .mobile-step-label { display: block; } }
+    /* FINDING-008: 뒤로가기 터치타겟 */
+    .back-btn { padding: 8px 12px 8px 0; min-height: 44px; display: inline-flex; align-items: center; }
 
     /* 포인트 버튼 */
     .btn-primary {
@@ -159,6 +201,8 @@
         <h1 class="text-2xl heading-font text-bark-800">찍다</h1>
         <span class="text-xs font-medium text-terra-500 bg-terra-500/10 px-2.5 py-1 rounded-full">AI 스튜디오</span>
       </div>
+      <!-- FINDING-001: 모바일 스텝 표시 -->
+      <div class="mobile-step-label text-sm font-semibold text-terra-500" id="mobileStepLabel">1/5 분위기</div>
       <!-- 스텝 인디케이터 -->
       <div class="hidden sm:flex items-center gap-0" id="stepIndicatorBar">
         <div class="flex items-center gap-1.5">
@@ -202,7 +246,7 @@
 
     <!-- Step 2: 배경 선택 -->
     <section id="step2" class="step-hidden">
-      <button onclick="goStep(1)" class="text-bark-700/50 hover:text-terra-500 mb-5 flex items-center gap-1.5 text-sm font-medium transition">
+      <button onclick="goStep(1)" class="back-btn text-bark-700/50 hover:text-terra-500 mb-5 flex items-center gap-1.5 text-sm font-medium transition">
         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
         분위기 다시 선택
       </button>
@@ -218,7 +262,7 @@
 
     <!-- Step 3: 앵글 선택 -->
     <section id="step3" class="step-hidden">
-      <button onclick="goStep(2)" class="text-bark-700/50 hover:text-terra-500 mb-5 flex items-center gap-1.5 text-sm font-medium transition">
+      <button onclick="goStep(2)" class="back-btn text-bark-700/50 hover:text-terra-500 mb-5 flex items-center gap-1.5 text-sm font-medium transition">
         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
         배경 다시 선택
       </button>
@@ -235,7 +279,7 @@
 
     <!-- Step 4: 소품 선택 -->
     <section id="step4" class="step-hidden">
-      <button onclick="goStep(3)" class="text-bark-700/50 hover:text-terra-500 mb-5 flex items-center gap-1.5 text-sm font-medium transition">
+      <button onclick="goStep(3)" class="back-btn text-bark-700/50 hover:text-terra-500 mb-5 flex items-center gap-1.5 text-sm font-medium transition">
         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
         앵글 다시 선택
       </button>
@@ -250,13 +294,13 @@
       </div>
       <div class="flex flex-wrap justify-center gap-3 max-w-2xl mx-auto mb-8" id="propsGrid"></div>
       <div class="text-center">
-        <button onclick="confirmProps()" class="btn-primary px-12">다음 →</button>
+        <button id="propsNextBtn" onclick="confirmProps()" class="btn-primary px-12">소품 없이 진행</button>
       </div>
     </section>
 
     <!-- Step 5: 생성 -->
     <section id="step5" class="step-hidden">
-      <button onclick="goStep(4)" class="text-bark-700/50 hover:text-terra-500 mb-5 flex items-center gap-1.5 text-sm font-medium transition">
+      <button onclick="goStep(4)" class="back-btn text-bark-700/50 hover:text-terra-500 mb-5 flex items-center gap-1.5 text-sm font-medium transition">
         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
         소품 다시 선택
       </button>
@@ -496,6 +540,9 @@ function initPropsGrid() {
         chip.classList.add('border-terra-500', 'bg-terra-500/10', 'text-terra-600');
         chip.classList.remove('border-cream-300', 'bg-white');
       }
+      // FINDING-004: 버튼 텍스트 동적 변경
+      const btn = document.getElementById('propsNextBtn');
+      btn.textContent = selected.props.length > 0 ? `${selected.props.length}개 선택 완료 →` : '소품 없이 진행';
     });
     grid.appendChild(chip);
   });
@@ -616,6 +663,28 @@ function openFileDialog() {
   document.getElementById('fileInput').click();
 }
 
+// FINDING-011: 드래그앤드롭
+document.addEventListener('DOMContentLoaded', () => {
+  const area = document.getElementById('uploadArea');
+  if (!area) return;
+  ['dragenter','dragover'].forEach(e => area.addEventListener(e, (ev) => {
+    ev.preventDefault(); area.classList.add('upload-dragover');
+  }));
+  ['dragleave','drop'].forEach(e => area.addEventListener(e, (ev) => {
+    ev.preventDefault(); area.classList.remove('upload-dragover');
+  }));
+  area.addEventListener('drop', (ev) => {
+    const file = ev.dataTransfer.files[0];
+    if (file && file.type.startsWith('image/')) {
+      const input = document.getElementById('fileInput');
+      const dt = new DataTransfer();
+      dt.items.add(file);
+      input.files = dt.files;
+      input.dispatchEvent(new Event('change'));
+    }
+  });
+});
+
 // === 사진 업로드 처리 ===
 let uploadedFileBase64 = null;
 let uploadedFileMime = null;
@@ -657,8 +726,20 @@ async function generatePhoto() {
   btn.classList.add('generating');
   document.getElementById('promptPreview').textContent = prompt;
   document.getElementById('resultArea').classList.remove('hidden');
-  document.getElementById('resultImage').src = '';
-  document.getElementById('resultImage').alt = '생성 중...';
+  // FINDING-007: 스켈레톤 로딩
+  const resultImg = document.getElementById('resultImage');
+  resultImg.src = '';
+  resultImg.alt = '';
+  resultImg.style.display = 'none';
+  let skeleton = document.getElementById('loadingSkeleton');
+  if (!skeleton) {
+    skeleton = document.createElement('div');
+    skeleton.id = 'loadingSkeleton';
+    skeleton.className = 'skeleton-loading';
+    skeleton.innerHTML = '<span>AI가 사진을 생성하고 있어요... (30초~1분)</span>';
+    resultImg.parentNode.insertBefore(skeleton, resultImg);
+  }
+  skeleton.style.display = 'flex';
 
   // 이중 참조: 스타일 참조 사진 로드
   let styleRefBase64 = null;
@@ -715,11 +796,16 @@ async function generatePhoto() {
     if (data.error) throw new Error(data.error.message || JSON.stringify(data.error));
 
     const resParts = data.candidates?.[0]?.content?.parts || [];
+    // 스켈레톤 제거
+    const sk = document.getElementById('loadingSkeleton');
+    if (sk) sk.style.display = 'none';
+    resultImg.style.display = '';
+
     let imageFound = false;
     for (const part of resParts) {
       if (part.inlineData) {
         const imgSrc = `data:${part.inlineData.mimeType};base64,${part.inlineData.data}`;
-        document.getElementById('resultImage').src = imgSrc;
+        resultImg.src = imgSrc;
         document.getElementById('downloadLink').href = imgSrc;
         document.getElementById('downloadLink').download = `${food}_${selected.mood.id}_${selected.bg.id}_${selected.angle.id}.png`;
         imageFound = true;
@@ -729,7 +815,7 @@ async function generatePhoto() {
 
     if (!imageFound) {
       const textParts = resParts.filter(p => p.text).map(p => p.text).join('\n');
-      document.getElementById('resultImage').alt = '이미지 생성 실패: ' + (textParts || '다시 시도해주세요');
+      resultImg.alt = '이미지 생성 실패: ' + (textParts || '다시 시도해주세요');
     }
   } catch (err) {
     alert(`생성 실패: ${err.message}`);
@@ -773,6 +859,11 @@ function goStep(n) {
       if (line) line.className = i < n ? 'step-line done mx-2' : 'step-line mx-2';
     }
   }
+
+  // FINDING-001: 모바일 스텝 라벨
+  const stepNames = ['', '분위기', '배경', '앵글', '소품', '생성'];
+  const mobileLabel = document.getElementById('mobileStepLabel');
+  if (mobileLabel) mobileLabel.textContent = `${n}/5 ${stepNames[n]}`;
 
   if (n === 2) initBgGrid();
   if (n === 3) initAngleGrid();
