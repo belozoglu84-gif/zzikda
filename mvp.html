@@ -643,17 +643,11 @@ function clearUpload() {
   document.getElementById('uploadPreview').classList.add('hidden');
 }
 
-// === API ===
-const MODEL = 'gemini-3-pro-image-preview';
-// 키 조각 (스캐너 우회)
-const _p = ['\x41\x49\x7a\x61','\x53\x79\x41\x6b','P9n3','Qd3X','OY_Y','C_KI','inHg','AmgX','hyxL','zRQ'];
-function getApiKey() { return _p.join(''); }
+// === API (서버 프록시 — 키 숨김) ===
 
 async function generatePhoto() {
   const food = document.getElementById('foodInput').value.trim();
   if (!food) { alert('메뉴 이름을 입력해주세요'); return; }
-
-  const apiKey = getApiKey();
 
   const tweaks = document.getElementById('tweaksInput').value.trim();
   const prompt = buildPrompt(food, selected.mood.id, selected.bg.id, selected.angle.id, selected.props, tweaks);
@@ -711,17 +705,11 @@ async function generatePhoto() {
       parts.push({ text: prompt });
     }
 
-    const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${apiKey}`,
-      {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          contents: [{ parts }],
-          generationConfig: { responseModalities: ['TEXT', 'IMAGE'], temperature: 1.0 }
-        })
-      }
-    );
+    const response = await fetch('/api/generate', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ parts })
+    });
 
     const data = await response.json();
     if (data.error) throw new Error(data.error.message || JSON.stringify(data.error));
@@ -744,12 +732,7 @@ async function generatePhoto() {
       document.getElementById('resultImage').alt = '이미지 생성 실패: ' + (textParts || '다시 시도해주세요');
     }
   } catch (err) {
-    if (err.message.includes('leaked') || err.message.includes('API key') || err.message.includes('401') || err.message.includes('403')) {
-      localStorage.removeItem('zzikda_api_key');
-      alert(`API 키 오류: ${err.message}\n\n새 키를 입력해주세요.`);
-    } else {
-      alert(`생성 실패: ${err.message}`);
-    }
+    alert(`생성 실패: ${err.message}`);
   }
 
   resetBtn();
