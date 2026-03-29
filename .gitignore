@@ -31,3 +31,8 @@ batch_errors.log
 # OS
 .DS_Store
 Thumbs.db
+.vercel
+
+# 민감 정보
+.env
+.env.*
