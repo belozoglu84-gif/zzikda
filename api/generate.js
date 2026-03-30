@@ -1,6 +1,14 @@
 // Vercel Serverless Function — Gemini API 프록시
 // API 키는 Vercel 환경변수에 저장 (GEMINI_IMAGE_API_KEY)
-// 클라이언트에 키가 노출되지 않음
+
+// body 파싱 한도 확장 (이미지 base64 포함 시 크기가 큼)
+export const config = {
+  api: {
+    bodyParser: {
+      sizeLimit: '20mb',
+    },
+  },
+};
 
 export default async function handler(req, res) {
   // CORS
@@ -22,9 +30,15 @@ export default async function handler(req, res) {
   }
 
   try {
-    const { parts } = req.body;
+    // body가 문자열일 수 있음 (Vercel이 자동 파싱 못한 경우)
+    let body = req.body;
+    if (typeof body === 'string') {
+      body = JSON.parse(body);
+    }
+
+    const { parts } = body;
     if (!parts || !Array.isArray(parts)) {
-      return res.status(400).json({ error: 'parts 배열이 필요합니다' });
+      return res.status(400).json({ error: `parts 배열이 필요합니다. 받은 body 타입: ${typeof req.body}` });
     }
 
     const model = 'gemini-3-pro-image-preview';
@@ -51,6 +65,6 @@ export default async function handler(req, res) {
     return res.status(200).json(data);
 
   } catch (err) {
-    return res.status(500).json({ error: err.message || '서버 오류' });
+    return res.status(500).json({ error: `${err.message} | body type: ${typeof req.body} | body length: ${JSON.stringify(req.body).length}` });
   }
 }
