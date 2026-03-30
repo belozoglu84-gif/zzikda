@@ -631,22 +631,25 @@ const FRAGMENTS_PROPS = {
   'empty-dish': 'with additional empty plates or bowls arranged in the scene',
 };
 
+// 새 구조: 분위기는 참조 사진이 담당, 텍스트는 앵글/배경/소품만
 function buildPrompt(food, mood, bg, angle, props, tweaks) {
   let parts = [
-    `Professional Korean food photography of ${food}`,
-    FRAGMENTS.mood[mood] || '',
-    FRAGMENTS.background[bg] || '',
-    FRAGMENTS.angle[angle] || '',
+    // 앵글이 최우선 (가장 잘 안 먹히므로 첫 번째로)
+    `CAMERA: ${FRAGMENTS.angle[angle] || ''}`,
+    // 음식
+    `SUBJECT: professional food photography of ${food}`,
+    // 배경
+    `SURFACE: ${FRAGMENTS.background[bg] || ''}`,
   ];
-  // 소품 프래그먼트 추가
+  // 소품
   if (props && props.length > 0) {
-    props.forEach(p => {
-      if (FRAGMENTS_PROPS[p]) parts.push(FRAGMENTS_PROPS[p]);
-    });
+    const propTexts = props.map(p => FRAGMENTS_PROPS[p]).filter(Boolean);
+    if (propTexts.length > 0) parts.push(`PROPS: ${propTexts.join(', ')}`);
   }
-  if (tweaks) parts.push(`additional details: ${tweaks}`);
-  parts.push('editorial food magazine quality, ultra detailed, 8K resolution');
-  return parts.filter(p => p).join(', ');
+  if (tweaks) parts.push(`ADDITIONAL: ${tweaks}`);
+  parts.push('QUALITY: editorial food magazine, ultra detailed, 8K resolution');
+  // 분위기 텍스트는 의도적으로 빠짐 — 스타일 참조 사진이 담당
+  return parts.filter(p => p).join('. ');
 }
 
 // === 유틸리티 ===
@@ -741,25 +744,31 @@ async function generatePhoto() {
   }
   skeleton.style.display = 'flex';
 
-  // 이중 참조: 스타일 참조 사진 로드
+  // 스타일 참조 사진은 항상 로드 (분위기 = 사진이 담당)
+  btn.textContent = '스타일 참조 로딩 중...';
   let styleRefBase64 = null;
   let styleRefMime = null;
-  if (!uploadedFileBase64) {
-    // 참조 사진 없으면 텍스트만으로 생성
-    btn.textContent = '생성 중... (30초~1분 소요)';
-  } else {
-    // 참조 사진 있으면 이중 참조 모드
-    btn.textContent = '이중 참조 생성 중... (30초~1분)';
-    // 스타일 참조 사진 자동 선택 (서버에서 로드)
+
+  // 1순위: 사용자가 선택한 분위기 샘플 사진 (가장 정확)
+  const moodImg = selected.mood.img;
+  if (moodImg) {
+    try {
+      const refResp = await fetch(moodImg);
+      if (refResp.ok) {
+        const blob = await refResp.blob();
+        styleRefBase64 = await blobToBase64(blob);
+        styleRefMime = blob.type;
+      }
+    } catch(e) {}
+  }
+
+  // 2순위: pinterest 수집 사진에서 랜덤 선택 (폴백)
+  if (!styleRefBase64) {
     const styleFolder = STYLE_REF_MAP[selected.mood.id] || STYLE_REF_MAP['bright-airy'];
     const refNum = String(Math.floor(Math.random() * 30) + 1).padStart(3, '0');
-    const patterns = [
-      `${styleFolder}/pin_${selected.mood.id}_${refNum}.jpg`,
-      `${styleFolder}/pinterest_${refNum}.jpg`,
-    ];
-    for (const refPath of patterns) {
+    for (const pattern of [`${styleFolder}/pin_${selected.mood.id}_${refNum}.jpg`, `${styleFolder}/pinterest_${refNum}.jpg`]) {
       try {
-        const refResp = await fetch(refPath);
+        const refResp = await fetch(pattern);
         if (refResp.ok) {
           const blob = await refResp.blob();
           styleRefBase64 = await blobToBase64(blob);
@@ -770,19 +779,25 @@ async function generatePhoto() {
     }
   }
 
+  btn.textContent = 'AI가 사진을 만들고 있어요... (30초~1분)';
+
   try {
     let parts = [];
     if (uploadedFileBase64 && styleRefBase64) {
-      // B 방식: 이중 참조 (원본 음식 + 스타일 참조)
-      parts.push({ inlineData: { mimeType: uploadedFileMime, data: uploadedFileBase64 } });
+      // 최상: 원본 음식 + 스타일 참조 + 텍스트(앵글/배경/소품만)
       parts.push({ inlineData: { mimeType: styleRefMime, data: styleRefBase64 } });
-      parts.push({ text: `첫 번째 사진은 내 음식 원본이고, 두 번째 사진은 원하는 스타일 참조입니다.\n첫 번째 사진의 음식을 두 번째 사진의 분위기와 조명 스타일로 전문가급 사진을 재생성해주세요.\n원본 음식의 형태, 재료, 구성을 정확히 유지하되 다음 조건을 적용합니다:\n\n${prompt}` });
-    } else if (uploadedFileBase64) {
-      // 원본만 있고 스타일 참조 로드 실패 시 — 기존 방식
       parts.push({ inlineData: { mimeType: uploadedFileMime, data: uploadedFileBase64 } });
-      parts.push({ text: `이 음식 사진을 참고해서 같은 음식을 다음 스타일로 전문가급 사진으로 재생성해주세요. 원본 음식의 형태와 구성을 유지하되, 조명/배경/앵글/분위기만 변경합니다:\n\n${prompt}` });
+      parts.push({ text: `첫 번째 사진은 원하는 스타일 참조입니다. 이 사진의 조명, 색감, 분위기, 톤을 그대로 따라해주세요.\n두 번째 사진은 내 음식 원본입니다. 이 음식의 형태, 재료, 구성을 정확히 유지해주세요.\n\n위 두 사진을 참고해서 전문 음식 사진작가가 스튜디오에서 촬영한 것 같은 사진을 생성해주세요.\n\n${prompt}` });
+    } else if (styleRefBase64) {
+      // 스타일 참조만 (원본 음식 없음) — 스타일 사진이 분위기 담당
+      parts.push({ inlineData: { mimeType: styleRefMime, data: styleRefBase64 } });
+      parts.push({ text: `이 사진의 조명, 색감, 분위기, 톤을 그대로 따라해서 전문 음식 사진작가가 촬영한 것 같은 새 사진을 생성해주세요.\n\n${prompt}` });
+    } else if (uploadedFileBase64) {
+      // 스타일 참조 로드 실패, 원본만 — 폴백
+      parts.push({ inlineData: { mimeType: uploadedFileMime, data: uploadedFileBase64 } });
+      parts.push({ text: `이 음식을 전문 음식 사진작가가 스튜디오에서 촬영한 것처럼 재생성해주세요.\n\n${prompt}` });
     } else {
-      // 참조 없음 — 텍스트만
+      // 둘 다 없음 — 텍스트만
       parts.push({ text: prompt });
     }
 
