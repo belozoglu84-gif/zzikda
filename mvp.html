@@ -661,6 +661,27 @@ function blobToBase64(blob) {
   });
 }
 
+// 이미지 압축 (Vercel 4.5MB body 한도 대응 — 최대 1024px로 리사이즈)
+function compressImage(base64, mime, maxSize = 1024) {
+  return new Promise((resolve) => {
+    const img = new Image();
+    img.onload = () => {
+      const canvas = document.createElement('canvas');
+      let w = img.width, h = img.height;
+      if (w > maxSize || h > maxSize) {
+        if (w > h) { h = Math.round(h * maxSize / w); w = maxSize; }
+        else { w = Math.round(w * maxSize / h); h = maxSize; }
+      }
+      canvas.width = w;
+      canvas.height = h;
+      canvas.getContext('2d').drawImage(img, 0, 0, w, h);
+      const compressed = canvas.toDataURL('image/jpeg', 0.85).split(',')[1];
+      resolve({ data: compressed, mime: 'image/jpeg' });
+    };
+    img.src = `data:${mime};base64,${base64}`;
+  });
+}
+
 // === 파일 다이얼로그 ===
 function openFileDialog() {
   document.getElementById('fileInput').click();
@@ -692,15 +713,19 @@ document.addEventListener('DOMContentLoaded', () => {
 let uploadedFileBase64 = null;
 let uploadedFileMime = null;
 
-function handleFileUpload(event) {
+async function handleFileUpload(event) {
   const file = event.target.files[0];
   if (!file) return;
   const reader = new FileReader();
-  reader.onload = (e) => {
+  reader.onload = async (e) => {
     const dataUrl = e.target.result;
-    uploadedFileMime = dataUrl.split(';')[0].split(':')[1];
-    uploadedFileBase64 = dataUrl.split(',')[1];
-    document.getElementById('uploadedImage').src = dataUrl;
+    const rawMime = dataUrl.split(';')[0].split(':')[1];
+    const raw64 = dataUrl.split(',')[1];
+    // 압축 (Vercel body 한도 대응)
+    const compressed = await compressImage(raw64, rawMime);
+    uploadedFileMime = compressed.mime;
+    uploadedFileBase64 = compressed.data;
+    document.getElementById('uploadedImage').src = `data:${compressed.mime};base64,${compressed.data}`;
     document.getElementById('uploadPlaceholder').classList.add('hidden');
     document.getElementById('uploadPreview').classList.remove('hidden');
   };
@@ -756,8 +781,10 @@ async function generatePhoto() {
       const refResp = await fetch(moodImg);
       if (refResp.ok) {
         const blob = await refResp.blob();
-        styleRefBase64 = await blobToBase64(blob);
-        styleRefMime = blob.type;
+        const raw64 = await blobToBase64(blob);
+        const compressed = await compressImage(raw64, blob.type);
+        styleRefBase64 = compressed.data;
+        styleRefMime = compressed.mime;
       }
     } catch(e) {}
   }
